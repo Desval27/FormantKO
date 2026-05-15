@@ -6,9 +6,9 @@
 	(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 	(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 	(property "Reference" "REF**"
-		(at 5.08 -2.37 0)
+		(at 0 0 0)
 		(layer "F.SilkS")
-		(uuid "866e42cb-1e6b-4205-a760-1482bb36ce15")
+		(uuid "750554d4-f671-4152-a842-92f623f3ea59")
 		(effects
 			(font
 				(size 1 1)
@@ -17,9 +17,9 @@
 		)
 	)
 	(property "Value" "R_Axial_Horizontal"
-		(at 5.08 2.37 0)
+		(at 0 -2.54 0)
 		(layer "F.Fab")
-		(uuid "8b2edd19-1d46-494a-b3eb-6380f0aa91c2")
+		(uuid "ecafdd4a-5967-42e6-866f-a5b3baed1896")
 		(effects
 			(font
 				(size 1 1)
@@ -28,10 +28,10 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at -6.35 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ed68f614-7521-42b0-9dd1-7f1dcdb68acd")
+		(uuid "310720f2-bef9-4dff-951e-77952b1a4469")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39,10 +39,10 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at -6.35 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "68eb603b-7815-4e2d-961c-69f7d7221bd1")
+		(uuid "5b46a56a-7091-46b2-bcae-b204f3113c42")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50,10 +50,10 @@
 		)
 	)
 	(property "KiLib_Generator" "resistor/THT"
-		(at 0 0 0)
+		(at -6.35 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "6858300c-af65-4fc6-b131-f10d85a88953")
+		(uuid "9c96dc6b-9b7f-4bf9-864e-88bc11a5e72a")
 		(effects
 			(font
 				(size 1 1)
@@ -64,82 +64,51 @@
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start 1.04 0)
-		(end 1.81 0)
+		(start -5.08 0)
+		(end -3.81 0)
 		(stroke
-			(width 0.12)
-			(type solid)
+			(width 0.3)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "260a1783-82e6-4392-a73a-225444d1ba79")
+		(uuid "6def15de-8d1d-4def-ac76-7be681225213")
 	)
 	(fp_line
-		(start 9.12 0)
-		(end 8.35 0)
+		(start 3.81 0)
+		(end 5.08 0)
 		(stroke
-			(width 0.12)
-			(type solid)
+			(width 0.3)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "8fd423f5-6c75-4601-9d57-eadd9272a9bb")
+		(uuid "ed49c5c4-2385-49cd-9c9f-9428c0ce44dc")
 	)
 	(fp_rect
-		(start 1.81 -1.37)
-		(end 8.35 1.37)
+		(start -3.81 -1.27)
+		(end 3.81 1.27)
 		(stroke
-			(width 0.12)
-			(type solid)
+			(width 0.3)
+			(type default)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "f2457052-e0a8-4cc6-8ab8-896d0721b67f")
+		(uuid "b20f3f76-6b09-454e-8873-2bbdacb7f9aa")
 	)
 	(fp_rect
-		(start -1.05 -1.5)
-		(end 11.21 1.5)
+		(start -7.366 -1.5)
+		(end 7.366 1.5)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "1f864644-5897-4fd6-bfcd-fe6955a9abcc")
-	)
-	(fp_line
-		(start 0 0)
-		(end 1.93 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "78f1d6b3-e840-4ff5-be62-d0eb0d7dade2")
-	)
-	(fp_line
-		(start 10.16 0)
-		(end 8.23 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "09eacedd-cbef-498c-b86e-5115927af557")
-	)
-	(fp_rect
-		(start 1.93 -1.25)
-		(end 8.23 1.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "f86d8c61-0a8c-4925-a48b-b903ec9a7a65")
+		(uuid "470a682f-d63c-4d83-93c6-0ce6e873b489")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 5.08 0 0)
+		(at 0 2.54 0)
 		(layer "F.Fab")
-		(uuid "5ef9cf21-27c8-46a1-a198-8e3ff06c4012")
+		(uuid "8bce61ab-dd4c-40a1-8ad8-e26b281da0bd")
 		(effects
 			(font
 				(size 1 1)
@@ -148,31 +117,31 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at 0 0)
+		(at -6.35 0)
 		(size 1.6 1.6)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "49e2f8e2-5fae-4771-a663-5afd33b2fc31")
+		(uuid "43478539-d035-41cf-be62-a96483ce3cf2")
 	)
 	(pad "2" thru_hole circle
-		(at 10.16 0)
+		(at 6.35 0)
 		(size 1.6 1.6)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "ee8c5571-b204-4ad0-b49c-ae066b184cbb")
+		(uuid "5eafac95-5d21-45e8-9252-c23c44d0d03a")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.step"
+	(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz -6.5 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

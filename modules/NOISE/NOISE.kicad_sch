@@ -11,6 +11,161 @@
 		(comment 1 "FORMANT-KO")
 	)
 	(lib_symbols
+		(symbol "FormantKO:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "FormantKO:C_Disc"
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "FormantKO:C_Polarized"
 			(pin_numbers
 				(hide yes)
@@ -933,7 +1088,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
+			(property "Reference" "IC"
 				(at 0 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -948,6 +1103,7 @@
 				(at 0 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1303,6 +1459,364 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FormantKO:TUN"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "T"
+				(at 5.08 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TUN"
+				(at 5.08 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "FormantKO:TUN"
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "NPN transistor, emitter/base/collector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=E 2=B 3=C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BJT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TUN_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TUN_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FormantKO:Wire_1x01_General"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Wire_1x01_General"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "FormantKO:Wire 1x01 General"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Wire_1x01_General_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1829,10 +2343,28 @@
 		(uuid "1d015672-d6f5-48b1-b626-f7dfb4aa9de6")
 	)
 	(junction
+		(at 63.5 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20a94a66-b5d6-490b-a630-e46fa1bb0216")
+	)
+	(junction
+		(at 101.6 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2231e1e1-3019-4de7-b8ed-6f4490b28082")
+	)
+	(junction
 		(at 247.65 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2860fa3c-a83d-45d8-871c-febe2bc331a5")
+	)
+	(junction
+		(at 38.1 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b836c80-109e-4183-979f-3cbc394c3888")
 	)
 	(junction
 		(at 222.25 46.99)
@@ -1865,16 +2397,22 @@
 		(uuid "431912e5-b5d5-4c0e-a08e-9563db1d5f33")
 	)
 	(junction
-		(at 63.5 63.5)
+		(at 38.1 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4ccaf3c8-3b0d-4d6e-858d-3a745af3c2f6")
+		(uuid "4e43a1a0-02ec-46c0-8930-5d34942f6aab")
 	)
 	(junction
 		(at 247.65 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53333449-9864-42cb-bfd4-c1c72cda7404")
+	)
+	(junction
+		(at 76.2 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5dff35b2-f42c-4a47-bd7c-35f9084fcba4")
 	)
 	(junction
 		(at 222.25 35.56)
@@ -1925,6 +2463,12 @@
 		(uuid "ac5fb0cd-de1f-4f03-8810-1616c1ddaae9")
 	)
 	(junction
+		(at 63.5 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae56801f-cb4d-4d63-84ff-d3dfb14a6168")
+	)
+	(junction
 		(at 219.71 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1935,6 +2479,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b207d175-6e09-4d45-90be-e2412499c366")
+	)
+	(junction
+		(at 63.5 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7c31e9a-65d1-4649-b101-056e1eb86a2d")
 	)
 	(junction
 		(at 247.65 63.5)
@@ -1955,20 +2505,16 @@
 		(uuid "daeca89f-e008-40e1-90e2-a386fde88713")
 	)
 	(no_connect
-		(at 104.14 81.28)
+		(at 91.44 87.63)
 		(uuid "4970f75a-d3bf-4b1d-b24e-f0bdeb5a3f8e")
 	)
 	(no_connect
-		(at 96.52 76.2)
-		(uuid "8f1a19da-d3e5-4597-8ba5-fe0a499f8633")
+		(at 38.1 100.33)
+		(uuid "b7bec8a4-67d8-4c4e-988b-28ba604515d0")
 	)
 	(no_connect
-		(at 106.68 81.28)
+		(at 93.98 87.63)
 		(uuid "d7eb305c-f6d0-4fdf-baaa-c3e7e758f761")
-	)
-	(no_connect
-		(at 111.76 73.66)
-		(uuid "e008767c-51f4-498a-87d8-6ff9c5f4b39a")
 	)
 	(wire
 		(pts
@@ -1979,6 +2525,26 @@
 			(type default)
 		)
 		(uuid "000a882e-01a4-4ef2-85e6-52b4a05120c8")
+	)
+	(wire
+		(pts
+			(xy 63.5 95.25) (xy 63.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "006d0de6-5bf8-421b-b02b-e5e88f08f1e2")
+	)
+	(wire
+		(pts
+			(xy 63.5 92.71) (xy 63.5 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0798c328-1fe8-4f7b-bffe-a152bb8d4ec1")
 	)
 	(wire
 		(pts
@@ -2052,7 +2618,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 60.96) (xy 63.5 63.5)
+			(xy 63.5 82.55) (xy 54.61 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ed2f664-ae01-4984-969d-c150eebf703f")
+	)
+	(wire
+		(pts
+			(xy 38.1 67.31) (xy 38.1 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2072,6 +2648,26 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 95.25) (xy 90.17 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d857c02-62aa-495a-bfe2-e00a9a605a6d")
+	)
+	(wire
+		(pts
+			(xy 76.2 113.03) (xy 76.2 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32b25178-0f97-4828-97fd-9ca2271573f6")
+	)
+	(wire
+		(pts
 			(xy 247.65 60.96) (xy 254 60.96)
 		)
 		(stroke
@@ -2082,7 +2678,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 73.66) (xy 63.5 76.2)
+			(xy 38.1 80.01) (xy 38.1 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2099,6 +2695,26 @@
 			(type default)
 		)
 		(uuid "50fbf754-4fbb-4b5c-9409-af14cc6a74c2")
+	)
+	(wire
+		(pts
+			(xy 63.5 116.84) (xy 63.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5250eb28-44d9-4e43-9b0c-ec3e025c5b5f")
+	)
+	(wire
+		(pts
+			(xy 63.5 77.47) (xy 63.5 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52b17506-8e0f-4a8a-8da9-b184c2319f60")
 	)
 	(wire
 		(pts
@@ -2119,6 +2735,26 @@
 			(type default)
 		)
 		(uuid "5773d9de-ec0a-41d1-b49f-695d4f44b316")
+	)
+	(wire
+		(pts
+			(xy 38.1 82.55) (xy 38.1 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5780d88d-a559-44a0-95d4-e092f2c6204c")
+	)
+	(wire
+		(pts
+			(xy 83.82 82.55) (xy 76.2 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5990b6ed-5a47-4044-99f5-9dd7f92b7652")
 	)
 	(wire
 		(pts
@@ -2162,7 +2798,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 63.5) (xy 63.5 66.04)
+			(xy 101.6 80.01) (xy 99.06 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "790cc9b9-3914-4aa6-9a12-d1a098977d30")
+	)
+	(wire
+		(pts
+			(xy 38.1 69.85) (xy 38.1 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2232,7 +2878,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 73.66) (xy 50.8 101.6)
+			(xy 97.79 95.25) (xy 101.6 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90ab88d2-397e-405a-91d9-a44365c03b6c")
+	)
+	(wire
+		(pts
+			(xy 25.4 80.01) (xy 25.4 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2272,13 +2928,23 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 101.6) (xy 59.69 101.6)
+			(xy 25.4 114.3) (xy 63.5 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aa0dbaea-841d-4b1f-bde0-39b353ca4579")
+	)
+	(wire
+		(pts
+			(xy 101.6 73.66) (xy 101.6 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad991d75-b6e2-4eaf-acbc-f24cc724bdcf")
 	)
 	(wire
 		(pts
@@ -2312,17 +2978,27 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 76.2) (xy 81.28 71.12)
+			(xy 76.2 114.3) (xy 63.5 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bce14491-3312-43f4-b255-0806caf953d6")
+		(uuid "be5cdf59-f4a8-4521-b99c-1bd8c1733835")
 	)
 	(wire
 		(pts
-			(xy 81.28 71.12) (xy 96.52 71.12)
+			(xy 76.2 165.1) (xy 88.9 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bead5b72-8cb6-4716-9645-5f3f3bc7ef58")
+	)
+	(wire
+		(pts
+			(xy 63.5 77.47) (xy 83.82 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2332,7 +3008,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 66.04) (xy 50.8 63.5)
+			(xy 25.4 72.39) (xy 25.4 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2362,6 +3038,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 55.88) (xy 101.6 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe12c4a-53c6-4e1c-a23d-e9e2e8a584c3")
+	)
+	(wire
+		(pts
 			(xy 247.65 27.94) (xy 247.65 30.48)
 		)
 		(stroke
@@ -2372,7 +3058,27 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 63.5) (xy 63.5 63.5)
+			(xy 76.2 95.25) (xy 76.2 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d71ec827-973e-43c1-aaa8-ec234066ccbe")
+	)
+	(wire
+		(pts
+			(xy 45.72 95.25) (xy 63.5 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9abc58f-127d-4ba0-9426-58394082fb4d")
+	)
+	(wire
+		(pts
+			(xy 25.4 69.85) (xy 38.1 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2412,7 +3118,27 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 76.2) (xy 73.66 76.2)
+			(xy 101.6 95.25) (xy 101.6 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea89a3ba-0294-4ce2-ae82-bd65776c86ca")
+	)
+	(wire
+		(pts
+			(xy 76.2 82.55) (xy 76.2 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f42f7f69-4895-4d3c-9226-06d38a6aee6e")
+	)
+	(wire
+		(pts
+			(xy 38.1 82.55) (xy 46.99 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2432,6 +3158,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 82.55) (xy 63.5 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe66266a-2339-4fc2-8e1a-4299f0348ed4")
+	)
+	(wire
+		(pts
 			(xy 247.65 50.8) (xy 247.65 53.34)
 		)
 		(stroke
@@ -2439,6 +3175,54 @@
 			(type default)
 		)
 		(uuid "ffc4a5f2-8281-43d9-a123-64a0d57af5d9")
+	)
+	(global_label "WN"
+		(shape input)
+		(at 76.2 165.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1da425c9-92e1-4079-a070-6acc7992a43d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.3378 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "WN"
+		(shape input)
+		(at 101.6 55.88 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca02f2a9-7ab4-4709-ae2e-8bcabcf3bd8a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.6 50.0178 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "FormantKO:DIN_Male")
@@ -2697,8 +3481,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-15V")
-		(at 101.6 81.28 180)
+		(lib_id "FormantKO:R")
+		(at 93.98 95.25 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2706,11 +3490,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "132b76e1-19d1-4b6c-934e-97f8c824d729")
-		(property "Reference" "#PWR08"
-			(at 101.6 77.47 0)
-			(hide yes)
+		(uuid "0ce120cb-8b72-42ac-bd6d-fe99bd513c0d")
+		(property "Reference" "R5"
+			(at 93.98 93.218 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2719,8 +3501,8 @@
 				)
 			)
 		)
-		(property "Value" "-15V"
-			(at 101.6 86.36 0)
+		(property "Value" "2M2"
+			(at 93.98 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2729,8 +3511,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 101.6 81.28 0)
+		(property "Footprint" "FormantKO:R_Axial_Horizontal"
+			(at 93.98 97.028 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2741,7 +3523,169 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 81.28 0)
+			(at 93.98 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 93.98 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea14173b-dd00-4516-88b4-4ee45fbd61e7")
+		)
+		(pin "2"
+			(uuid "c4ee93f8-a5cd-40c4-a4a9-bf0ab56681b9")
+		)
+		(instances
+			(project "NOISE"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:C")
+		(at 101.6 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0fc17a3b-9b4a-41ad-b342-60f96d3d198d")
+		(property "Reference" "C4"
+			(at 98.044 67.564 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "680n"
+			(at 103.378 72.136 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FormantKO:C_Disc"
+			(at 102.5652 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 101.6 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e4baabf-49ca-47c5-b005-78b9b20e01a6")
+		)
+		(pin "2"
+			(uuid "f0855000-f85e-4ae6-839d-c6beee8437dd")
+		)
+		(instances
+			(project "NOISE"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-15V")
+		(at 88.9 87.63 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "132b76e1-19d1-4b6c-934e-97f8c824d729")
+		(property "Reference" "#PWR08"
+			(at 88.9 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-15V"
+			(at 86.106 91.694 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2752,7 +3696,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 101.6 81.28 0)
+			(at 88.9 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2769,6 +3713,87 @@
 			(project "NOISE"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:R")
+		(at 63.5 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "13e7bc5e-6504-43a1-b8c6-4040bc51c7cd")
+		(property "Reference" "R3"
+			(at 59.436 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470k"
+			(at 63.5 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FormantKO:R_Axial_Horizontal"
+			(at 61.722 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 63.5 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0fc14b98-956d-45a9-b7fd-ad39792988dd")
+		)
+		(pin "2"
+			(uuid "87dec9dc-9d25-467a-a725-a9a4f6775d35")
+		)
+		(instances
+			(project "NOISE"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2798,13 +3823,14 @@
 			)
 		)
 		(property "Value" "-15V"
-			(at 215.9 66.04 0)
+			(at 218.44 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -2853,8 +3879,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+15V")
-		(at 63.5 53.34 0)
+		(lib_id "FormantKO:C_Polarized")
+		(at 76.2 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2862,31 +3888,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a87ea0c-85ba-4fa7-bd40-2b21b3308371")
-		(property "Reference" "#PWR09"
-			(at 63.5 57.15 0)
-			(hide yes)
+		(uuid "379c73d4-7265-40c6-a52f-e6332198249b")
+		(property "Reference" "C3"
+			(at 71.12 106.934 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "+15V"
-			(at 63.5 48.26 0)
+		(property "Value" "47u"
+			(at 78.994 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 63.5 53.34 0)
+		(property "Footprint" "FormantKO:CP_Axial_600"
+			(at 77.1652 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2897,7 +3923,99 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 53.34 0)
+			(at 76.2 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 76.2 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "35V"
+			(at 81.026 112.522 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "556ef0ed-33ab-4490-b91a-c7f71a88a3ec")
+		)
+		(pin "1"
+			(uuid "e5d80dc3-07b4-4f09-a273-5d964f756709")
+		)
+		(instances
+			(project "NOISE"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 38.1 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a87ea0c-85ba-4fa7-bd40-2b21b3308371")
+		(property "Reference" "#PWR09"
+			(at 38.1 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+15V"
+			(at 40.64 58.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2908,7 +4026,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 63.5 53.34 0)
+			(at 38.1 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2932,7 +4050,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:C_Polarized")
-		(at 50.8 69.85 0)
+		(at 25.4 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2942,7 +4060,7 @@
 		(dnp no)
 		(uuid "4b98f9bf-c4d7-449b-80fc-b7dfb96b4731")
 		(property "Reference" "C1"
-			(at 54.61 67.6909 0)
+			(at 29.21 74.0409 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2953,7 +4071,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 54.61 70.2309 0)
+			(at 29.21 76.5809 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2964,7 +4082,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:CP_Axial_600"
-			(at 51.7652 73.66 0)
+			(at 26.3652 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2975,7 +4093,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 69.85 0)
+			(at 25.4 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2986,18 +4104,8 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 50.8 69.85 0)
+			(at 25.4 76.2 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "25V"
-			(at 56.388 72.644 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3016,6 +4124,85 @@
 			(project "NOISE"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:R")
+		(at 101.6 62.23 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5a76c845-d1f5-4db2-90dd-a7f33dff8200")
+		(property "Reference" "R6"
+			(at 98.552 60.198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470R"
+			(at 101.6 62.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:R_Axial_Horizontal"
+			(at 103.378 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8825c3e1-95ad-4d80-a03b-bb2d1a34240b")
+		)
+		(pin "2"
+			(uuid "a6dc6f59-d953-4f4b-9775-c575990004d5")
+		)
+		(instances
+			(project "NOISE"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3045,13 +4232,14 @@
 			)
 		)
 		(property "Value" "+15V"
-			(at 254 27.94 0)
+			(at 256.54 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3123,13 +4311,14 @@
 			)
 		)
 		(property "Value" "-15V"
-			(at 254 66.04 0)
+			(at 256.54 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -3201,13 +4390,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 52.07 0)
+			(at 218.44 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3257,7 +4447,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:C_Polarized")
-		(at 77.47 76.2 90)
+		(at 50.8 82.55 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3267,7 +4457,7 @@
 		(dnp no)
 		(uuid "780736e0-6a70-40ad-a674-d3f63068faed")
 		(property "Reference" "C2"
-			(at 75.184 73.66 90)
+			(at 51.562 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3278,7 +4468,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 82.804 78.994 90)
+			(at 51.816 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3289,7 +4479,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:CP_Axial_600"
-			(at 81.28 75.2348 0)
+			(at 54.61 81.5848 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3300,7 +4490,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 76.2 0)
+			(at 50.8 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3311,18 +4501,8 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 77.47 76.2 0)
+			(at 50.8 82.55 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 81.026 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3347,8 +4527,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+15V")
-		(at 101.6 66.04 0)
+		(lib_id "FormantKO:TUN")
+		(at 40.64 95.25 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3357,30 +4537,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8941b862-1d29-42d6-bedf-b29728f3f4ba")
-		(property "Reference" "#PWR07"
-			(at 101.6 69.85 0)
-			(hide yes)
+		(uuid "825759c8-024c-4424-b4e3-5dd79055c6f4")
+		(property "Reference" "T1"
+			(at 35.56 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "+15V"
-			(at 101.6 60.96 0)
+		(property "Value" "TUN"
+			(at 35.56 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 101.6 66.04 0)
+		(property "Footprint" "FormantKO:TUN"
+			(at 35.56 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3391,7 +4572,194 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 66.04 0)
+			(at 40.64 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "NPN transistor, emitter/base/collector"
+			(at 40.64 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 40.64 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 40.64 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "8569ae6e-f1c2-414e-b81f-e2b3e71e93f9")
+		)
+		(pin "1"
+			(uuid "81a7c7db-8e0c-4ea2-b0ca-e69003c36241")
+		)
+		(pin "2"
+			(uuid "87e43c02-d8ce-46d3-8ff2-fbe1ae1ef6bd")
+		)
+		(instances
+			(project "NOISE"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "T1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:R")
+		(at 76.2 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "88bccc10-543e-4e79-bbde-e6635204dbcf")
+		(property "Reference" "R4"
+			(at 72.136 100.076 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 76.2 103.378 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FormantKO:R_Axial_Horizontal"
+			(at 74.422 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 76.2 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85236327-0044-4448-a6b2-d51985e06318")
+		)
+		(pin "2"
+			(uuid "21994317-4def-43d2-b6f4-5431f97db31d")
+		)
+		(instances
+			(project "NOISE"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 88.9 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8941b862-1d29-42d6-bedf-b29728f3f4ba")
+		(property "Reference" "#PWR07"
+			(at 88.9 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+15V"
+			(at 86.106 68.326 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3402,7 +4770,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 101.6 66.04 0)
+			(at 88.9 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3426,7 +4794,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:R")
-		(at 63.5 57.15 0)
+		(at 38.1 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3437,7 +4805,7 @@
 		(fields_autoplaced yes)
 		(uuid "91e909de-32ff-433e-9e9b-89f7068dbe99")
 		(property "Reference" "R1"
-			(at 66.04 55.8799 0)
+			(at 40.64 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3448,7 +4816,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 66.04 58.4199 0)
+			(at 40.64 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3459,7 +4827,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:R_Axial_Horizontal"
-			(at 61.722 57.15 90)
+			(at 36.322 63.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3470,7 +4838,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 57.15 0)
+			(at 38.1 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3481,7 +4849,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 63.5 57.15 0)
+			(at 38.1 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3508,7 +4876,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:Generic_OpAmp_Single")
-		(at 104.14 73.66 0)
+		(at 91.44 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3516,10 +4884,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9e1caf14-6503-4dc1-b04d-fdd7b49aa5ea")
-		(property "Reference" "U1"
-			(at 121.92 67.2398 0)
+		(property "Reference" "IC1"
+			(at 93.98 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3529,7 +4896,8 @@
 			)
 		)
 		(property "Value" "Generic_OpAmp_Single"
-			(at 121.92 69.7798 0)
+			(at 109.22 76.1298 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3539,7 +4907,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:DIP-8"
-			(at 105.41 72.39 0)
+			(at 92.71 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3550,7 +4918,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm741.pdf"
-			(at 107.95 69.85 0)
+			(at 95.25 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3561,7 +4929,7 @@
 			)
 		)
 		(property "Description" "Operational Amplifier, DIP-8/TO-99-8"
-			(at 104.14 73.66 0)
+			(at 91.44 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3598,7 +4966,86 @@
 		(instances
 			(project "NOISE"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U1")
+					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:Wire_1x01_General")
+		(at 93.98 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b355fd95-2945-46e2-b4a4-bdcd845083e4")
+		(property "Reference" "J2"
+			(at 96.52 163.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WN"
+			(at 96.52 166.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire 1x01 General"
+			(at 93.98 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 93.98 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52d87fab-178f-4549-aa7b-7865b7a81812")
+		)
+		(instances
+			(project "NOISE"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -3628,13 +5075,14 @@
 			)
 		)
 		(property "Value" "+15V"
-			(at 215.9 27.94 0)
+			(at 218.44 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3842,7 +5290,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 59.69 101.6 0)
+		(at 63.5 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3850,10 +5298,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "de27b9b4-ecf9-4119-89e2-03c49bf5823a")
 		(property "Reference" "#PWR010"
-			(at 59.69 107.95 0)
+			(at 63.5 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3864,17 +5311,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.69 106.68 0)
+			(at 61.468 120.904 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 101.6 0)
+			(at 63.5 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3885,7 +5333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 101.6 0)
+			(at 63.5 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3896,7 +5344,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 101.6 0)
+			(at 63.5 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3999,7 +5447,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:R")
-		(at 63.5 69.85 0)
+		(at 38.1 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4010,7 +5458,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8dee78f-ba96-402b-9938-75e878b44209")
 		(property "Reference" "R2"
-			(at 66.04 68.5799 0)
+			(at 40.64 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4021,7 +5469,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 66.04 71.1199 0)
+			(at 40.64 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4032,7 +5480,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:R_Axial_Horizontal"
-			(at 61.722 69.85 90)
+			(at 36.322 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4043,7 +5491,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 69.85 0)
+			(at 38.1 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4054,7 +5502,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 63.5 69.85 0)
+			(at 38.1 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4103,13 +5551,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 254 52.07 0)
+			(at 256.54 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
