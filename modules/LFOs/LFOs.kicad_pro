@@ -216,9 +216,7 @@
         }
       ],
       "track_widths": [
-        0.0,
-        0.5,
-        1.0
+        0.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -512,14 +510,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "COM.kicad_pro",
+    "filename": "LFOs.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.5,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -530,29 +528,11 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.25,
         "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
-      },
-      {
-        "bus_width": 10,
-        "clearance": 0.5,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 8
       }
     ],
     "meta": {
@@ -560,24 +540,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Power",
-        "pattern": "+5V"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "+15V"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "-15V"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "GND"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -715,24 +678,51 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "COM.kicad_sch",
-        "name": "COM",
+        "filename": "LFOs.kicad_sch",
+        "name": "LFOs",
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+      },
+      {
+        "filename": "a.kicad_sch",
+        "name": "A",
+        "uuid": "20f96ec8-b8f1-4857-bdf4-2a5a98cbe851"
+      },
+      {
+        "filename": "b.kicad_sch",
+        "name": "B",
+        "uuid": "c9c4cc78-508f-4fd4-a1f7-b43e61045ac4"
+      },
+      {
+        "filename": "c.kicad_sch",
+        "name": "C",
+        "uuid": "327b4ae9-6476-4cef-8804-25d4f5fe81ef"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J1",
     "variants": []
   },
   "sheets": [
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
-      "COM"
+      "LFOs"
+    ],
+    [
+      "20f96ec8-b8f1-4857-bdf4-2a5a98cbe851",
+      "A"
+    ],
+    [
+      "c9c4cc78-508f-4fd4-a1f7-b43e61045ac4",
+      "B"
+    ],
+    [
+      "327b4ae9-6476-4cef-8804-25d4f5fe81ef",
+      "C"
     ]
   ],
   "text_variables": {
     "EMAIL": "mailto:paul.f.burdette@gmail.com",
     "GITHUB": "https://github.com/Desval27/FormantKO",
-    "TAG": "Do Not Fold, Spindle or Mutilate"
+    "TAG": "Do No Fold, Spindle, or Mutilate"
   },
   "tuning_profiles": {
     "meta": {
