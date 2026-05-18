@@ -1,13 +1,13 @@
 # STATUS
 
-30% Complete
+60% Complete
 
 - [x] Schematic
 - [x] Schematic Additions
-- [ ] Schematic Review
+- [x] Schematic Review
 - [x] PCB Placement
-- [ ] PCB Routing
-- [ ] PCB Review
+- [x] PCB Routing
+- [x] PCB Review
 - [ ] Sample
 - [ ] Build
 - [ ] Calibrated
