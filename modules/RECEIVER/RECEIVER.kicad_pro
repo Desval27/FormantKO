@@ -64,7 +64,7 @@
           "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 0,
+          "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -217,8 +217,7 @@
       ],
       "track_widths": [
         0.0,
-        0.5,
-        1.0
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -512,14 +511,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "COM.kicad_pro",
+    "filename": "RECEIVER.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.5,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -530,29 +529,11 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.25,
         "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
-      },
-      {
-        "bus_width": 10,
-        "clearance": 0.5,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 8
       }
     ],
     "meta": {
@@ -560,24 +541,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Power",
-        "pattern": "+5V"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "+15V"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "-15V"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "GND"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -715,18 +679,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "COM.kicad_sch",
-        "name": "COM",
+        "filename": "RECEIVER.kicad_sch",
+        "name": "RECEIVER",
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C1-3,D1-3,P1-2,R1-3,IC1-2,#FLG1-3,#PWR1-19,J1-3",
     "variants": []
   },
   "sheets": [
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
-      "COM"
+      "RECEIVER"
     ]
   ],
   "text_variables": {
