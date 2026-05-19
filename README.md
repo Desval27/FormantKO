@@ -23,12 +23,16 @@ path (e.g. jumpers for signal routing, etc.).
 - COM: Complete
 - NOISE: Complete
 - LFO: Complete
+- DUAL VCA: Started
 - BACKPLANE: Started
-- KEY_RECEIVER: Thought about...
+- INTERFACE RECIEVER: Mostly Complete
 
 ## PCBs
 
-- COM PCB Mostly complete but unbuilt.
-- NOISE PCB: Components placed.  Routing being refactored.
-- LFO PCB components placed.  No routing.
+- COM: Mostly complete but unbuilt.
+- NOISE: Components placed.  Routing being refactored.
+- LFO: components placed.  No routing.
+- DUAL VCA: Started
+- BACKPLAN: Started
+- INTERFACE RECEIVER: Started
 
