@@ -1,24 +1,24 @@
-(footprint "Potentiometer_Inline"
+(footprint "Potentiometer_Triangle"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -2.667 0)
+		(at -1.016 -5.08 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "531e6117-6b96-4c61-b964-976aff6a7c35")
+		(uuid "fe3e9706-0764-4ae5-9e66-85412d508f9e")
 		(effects
 			(font
 				(size 1 1)
 			)
 		)
 	)
-	(property "Value" "Potentiometer_Inline"
-		(at 0 1.905 0)
+	(property "Value" "Potentiometer_Triangle"
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "fa765d08-50c8-4849-a321-a5f3b89f3c2a")
+		(uuid "22a87be6-9039-44bc-8c06-7ed86d79038e")
 		(effects
 			(font
 				(size 1 1)
@@ -30,7 +30,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e5ae6933-3802-4d1d-ac00-2dfd8e2191e6")
+		(uuid "acca807b-c5c4-412d-a7cd-353256108020")
 		(effects
 			(font
 				(size 1 1)
@@ -43,7 +43,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3425d163-0c79-4953-bbd1-8392141c8249")
+		(uuid "91709b5e-9d8d-4c2c-b01b-42715764e883")
 		(effects
 			(font
 				(size 1 1)
@@ -51,61 +51,74 @@
 			)
 		)
 	)
-	(attr exclude_from_pos_files exclude_from_bom)
+	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -6.35 -1.27)
-		(end -5.715 -1.905)
+		(start 0 -1.016)
+		(end 1.778 -4.826)
 		(stroke
 			(width 0.3)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "7d0dd9b5-a76e-484b-9731-b9c0a1ede0b4")
+		(uuid "99bb04d5-aead-41db-9e46-17250e9e62de")
 	)
 	(fp_line
-		(start -5.715 -1.905)
-		(end 5.715 -1.905)
+		(start 0 1.016)
+		(end 0 -1.016)
 		(stroke
 			(width 0.3)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "7407f027-5dcc-47f6-8bab-dda1c834c9f3")
+		(uuid "e22708fb-cacf-456a-b75a-5fec331b974a")
 	)
-	(fp_line
-		(start 6.35 -1.27)
-		(end 5.715 -1.905)
+	(fp_rect
+		(start -4.064 -4.064)
+		(end 4.064 -1.016)
 		(stroke
 			(width 0.3)
 			(type default)
 		)
+		(fill no)
 		(layer "F.SilkS")
-		(uuid "7f3ecca8-8716-44f3-b420-2219bd5a6370")
+		(uuid "9f6a6426-d3e9-47cf-9b67-6ef7828e7405")
+	)
+	(fp_poly
+		(pts
+			(xy 2.032 -5.319312) (xy 2.286 -4.557312) (xy 1.27 -5.065312)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "962a683b-c6b8-44d2-bb1d-90b6f900e620")
 	)
 	(pad "1" thru_hole circle
-		(at -5.08 0)
+		(at 2.54 -2.54)
 		(size 2.54 2.54)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "10cd59ec-276c-46e3-b56a-9182fdc2a800")
+		(uuid "0377f8fb-9fa9-4c73-9024-94b2fdb44c58")
 	)
 	(pad "2" thru_hole circle
-		(at 0 0)
+		(at 0 2.54)
 		(size 2.54 2.54)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "de324d99-9c7f-426f-82ca-20b9c15fc607")
+		(uuid "9f409158-9846-4d96-a76c-8842791f5403")
 	)
 	(pad "3" thru_hole circle
-		(at 5.08 0)
+		(at -2.54 -2.54)
 		(size 2.54 2.54)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "a1513edb-2bee-40a8-a97b-c2b138bc15a2")
+		(uuid "ef5d8267-9962-4846-842e-10b1b212673e")
 	)
 	(embedded_fonts no)
 )

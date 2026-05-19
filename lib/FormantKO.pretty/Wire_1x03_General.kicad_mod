@@ -1,4 +1,4 @@
-(footprint "Wire 1x03 General"
+(footprint "Wire_1x03_General"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -6,24 +6,22 @@
 	(descr "Soldered wire connection, for 3 times 0.5 mm² wires, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter")
 	(tags "connector wire 0.5sqmm")
 	(property "Reference" "REF**"
-		(at 4.6 -2.28 0)
+		(at 4.572 -3.175 0)
 		(layer "F.SilkS")
-		(uuid "77967560-cdbe-4f2c-bf78-bfbd797287c6")
+		(uuid "9c8b5ec4-49af-4136-8c1f-e91311a785b7")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
 			)
 		)
 	)
-	(property "Value" "Wire 1x03 General"
-		(at 4.6 2.28 0)
-		(layer "F.Fab")
-		(uuid "1cb40dc6-b3cb-4464-bb24-df52400bb145")
+	(property "Value" "Wire_1x03_General"
+		(at 4.572 3.175 0)
+		(layer "F.SilkS")
+		(uuid "8dddc6f6-5ce6-4c76-a1fb-41910b7fe253")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -31,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e2a835fc-3843-45e4-b038-9cf5f2bb157f")
+		(uuid "7982ad0f-e82b-41a2-85d4-94f9741f0e69")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +40,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "14e2aada-dd2c-4926-8531-d8bf579e2226")
+		(uuid "35785efc-bd60-48a4-a898-70a7d4b2f869")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +51,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "7cca88b9-27ed-4e63-828c-83d1214254fa")
+		(uuid "0f0124e0-fd3c-4cb2-aacb-6aadc56f0e76")
 		(effects
 			(font
 				(size 1 1)
@@ -64,6 +62,17 @@
 	(attr exclude_from_pos_files exclude_from_bom)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
+		(start -1.905 -1.905)
+		(end 11.43 1.905)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2f2ec6f1-4bfa-4b7e-ac95-197987c33559")
+	)
+	(fp_rect
 		(start -1.8 -1.58)
 		(end 1.8 1.58)
 		(stroke
@@ -72,7 +81,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "e6a23181-82eb-4ac8-816a-ef14b701a665")
+		(uuid "76e6c6ee-d9ca-4fe8-a316-ea982144d9bb")
 	)
 	(fp_rect
 		(start 2.8 -1.58)
@@ -83,7 +92,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "ac42f9e0-b2b6-4580-bc5b-61e273bc4dd5")
+		(uuid "9792b075-8690-4104-bab2-921df95c8655")
 	)
 	(fp_rect
 		(start 7.4 -1.58)
@@ -94,7 +103,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "0e29497e-36a4-403b-8d8e-bf2894dbce0b")
+		(uuid "0e38414e-1a17-4665-9146-8383024edd8c")
 	)
 	(fp_circle
 		(center 0 0)
@@ -105,7 +114,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "75ebb746-88df-431b-899c-1370633a40b3")
+		(uuid "07038557-c276-442d-aae8-70966e93fe3a")
 	)
 	(fp_circle
 		(center 4.6 0)
@@ -116,7 +125,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "93cebfaa-a967-4245-ad72-1e651d7be3d0")
+		(uuid "a28469ea-7b08-4748-808b-6590138ad67c")
 	)
 	(fp_circle
 		(center 9.2 0)
@@ -127,43 +136,31 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "516d1d84-da8b-404d-8e3b-88aab70569d9")
+		(uuid "519941f7-714e-45e2-bf09-83ddcc367868")
 	)
-	(fp_text user "${REFERENCE}"
-		(at 4.6 0 90)
-		(layer "F.Fab")
-		(uuid "a39e6a67-f431-4508-b250-0279454e025a")
-		(effects
-			(font
-				(size 0.52 0.52)
-				(thickness 0.08)
-			)
-		)
-	)
-	(pad "1" thru_hole roundrect
+	(pad "1" thru_hole circle
 		(at 0 0)
-		(size 2.15 2.15)
-		(drill 1.15)
+		(size 2.54 2.54)
+		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(roundrect_rratio 0.116279)
-		(uuid "b42441ff-87c1-42d1-b044-23e201488d4e")
+		(uuid "8110f0a4-c560-4616-b1c1-0b47435b6ef1")
 	)
 	(pad "2" thru_hole circle
 		(at 4.6 0)
-		(size 2.15 2.15)
-		(drill 1.15)
+		(size 2.54 2.54)
+		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "39fa8b11-e22e-4966-b81a-ebb48b7a7b12")
+		(uuid "e3fadd3d-f6eb-468d-a86d-54a4563637f3")
 	)
 	(pad "3" thru_hole circle
 		(at 9.2 0)
-		(size 2.15 2.15)
-		(drill 1.15)
+		(size 2.54 2.54)
+		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "ae60f8b8-cbd5-4e7d-89a1-0de9b44d656b")
+		(uuid "3c16d871-4f32-48c6-bc75-b8bf224e1c28")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.5sqmm_1x03_P4.6mm_D0.9mm_OD2.1mm.step"
