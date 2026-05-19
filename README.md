@@ -19,6 +19,8 @@ normaled path (e.g. jumpers for signal routing, etc.).
 
 ## Status
 
+![COM Render](modules/COM/COM.png "COM Render")
+
 ## Schematics
 
 - COM: Complete
