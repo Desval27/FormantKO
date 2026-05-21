@@ -2682,7 +2682,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "FormantKO:TUN"
+			(property "Footprint" "FormantKO:TO-18"
 				(at 5.08 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3532,12 +3532,6 @@
 		(uuid "028ef7ad-bd0e-4401-919e-f3ddc1757d7e")
 	)
 	(junction
-		(at 114.3 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "132e5e9f-dcb1-4fab-980c-7822c402b24a")
-	)
-	(junction
 		(at 146.05 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3592,6 +3586,12 @@
 		(uuid "34da133b-7b6c-43be-b123-24ac6184791d")
 	)
 	(junction
+		(at 127 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "387e34b4-81e0-478c-9527-869c00f0752d")
+	)
+	(junction
 		(at 57.15 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3608,12 +3608,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d781ce0-44d8-4e2f-a186-0aaeb054990f")
-	)
-	(junction
-		(at 215.9 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d7823b7-bb33-48e8-9a16-f311eec5f4fa")
 	)
 	(junction
 		(at 114.3 53.34)
@@ -3676,16 +3670,22 @@
 		(uuid "5faa307f-62ac-47bc-97e6-28fe682545b0")
 	)
 	(junction
-		(at 38.1 38.1)
+		(at 114.3 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "63cd137c-3ef0-4d83-a11a-3b4889ccac57")
+		(uuid "62e36705-d159-4c8a-9b2d-41296d1c46cd")
 	)
 	(junction
 		(at 165.1 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "68d2a3d4-95a1-4ae2-9850-c018bf8f555e")
+		(uuid "63242d08-6672-48b6-ae10-706c057200d9")
+	)
+	(junction
+		(at 38.1 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63cd137c-3ef0-4d83-a11a-3b4889ccac57")
 	)
 	(junction
 		(at 88.9 127)
@@ -3724,10 +3724,10 @@
 		(uuid "7ac91252-7fba-4674-badc-31d00e42f8b0")
 	)
 	(junction
-		(at 127 66.04)
+		(at 215.9 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7ce099b1-bf39-4eff-b0ec-970945a7b0ae")
+		(uuid "823340e4-74e4-4f0c-b4c0-d9202e77754b")
 	)
 	(junction
 		(at 76.2 25.4)
@@ -4077,6 +4077,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 66.04) (xy 109.22 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15173664-2f2c-4c0b-871f-b7d338f8c906")
+	)
+	(wire
+		(pts
 			(xy 215.9 25.4) (xy 234.95 25.4)
 		)
 		(stroke
@@ -4204,16 +4214,6 @@
 			(type default)
 		)
 		(uuid "282594fc-9c21-43d5-badc-c366821269b9")
-	)
-	(wire
-		(pts
-			(xy 215.9 48.26) (xy 218.44 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a3a3b36-d1a8-4990-b451-5fc930bfaff0")
 	)
 	(wire
 		(pts
@@ -4667,16 +4667,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 66.04) (xy 167.64 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5544539f-498a-4f69-bd49-d6bcee0db7e3")
-	)
-	(wire
-		(pts
 			(xy 31.75 106.68) (xy 31.75 109.22)
 		)
 		(stroke
@@ -4727,6 +4717,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 73.66) (xy 111.76 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ba2bbbf-23a8-4f68-9ee0-e6410b975f25")
+	)
+	(wire
+		(pts
 			(xy 127 73.66) (xy 127 78.74)
 		)
 		(stroke
@@ -4764,6 +4764,16 @@
 			(type default)
 		)
 		(uuid "5d2a0ed7-eb6b-471b-aeb9-30509b20a462")
+	)
+	(wire
+		(pts
+			(xy 209.55 40.64) (xy 209.55 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f4d646e-7cfa-45f1-853b-20178551a223")
 	)
 	(wire
 		(pts
@@ -4947,6 +4957,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 40.64) (xy 209.55 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78397d2f-1a31-4cbf-9519-834c85aeedd2")
+	)
+	(wire
+		(pts
 			(xy 234.95 60.96) (xy 234.95 63.5)
 		)
 		(stroke
@@ -5107,6 +5127,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 66.04) (xy 121.92 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "919e4f7c-caee-4499-832f-94f839624fc1")
+	)
+	(wire
+		(pts
 			(xy 158.75 57.15) (xy 158.75 63.5)
 		)
 		(stroke
@@ -5247,16 +5277,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 66.04) (xy 129.54 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab65bb84-2459-4778-b4ed-b76df0209d03")
-	)
-	(wire
-		(pts
 			(xy 151.13 44.45) (xy 146.05 52.07)
 		)
 		(stroke
@@ -5264,6 +5284,16 @@
 			(type default)
 		)
 		(uuid "abb59c98-a94c-4708-be62-0d8de449087c")
+	)
+	(wire
+		(pts
+			(xy 160.02 73.66) (xy 162.56 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acf6a9b1-4403-4acc-9137-d980a9965f90")
 	)
 	(wire
 		(pts
@@ -5327,6 +5357,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 66.04) (xy 160.02 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8fb8752-cc07-4564-ae59-8e60982d0434")
+	)
+	(wire
+		(pts
 			(xy 234.95 44.45) (xy 241.3 44.45)
 		)
 		(stroke
@@ -5334,6 +5374,16 @@
 			(type default)
 		)
 		(uuid "b902cd9a-8cf1-4bd4-bd6c-cd121fff8f1b")
+	)
+	(wire
+		(pts
+			(xy 209.55 48.26) (xy 215.9 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b904696f-7770-4eba-84ae-0700467c5d11")
 	)
 	(wire
 		(pts
@@ -5397,16 +5447,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 66.04) (xy 116.84 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2ac1e2d-a5e9-4162-b940-406b69bb36b0")
-	)
-	(wire
-		(pts
 			(xy 57.15 119.38) (xy 57.15 121.92)
 		)
 		(stroke
@@ -5424,6 +5464,16 @@
 			(type default)
 		)
 		(uuid "c365c853-9fce-4fb6-bbc2-4b9d9d7b414d")
+	)
+	(wire
+		(pts
+			(xy 165.1 66.04) (xy 160.02 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4b75a20-eb86-46e0-9317-71e9b9707d49")
 	)
 	(wire
 		(pts
@@ -5504,6 +5554,16 @@
 			(type default)
 		)
 		(uuid "ca57216c-e877-4779-a195-53d13348c90f")
+	)
+	(wire
+		(pts
+			(xy 121.92 73.66) (xy 124.46 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb712502-f04b-4e63-938d-10d2edfe63d9")
 	)
 	(wire
 		(pts
@@ -5767,6 +5827,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 66.04) (xy 109.22 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2d50f12-e5cf-475e-8645-4f3870517851")
+	)
+	(wire
+		(pts
 			(xy 57.15 134.62) (xy 57.15 137.16)
 		)
 		(stroke
@@ -5994,6 +6064,16 @@
 			(type default)
 		)
 		(uuid "f4bee90f-ff8d-4015-b528-df2056e6fc69")
+	)
+	(wire
+		(pts
+			(xy 121.92 66.04) (xy 121.92 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7a28dcc-b6f3-4f77-b20a-586b1a068130")
 	)
 	(wire
 		(pts
@@ -6653,7 +6733,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:CP_Axial_600"
+		(property "Footprint" "FormantKO:CP_Axial_600_800"
 			(at 89.8652 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -7415,7 +7495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:CP_Axial_600"
+		(property "Footprint" "FormantKO:CP_Axial_500_600_700"
 			(at 153.3652 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -7764,7 +7844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:Wire_1x01_GND"
+		(property "Footprint" "FormantKO:Wire_1x01_General"
 			(at 132.08 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -8583,7 +8663,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:LED_Panel"
+		(property "Footprint" "FormantKO:LED_Panel_Narrow"
 			(at 219.71 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -9833,7 +9913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:DUS"
+		(property "Footprint" "FormantKO:DUS_500"
 			(at 146.05 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -10529,7 +10609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:Switch_SPDT"
+		(property "Footprint" "FormantKO:Switch_SPDT_Narrow"
 			(at 38.1 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -10739,7 +10819,7 @@
 	(symbol
 		(lib_id "FormantKO:Panel_Potentiometer_3")
 		(at 127 69.85 0)
-		(mirror y)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10749,7 +10829,7 @@
 		(dnp no)
 		(uuid "7e4f6b10-f9b9-434c-bec9-c9f7458b2939")
 		(property "Reference" "P2"
-			(at 125.73 68.58 0)
+			(at 128.27 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10760,7 +10840,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 128.27 69.85 0)
+			(at 125.73 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10770,7 +10850,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FormantKO:Potentiometer_Inline"
+		(property "Footprint" "FormantKO:Potentiometer_Inline_Narrow"
 			(at 127 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10804,7 +10884,7 @@
 			)
 		)
 		(property "Taper" "log"
-			(at 128.27 71.628 0)
+			(at 125.73 68.072 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10815,7 +10895,7 @@
 			)
 		)
 		(property "Legend" "ATTACK"
-			(at 126.238 66.04 0)
+			(at 127.762 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11114,7 +11194,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:Wire_1x01_GND"
+		(property "Footprint" "FormantKO:Wire_1x01_General"
 			(at 132.08 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -11958,7 +12038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:Potentiometer_Inline"
+		(property "Footprint" "FormantKO:Potentiometer_Inline_Narrow"
 			(at 215.9 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -12065,7 +12145,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:CP_Axial_600"
+		(property "Footprint" "FormantKO:CP_Axial_600_800"
 			(at 89.8652 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -12280,7 +12360,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:C")
-		(at 48.26 38.1 90)
+		(at 48.26 38.1 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12290,7 +12370,7 @@
 		(dnp no)
 		(uuid "beb7afef-d5f4-4c7c-8d15-c0ee5a7d4c7b")
 		(property "Reference" "C1"
-			(at 48.26 34.798 90)
+			(at 48.26 41.402 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12300,7 +12380,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 48.26 41.656 90)
+			(at 48.26 34.544 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12309,8 +12389,8 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Disc"
-			(at 52.07 37.1348 0)
+		(property "Footprint" "FormantKO:C_Disc_300_400"
+			(at 44.45 39.0652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12543,7 +12623,7 @@
 	(symbol
 		(lib_id "FormantKO:R_Trim")
 		(at 215.9 44.45 0)
-		(mirror y)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12553,7 +12633,7 @@
 		(dnp no)
 		(uuid "c3fd99fb-6193-4e0a-b81f-4e6905516834")
 		(property "Reference" "P5"
-			(at 218.44 42.418 0)
+			(at 213.36 46.482 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12564,7 +12644,7 @@
 			)
 		)
 		(property "Value" "25k"
-			(at 218.44 44.45 0)
+			(at 213.36 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12575,7 +12655,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:Potentiometer_Trimmer"
-			(at 217.678 44.45 90)
+			(at 214.122 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12599,6 +12679,16 @@
 		(property "Description" "Trimmable resistor (preset resistor)"
 			(at 215.9 44.45 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Legend" "SUSTAIN ADJ"
+			(at 223.52 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12708,7 +12798,7 @@
 	(symbol
 		(lib_id "FormantKO:Panel_Potentiometer_3")
 		(at 114.3 69.85 0)
-		(mirror y)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12718,7 +12808,7 @@
 		(dnp no)
 		(uuid "d093066b-845b-4ac6-a89f-4c4db55885d6")
 		(property "Reference" "P1"
-			(at 113.03 68.58 0)
+			(at 115.57 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12729,7 +12819,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 115.57 69.85 0)
+			(at 113.03 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12739,7 +12829,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FormantKO:Potentiometer_Inline"
+		(property "Footprint" "FormantKO:Potentiometer_Inline_Narrow"
 			(at 114.3 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -12773,7 +12863,7 @@
 			)
 		)
 		(property "Taper" "log"
-			(at 115.57 71.628 0)
+			(at 113.03 68.072 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12784,7 +12874,7 @@
 			)
 		)
 		(property "Legend" "RELEASE"
-			(at 113.538 66.04 0)
+			(at 115.062 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13652,7 +13742,7 @@
 	(symbol
 		(lib_id "FormantKO:Panel_Potentiometer_3")
 		(at 165.1 69.85 0)
-		(mirror y)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13662,7 +13752,7 @@
 		(dnp no)
 		(uuid "f86b6fc9-5173-46ad-8f58-3b355fa49948")
 		(property "Reference" "P3"
-			(at 163.83 68.58 0)
+			(at 166.37 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13673,7 +13763,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 166.37 69.85 0)
+			(at 163.83 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13683,7 +13773,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FormantKO:Potentiometer_Inline"
+		(property "Footprint" "FormantKO:Potentiometer_Inline_Narrow"
 			(at 165.1 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -13717,7 +13807,7 @@
 			)
 		)
 		(property "Taper" "log"
-			(at 166.37 71.628 0)
+			(at 163.83 68.072 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13728,7 +13818,7 @@
 			)
 		)
 		(property "Legend" "DECAY"
-			(at 164.338 66.04 0)
+			(at 165.862 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

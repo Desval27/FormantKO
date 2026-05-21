@@ -2,15 +2,15 @@
 
 0% Complete
 
-- [ ] Schematic
+- [x] Schematic
 - [ ] Schematic Additions
-- [ ] Schematic Review
-- [ ] PCB Placement
-- [ ] PCB Routing
+- [x] Schematic Review
+- [x] PCB Placement
+- [x] PCB Routing
 - [ ] PCB Review
 - [ ] Sample
 - [ ] Build
 - [ ] Calibrated
 - [ ] Tested
 
-<!-- ![Rendered PCB](ADSR.png "Rendered PCB") -->
+![Rendered PCB](ADSR.png "Rendered PCB")
