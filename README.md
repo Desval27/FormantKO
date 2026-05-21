@@ -14,6 +14,10 @@ as part of the project to avoid the point-to-point backend wiring of the origina
 does not currently offer more configurability compared to the original.  It simply provides a secure connection 
 and reduces wiring complexity and fragility.  
 
+I have opted to keep the flying wires for connecting the panel components as opposed to a separate panel mounted
+"control" PCB.  Right now I'm torn between keeping the layouts and wiring as they were originally defined or 
+replacing them with something like JST XH connectors for easy disconnect & replacement.  Perhaps both?
+
 The goal for verison 2 is to make both the cards and the bus system more configurable compared to the original 
 normaled path (e.g. jumpers for signal routing, etc.).
 
