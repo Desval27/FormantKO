@@ -23,6 +23,8 @@ normaled path (e.g. jumpers for signal routing, etc.).
 
 ## Status
 
+Note: This information is only as accurate as I can remember to update it.
+
 ![COM Render](modules/COM/COM.png "COM Render")
 
 ## Schematics
