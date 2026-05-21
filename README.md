@@ -27,25 +27,29 @@ Note: This information is only as accurate as I can remember to update it.
 
 ![COM Render](modules/COM/COM.png "COM Render")
 
-## Schematics
+## Modules
 
 - [TEMPLATE](modules/TEMPLATE/STATUS.md)
-- COM: Complete
-- NOISE: Complete
-- LFO: Complete
-- DUAL VCA: Started
-- ADSR: Completed
-- BACKPLANE: Started
-- INTERFACE RECIEVER: Mostly Complete
+- [KEYBOARD INTERFACE](modules/KBI/STATUS.md)
+- [INTERFACE RECEIVER](modules/INTF_RCVR/STATUS.md)
+- [POWER SUPPLY](modules/PSU/STATUS.md)
+- [KEYBOARD DIVIDER](modules/KB_DIV/STATUS.md)
+- [VCO](modules/VCO/STATUS.md)
+- [VCF 12dB](modules/VCF_12/STATUS.md)
+- [VCF 24dB](modules/VCF_24/STATUS.md)
+- [RFM](modules/RFM/STATUS.md)
+- [ADSR](modules/ADSR/STATUS.md)
+- [DUAL VCA](modules/DUAL_VCA/STATUS.md)
+- [LFOs](modules/LFOs/STATUS.md)
+- [NOISE](modules/NOISE/STATUS.md)
+- [COM](modules/VCO/STATUS.md)
 
-## PCBs
+## Panels
 
-- TEMPLATE: Complete
-- COM: Mostly complete but unbuilt
-- NOISE: Components placed; Routing being refactored
-- LFO: Components placed; No routing
-- DUAL VCA: Started
-- ADSR: Started
-- BACKPLAN: Started
-- INTERFACE RECEIVER: Started
+## System
+
+- BACKPLANE A
+- [BACKPLANE B](system/BACKPLANE_B/STATUS.md)
+- [TEST HARNESS](system/TEST_HARNESS/STATUS.md)
+
 
