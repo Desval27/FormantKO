@@ -13,4 +13,6 @@
 - [ ] Calibrated
 - [ ] Tested
 
-![Rendered PCB](INTF_RCVR.png "Rendered PCB")
+![Rendered PCB Top](INTF_RCVR_top.png "Rendered PCB Top")
+
+![Rendered PCB Bottom](INTF_RCVR_bottom.png "Rendered PCB Bottom")
