@@ -42,7 +42,7 @@ Note: This information is only as accurate as I can remember to update it.
 - [DUAL VCA](modules/DUAL_VCA/STATUS.md)
 - [LFOs](modules/LFOs/STATUS.md)
 - [NOISE](modules/NOISE/STATUS.md)
-- [COM](modules/VCO/STATUS.md)
+- [COM](modules/COM/STATUS.md)
 
 ## Panels
 
