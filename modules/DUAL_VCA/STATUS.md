@@ -1,11 +1,11 @@
 # STATUS
 
-20% Complete
+0% Complete
 
-- [x] Schematic
+- [ ] Schematic
 - [ ] Schematic Additions
 - [ ] Schematic Review
-- [x] PCB Placement
+- [ ] PCB Placement
 - [ ] PCB Routing
 - [ ] PCB Review
 - [ ] Sample
@@ -13,4 +13,4 @@
 - [ ] Calibrated
 - [ ] Tested
 
-![Rendered PCB](NOISE.png "Rendered PCB")
+<!-- ![Rendered PCB](DUAL_VCA.png "Rendered PCB") -->

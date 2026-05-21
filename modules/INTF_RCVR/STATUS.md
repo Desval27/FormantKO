@@ -1,9 +1,9 @@
 # STATUS
 
-60% Complete
+50% Complete
 
 - [x] Schematic
-- [x] Schematic Additions
+- [ ] Schematic Additions
 - [x] Schematic Review
 - [x] PCB Placement
 - [x] PCB Routing
@@ -13,4 +13,4 @@
 - [ ] Calibrated
 - [ ] Tested
 
-![Rendered PCB](COM.png "Rendered PCB")
+![Rendered PCB](INTF_RCVR.png "Rendered PCB")
