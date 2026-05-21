@@ -29,7 +29,7 @@ Note: This information is only as accurate as I can remember to update it.
 
 ## Schematics
 
-- TEMPLATE: Complete
+- [TEMPLATE](modules/TEMPLATE/STATUS.md)
 - COM: Complete
 - NOISE: Complete
 - LFO: Complete
