@@ -23,19 +23,23 @@ normaled path (e.g. jumpers for signal routing, etc.).
 
 ## Schematics
 
+- TEMPLATE: Complete
 - COM: Complete
 - NOISE: Complete
 - LFO: Complete
 - DUAL VCA: Started
+- ADSR: Completed
 - BACKPLANE: Started
 - INTERFACE RECIEVER: Mostly Complete
 
 ## PCBs
 
-- COM: Mostly complete but unbuilt.
-- NOISE: Components placed.  Routing being refactored.
-- LFO: components placed.  No routing.
+- TEMPLATE: Complete
+- COM: Mostly complete but unbuilt
+- NOISE: Components placed; Routing being refactored
+- LFO: Components placed; No routing
 - DUAL VCA: Started
+- ADSR: Started
 - BACKPLAN: Started
 - INTERFACE RECEIVER: Started
 
