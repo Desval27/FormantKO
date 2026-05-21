@@ -75,7 +75,8 @@ resulting from the use or misuse of this design, including but not limited to:
 
 This project may interface with:
 
-* ±12V Eurorack power rails
+* ±15V Power rails
+* AC Mains Power (Lethal Risk)
 * External control voltages (CV)
 * Digital and analog circuitry
 
