@@ -13,4 +13,6 @@
 - [ ] Calibrated
 - [ ] Tested
 
-<!-- ![Rendered PCB](KBI.png "Rendered PCB") -->
+![Rendered PCB Top](KBI_top.png "Rendered PCB Top")
+
+![Rendered PCB Bottom](KBI_bottom.png "Rendered PCB Bottom")
