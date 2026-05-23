@@ -13,4 +13,6 @@
 - [ ] Calibrated
 - [ ] Tested
 
-<!-- ![Rendered PCB](PSU.png "Rendered PCB") -->
+![Rendered PCB Top](PSU_top.png "Rendered PCB Top")
+
+![Rendered PCB Bottom](PSU_bottom.png "Rendered PCB Bottom")
