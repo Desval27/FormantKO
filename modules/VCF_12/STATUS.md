@@ -13,4 +13,6 @@
 - [ ] Calibrated
 - [ ] Tested
 
-<!-- ![Rendered PCB](VCF_12.png "Rendered PCB") -->
+![Rendered PCB Top](VCF_12_top.png "Rendered PCB Top")
+
+![Rendered PCB Bottom](VCF_12_bottom.png "Rendered PCB Bottom")

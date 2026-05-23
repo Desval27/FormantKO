@@ -13,4 +13,6 @@
 - [ ] Calibrated
 - [ ] Tested
 
-<!-- ![Rendered PCB](RFM.png "Rendered PCB") -->
+![Rendered PCB Top](RFM_top.png "Rendered PCB Top")
+
+![Rendered PCB Bottom](RFM_bottom.png "Rendered PCB Bottom")
