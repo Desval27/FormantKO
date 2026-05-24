@@ -2,7 +2,7 @@
 
 0% Complete
 
-- [ ] Schematic
+- [x] Schematic
 - [ ] Schematic Additions
 - [ ] Schematic Review
 - [ ] PCB Placement
