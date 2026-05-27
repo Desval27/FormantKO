@@ -8,4 +8,4 @@
 - [ ] Build
 - [ ] Tested
 
-<!-- ![Rendered Panel](TEMPLATE.png "Rendered Panel") -->
+![Rendered Panel](NOISE.png "Rendered Panel")

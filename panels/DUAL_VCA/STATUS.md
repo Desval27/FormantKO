@@ -8,4 +8,4 @@
 - [ ] Build
 - [ ] Tested
 
-<!-- ![Rendered Panel](TEMPLATE.png "Rendered Panel") -->
+![Rendered Panel](DUAL_VCA.png "Rendered Panel")
