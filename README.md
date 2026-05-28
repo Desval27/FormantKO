@@ -48,6 +48,18 @@ Most activity has been in the COM, NOISE, and LFOs modules.
 
 ## Panels
 
+- [TEMPLATE_3U](panels/TEMPLATE_3U/STATUS.md)
+- [TEMPLATE_6U](panels/TEMPLATE_6U/STATUS.md)
+- [VCO](panels/VCO/STATUS.md)
+- [VCF 12dB](panels/VCF_12/STATUS.md)
+- [VCF 24dB](panels/VCF_24/STATUS.md)
+- [RFM](panels/RFM/STATUS.md)
+- [ADSR](panels/ADSR/STATUS.md)
+- [DUAL VCA](panels/DUAL_VCA/STATUS.md)
+- [LFOs](panels/LFOs/STATUS.md)
+- [NOISE](modules/NOISE/STATUS.md)
+- [COM](modules/COM/STATUS.md)
+
 ## System
 
 - BACKPLANE A
