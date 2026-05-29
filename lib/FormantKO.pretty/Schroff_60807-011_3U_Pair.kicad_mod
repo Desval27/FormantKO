@@ -1,0 +1,26 @@
+(footprint "Schroff_60807-011_3U_Pair"
+  (version 20240108)
+  (generator "Handcrafted_Script")
+  (layer "F.Cu")
+  (descr "nVent Schroff 60807-011 Dual Bracket Footprint for 3U Eurocard (100mm Height)")
+  (tags "Schroff Eurocard Bracket 3U 60807-011 Dual")
+  (property "Reference" "REF**" (at 15 50 90) (layer "F.SilkS") (effects (font (size 1 1) (thickness 0.15))))
+  (property "Value" "Schroff_60807-011_3U_Pair" (at 18 50 90) (layer "F.Fab") (effects (font (size 1 1) (thickness 0.15))))
+  
+  (pad "1" np_thru_hole circle (at 5.64 3.556) (size 2.7 2.7) (drill 2.7) (layers "*.Cu" "*.Mask"))
+  (pad "2" np_thru_hole circle (at 5.64 96.444) (size 2.7 2.7) (drill 2.7) (layers "*.Cu" "*.Mask"))
+  
+  (fp_line (start 0 0) (end 0 100) (stroke (width 0.15) (type solid)) (layer "User.Drawings"))
+  (fp_line (start 0 0) (end 20 0) (stroke (width 0.15) (type solid)) (layer "User.Drawings"))
+  (fp_line (start 0 100) (end 20 100) (stroke (width 0.15) (type solid)) (layer "User.Drawings"))
+  
+  (fp_rect (start 0 0) (end 11.0 6.5) (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
+  (fp_rect (start 0 0) (end 11.0 6.5) (stroke (width 0.05) (type solid)) (layer "B.CrtYd"))
+  
+  (fp_rect (start 0 93.5) (end 11.0 100.0) (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
+  (fp_rect (start 0 93.5) (end 11.0 100.0) (stroke (width 0.05) (type solid)) (layer "B.CrtYd"))
+  
+  (fp_text user "UPPER BRACKET KEEPOUT" (at 15 8 0) (layer "F.Fab") (effects (font (size 0.8 0.8) (thickness 0.12))))
+  (fp_text user "LOWER BRACKET KEEPOUT" (at 15 92 0) (layer "F.Fab") (effects (font (size 0.8 0.8) (thickness 0.12))))
+)
+
