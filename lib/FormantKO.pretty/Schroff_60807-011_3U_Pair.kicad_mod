@@ -1,26 +1,166 @@
 (footprint "Schroff_60807-011_3U_Pair"
-  (version 20240108)
-  (generator "Handcrafted_Script")
-  (layer "F.Cu")
-  (descr "nVent Schroff 60807-011 Dual Bracket Footprint for 3U Eurocard (100mm Height)")
-  (tags "Schroff Eurocard Bracket 3U 60807-011 Dual")
-  (property "Reference" "REF**" (at 15 50 90) (layer "F.SilkS") (effects (font (size 1 1) (thickness 0.15))))
-  (property "Value" "Schroff_60807-011_3U_Pair" (at 18 50 90) (layer "F.Fab") (effects (font (size 1 1) (thickness 0.15))))
-  
-  (pad "1" np_thru_hole circle (at 5.64 3.556) (size 2.7 2.7) (drill 2.7) (layers "*.Cu" "*.Mask"))
-  (pad "2" np_thru_hole circle (at 5.64 96.444) (size 2.7 2.7) (drill 2.7) (layers "*.Cu" "*.Mask"))
-  
-  (fp_line (start 0 0) (end 0 100) (stroke (width 0.15) (type solid)) (layer "User.Drawings"))
-  (fp_line (start 0 0) (end 20 0) (stroke (width 0.15) (type solid)) (layer "User.Drawings"))
-  (fp_line (start 0 100) (end 20 100) (stroke (width 0.15) (type solid)) (layer "User.Drawings"))
-  
-  (fp_rect (start 0 0) (end 11.0 6.5) (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
-  (fp_rect (start 0 0) (end 11.0 6.5) (stroke (width 0.05) (type solid)) (layer "B.CrtYd"))
-  
-  (fp_rect (start 0 93.5) (end 11.0 100.0) (stroke (width 0.05) (type solid)) (layer "F.CrtYd"))
-  (fp_rect (start 0 93.5) (end 11.0 100.0) (stroke (width 0.05) (type solid)) (layer "B.CrtYd"))
-  
-  (fp_text user "UPPER BRACKET KEEPOUT" (at 15 8 0) (layer "F.Fab") (effects (font (size 0.8 0.8) (thickness 0.12))))
-  (fp_text user "LOWER BRACKET KEEPOUT" (at 15 92 0) (layer "F.Fab") (effects (font (size 0.8 0.8) (thickness 0.12))))
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "nVent Schroff 60807-011 Dual Bracket Footprint for 3U Eurocard (100mm Height)")
+	(tags "Schroff Eurocard Bracket 3U 60807-011 Dual")
+	(property "Reference" "REF**"
+		(at 2.54 2.54 90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "eb9197bf-0ce3-4d99-afe7-51dca20657c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Schroff_60807-011_3U_Pair"
+		(at 5.08 5.08 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3eea068c-4816-43cf-bd33-c376f53354d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd2d1e8e-0b9b-4275-9dac-7cb44d1717ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30f27db9-803e-4707-95cf-34843f0c58c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start 0 0)
+		(end 11 6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "bab0dc5d-876d-41df-b083-4a8377dccbb4")
+	)
+	(fp_rect
+		(start 0 93.5)
+		(end 11 100)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "09878a8b-16bd-477b-bf02-3ec677f00423")
+	)
+	(fp_rect
+		(start 0 0)
+		(end 11 6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "657a636c-4f27-4593-889a-f5449fed5424")
+	)
+	(fp_rect
+		(start 0 93.5)
+		(end 11 100)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1d5079cd-4782-458f-b7ba-15533cef0a52")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 100)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Rescue")
+		(uuid "500bd8d6-b3fc-459d-9401-6a457f21ca4f")
+	)
+	(fp_line
+		(start 0 0)
+		(end 20 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Rescue")
+		(uuid "c56b6f0b-79ab-4762-aad3-6b15795e42bd")
+	)
+	(fp_line
+		(start 0 100)
+		(end 20 100)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Rescue")
+		(uuid "3de77fbb-734f-4a68-abd9-fab58d5fef84")
+	)
+	(fp_text user "UPPER BRACKET KEEPOUT"
+		(at 15 8 0)
+		(layer "F.Fab")
+		(uuid "2856c0de-d9c9-4e84-929e-0b8d7a9042ad")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "LOWER BRACKET KEEPOUT"
+		(at 15 92 0)
+		(layer "F.Fab")
+		(uuid "0f821a5d-9e4f-4cca-ac16-082d9083e249")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 5.64 3.556)
+		(size 2.7 2.7)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(uuid "83605537-7b42-4d7d-b988-7dc35f649240")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.64 96.444)
+		(size 2.7 2.7)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(uuid "cfe9c8a7-83f0-4bbe-909c-679717186571")
+	)
+	(embedded_fonts no)
 )
-
