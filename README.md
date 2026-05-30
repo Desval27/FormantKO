@@ -27,7 +27,7 @@ Note: This information is only as accurate as I can remember to update it.
 
 Most activity has been in the COM, NOISE, and LFOs modules.
 
-![COM Render](modules/COM/COM.png "COM Render")
+![COM Top Render](modules/COM/COM_top.png "COM Top Render")
 
 ## Modules
 
