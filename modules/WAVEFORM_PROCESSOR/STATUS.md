@@ -2,7 +2,7 @@
 
 0% Complete
 
-[Translated Document]("WAVEFORM_PROCESSOR.pdf")
+[Translated Document](WAVEFORM_PROCESSOR.pdf)
 
 - [x] Schematic
 - [ ] Schematic Additions
