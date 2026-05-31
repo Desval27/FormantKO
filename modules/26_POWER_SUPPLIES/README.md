@@ -1,5 +1,7 @@
 # STATUS
 
+[Translated Source](POWER_SUPPLIES.pdf)
+
 0% Complete
 
 - [ ] Schematic
