@@ -2,10 +2,12 @@
 
 0% Complete
 
-- [ ] Schematic
+[Translated Document]("WAVEFORM_PROCESSOR.pdf")
+
+- [x] Schematic
 - [ ] Schematic Additions
 - [ ] Schematic Review
-- [ ] PCB Placement
+- [x] PCB Placement
 - [ ] PCB Routing
 - [ ] PCB Review
 - [ ] Sample
@@ -13,4 +15,5 @@
 - [ ] Calibrated
 - [ ] Tested
 
-<!-- ![Rendered PCB](TEMPLATE.png "Rendered PCB") -->
+![Rendered PCB Top](WAVEFORM_PROCESSOR_top.png "Rendered PCB Top") -->
+![Rendered PCB Bottom](WAVEFORM_PROCESSOR_bottom.png "Rendered PCB Bottom") -->
