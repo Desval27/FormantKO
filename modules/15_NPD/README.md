@@ -1,5 +1,7 @@
 # STATUS
 
+[Translated Source](NPD.pdf)
+
 0% Complete
 
 - [ ] Schematic

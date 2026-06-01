@@ -19,6 +19,8 @@ Routed but likely to change at somepoint before samples are created.
 
 Completely Untested
 
+[iBOM](bom/ibom.html)
+
 - [Default](gerber_to_order/COM_160.0x100.0mm_for_Default.zip)
 - [Elecrow](gerber_to_order/COM_160.0x100.0mm_for_Elecrow.zip)
 - [FusionPCB](gerber_to_order/COM_160.0x100.0mm_for_FusionPCB.zip)
