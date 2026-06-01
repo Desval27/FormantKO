@@ -1,5 +1,7 @@
 # STATUS
 
+[Translated Source](VC_LFOs.pdf)
+
 0% Complete
 
 - [ ] Schematic
