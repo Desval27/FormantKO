@@ -1,6 +1,6 @@
-# STATUS
+# WAVEFORM-PROCESSOR
 
-[Translated Document](WAVEFORM_PROCESSOR.pdf)
+## Status
 
 20% Complete
 
@@ -15,5 +15,16 @@
 - [ ] Calibrated
 - [ ] Tested
 
+## Documents
+
+[Translated Document](WAVEFORM_PROCESSOR.pdf)
+
+## Interactive Bill of Materials
+
+## Gerber to Order
+
+## Images
+
 ![Rendered PCB Top](WAVEFORM_PROCESSOR_top.png "Rendered PCB Top")
+
 ![Rendered PCB Bottom](WAVEFORM_PROCESSOR_bottom.png "Rendered PCB Bottom")

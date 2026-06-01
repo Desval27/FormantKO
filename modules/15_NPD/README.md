@@ -1,6 +1,6 @@
-# STATUS
+# NEW PITCH DETECTOR
 
-[Translated Source](NPD.pdf)
+## Status
 
 0% Complete
 
@@ -15,4 +15,14 @@
 - [ ] Calibrated
 - [ ] Tested
 
+## Documents
+
+[Translated Source](NPD.pdf)
+
+## Interactive Bill of Materials
+
+## Gerber to Order
+
+## Images
+<!-- ![Rendered PCB](TEMPLATE.png "Rendered PCB") -->
 <!-- ![Rendered PCB](TEMPLATE.png "Rendered PCB") -->

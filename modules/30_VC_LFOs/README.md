@@ -1,6 +1,6 @@
-# STATUS
+# VC LFOs
 
-[Translated Source](VC_LFOs.pdf)
+## Status
 
 0% Complete
 
@@ -15,4 +15,14 @@
 - [ ] Calibrated
 - [ ] Tested
 
+## Documents
+
+[Translated Source](VC_LFOs.pdf)
+
+## Interactive Bill of Materials
+
+## Gerber to Order
+
+## Images
+<!-- ![Rendered PCB](TEMPLATE.png "Rendered PCB") -->
 <!-- ![Rendered PCB](TEMPLATE.png "Rendered PCB") -->

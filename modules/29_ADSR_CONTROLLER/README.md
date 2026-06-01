@@ -1,6 +1,6 @@
-# STATUS
+# ADSR CONTROLLER
 
-[Translated Document](ADSR_CONTROLLER.pdf)
+## Status
 
 0% Complete
 
@@ -15,4 +15,14 @@
 - [ ] Calibrated
 - [ ] Tested
 
+## Documents
+
+[Translated Document](ADSR_CONTROLLER.pdf)
+
+## Interactive Bill of Materials
+
+## Gerber to Order
+
+## Images
+<!-- ![Rendered PCB](TEMPLATE.png "Rendered PCB") -->
 <!-- ![Rendered PCB](TEMPLATE.png "Rendered PCB") -->
