@@ -19,7 +19,7 @@
 
 - [Translated Document](TUNING.pdf)
 - [Assembly](plots/TUNING__Assembly.pdf)
-- [Interactive Bill of Materials](https://github.io?bom/ibom.html)
+- [Interactive Bill of Materials](bom/ibom.html)
 
 ## Gerber to Order
 
