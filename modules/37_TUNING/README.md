@@ -33,5 +33,5 @@
 
 ## Images
 
-[Rendered PCB Top](TUNING_top.png "Rendered PCB Top")
-[Rendered PCB Bottom](TUNING_bottom.png "Rendered PCB Bottom")
+![Rendered PCB Top](TUNING_top.png "Rendered PCB Top")
+![Rendered PCB Bottom](TUNING_bottom.png "Rendered PCB Bottom")
