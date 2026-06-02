@@ -4,8 +4,6 @@
 
 60% Complete
 
-Routed but likely to change at somepoint before samples are created.
-
 - [x] Schematic
 - [x] Schematic Additions
 - [x] Schematic Review
@@ -17,13 +15,14 @@ Routed but likely to change at somepoint before samples are created.
 - [ ] Calibrated
 - [ ] Tested
 
-## Interactive Bill of Materials
+## Documents
 
-[iBOM](bom/ibom.html)
+- [Assembly](plots/COM__Assembly.pdf)
+- [Interactive Bill of Materials](bom/ibom.html)
 
 ## Gerber to Order
 
-Completely Untested
+!Untested!
 
 - [Default](gerber_to_order/COM_160.0x100.0mm_for_Default.zip)
 - [Elecrow](gerber_to_order/COM_160.0x100.0mm_for_Elecrow.zip)
@@ -34,4 +33,5 @@ Completely Untested
 ## Images
 
 ![Rendered PCB Top](COM_top.png "Rendered PCB Top")
+
 ![Rendered PCB Bottom](COM_bottom.png "Rendered PCB Bottom")
