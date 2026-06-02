@@ -2,14 +2,14 @@
 
 ## Status
 
-20% Complete
+60% Complete
 
 - [x] Schematic
-- [ ] Schematic Additions
-- [ ] Schematic Review
+- [x] Schematic Additions
+- [x] Schematic Review
 - [x] PCB Placement
-- [ ] PCB Routing
-- [ ] PCB Review
+- [x] PCB Routing
+- [x] PCB Review
 - [ ] Sample
 - [ ] Build
 - [ ] Calibrated
@@ -17,11 +17,19 @@
 
 ## Documents
 
-[Translated Document](WAVEFORM_PROCESSOR.pdf)
-
-## Interactive Bill of Materials
+- [Translated Document](WAVEFORM_PROCESSOR.pdf)
+- [Assembly](plots/WAVEFORM_PROCESSOR__Assembly.pdf)
+- [Interactive Bill of Materials](bom/ibom.html)
 
 ## Gerber to Order
+
+!Untested!
+
+- [Default](gerber_to_order/WAVEFORM_PROCESSOR_160.0x100.0mm_for_Default.zip)
+- [Elecrow](gerber_to_order/WAVEFORM_PROCESSOR_160.0x100.0mm_for_Elecrow.zip)
+- [FusionPCB](gerber_to_order/WAVEFORM_PROCESSOR_160.0x100.0mm_for_FusionPCB.zip)
+- [JLCPCB](gerber_to_order/WAVEFORM_PROCESSOR_160.0x100.0mm_for_JLCPCB.zip)
+- [PCBWay](gerber_to_order/WAVEFORM_PROCESSOR_160.0x100.0mm_for_PCBWay.zip)
 
 ## Images
 
