@@ -533,6 +533,21 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.5,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
       }
     ],
     "meta": {
@@ -540,7 +555,20 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "+15V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "-15V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -688,7 +716,7 @@
         "uuid": "c4180125-30a4-4709-af20-86798ec7ea53"
       }
     ],
-    "used_designators": "J2,TH1,S1,P1-3,C1-4,R1-6,#PWR7-17,IC1-3",
+    "used_designators": "J3",
     "variants": []
   },
   "sheets": [
@@ -705,7 +733,7 @@
     "EMAIL": "mailto:paul.f.burdette@gmail.com",
     "GITHUB": "https://github.com/Desval27/FormantKO",
     "MODULE": "TUNING",
-    "PARTNO": "9999-9",
+    "PARTNO": "300381-5-58",
     "TAG": "Do Not Fold, Spindle or Mutilate"
   },
   "tuning_profiles": {

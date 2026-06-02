@@ -172,7 +172,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "MH"
-				(at 0 0 0)
+				(at 0 13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -226,14 +226,24 @@
 			)
 			(symbol "Card_Bracket_0_1"
 				(rectangle
-					(start -1.905 1.905)
-					(end 1.905 -1.905)
+					(start -1.905 12.7)
+					(end 1.905 -12.7)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "Card_Bracket_1_1"
+				(text "CARD MOUNTING BRACKET"
+					(at 0 0 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 			)
@@ -1266,6 +1276,218 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "FormantKO:Jumper_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_01x03"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "FormantKO:Jumper_1x03"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_01x03_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "FormantKO:Mono_Jack"
 			(pin_numbers
 				(hide yes)
@@ -1289,6 +1511,7 @@
 				(at 0 -4.826 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1322,6 +1545,16 @@
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Legend" "LEGEND"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1851,10 +2084,6 @@
 		(uuid "e57ff2ce-11a6-4b1e-943e-d00c340ef584")
 	)
 	(no_connect
-		(at 157.48 88.9)
-		(uuid "122b849b-c658-40b2-8a5c-44d15b614e27")
-	)
-	(no_connect
 		(at 124.46 78.74)
 		(uuid "298523ff-c475-4253-b1fe-bbf2339946c7")
 	)
@@ -1885,10 +2114,6 @@
 	(no_connect
 		(at 157.48 78.74)
 		(uuid "948d3fb7-f7b2-4499-b56f-51f1fb9c02fe")
-	)
-	(no_connect
-		(at 157.48 86.36)
-		(uuid "96425fec-4dc2-4676-96cb-fb5fb30dedab")
 	)
 	(no_connect
 		(at 124.46 50.8)
@@ -1939,6 +2164,16 @@
 			(type default)
 		)
 		(uuid "026a758c-806b-42b8-8bc3-56c2bd45a844")
+	)
+	(wire
+		(pts
+			(xy 113.03 140.97) (xy 119.38 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d8632e2-2d6f-40d7-b236-9b054e25db8c")
 	)
 	(wire
 		(pts
@@ -2110,6 +2345,126 @@
 		)
 		(uuid "f2486399-661f-4121-855a-6f2bf57d5258")
 	)
+	(global_label "PA1"
+		(shape input)
+		(at 157.48 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03f16314-a358-4c48-a9ee-99c2ad5b18ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.1284 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "PA1"
+		(shape output)
+		(at 119.38 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1cd82f76-8be7-4105-b3bf-02d13c8ce333")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.7316 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VCA2"
+		(shape output)
+		(at 119.38 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7ffb6d11-b957-47b5-8e71-7f57a7defff5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.643 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "OUT"
+		(shape input)
+		(at 113.03 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9fa8bdd9-9ecc-46e0-a94e-0e9bd435a87d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.3211 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VCA2"
+		(shape input)
+		(at 157.48 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5a83803-2746-41c5-9dc8-e297c90cfe9e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.217 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "OUT"
 		(shape input)
 		(at 114.3 114.3 180)
@@ -2245,7 +2600,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Disc"
+		(property "Footprint" "FormantKO:C_Disc_300"
 			(at 88.9 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2482,7 +2837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Disc"
+		(property "Footprint" "FormantKO:C_Disc_300"
 			(at 88.9 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -2680,6 +3035,92 @@
 			(project "TUNING"
 				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:Jumper_01x03")
+		(at 124.46 140.97 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f6e625d-154f-41f1-9794-f40ef3bd6b95")
+		(property "Reference" "J3"
+			(at 125.73 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "IOS"
+			(at 125.73 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "FormantKO:Jumper_1x03"
+			(at 124.46 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 124.46 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "76eb7d67-7b39-4e62-8bf9-aa1ace9b7769")
+		)
+		(pin "1"
+			(uuid "bdca84fb-af57-4705-9711-b1a182112bff")
+		)
+		(pin "2"
+			(uuid "7f0e1072-18ea-4055-807f-d933f09dfa33")
+		)
+		(instances
+			(project "TUNING"
+				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3015,15 +3456,15 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OUT"
-			(at 137.16 116.2049 0)
+		(property "Value" "Mono_Jack"
+			(at 132.08 119.126 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "FormantKO:Panel_Connector_1x02"
@@ -3057,6 +3498,17 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Legend" "OUT"
+			(at 137.16 116.2049 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
