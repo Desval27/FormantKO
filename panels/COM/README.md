@@ -1,11 +1,11 @@
 # COM
 
-## STATUS
+## Status
 
-0% Complete
+20% Complete
 
-- [ ] PCB Placement
-- [ ] PCB Review
+- [x] PCB Placement
+- [x] PCB Review
 - [ ] Sample
 - [ ] Build
 - [ ] Tested
