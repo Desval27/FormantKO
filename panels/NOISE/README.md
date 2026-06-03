@@ -10,6 +10,10 @@
 - [ ] Build
 - [ ] Tested
 
+## Documents
+
+- [Assembly](plots/NOISE__Assembly.pdf)
+
 ## Gerber To Order
 
 ⚠️ Untested⚠️
