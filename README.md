@@ -73,7 +73,7 @@ Most activity has been in the COM, NOISE, and LFOs modules. Scratch that....most
 - [SAMPLE & HOLD](modules/34_SAMPLE_AND_HOLD/README.md)
 - [WAVEFORM-PROCESSOR](modules/35_WAVEFORM_PROCESSOR/README.md)
 - [MIXER](modules/36_MIXER/README.md)
-- [TUNING REFERENCE](modules/37_TUNING/README.md)
+- [TUNING](modules/37_TUNING/README.md)
 
 ## Panels
 
@@ -82,17 +82,13 @@ Most activity has been in the COM, NOISE, and LFOs modules. Scratch that....most
 
 ### Book 1
 
-- [VCO](panels/VCO/README.md)
-- [VCF 12dB](panels/VCF_12/README.md)
-- [VCF 24dB](panels/VCF_24/README.md)
-- [RFM](panels/RFM/README.md)
-- [ADSR](panels/ADSR/README.md)
-- [DUAL VCA](panels/DUAL_VCA/README.md)
 - [LFOs](panels/LFOs/README.md)
 - [NOISE](panels/NOISE/README.md)
 - [COM](panels/COM/README.md)
 
 ### Book 2
+
+- [TUNING](panels/TUNING/README.md)
 
 ## System
 
