@@ -1,0 +1,190 @@
+(footprint "Card_Bracket"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1 0 90)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "171c46e6-926a-402c-b0f9-69bb209b918b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Card_Bracket"
+		(at 2.5 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a42c957a-2a5b-4804-8b2b-cae10803bf83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 2 49 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a94dfe4-06a1-4225-828e-cf368884410d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 2 49 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c243119-17a5-4920-802e-b71aa01919f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy 0 -50) (xy 3.5 -50) (xy 3.5 -47) (xy 6.5 -47) (xy 7 -46.5) (xy 7 -43) (xy 5.75 -40.5) (xy 0 -40.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "ec29ca7f-9a41-4a2d-8bd1-68ef5d2ee7ba")
+	)
+	(fp_poly
+		(pts
+			(xy 0 50) (xy 3.5 50) (xy 3.5 47) (xy 6.5 47) (xy 7 46.5) (xy 7 43) (xy 5.75 40.5) (xy 0 40.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e346dc3b-d129-4d35-975e-525ef4ea48b8")
+	)
+	(fp_line
+		(start 0 -50)
+		(end 0 50)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "28a5563b-749d-4110-b4dc-b2a557ed0305")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4d7c2d6a-17b2-439e-8f1d-97ecc26235d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 3.57 -44.45)
+		(size 2.7 2.7)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(uuid "28f8d2cd-98dc-4703-a2a3-11643299cc29")
+	)
+	(pad "" np_thru_hole circle
+		(at 3.57 44.45)
+		(size 2.7 2.7)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(uuid "a40f6d87-b0e8-4518-8460-6897620d4c16")
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "d2244065-ff6c-41a0-861f-e428939ec95b")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 0 -50) (xy 3.5 -50) (xy 3.5 -47) (xy 6.5 -47) (xy 7 -46.5) (xy 7 -43) (xy 5.75 -40.5) (xy 0 -40.5)
+			)
+		)
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "73d1515b-3c48-4b61-8fb4-44001538abd7")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 0 40.5) (xy 5.75 40.5) (xy 7 43) (xy 7 46.5) (xy 6.5 47) (xy 3.5 47) (xy 3.5 50) (xy 0 50)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${FORMANTKO_3DMODEL_DIR}/60807011.stp"
+		(offset
+			(xyz -2.5 0 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 90 -180)
+		)
+	)
+)

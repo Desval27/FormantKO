@@ -172,6 +172,16 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "MH"
+				(at 0 13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CardBracket"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -181,17 +191,7 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "FormantKO:Schroff_60807-011_3U_Pair"
+			(property "Footprint" "FormantKO:Card_Bracket"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -226,14 +226,24 @@
 			)
 			(symbol "Card_Bracket_0_1"
 				(rectangle
-					(start -1.905 1.905)
-					(end 1.905 -1.905)
+					(start -1.905 12.7)
+					(end 1.905 -12.7)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "Card_Bracket_1_1"
+				(text "CARD MOUNTING BRACKET"
+					(at 0 0 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 			)
@@ -5569,7 +5579,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:Card_Bracket")
-		(at 50.8 119.38 0)
+		(at 35.56 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5580,7 +5590,7 @@
 		(fields_autoplaced yes)
 		(uuid "84ff7539-e268-41b7-9be3-1b788c167dd2")
 		(property "Reference" "MH1"
-			(at 53.34 119.3799 0)
+			(at 38.1 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5590,18 +5600,19 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 50.8 119.38 0)
+		(property "Value" "CardBracket"
+			(at 38.1 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:Schroff_60807-011_3U_Pair"
-			(at 50.8 119.38 0)
+		(property "Footprint" "FormantKO:Card_Bracket"
+			(at 35.56 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5612,7 +5623,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 119.38 0)
+			(at 35.56 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5623,7 +5634,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 119.38 0)
+			(at 35.56 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

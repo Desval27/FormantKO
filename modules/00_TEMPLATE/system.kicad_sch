@@ -19,6 +19,16 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "MH"
+				(at 0 13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CardBracket"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -28,17 +38,7 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "FormantKO:Schroff_60807-011_3U_Pair"
+			(property "Footprint" "FormantKO:Card_Bracket"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -73,14 +73,24 @@
 			)
 			(symbol "Card_Bracket_0_1"
 				(rectangle
-					(start -1.905 1.905)
-					(end 1.905 -1.905)
+					(start -1.905 12.7)
+					(end 1.905 -12.7)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "Card_Bracket_1_1"
+				(text "CARD MOUNTING BRACKET"
+					(at 0 0 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 			)
@@ -2119,7 +2129,7 @@
 		(fields_autoplaced yes)
 		(uuid "9cd96a5f-e8db-44c3-8f19-a979c479448c")
 		(property "Reference" "MH1"
-			(at 78.74 63.4999 0)
+			(at 78.74 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2129,17 +2139,18 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 76.2 63.5 0)
+		(property "Value" "CardBracket"
+			(at 78.74 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:Schroff_60807-011_3U_Pair"
+		(property "Footprint" "FormantKO:Card_Bracket"
 			(at 76.2 63.5 0)
 			(hide yes)
 			(show_name no)
