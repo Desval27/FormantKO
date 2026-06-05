@@ -9,6 +9,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "TEMPLATE 3U")
+		(date "2026-06-05")
 		(rev "A")
 		(company "THE HOUSE OF GALAHAD")
 		(comment 1 "FORMANT-KO")
@@ -96,6 +97,9 @@
 	)
 	(property "EMAIL" "mailto:paul.f.burdette@gmail.com")
 	(property "GITHUB" "https://github.com/Desval27/FormantKO/")
+	(property "MODULE" "MOD")
+	(property "PARTNO" "0000-0")
+	(property "TAG" "NO ORGANIC GROUNDING")
 	(footprint "FormantKO-Panel:PanelMountingHole"
 		(locked yes)
 		(layer "F.Cu")
@@ -1350,30 +1354,32 @@
 			)
 		)
 	)
-	(gr_text "| ${COMPANY} | ${COMMENT1} ${TITLE} | REVISION ${REVISION} | ${ISSUE_DATE} |"
+	(gr_text "${COMPANY}\n${TAG}"
 		(locked yes)
-		(at 69.995894 42.995428 90)
+		(at 101.645894 42.215428 0)
 		(layer "B.SilkS")
-		(uuid "6abe10c8-763b-4f92-bb95-2145df6c94bd")
+		(uuid "4ad8f9e2-2bf4-4150-963d-67f3793929ed")
 		(effects
 			(font
 				(size 1.5 1.5)
+				(thickness 0.3)
 				(bold yes)
 			)
-			(justify left mirror)
+			(justify top mirror)
 		)
 	)
-	(gr_text "| ${EMAIL} | ${GITHUB} |"
+	(gr_text "${MODULE} ${PARTNO}\nREVISION ${REVISION} ${ISSUE_DATE}"
 		(locked yes)
-		(at 133.495894 42.995428 90)
+		(at 101.645894 165.215428 0)
 		(layer "B.SilkS")
-		(uuid "224d30ca-5e0a-490d-b7c9-ed359e846dce")
+		(uuid "0f92db28-4901-40e5-b45e-5818e7c33191")
 		(effects
 			(font
 				(size 1.5 1.5)
+				(thickness 0.3)
 				(bold yes)
 			)
-			(justify left mirror)
+			(justify bottom mirror)
 		)
 	)
 	(dimension
