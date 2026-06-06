@@ -1,35 +1,29 @@
-# TEMPLATE 3U
+# TUNING
 
 ## Status
 
-0% Complete
+20% Complete
 
-- [ ] PCB Placement
-- [ ] PCB Review
+- [x] PCB Placement
+- [x] PCB Review
 - [ ] Sample
 - [ ] Build
 - [ ] Tested
 
 ## Documents
 
-<!-- 
-- [Assembly](plots/TEMPLATE_3U__Assembly.pdf)
--->
+- [Assembly](plots/TUNING__Assembly.pdf)
 
 ## Gerber To Order
 
 ⚠️ Untested⚠️
 
-<!--
-- [Default](TEMPLATE_3U_71.0x132.5mm_for_Default.zip)
-- [Elecrow](TEMPLATE_3U_71.0x132.5mm_for_Elecrow.zip)
-- [FusionPCB](TEMPLATE_3U_71.0x132.5mm_for_FusionPCB.zip)
-- [JLCPCB](TEMPLATE_3U_71.0x132.5mm_for_JLCPCB.zip)
-- [PCBWay](TEMPLATE_3U_71.0x132.5mm_for_PCBWay.zip)
--->
+- [Default](TUNING_71.0x132.5mm_for_Default.zip)
+- [Elecrow](TUNING_71.0x132.5mm_for_Elecrow.zip)
+- [FusionPCB](TUNING_71.0x132.5mm_for_FusionPCB.zip)
+- [JLCPCB](TUNING_71.0x132.5mm_for_JLCPCB.zip)
+- [PCBWay](TUNING_71.0x132.5mm_for_PCBWay.zip)
 
 ## Images
 
-<!--
-![Rendered Panel](TEMPLATE_3U.png "Rendered Panel")
--->
+![Rendered Panel](TUNING.png "Rendered Panel")
