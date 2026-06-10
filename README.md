@@ -31,9 +31,10 @@ Most activity has been in the COM, NOISE, and LFOs modules. Scratch that....most
 
 ## Modules
 
+- [TEMPLATE](modules/00_T/README.md)
+
 ### Book 1
 
-- [TEMPLATE](modules/00_TEMPLATE/README.md)
 - [KEYBOARD INTERFACE](modules/01_KBI/README.md)
 - [KEYBOARD DIVIDER](modules/02_KB_DIV/README.md)
 - [INTERFACE RECEIVER](modules/03_INTF_RCVR/README.md)
@@ -82,18 +83,23 @@ Most activity has been in the COM, NOISE, and LFOs modules. Scratch that....most
 
 ### Book 1
 
+- [ADSR](panels/ADSR/README.md)
+- [DUAL_VCA](panels/DUAL_VCA/README.md)
 - [LFOs](panels/LFOs/README.md)
 - [NOISE](panels/NOISE/README.md)
 - [COM](panels/COM/README.md)
 
 ### Book 2
 
+- [DNG](panels/DNG/README.md)
+- [ENV-FOLLOWER](panels/ENV_FOLLOWER/README.md)
+- [WAVEFORM-PROCESSOR](panels/WAVEFORM_PROCESSOR/README.md)
+- [MIXER-3](panels/MIXER_3/README.md)
 - [TUNING](panels/TUNING/README.md)
 
 ## System
 
-- BACKPLANE A
-- [BACKPLANE B](system/BACKPLANE_B/README.md)
+- [BACKPLANE A](system/BACKPLANE_A/README.md)
 - [TEST HARNESS](system/TEST_HARNESS/README.md)
 
 ## ⚠️ Disclaimer
