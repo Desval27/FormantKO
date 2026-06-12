@@ -2,13 +2,7 @@
 
 ## Status
 
-20% Complete
-
-- [x] PCB Placement
-- [x] PCB Review
-- [ ] Sample
-- [ ] Build
-- [ ] Tested
+Incomplete
 
 ## Documents
 
@@ -26,4 +20,6 @@
 
 ## Images
 
-![Rendered Panel](ADSR.png "Rendered Panel")
+![Rendered Panel Front](ADSR_front.png "Rendered Panel Front")
+
+![Rendered Panel Back](ADSR_back.png "Rendered Panel Back")

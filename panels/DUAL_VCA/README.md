@@ -1,14 +1,8 @@
-# DUAL VCA 
+# DUAL-VCA
 
 ## Status
 
-20% Complete
-
-- [x] PCB Placement
-- [x] PCB Review
-- [ ] Sample
-- [ ] Build
-- [ ] Tested
+Incomplete
 
 ## Documents
 
@@ -26,4 +20,6 @@
 
 ## Images
 
-![Rendered Panel](DUAL_VCA.png "Rendered Panel")
+![Rendered Panel Front](DUAL_VCA_front.png "Rendered Panel Front")
+
+![Rendered Panel Back](DUAL_VCA_back.png "Rendered Panel Back")
