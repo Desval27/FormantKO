@@ -83,6 +83,10 @@ Most activity has been in the COM, NOISE, and LFOs modules. Scratch that....most
 
 ### Book 1
 
+- [VCO](panels/VCO/README.md)
+- [VCF-12](panels/VCF_12/README.md)
+- [VCF-24](panels/VCF_24/README.md)
+- [RFM](panels/RFM/README.md)
 - [ADSR](panels/ADSR/README.md)
 - [DUAL_VCA](panels/DUAL_VCA/README.md)
 - [LFOs](panels/LFOs/README.md)
