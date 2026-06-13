@@ -1146,6 +1146,7 @@
 				(at 0 -4.826 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1179,6 +1180,16 @@
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Legend" "LEGEND"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2087,6 +2098,18 @@
 		(uuid "7116cb53-73b4-49e9-842f-780219d58f65")
 	)
 	(junction
+		(at 76.2 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a649155-408f-40c0-a3e7-c66202115178")
+	)
+	(junction
+		(at 76.2 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c927e46b-bd13-4dc2-bc51-5e2bfe9be195")
+	)
+	(junction
 		(at 158.75 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2142,6 +2165,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 134.62) (xy 85.09 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35528534-cde1-4bee-9d02-4b9f56fff62a")
+	)
+	(wire
+		(pts
 			(xy 125.73 69.85) (xy 125.73 71.12)
 		)
 		(stroke
@@ -2169,6 +2202,16 @@
 			(type default)
 		)
 		(uuid "418cf17f-e384-40b7-8e91-c273dafdef64")
+	)
+	(wire
+		(pts
+			(xy 76.2 119.38) (xy 85.09 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "485b3d91-2126-4adf-a597-ba2614821cd8")
 	)
 	(wire
 		(pts
@@ -2272,7 +2315,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 127) (xy 114.3 127)
+			(xy 138.43 121.92) (xy 151.13 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2456,7 +2499,7 @@
 	)
 	(global_label "ES"
 		(shape output)
-		(at 101.6 127 180)
+		(at 138.43 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2466,7 +2509,7 @@
 		)
 		(uuid "db12fd9e-03a2-48ee-b628-18b26dbafab8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.1612 127 0)
+			(at 132.9912 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2504,7 +2547,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 129.54 0)
+		(at 151.13 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2514,7 +2557,7 @@
 		(dnp no)
 		(uuid "13191ca2-bccc-42db-a1a3-2ffc6646f459")
 		(property "Reference" "#PWR013"
-			(at 114.3 135.89 0)
+			(at 151.13 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2525,7 +2568,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 133.35 0)
+			(at 151.13 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2535,7 +2578,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 129.54 0)
+			(at 151.13 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2546,7 +2589,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 129.54 0)
+			(at 151.13 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2557,7 +2600,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 129.54 0)
+			(at 151.13 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2750,8 +2793,127 @@
 		)
 	)
 	(symbol
+		(lib_id "FormantKO:TL074")
+		(at 87.63 127 0)
+		(unit 5)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5713f08e-6e6d-4ce8-b283-07e1768c228d")
+		(property "Reference" "IC3"
+			(at 86.36 126.9999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL074"
+			(at 87.63 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FormantKO:DIP-14"
+			(at 86.36 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 88.9 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 87.63 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "ce9f1930-dad1-4d3f-bedc-0f661fdeb3b5")
+		)
+		(pin "9"
+			(uuid "a5c33f23-c240-454f-ad3c-99d004945813")
+		)
+		(pin "3"
+			(uuid "a8c638ee-bca3-404f-841c-b24caaef212d")
+		)
+		(pin "11"
+			(uuid "6974d2d8-a245-496f-8d19-ab86e9de2673")
+		)
+		(pin "14"
+			(uuid "98bcbdef-5c22-462d-860d-02212fa48b17")
+		)
+		(pin "12"
+			(uuid "f93bcbe2-d061-4894-8838-3a8b1c1af695")
+		)
+		(pin "7"
+			(uuid "d280e27b-99ba-49c0-a588-c97f6cbfa4ea")
+		)
+		(pin "2"
+			(uuid "3a3cee40-deb4-4b22-85e4-3040a3fcb522")
+		)
+		(pin "10"
+			(uuid "693b3b91-b8fc-4ace-9d4e-ee0995bc3b6e")
+		)
+		(pin "13"
+			(uuid "16f6d2ac-738a-44d9-b47f-de1c66bbd8b8")
+		)
+		(pin "8"
+			(uuid "c54ad8e1-631e-40ef-a4bb-02128895d54f")
+		)
+		(pin "5"
+			(uuid "1e68c60d-5a88-4165-a13e-8c4a2d7e037c")
+		)
+		(pin "4"
+			(uuid "403bc20b-463e-4a26-b43b-4878a847c5d9")
+		)
+		(pin "1"
+			(uuid "848ecc56-7d67-43b2-9245-37726fd7fd36")
+		)
+		(instances
+			(project "RFM"
+				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
+					(reference "IC3")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FormantKO:Mono_Jack")
-		(at 119.38 127 0)
+		(at 156.21 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2762,7 +2924,7 @@
 		(fields_autoplaced yes)
 		(uuid "6aaea67c-3127-4e9b-9d41-79fd47bb91f3")
 		(property "Reference" "J2"
-			(at 124.46 126.3649 0)
+			(at 161.29 121.2849 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2773,7 +2935,7 @@
 			)
 		)
 		(property "Value" "ES"
-			(at 124.46 128.9049 0)
+			(at 161.29 123.8249 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2784,7 +2946,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:Panel_Connector_1x02"
-			(at 119.38 127 0)
+			(at 156.21 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2795,7 +2957,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 127 0)
+			(at 156.21 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2806,7 +2968,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-			(at 119.38 127 0)
+			(at 156.21 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
