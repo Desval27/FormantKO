@@ -2,6 +2,8 @@
 
 ## Status
 
+⚠️ Incomplete⚠️
+
 0% Complete
 
 - [x] Schematic

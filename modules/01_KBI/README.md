@@ -1,6 +1,10 @@
 # KBI
 
+Keyboard Interface
+
 ## Status
+
+⚠️ Incomplete⚠️
 
 ## Documents
 

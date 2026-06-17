@@ -12,7 +12,7 @@
 		(comment 1 "FORMANT-KO")
 	)
 	(lib_symbols
-		(symbol "FormantKO:Bus_Power_Out"
+		(symbol "FormantKO:BusPowerOut"
 			(pin_numbers
 				(hide yes)
 			)
@@ -34,7 +34,7 @@
 					)
 				)
 			)
-			(property "Value" "Bus_Power_Out"
+			(property "Value" "BusPowerOut"
 				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -44,7 +44,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FormantKO:Bus_Power_Connector"
+			(property "Footprint" "FormantKO:BusPowerConnector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -99,7 +99,7 @@
 					)
 				)
 			)
-			(symbol "Bus_Power_Out_1_1"
+			(symbol "BusPowerOut_1_1"
 				(rectangle
 					(start -3.81 5.08)
 					(end 3.175 -5.08)
@@ -259,11 +259,10 @@
 					)
 				)
 			)
-			(property "Footprint" "FormantKO:MountingHole_3.2mm_M3"
+			(property "Footprint" "FormantKO:MountingHole_2.7mm_M2.5"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -303,7 +302,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
+			(property "ki_fp_filters" "FormantKO:MountingHole* MountingHole*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -329,7 +328,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FormantKO:Transformer_Connector"
+		(symbol "FormantKO:TransformerConnector"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -349,7 +348,7 @@
 					)
 				)
 			)
-			(property "Value" "Transformer_Connector"
+			(property "Value" "TransformerConnector"
 				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -359,7 +358,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FormantKO:Transformer_Connector"
+			(property "Footprint" "FormantKO:TransformerConnector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -414,7 +413,7 @@
 					)
 				)
 			)
-			(symbol "Transformer_Connector_1_1"
+			(symbol "TransformerConnector_1_1"
 				(rectangle
 					(start -2.54 2.54)
 					(end 2.54 -2.54)
@@ -499,172 +498,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "FormantKO:VOLT_AMP_METER"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "M1"
-				(at 0 3.048 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VOLT AMP METER"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "FormantKO:VOLT_AMP_METER"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Volt Amp Meter Digital Voltmeter Ammeter"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VOLT_AMP_METER_0_1"
-				(rectangle
-					(start -11.43 10.16)
-					(end 11.43 -10.16)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VOLT_AMP_METER_1_1"
-				(pin passive line
-					(at -13.97 0 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 13.97 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 12.7 270)
-					(length 2.54)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 12.7 270)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(name "VSEN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1527,83 +1360,6 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 140.97 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1fbcd251-d336-43e1-8cd2-fad838e8dc12")
-		(property "Reference" "#PWR011"
-			(at 140.97 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 140.97 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 140.97 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "801d7bed-0843-4091-b6f9-d68a7a707917")
-		)
-		(instances
-			(project "PSU"
-				(path "/5fb80480-4f31-45e2-93bd-b9a870cbbe8b"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
 		(at 142.24 97.79 0)
 		(unit 1)
 		(body_style 1)
@@ -1692,7 +1448,7 @@
 		(fields_autoplaced yes)
 		(uuid "44e6cdbd-2004-4497-b988-9354fe13efdc")
 		(property "Reference" "H3"
-			(at 78.74 125.7299 0)
+			(at 78.74 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1703,7 +1459,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 78.74 128.2699 0)
+			(at 78.74 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1713,15 +1469,15 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:MountingHole_3.2mm_M3"
-			(at 76.2 127 0)
-			(hide yes)
+		(property "Footprint" "FormantKO:MountingHole_2.7mm_M2.5"
+			(at 78.74 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Datasheet" ""
@@ -1750,83 +1506,6 @@
 			(project "PSU"
 				(path "/5fb80480-4f31-45e2-93bd-b9a870cbbe8b"
 					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+15V")
-		(at 147.32 143.51 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4fa36f11-6200-4551-9666-02deacebcf21")
-		(property "Reference" "#PWR013"
-			(at 147.32 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+15V"
-			(at 147.32 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 147.32 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f426b25e-909b-46af-bd53-7f9c8d210b18")
-		)
-		(instances
-			(project "PSU"
-				(path "/5fb80480-4f31-45e2-93bd-b9a870cbbe8b"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -1910,7 +1589,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Transformer_Connector")
+		(lib_id "FormantKO:TransformerConnector")
 		(at 101.6 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -1943,7 +1622,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:Transformer_Connector"
+		(property "Footprint" "FormantKO:TransformerConnector"
 			(at 101.6 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -1992,171 +1671,6 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:VOLT_AMP_METER")
-		(at 147.32 130.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7f87898e-17f8-491a-8a62-8b07541e70d9")
-		(property "Reference" "M1"
-			(at 147.32 127.762 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VOLT AMP METER"
-			(at 147.32 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FormantKO:VOLT_AMP_METER"
-			(at 147.32 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Volt Amp Meter Digital Voltmeter Ammeter"
-			(at 147.32 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "5b83e037-1ed3-4fd9-a1cd-4a96a40c5e74")
-		)
-		(pin "3"
-			(uuid "56795f55-7f66-41f3-a3c6-4181190939ad")
-		)
-		(pin "5"
-			(uuid "070150d5-d918-41e0-ae55-eb3abdac9a6a")
-		)
-		(pin "2"
-			(uuid "a8f8303c-9a31-4604-b4f7-82367b6dece7")
-		)
-		(pin "1"
-			(uuid "ecfa49a5-7ccd-4f46-95f2-63582e500453")
-		)
-		(instances
-			(project "PSU"
-				(path "/5fb80480-4f31-45e2-93bd-b9a870cbbe8b"
-					(reference "M1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 153.67 118.11 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "88dc4943-527e-4ec2-b265-3b15371060e5")
-		(property "Reference" "#PWR012"
-			(at 153.67 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 153.67 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2b0baa23-57f0-4fa6-ae38-0607b6193bba")
-		)
-		(instances
-			(project "PSU"
-				(path "/5fb80480-4f31-45e2-93bd-b9a870cbbe8b"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "FormantKO:MountingHole")
 		(at 50.8 127 0)
 		(unit 1)
@@ -2169,7 +1683,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8b439da-3145-496c-97f2-a3ae683e823b")
 		(property "Reference" "H1"
-			(at 53.34 125.7299 0)
+			(at 53.34 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2180,7 +1694,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 53.34 128.2699 0)
+			(at 53.34 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2190,15 +1704,15 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:MountingHole_3.2mm_M3"
-			(at 50.8 127 0)
-			(hide yes)
+		(property "Footprint" "FormantKO:MountingHole_2.7mm_M2.5"
+			(at 53.34 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Datasheet" ""
@@ -2245,7 +1759,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae21468d-3cae-4ad5-92be-cef4770cb3d8")
 		(property "Reference" "H2"
-			(at 66.04 125.7299 0)
+			(at 66.04 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2256,7 +1770,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 66.04 128.2699 0)
+			(at 66.04 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2266,15 +1780,15 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:MountingHole_3.2mm_M3"
-			(at 63.5 127 0)
-			(hide yes)
+		(property "Footprint" "FormantKO:MountingHole_2.7mm_M2.5"
+			(at 66.04 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Datasheet" ""
@@ -2386,7 +1900,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Transformer_Connector")
+		(lib_id "FormantKO:TransformerConnector")
 		(at 101.6 88.9 0)
 		(unit 1)
 		(body_style 1)
@@ -2419,7 +1933,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:Transformer_Connector"
+		(property "Footprint" "FormantKO:TransformerConnector"
 			(at 101.6 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2480,7 +1994,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef0cdab5-e87e-4892-a22f-205eb46a7090")
 		(property "Reference" "H4"
-			(at 91.44 125.7299 0)
+			(at 91.44 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2491,7 +2005,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 91.44 128.2699 0)
+			(at 91.44 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2501,15 +2015,15 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:MountingHole_3.2mm_M3"
-			(at 88.9 127 0)
-			(hide yes)
+		(property "Footprint" "FormantKO:MountingHole_2.7mm_M2.5"
+			(at 91.44 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Datasheet" ""
@@ -2544,7 +2058,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Bus_Power_Out")
+		(lib_id "FormantKO:BusPowerOut")
 		(at 152.4 88.9 0)
 		(unit 1)
 		(body_style 1)
@@ -2577,7 +2091,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:Bus_Power_Connector"
+		(property "Footprint" "FormantKO:BusPowerConnector"
 			(at 152.4 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2632,7 +2146,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Transformer_Connector")
+		(lib_id "FormantKO:TransformerConnector")
 		(at 101.6 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -2665,7 +2179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:Transformer_Connector"
+		(property "Footprint" "FormantKO:TransformerConnector"
 			(at 101.6 76.2 0)
 			(hide yes)
 			(show_name no)

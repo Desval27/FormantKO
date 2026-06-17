@@ -17,9 +17,12 @@
 
 ## Documents
 
+[Translated Source](TOUCH_CONTROLLER.pdf)
+
 ## Interactive Bill of Materials
 
 ## Gerber to Order
 
 ## Images
+<!-- ![Rendered PCB](TEMPLATE.png "Rendered PCB") -->
 <!-- ![Rendered PCB](TEMPLATE.png "Rendered PCB") -->

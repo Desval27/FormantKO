@@ -354,7 +354,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "FormantKO:Power_Transistor_Connector"
+			(property "Footprint" "FormantKO:PowerTransistorConnector"
 				(at 13.208 -9.398 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -376,7 +376,7 @@
 					)
 				)
 			)
-			(property "Description" "NPN transistor, emitter/base/collector"
+			(property "Description" "NPN Power Transistor"
 				(at 11.938 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -573,7 +573,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FormantKO:BRIDGE_RECTIFIER"
+		(symbol "FormantKO:BridgeRectifier"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -589,7 +589,7 @@
 					)
 				)
 			)
-			(property "Value" "BRIDGE_RECTIFIER"
+			(property "Value" "BridgeRectifier"
 				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -599,7 +599,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FormantKO:PB4008E345"
+			(property "Footprint" "FormantKO:BridgeRectifier"
 				(at 19.05 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -718,7 +718,7 @@
 					(justify left top)
 				)
 			)
-			(symbol "BRIDGE_RECTIFIER_1_1"
+			(symbol "BridgeRectifier_1_1"
 				(rectangle
 					(start -6.35 6.35)
 					(end 6.35 -6.35)
@@ -837,7 +837,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FormantKO:C_Disc"
+			(property "Footprint" "FormantKO:C_Rect"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1145,6 +1145,218 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "FormantKO:D_LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DLED"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "FormantKO:PanelConnector_1x02"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Legend" "LEGEND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "D_LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "FormantKO:Fuse"
 			(pin_numbers
 				(hide yes)
@@ -1167,7 +1379,7 @@
 					)
 				)
 			)
-			(property "Value" "Value"
+			(property "Value" "Fuse"
 				(at 0 1.778 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1177,7 +1389,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FormantKO:Fuse_Holder_5x20mm"
+			(property "Footprint" "FormantKO:FuseHolder_5x20mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1654,207 +1866,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FormantKO:Panel_LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Panel_LED"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "FormantKO:Panel_Connector_1x02"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Panel_LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Panel_LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "FormantKO:R"
 			(pin_numbers
 				(hide yes)
@@ -1995,7 +2006,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FormantKO:R_Trim_Multi_Turn"
+		(symbol "FormantKO:R_Trim_MultiTurn"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2017,7 +2028,7 @@
 					)
 				)
 			)
-			(property "Value" "R_Trim"
+			(property "Value" "R"
 				(at 4.572 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2027,7 +2038,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FormantKO:3006P_1"
+			(property "Footprint" "FormantKO:Potentiometer_Trimmer_MultiTurn"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2092,7 +2103,7 @@
 					)
 				)
 			)
-			(symbol "R_Trim_Multi_Turn_0_1"
+			(symbol "R_Trim_MultiTurn_0_1"
 				(polyline
 					(pts
 						(xy -2.54 -2.54) (xy 1.905 1.905) (xy 2.54 1.27) (xy 1.27 2.54)
@@ -2117,7 +2128,7 @@
 					)
 				)
 			)
-			(symbol "R_Trim_Multi_Turn_1_1"
+			(symbol "R_Trim_MultiTurn_1_1"
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
@@ -3324,13 +3335,14 @@
 			)
 		)
 		(property "Value" "-15V"
-			(at 241.3 134.62 0)
+			(at 243.84 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -3666,13 +3678,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.3 96.52 0)
+			(at 243.84 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3753,7 +3766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:Power_Transistor_Connector"
+		(property "Footprint" "FormantKO:PowerTransistorConnector"
 			(at 182.118 94.488 0)
 			(hide yes)
 			(show_name no)
@@ -3775,7 +3788,7 @@
 				)
 			)
 		)
-		(property "Description" "NPN transistor, emitter/base/collector"
+		(property "Description" "NPN Power Transistor"
 			(at 180.848 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3871,7 +3884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L42.0mm_D23.0mm_P45.00mm_Horizontal"
+		(property "Footprint" "FormantKO:CP_Axial_600"
 			(at 102.5652 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -3931,7 +3944,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Panel_LED")
+		(lib_id "FormantKO:D_LED")
 		(at 228.6 120.65 90)
 		(unit 1)
 		(body_style 1)
@@ -3952,7 +3965,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Panel_LED"
+		(property "Value" "D_LED"
 			(at 232.41 123.5074 90)
 			(hide yes)
 			(show_name no)
@@ -3964,7 +3977,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x02"
+		(property "Footprint" "FormantKO:PanelConnector_1x02"
 			(at 228.6 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4000,6 +4013,16 @@
 		(property "Sim.Pins" "1=K 2=A"
 			(at 228.6 120.65 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Legend" "-15V"
+			(at 231.902 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4056,7 +4079,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
+		(property "Footprint" ""
 			(at 233.68 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4215,7 +4238,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Disc"
+		(property "Footprint" "FormantKO:C_Rect"
 			(at 120.65 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4344,7 +4367,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:BRIDGE_RECTIFIER")
+		(lib_id "FormantKO:BridgeRectifier")
 		(at 83.82 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -4374,7 +4397,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:PB4008E345"
+		(property "Footprint" "FormantKO:BridgeRectifier"
 			(at 102.87 196.52 0)
 			(hide yes)
 			(show_name no)
@@ -4707,7 +4730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D5.5mm_P2.50mm"
+		(property "Footprint" "FormantKO:CP_Axial_600"
 			(at 216.8652 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4797,7 +4820,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:Fuse_Holder_5x20mm"
+		(property "Footprint" "FormantKO:FuseHolder_5x20mm"
 			(at 55.88 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4878,7 +4901,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Disc"
+		(property "Footprint" "FormantKO:C_Rect"
 			(at 158.75 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5042,7 +5065,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:R_Trim_Multi_Turn")
+		(lib_id "FormantKO:R_Trim_MultiTurn")
 		(at 203.2 105.41 0)
 		(unit 1)
 		(body_style 1)
@@ -5074,7 +5097,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:3006P_1"
+		(property "Footprint" "FormantKO:Potentiometer_Trimmer_MultiTurn"
 			(at 203.2 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -5107,15 +5130,14 @@
 				)
 			)
 		)
-		(property "Legend" "VADJ"
-			(at 205.74 105.41 0)
+		(property "Legend" "LEGEND"
+			(at 208.28 107.188 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(pin "2"
