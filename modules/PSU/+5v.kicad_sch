@@ -3580,16 +3580,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 74.93) (xy 215.9 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e282e88e-16d5-4a36-ba52-04839c8c8d08")
-	)
-	(wire
-		(pts
 			(xy 135.89 95.25) (xy 135.89 104.14)
 		)
 		(stroke
@@ -3670,7 +3660,7 @@
 	)
 	(global_label "AC3b"
 		(shape input)
-		(at 48.26 95.25 180)
+		(at 48.26 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3680,7 +3670,7 @@
 		)
 		(uuid "7b736626-c783-4b18-8d1e-e3027a4fbeaf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.5577 95.25 0)
+			(at 40.5577 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3694,7 +3684,7 @@
 	)
 	(global_label "AC3a"
 		(shape input)
-		(at 48.26 82.55 180)
+		(at 48.26 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3704,7 +3694,7 @@
 		)
 		(uuid "bbd0fbea-6982-479b-8af0-c7b7c8e4e037")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.5577 82.55 0)
+			(at 40.5577 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3782,8 +3772,8 @@
 				)
 			)
 		)
-		(property "Legend" "LEGEND"
-			(at 125.73 97.282 0)
+		(property "Legend" "V ADJ"
+			(at 124.714 99.822 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3843,7 +3833,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Rect"
+		(property "Footprint" "FormantKO:C_Rect_300"
 			(at 135.89 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4052,7 +4042,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 215.9 74.93 0)
+		(at 215.9 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4062,7 +4052,7 @@
 		(dnp no)
 		(uuid "3baee02e-ddc5-4306-817b-cacc87f0fdf2")
 		(property "Reference" "TP3"
-			(at 215.9 69.85 0)
+			(at 215.9 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4071,8 +4061,8 @@
 				)
 			)
 		)
-		(property "Value" "+15V"
-			(at 218.44 72.8979 0)
+		(property "Value" "+5V"
+			(at 218.44 74.1679 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4083,8 +4073,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 220.98 74.93 0)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 220.98 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4095,7 +4085,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 74.93 0)
+			(at 220.98 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4106,7 +4096,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 215.9 74.93 0)
+			(at 215.9 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4241,7 +4231,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Rect"
+		(property "Footprint" "FormantKO:C_Rect_300"
 			(at 158.75 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4690,7 +4680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Rect"
+		(property "Footprint" "FormantKO:C_Rect_300"
 			(at 120.65 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4851,7 +4841,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:CP_Axial_600"
+		(property "Footprint" "Capacitor_THT:CP_Axial_L30.0mm_D18.0mm_P35.00mm_Horizontal"
 			(at 102.5652 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4884,7 +4874,7 @@
 				)
 			)
 		)
-		(property "Voltage" "35V"
+		(property "Voltage" "16V"
 			(at 104.14 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4944,7 +4934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal"
 			(at 186.055 69.85 0)
 			(hide yes)
 			(show_name no)

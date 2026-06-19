@@ -17,6 +17,9 @@
 - [ ] Calibrated
 - [ ] Tested
 
+## Additional Resources
+
+- [POWER TRANSISTORS](PSU_PT/README.md)
 
 ## Documents
 

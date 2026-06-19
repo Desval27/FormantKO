@@ -2809,6 +2809,12 @@
 		(color 0 0 0 0)
 		(uuid "c0441ea3-e4b8-4442-b392-8503c5f15492")
 	)
+	(junction
+		(at 236.1971 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6483c3b-edbf-410e-b8b4-b5d20eaeefa9")
+	)
 	(wire
 		(pts
 			(xy 148.59 76.2) (xy 148.59 87.63)
@@ -3091,6 +3097,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.1971 127) (xy 238.76 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ac24dfd-6c5a-4b1b-bfdb-0341f4ba10d8")
+	)
+	(wire
+		(pts
 			(xy 241.3 129.54) (xy 241.3 127)
 		)
 		(stroke
@@ -3171,7 +3187,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 127) (xy 238.76 127)
+			(xy 228.6 127) (xy 236.1971 127)
 		)
 		(stroke
 			(width 0)
@@ -3378,16 +3394,6 @@
 			(type default)
 		)
 		(uuid "b0dcf5c4-dc90-455d-ae23-7fa1f598923f")
-	)
-	(wire
-		(pts
-			(xy 228.6 87.63) (xy 228.6 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc711674-b8d7-46da-bf9b-578515711ff5")
 	)
 	(wire
 		(pts
@@ -3697,6 +3703,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 236.1971 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "10bc66f9-af14-4d2f-bd39-f40ca7aaf140")
+		(property "Reference" "TP2"
+			(at 236.1971 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-15V"
+			(at 238.7371 124.9679 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 241.2771 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.2771 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 236.1971 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39f4687b-2d1d-45ae-b5fc-3927d6f76bbc")
+		)
+		(instances
+			(project "PSU"
+				(path "/9495a6cd-372e-4cc2-aa05-0ca14d4b1644"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FormantKO:R")
 		(at 203.2 95.25 90)
 		(unit 1)
@@ -3708,7 +3792,7 @@
 		(dnp no)
 		(uuid "143960e6-cdfe-4a9e-8fbc-0334ec2e1090")
 		(property "Reference" "R12"
-			(at 201.93 93.98 90)
+			(at 201.93 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3810,7 +3894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal"
 			(at 198.755 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3892,7 +3976,7 @@
 		(dnp no)
 		(uuid "2e527960-ed97-4063-9a18-ff59468d78c1")
 		(property "Reference" "R14"
-			(at 201.93 119.38 90)
+			(at 201.93 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4166,10 +4250,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "604d02dd-4cef-495c-81c0-4461f9784493")
 		(property "Reference" "C2"
-			(at 105.41 98.1709 0)
+			(at 104.14 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4180,7 +4263,7 @@
 			)
 		)
 		(property "Value" "2200µ"
-			(at 105.41 100.7109 0)
+			(at 104.14 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4190,7 +4273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:CP_Axial_600"
+		(property "Footprint" "Capacitor_THT:CP_Axial_L42.0mm_D23.0mm_P45.00mm_Horizontal"
 			(at 102.5652 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4224,7 +4307,7 @@
 			)
 		)
 		(property "Voltage" "35V"
-			(at 105.41 103.2509 0)
+			(at 104.14 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4353,84 +4436,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 228.6 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "753a9e6c-f191-4eea-bfe1-d2ff22a2e6cd")
-		(property "Reference" "TP2"
-			(at 228.6 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+15V"
-			(at 231.14 85.5979 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 228.6 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "57ea32c2-9abb-4484-a66b-96783549e8ec")
-		)
-		(instances
-			(project "PSU"
-				(path "/9495a6cd-372e-4cc2-aa05-0ca14d4b1644"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "FormantKO:R")
 		(at 184.15 96.52 180)
 		(unit 1)
@@ -4520,10 +4525,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "909e3412-afbd-47af-9ea7-95c8477f908c")
 		(property "Reference" "C4"
-			(at 124.46 100.3299 0)
+			(at 123.19 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4534,7 +4538,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 124.46 102.8699 0)
+			(at 123.19 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4544,7 +4548,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Rect"
+		(property "Footprint" "FormantKO:C_Rect_300"
 			(at 120.65 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4604,7 +4608,7 @@
 		(dnp no)
 		(uuid "95a94207-bf76-47b5-9f2b-214bd38fb44b")
 		(property "Reference" "R16"
-			(at 227.33 107.95 90)
+			(at 227.33 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4855,7 +4859,7 @@
 		(dnp no)
 		(uuid "9a2998a8-39c4-4502-bbb2-1965b15ecf8e")
 		(property "Reference" "R10"
-			(at 170.18 118.11 90)
+			(at 170.18 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5176,7 +5180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:CP_Axial_600"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
 			(at 216.8652 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -5347,7 +5351,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Rect"
+		(property "Footprint" "FormantKO:C_Rect_300"
 			(at 158.75 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5533,7 +5537,7 @@
 			)
 		)
 		(property "Value" "2k5"
-			(at 205.74 107.188 0)
+			(at 204.47 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5576,14 +5580,15 @@
 				)
 			)
 		)
-		(property "Legend" "LEGEND"
-			(at 208.28 107.188 0)
+		(property "Legend" "V ADJ"
+			(at 204.47 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -5616,7 +5621,7 @@
 		(dnp no)
 		(uuid "da516aef-5a63-4dab-a159-2a82f1b4b75e")
 		(property "Reference" "R2"
-			(at 132.08 100.33 90)
+			(at 132.08 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5696,7 +5701,7 @@
 		(dnp no)
 		(uuid "e7eed176-0fce-4f79-bc06-d5f28eafb897")
 		(property "Reference" "R8"
-			(at 170.18 99.06 90)
+			(at 170.18 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

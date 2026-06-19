@@ -41,6 +41,7 @@ Most activity has been in the COM, NOISE, and LFOs modules. Scratch that....most
 - [KEYBOARD DIVIDER](modules/KB_DIV/README.md)
 - [INTERFACE RECEIVER](modules/INTF_RCVR/README.md)
 - [POWER SUPPLY](modules/PSU/README.md)
+- [POWER SUPPLY TRANSISTORS](modules/PSU/PSU_PT/README.md)
 - [VCO](modules/VCO/README.md)
 - [VCF 12dB](modules/VCF_12/README.md)
 - [VCF 24dB](modules/VCF_24/README.md)
