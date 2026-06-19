@@ -2762,6 +2762,12 @@
 		(uuid "7c79f035-06f5-42ea-9d44-5da1ed4615e7")
 	)
 	(junction
+		(at 243.84 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ff28907-8fd5-45b0-b3aa-16f81ca2288e")
+	)
+	(junction
 		(at 238.76 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2808,12 +2814,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0441ea3-e4b8-4442-b392-8503c5f15492")
-	)
-	(junction
-		(at 236.1971 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c6483c3b-edbf-410e-b8b4-b5d20eaeefa9")
 	)
 	(wire
 		(pts
@@ -3077,6 +3077,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 127) (xy 243.84 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e01fde-aef4-4423-9b84-a8a7e7dc9928")
+	)
+	(wire
+		(pts
 			(xy 171.45 90.17) (xy 171.45 96.52)
 		)
 		(stroke
@@ -3097,17 +3107,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.1971 127) (xy 238.76 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ac24dfd-6c5a-4b1b-bfdb-0341f4ba10d8")
-	)
-	(wire
-		(pts
-			(xy 241.3 129.54) (xy 241.3 127)
+			(xy 247.65 129.54) (xy 247.65 127)
 		)
 		(stroke
 			(width 0)
@@ -3147,26 +3147,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 127) (xy 215.9 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a8c0df0-3677-48fd-bb0b-a56de54d6d50")
-	)
-	(wire
-		(pts
-			(xy 215.9 127) (xy 203.2 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b99d7eb-64b2-4729-84d6-f9a4349c9e85")
-	)
-	(wire
-		(pts
 			(xy 158.75 109.22) (xy 200.66 109.22)
 		)
 		(stroke
@@ -3184,16 +3164,6 @@
 			(type default)
 		)
 		(uuid "6fdff0c3-9ec8-4c10-8e4b-ffde8cafba43")
-	)
-	(wire
-		(pts
-			(xy 228.6 127) (xy 236.1971 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "717df792-c4e5-45fc-8b5f-b1226c8f0c96")
 	)
 	(wire
 		(pts
@@ -3297,6 +3267,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 127) (xy 247.65 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9545297a-10d2-43cf-97ef-984d01c92727")
+	)
+	(wire
+		(pts
 			(xy 133.35 95.25) (xy 135.89 95.25)
 		)
 		(stroke
@@ -3394,16 +3374,6 @@
 			(type default)
 		)
 		(uuid "b0dcf5c4-dc90-455d-ae23-7fa1f598923f")
-	)
-	(wire
-		(pts
-			(xy 238.76 127) (xy 241.3 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd070570-18a6-4c61-8021-23a73cd04179")
 	)
 	(wire
 		(pts
@@ -3625,7 +3595,7 @@
 	)
 	(symbol
 		(lib_id "power:-15V")
-		(at 241.3 129.54 180)
+		(at 247.65 129.54 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3636,7 +3606,7 @@
 		(fields_autoplaced yes)
 		(uuid "04f4e38f-bb29-4869-87cb-5d94aa7965f3")
 		(property "Reference" "#PWR07"
-			(at 241.3 125.73 0)
+			(at 247.65 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3647,7 +3617,7 @@
 			)
 		)
 		(property "Value" "-15V"
-			(at 243.84 130.8099 0)
+			(at 250.19 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3658,7 +3628,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 129.54 0)
+			(at 247.65 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3669,7 +3639,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 129.54 0)
+			(at 247.65 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3680,7 +3650,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 241.3 129.54 0)
+			(at 247.65 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3697,84 +3667,6 @@
 			(project "PSU"
 				(path "/9495a6cd-372e-4cc2-aa05-0ca14d4b1644"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 236.1971 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "10bc66f9-af14-4d2f-bd39-f40ca7aaf140")
-		(property "Reference" "TP2"
-			(at 236.1971 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-15V"
-			(at 238.7371 124.9679 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 241.2771 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.2771 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 236.1971 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "39f4687b-2d1d-45ae-b5fc-3927d6f76bbc")
-		)
-		(instances
-			(project "PSU"
-				(path "/9495a6cd-372e-4cc2-aa05-0ca14d4b1644"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -3855,6 +3747,84 @@
 			(project "PSU"
 				(path "/9495a6cd-372e-4cc2-aa05-0ca14d4b1644"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 243.84 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1ad596b6-c563-43ee-9be9-a9c220f7a142")
+		(property "Reference" "TP2"
+			(at 243.84 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-15V"
+			(at 246.38 124.9679 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 248.92 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 243.84 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea9c9494-f8cd-43f5-8eee-d5322aa5ee89")
+		)
+		(instances
+			(project "PSU"
+				(path "/9495a6cd-372e-4cc2-aa05-0ca14d4b1644"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -4156,7 +4126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:PowerTransistorConnector"
+		(property "Footprint" "FormantKO:PowerTransistorConnector_EBC"
 			(at 182.118 94.488 0)
 			(hide yes)
 			(show_name no)
@@ -4354,7 +4324,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_LED"
+		(property "Value" "-15V LED"
 			(at 232.41 123.5074 90)
 			(hide yes)
 			(show_name no)
@@ -4950,7 +4920,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Meter"
+		(property "Value" "-15V METER"
 			(at 236.22 111.76 0)
 			(hide yes)
 			(show_name no)
