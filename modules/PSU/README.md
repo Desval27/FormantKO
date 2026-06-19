@@ -10,6 +10,7 @@
 
 ## Documents
 
+- [Schematic](PSU.pdf)
 - [Assembly](plots/PSU__Assembly.pdf)
 - [Interactive Bill of Materials](bom/ibom.html)
 
