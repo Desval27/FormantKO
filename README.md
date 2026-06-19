@@ -1,5 +1,4 @@
-
-# Formant Knockoff
+# Formant-KO 
 
 # WIP
 
@@ -11,17 +10,11 @@ Components that are not easily sourcable are substitued.  Substituted components
 
 [Original Book 1 PDF](https://ikiwiki.laglab.org/Modular_Beast/ElektorFormantMusicSynthesiser.pdf)
 
-DIN 41617 connecters are replaced with DIN 41612 connectors (Type B 32-PIN).  A backplane is included
-as part of the project to avoid the point-to-point backend wiring of the original.  However, the current backplane 
-does not currently offer more configurability compared to the original.  It simply provides a secure connection 
-and reduces wiring complexity and fragility.  
+DIN 41617 connecters are replaced with DIN 41612 connectors (Type B 32-PIN).  A backplane is included as part of the project to avoid the point-to-point backend wiring of the original.  However, the current backplane does not currently offer more configurability compared to the original.  It simply provides a secure connection and reduces wiring complexity and fragility.  
 
-I have opted to keep the flying wires for connecting the panel components as opposed to a separate panel mounted
-"control" PCB.  Right now I'm torn between keeping the layouts and wiring as they were originally defined or 
-replacing them with something like JST XH connectors for easy disconnect & replacement.  Perhaps both?
+I have opted to keep the flying wires for connecting the panel components as opposed to a separate panel mounted "control" PCB.  Right now I'm torn between keeping the layouts and wiring as they were originally defined or replacing them with something like JST XH connectors for easy disconnect & replacement.  Perhaps both?
 
-The goal for verison 2 is to make both the cards and the bus system more configurable compared to the original 
-normaled path (e.g. jumpers for signal routing, etc.).
+The goal for verison 2 is to make both the cards and the bus system more configurable compared to the original normaled path (e.g. jumpers for signal routing, etc.).
 
 ## Status
 
@@ -29,7 +22,9 @@ Note: This information is only as accurate as I can remember to update it.
 
 Most activity has been in the COM, NOISE, and LFOs modules. Scratch that....most activity has been bits and pieces all over.  I like to switch things up.
 
-![COM Top Render](modules/COM/COM_top.png "COM Top Render")
+Latest updates are for the [PSU](modules/PSU/README.md) module.
+
+![PSU Top Render](modules/PSU/PSU_top.png "PSU Top Render")
 
 ## Modules
 
@@ -150,4 +145,3 @@ Schematics, PCB layouts, and code are provided for reference only.
 They may contain errors, omissions, or design flaws.
 
 **Always review and validate the design before building or using it.**
-
