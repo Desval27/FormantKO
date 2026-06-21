@@ -2,24 +2,24 @@
 
 ## Status
 
-Incomplete
+⚠️ Untested⚠️
 
 ## Documents
 
 - [Assembly](plots/ADSR__Assembly.pdf)
 
-## Gerber To Order
+## Gerber to Order
 
 ⚠️ Untested⚠️
 
-- [Default](ADSR_71.0x132.5mm_for_Default.zip)
-- [Elecrow](ADSR_71.0x132.5mm_for_Elecrow.zip)
-- [FusionPCB](ADSR_71.0x132.5mm_for_FusionPCB.zip)
-- [JLCPCB](ADSR_71.0x132.5mm_for_JLCPCB.zip)
-- [PCBWay](ADSR_71.0x132.5mm_for_PCBWay.zip)
+- [Default](gerber_to_order/ADSR_70.78x128.4mm_for_Default.zip)
+- [Elecrow](gerber_to_order/ADSR_70.78x128.4mm_for_Elecrow.zip)
+- [FusionPCB](gerber_to_order/ADSR_70.78x128.4mm_for_FusionPCB.zip)
+- [JLCPCB](gerber_to_order/ADSR_70.78x128.4mm_for_JLCPCB.zip)
+- [PCBWay](gerber_to_order/ADSR_70.78x128.4mm_for_PCBWay.zip)
 
 ## Images
 
-![Rendered Panel Front](ADSR_front.png "Rendered Panel Front")
+![Rendered PCB Top](ADSR_top.png "Rendered PCB Top")
 
-![Rendered Panel Back](ADSR_back.png "Rendered Panel Back")
+![Rendered PCB Bottom](ADSR_bottom.png "Rendered PCB Bottom")

@@ -2,13 +2,14 @@
 
 ## Status
 
-⚠️ Incomplete⚠️
+⚠️ Untested⚠️
 
 ## Documents
 
+- [Schematic](ADSR.pdf)
 - [Assembly](plots/ADSR__Assembly.pdf)
+- [Interactive Bill of Materials](bom/ibom.html)
 
-## Interactive Bill of Materials
 
 ## Gerber to Order
 
