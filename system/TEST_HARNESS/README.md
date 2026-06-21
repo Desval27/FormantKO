@@ -2,26 +2,15 @@
 
 ## STATUS
 
-50% Complete
+⚠️ Incomplete⚠️
 
-- [x] Schematic
-- [x] Schematic Additions
-- [x] Schematic Review
-- [x] PCB Placement
-- [x] PCB Routing
-- [ ] PCB Review
-- [ ] Sample
-- [ ] Build
-- [ ] Calibrated
-- [ ] Tested
+But possibly ready to get first samples...
 
-## Schematic
+## Documents
 
-[Root](schematic.pdf)
-
-## Interactive Bill of Materials
-
-[iBOM](bom/ibom.html)
+- [Schematic](TEST_HARNESS.pdf)
+- [Assembly](plots/TEST_HARNESS__Assembly.pdf)
+- [Interactive Bill of Materials](bom/ibom.html)
 
 ## Gerber to Order
 
