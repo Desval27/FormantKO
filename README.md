@@ -26,26 +26,30 @@ Latest updates are for the [PSU](modules/PSU/README.md) module.
 
 ![PSU Top Render](modules/PSU/PSU_top.png "PSU Top Render")
 
+- ✓ PCB/Panel exists but likely a WIP.
+- ✔ PCB/Panel exists but may not be completely functional.
+- ✅ PCB/Panel exists and is working (for a given value of "working").
+
 ## Modules
 
 - [TEMPLATE](modules/TEMPLATE/README.md)
 
 ### Book 1
 
-- [KEYBOARD INTERFACE](modules/KBI/README.md)
-- [KEYBOARD DIVIDER](modules/KB_DIV/README.md)
-- [INTERFACE RECEIVER](modules/INTF_RCVR/README.md)
-- [POWER SUPPLY](modules/PSU/README.md)
-- [POWER SUPPLY TRANSISTORS](modules/PSU/PSU_PT/README.md)
+- ✓ [KEYBOARD INTERFACE](modules/KBI/README.md)
+- ✓ [KEYBOARD DIVIDER](modules/KB_DIV/README.md)
+- ✓ [INTERFACE RECEIVER](modules/INTF_RCVR/README.md)
+- ✓ [POWER SUPPLY](modules/PSU/README.md)
+- ✓ [POWER SUPPLY TRANSISTORS](modules/PSU/PSU_PT/README.md)
 - [VCO](modules/VCO/README.md)
 - [VCF 12dB](modules/VCF_12/README.md)
 - [VCF 24dB](modules/VCF_24/README.md)
-- [RFM](modules/RFM/README.md)
-- [ADSR](modules/ADSR/README.md)
-- [DUAL VCA](modules/DUAL_VCA/README.md)
+- ✓ [RFM](modules/RFM/README.md)
+- ✓ [ADSR](modules/ADSR/README.md)
+- ✓ [DUAL VCA](modules/DUAL_VCA/README.md)
 - [LFOs](modules/LFOs/README.md)
-- [NOISE](modules/NOISE/README.md)
-- [COM](modules/COM/README.md)
+- ✓ [NOISE](modules/NOISE/README.md)
+- ✓ [COM](modules/COM/README.md)
 
 ### Book 2
 
@@ -55,9 +59,9 @@ Latest updates are for the [PSU](modules/PSU/README.md) module.
 - [VCF EXTENSIONS](modules/VCF_EXT/README.md)
 - [LFO SINE CONVERTER](modules/LFO_SINE/README.md)
 - [NOISE DNG](modules/NOISE_DNG/README.md)
-- [NOISE CNC](modules/NOISE_CNC/README.md)
+- ✓ [NOISE CNC](modules/NOISE_CNC/README.md)
 - [COM EXTENSIONS](modules/COM_EXT/README.md)
-- [RING MODULATOR](modules/RING_MODULATOR/README.md)
+- ✓ [RING MODULATOR](modules/RING_MODULATOR/README.md)
 - [PHASE SHIFTER](modules/PHASE_SHIFTER/README.md)
 - [KRIMISIZER](modules/KRIMISIZER/README.md)
 - [DIGITAL REVERB](modules/DIGITAL_REVERB/README.md)
@@ -70,9 +74,9 @@ Latest updates are for the [PSU](modules/PSU/README.md) module.
 - [DNG](modules/DNG/README.md)
 - [ENV FOLLOWER](modules/ENV_FOLLOWER/README.md)
 - [SAMPLE & HOLD](modules/SAMPLE_AND_HOLD/README.md)
-- [WAVEFORM-PROCESSOR](modules/WAVEFORM_PROCESSOR/README.md)
+- ✓ [WAVEFORM-PROCESSOR](modules/WAVEFORM_PROCESSOR/README.md)
 - [MIXER](modules/MIXER/README.md)
-- [TUNING](modules/TUNING/README.md)
+- ✓ [TUNING](modules/TUNING/README.md)
 
 ## Panels
 
@@ -81,29 +85,30 @@ Latest updates are for the [PSU](modules/PSU/README.md) module.
 
 ### Book 1
 
-- [VCO](panels/VCO/README.md)
-- [VCF-12](panels/VCF_12/README.md)
-- [VCF-24](panels/VCF_24/README.md)
-- [RFM](panels/RFM/README.md)
-- [ADSR](panels/ADSR/README.md)
-- [DUAL_VCA](panels/DUAL_VCA/README.md)
+- ✓ [VCO](panels/VCO/README.md)
+- ✓ [VCF-12](panels/VCF_12/README.md)
+- ✓ [VCF-24](panels/VCF_24/README.md)
+- ✓ [RFM](panels/RFM/README.md)
+- ✓ [ADSR](panels/ADSR/README.md)
+- ✓ [DUAL_VCA](panels/DUAL_VCA/README.md)
 - [LFOs](panels/LFOs/README.md)
-- [NOISE](panels/NOISE/README.md)
-- [COM](panels/COM/README.md)
+- ✓ [NOISE](panels/NOISE/README.md)
+- ✓ [COM](panels/COM/README.md)
 
 ### Book 2
 
-- [RING-MODULATOR](panels/RING_MODULATOR/README.md)
+- ✓ [RING-MODULATOR](panels/RING_MODULATOR/README.md)
+- ✓ [PHASE-SHIFTER](panels/PHASE_SHIFTER/README.md)
 - [DNG](panels/DNG/README.md)
 - [ENV-FOLLOWER](panels/ENV_FOLLOWER/README.md)
 - [WAVEFORM-PROCESSOR](panels/WAVEFORM_PROCESSOR/README.md)
 - [MIXER-3](panels/MIXER_3/README.md)
-- [TUNING](panels/TUNING/README.md)
+- ✓ [TUNING](panels/TUNING/README.md)
 
 ## System
 
-- [BACKPLANE A](system/BACKPLANE_A/README.md)
-- [TEST HARNESS](system/TEST_HARNESS/README.md)
+- ✓ [BACKPLANE A](system/BACKPLANE_A/README.md)
+- ✓ [TEST HARNESS](system/TEST_HARNESS/README.md)
 
 ## ⚠️ Disclaimer
 
