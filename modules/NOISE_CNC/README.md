@@ -25,4 +25,4 @@
 
 ![Rendered PCB Top](NOISE_CNC_top.png "Rendered PCB Top")
 
-![Rendered PCB Bottom](NOSIE_CNC_bottom.png "Rendered PCB Bottom")
+![Rendered PCB Bottom](NOISE_CNC_bottom.png "Rendered PCB Bottom")
