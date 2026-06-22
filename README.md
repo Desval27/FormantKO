@@ -93,6 +93,7 @@ Latest updates are for the [PSU](modules/PSU/README.md) module.
 
 ### Book 2
 
+- [RING-MODULATOR](panels/RING_MODULATOR/README.md)
 - [DNG](panels/DNG/README.md)
 - [ENV-FOLLOWER](panels/ENV_FOLLOWER/README.md)
 - [WAVEFORM-PROCESSOR](panels/WAVEFORM_PROCESSOR/README.md)
