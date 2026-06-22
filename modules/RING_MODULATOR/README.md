@@ -17,5 +17,5 @@
 
 ## Images
 
-[Rendered PCB Top](RING_MODULATOR_top.png "Rendered PCB Top")
-[Rendered PCB Bottom](RING_MODULATOR_bottom.png "Rendered PCB Bottom")
+![Rendered PCB Top](RING_MODULATOR_top.png "Rendered PCB Top")
+![Rendered PCB Bottom](RING_MODULATOR_bottom.png "Rendered PCB Bottom")
