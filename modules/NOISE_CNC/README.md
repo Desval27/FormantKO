@@ -6,6 +6,7 @@
 
 ## Documents
 
+- [Translated Source](NOISE_CNC_translated.pdf)
 - [Schematic](NOISE_CNC.pdf)
 - [Assembly](plots/NOISE_CNC__Assembly.pdf)
 - [Interactive Bill of Materials](bom/ibom.html)
