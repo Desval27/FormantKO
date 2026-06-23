@@ -1,26 +1,16 @@
-# PHASE SHIFTER
+# PHASE-SHIFTER
 
-## Status
+## STATUS
 
-0% Complete
-
-- [ ] Schematic
-- [ ] Schematic Additions
-- [ ] Schematic Review
-- [ ] PCB Placement
-- [ ] PCB Routing
-- [ ] PCB Review
-- [ ] Sample
-- [ ] Build
-- [ ] Calibrated
-- [ ] Tested
+⚠️ Incomplete⚠️
 
 ## Documents
 
-## Interactive Bill of Materials
-
 ## Gerber to Order
 
+⚠️ Untested⚠️
+
 ## Images
-<!-- ![Rendered PCB](TEMPLATE.png "Rendered PCB") -->
-<!-- ![Rendered PCB](TEMPLATE.png "Rendered PCB") -->
+
+<!-- ![Rendered PCB Top](TEMPLATE_top.png "Rendered PCB Top") -->
+<!-- ![Rendered PCB Bottom](TEMPLATE_bottom.png "Rendered PCB Bottom") -->
