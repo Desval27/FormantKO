@@ -1,0 +1,5421 @@
+(kicad_pcb
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A3")
+	(title_block
+		(title "MULTIPLE-JACKS 6U")
+		(date "2026-06-05")
+		(rev "A")
+		(company "THE HOUSE OF GALAHAD")
+		(comment 1 "FORMANT-KO")
+	)
+	(layers
+		(0 "F.Cu" signal)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting
+			(front yes)
+			(back yes)
+		)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(capping no)
+		(filling no)
+		(grid_origin 201.635894 150.240428)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12)
+			(dashed_line_gap_ratio 3)
+			(svgprecision 4)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(property "EMAIL" "mailto:paul.f.burdette@gmail.com")
+	(property "GITHUB" "https://github.com/Desval27/FormantKO/")
+	(property "MODULE" "MULTIPLE-JACKS 6U")
+	(property "PARTNO" "0000-0")
+	(property "TAG" "NO ORGANIC GROUNDING")
+	(footprint "FormantKO-Panel:Jack_3.5mm"
+		(layer "F.Cu")
+		(uuid "0b7ced11-38f7-4ae0-b838-e9526f41072e")
+		(at 218.635894 250.240428)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ab4ba378-ca15-4bbe-81a9-6a187bbb2c5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Jack_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f3a0578c-d068-480e-b77a-4ad71de34fd8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40fc22e0-03cf-472c-90ac-3461406e8b6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "abf4a6ea-818e-43f6-a1fa-07ef0fb26d20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "27bc1462-6506-4db7-a7cc-1f3e50dc3481")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "3a7e438e-76c7-4077-98ca-79618026f5ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(point
+			(at 218.635894 244.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "4fde2ed8-ab9b-47d8-b51f-a7ca075082a0")
+		)
+		(point
+			(at 218.635894 256.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "7e2fb259-2f20-4ad7-8738-511e45549c59")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 6.5 6.5)
+			(drill 6.5)
+			(layers)
+			(uuid "0ebaaa66-bcfd-4fe8-8322-aa463d0eb881")
+		)
+		(embedded_fonts no)
+		(model "${FORMANTKO_3DMODEL_DIR}/PJ-301BM.stp"
+			(offset
+				(xyz 0 0 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${FORMANTKO_3DMODEL_DIR}/Befaco - Nut (black).stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "FormantKO-Panel:Jack_3.5mm"
+		(layer "F.Cu")
+		(uuid "0ec6a489-888d-4b88-930d-9155034962f8")
+		(at 184.635894 130.240428)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6000d5a9-a3e5-42dd-8415-832b2ec1bb38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Jack_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "da331462-248a-4e51-8d03-c8129ca76a93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e7caaf5-7392-47bb-90e6-a598985e7a3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "012a3b70-7e29-46e4-9d6e-cca1a6be50fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "aa606634-4979-4ee4-8354-54c914f51ac5")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "d8c83da9-976f-44fc-82bd-b9f48beb2f86")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(point
+			(at 184.635894 124.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "21dda395-b12c-41dc-a2b7-f962fbf79aad")
+		)
+		(point
+			(at 184.635894 136.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "c0f06eb2-c687-46b1-b232-381d18f2982c")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 6.5 6.5)
+			(drill 6.5)
+			(layers)
+			(uuid "004fd09a-7d75-4b6e-915d-c3760bba6471")
+		)
+		(embedded_fonts no)
+		(model "${FORMANTKO_3DMODEL_DIR}/PJ-301BM.stp"
+			(offset
+				(xyz 0 0 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${FORMANTKO_3DMODEL_DIR}/Befaco - Nut (black).stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "FormantKO-Panel:Jack_3.5mm"
+		(layer "F.Cu")
+		(uuid "1a5be586-7b28-4958-bc94-ea334a12a2bf")
+		(at 184.635894 190.240428)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ea2fc770-bb8b-4f0c-8a5f-1c6549710d9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Jack_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "e891f991-eedb-4c3a-a951-4c2236f3a67d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d9c5e8c-7a6f-4cbb-9bb6-df56c6692643")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26e8bcce-a266-43fa-9c6b-8527576a2a1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "04888349-85aa-493d-95e6-b2df82442bba")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1028f23b-4072-482d-85b9-c3a4cfba9a0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(point
+			(at 184.635894 184.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "947cb615-05a9-47cf-b29e-c7bf488eaf6d")
+		)
+		(point
+			(at 184.635894 196.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "c19f9e5b-52a7-4ff7-87f5-8979719ce22c")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 6.5 6.5)
+			(drill 6.5)
+			(layers)
+			(uuid "a1b6c464-e53c-40e3-a734-e6114595d97b")
+		)
+		(embedded_fonts no)
+		(model "${FORMANTKO_3DMODEL_DIR}/PJ-301BM.stp"
+			(offset
+				(xyz 0 0 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${FORMANTKO_3DMODEL_DIR}/Befaco - Nut (black).stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "FormantKO-Panel:Jack_3.5mm"
+		(layer "F.Cu")
+		(uuid "2435b4ab-c61c-4902-88b6-c616adc8800c")
+		(at 201.635894 50.240428)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "56b0f038-e2c0-4300-b56a-44798bd503a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Jack_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f9b100bc-b200-421e-b6f3-588ea6b32882")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cda977a1-6d20-47e5-8e26-0db6c8880d99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8db4d67f-a81f-4de7-bf00-df0ab04b53f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "400cfa7e-cdae-4ff5-bbc8-9ae38499ef94")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "699d3f7b-23a0-4acb-b559-6489da3810cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(point
+			(at 201.635894 44.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "7987118f-252a-4d43-b7bf-5879fca95ad6")
+		)
+		(point
+			(at 201.635894 56.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "2300f467-16fb-4223-b999-e08a22edb2f3")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 6.5 6.5)
+			(drill 6.5)
+			(layers)
+			(uuid "a23cab7a-05b0-4ed0-8b3b-06107e4717f5")
+		)
+		(embedded_fonts no)
+		(model "${FORMANTKO_3DMODEL_DIR}/PJ-301BM.stp"
+			(offset
+				(xyz 0 0 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${FORMANTKO_3DMODEL_DIR}/Befaco - Nut (black).stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "FormantKO-Panel:Jack_3.5mm"
+		(layer "F.Cu")
+		(uuid "270ebb09-ec07-4644-8e15-7af85cdd231a")
+		(at 201.635894 70.240428)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f27ef97a-a38d-4619-b6b1-033a299fb7a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Jack_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "148eeec3-9826-4670-9394-558cb48cfd61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5da5e582-b71b-4793-bfe6-aa8ca9765730")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a39478d-15a5-42b8-a5dc-339855bd9de5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "523253ed-7c1c-4a79-8d7f-49a248de5899")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f3fba005-4590-4f1a-86ae-55393163383e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(point
+			(at 201.635894 64.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "4cbd5ddd-f0df-48d4-a17f-5139b935fbea")
+		)
+		(point
+			(at 201.635894 76.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "6bbb3248-aadc-4fc6-8d27-1ba508d53d3a")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 6.5 6.5)
+			(drill 6.5)
+			(layers)
+			(uuid "871a514c-1c56-482f-8d3b-13f3e12af21d")
+		)
+		(embedded_fonts no)
+		(model "${FORMANTKO_3DMODEL_DIR}/PJ-301BM.stp"
+			(offset
+				(xyz 0 0 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${FORMANTKO_3DMODEL_DIR}/Befaco - Nut (black).stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "FormantKO-Panel:Jack_3.5mm"
+		(layer "F.Cu")
+		(uuid "29145747-e5b1-4ff0-8184-b8e2985e6325")
+		(at 184.635894 110.240428)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f41e9360-5679-4ae8-a2e1-6a46e0851d4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Jack_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "62c70ae6-1a2a-40b5-9d65-64e5622b82ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fac8487e-bf42-45cc-831d-a818b92f5056")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea3803e7-dc48-48d6-8f24-74d58d84e005")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "98301b94-bee5-49b2-9e89-61fb96ed70e2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a930b860-de0e-4a0e-9503-bad308e074b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(point
+			(at 184.635894 104.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "e917617f-332e-4655-90c9-5121f92bf7b8")
+		)
+		(point
+			(at 184.635894 116.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "555be734-49a4-4521-b4fd-9216e1323473")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 6.5 6.5)
+			(drill 6.5)
+			(layers)
+			(uuid "f0cd0f12-f80a-407f-bca7-068cea3f3c87")
+		)
+		(embedded_fonts no)
+		(model "${FORMANTKO_3DMODEL_DIR}/PJ-301BM.stp"
+			(offset
+				(xyz 0 0 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${FORMANTKO_3DMODEL_DIR}/Befaco - Nut (black).stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "FormantKO-Panel:Jack_3.5mm"
+		(layer "F.Cu")
+		(uuid "2a4a5b74-7dca-4264-b637-c6cd45062a40")
+		(at 218.635894 70.240428)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f8327034-bb18-4245-93ea-11ce391ff8d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Jack_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "c47c0639-e136-4707-b14d-8519806c8f70")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2811c7ed-b18f-4c3a-a388-f35e1302b0e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a848ce61-58b3-45f2-ad8c-ac91b3d27300")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "4f78f3d9-7ef0-4052-a104-6392ef7cdae2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1e602ce3-bd85-445f-90e8-d3bfb9b6616f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(point
+			(at 218.635894 64.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "03be9ec0-8811-4e9c-9282-11b022e6b927")
+		)
+		(point
+			(at 218.635894 76.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "dab09784-aad1-447d-bd65-835355424ab8")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 6.5 6.5)
+			(drill 6.5)
+			(layers)
+			(uuid "8fefa130-e8da-4a7d-a262-3a701d6e8360")
+		)
+		(embedded_fonts no)
+		(model "${FORMANTKO_3DMODEL_DIR}/PJ-301BM.stp"
+			(offset
+				(xyz 0 0 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${FORMANTKO_3DMODEL_DIR}/Befaco - Nut (black).stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "FormantKO-Panel:PanelMountingHole"
+		(layer "F.Cu")
+		(uuid "38749b34-abb2-4393-9327-51d898d1ead1")
+		(at 173.695894 278.115428)
+		(property "Reference" "H3"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "95235ae8-232b-4f83-90c3-3c71d8201818")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "BOTTOM LEFT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "254a5bc6-ffcc-4d61-a25c-d8c2ed457ff6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65ac7644-6d57-4b41-aea0-d77c3943e847")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15d6893c-4c37-4ba8-b00e-b7fc4b462cf6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "FormantKO:MountingHole* MountingHole*")
+		(path "/1102fd94-3655-4781-9cee-e1c33471c5ca")
+		(sheetname "/")
+		(sheetfile "MULTIPLE_JACKS_6U.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "72dc3e2b-cfc4-4235-9ba1-bd17e7101554")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole oval
+			(at 0 0)
+			(size 5.9 3.3)
+			(drill oval 5.9 3.3)
+			(layers "*.Cu" "*.Mask")
+			(uuid "c3b6d4d9-323e-46bc-8253-f2da535f3157")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "FormantKO-Panel:CardBracket"
+		(layer "F.Cu")
+		(uuid "3f2d97f1-88cf-4a9f-b124-cf25e6dc1715")
+		(at 173.695894 266.415428)
+		(property "Reference" "REF**"
+			(at 0 -94.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "255e85ed-c2bc-4252-b295-8c7b1f3345ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "CardBracket"
+			(at 0 -93 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0f158cc-f87c-4fde-8eff-3fe11ee55638")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -79 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24a9bf28-fd21-460b-a03f-fe113065c8ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 -79 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3be73d41-5590-4e77-956b-5990fe10e31f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -2 -101)
+			(end 2 2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "39b9ea7c-719d-4991-a4e0-ee92b775ed34")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "4d0a6014-72ef-4a15-a15e-5c21a1de1886")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 -99)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "bb00e5f3-cf01-4207-9314-d974e2e4e865")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "23af8ca2-0349-4933-8e7f-00b58f7db42a")
+		)
+		(zone
+			(layers "F.Cu" "B.Cu")
+			(uuid "417aec14-ff09-477c-9e8a-569422d54a3d")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(keepout
+				(tracks not_allowed)
+				(vias not_allowed)
+				(pads not_allowed)
+				(copperpour allowed)
+				(footprints allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 171.695894 165.415428) (xy 175.695894 165.415428) (xy 175.695894 268.415428) (xy 171.695894 268.415428)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${FORMANTKO_3DMODEL_DIR}/60807011.stp"
+			(offset
+				(xyz -6.5 49.5 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "FormantKO-Panel:PanelMountingHole"
+		(layer "F.Cu")
+		(uuid "5247bb42-7d6c-4a3c-8edf-79e13f0b0ecb")
+		(at 229.575894 278.115428)
+		(property "Reference" "H4"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bdc4f9e0-75c7-408e-9a79-c449c5beb8ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "BOTTOM RIGHT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f19154e8-73df-4e22-a966-a427fb98dce2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b1864a5-2ad9-4591-9294-d6893b781c43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0342d482-5ea2-4b4b-895a-27e6392dc422")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "FormantKO:MountingHole* MountingHole*")
+		(path "/a915e41a-bbaf-45fc-a838-5f7a694d4d51")
+		(sheetname "/")
+		(sheetfile "MULTIPLE_JACKS_6U.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "c8da5864-cf77-4bfa-bd15-76ba9d45a478")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole oval
+			(at 0 0)
+			(size 5.9 3.3)
+			(drill oval 5.9 3.3)
+			(layers "*.Cu" "*.Mask")
+			(uuid "e89bc1af-da54-4a56-817c-477c15991cf6")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "FormantKO-Panel:Jack_3.5mm"
+		(layer "F.Cu")
+		(uuid "549d4caa-7ce2-4b33-a3bb-d1631a50140f")
+		(at 201.635894 130.240428)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "eb7fc506-a2d5-4894-9470-fe422ad95cf8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Jack_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a9d6904e-5ffa-40e1-9141-e6c5b758a40f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc6188eb-6b39-4661-a567-a95d80c01fb4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30ebd621-8041-413d-a3b5-3434cbcb33b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "32ead191-c012-4551-bdf9-7836415b0abb")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "7f7ed3f0-47f2-4d2b-8557-5dc4881d1925")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(point
+			(at 201.635894 124.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "c6d04b28-beb7-49c9-8fd7-8ece67c223b4")
+		)
+		(point
+			(at 201.635894 136.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "38d7bd27-b3e8-418b-819a-c785cee7eae2")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 6.5 6.5)
+			(drill 6.5)
+			(layers)
+			(uuid "8b4959fb-415e-4b44-a92c-a3161e72bbb5")
+		)
+		(embedded_fonts no)
+		(model "${FORMANTKO_3DMODEL_DIR}/PJ-301BM.stp"
+			(offset
+				(xyz 0 0 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${FORMANTKO_3DMODEL_DIR}/Befaco - Nut (black).stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "FormantKO-Panel:Jack_3.5mm"
+		(layer "F.Cu")
+		(uuid "59710f52-23d1-4fe7-8d98-21ddc406d4a5")
+		(at 201.635894 110.240428)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0fba0a1f-731f-4bcf-b23d-002eaed68e81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Jack_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "112a2dfa-1378-4c81-9f67-275dd42aca27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cddfef3a-97c7-40c4-95e1-83b154d41432")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b797abe8-186d-4694-8cd9-46b175c425d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "46fe587d-958b-41dc-a48d-c62949c31484")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f6509d5a-3d9f-46bd-a619-40cef9bb174f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(point
+			(at 201.635894 104.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "e0ceeb04-9d60-4dc0-9daf-c620838da1d5")
+		)
+		(point
+			(at 201.635894 116.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "31d0b9af-1d44-4abd-85cb-940cf9bb52a7")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 6.5 6.5)
+			(drill 6.5)
+			(layers)
+			(uuid "48a3842b-7693-4138-ab4f-18fa4be9cbd7")
+		)
+		(embedded_fonts no)
+		(model "${FORMANTKO_3DMODEL_DIR}/PJ-301BM.stp"
+			(offset
+				(xyz 0 0 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${FORMANTKO_3DMODEL_DIR}/Befaco - Nut (black).stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "FormantKO-Panel:Switch_Mini_Toggle"
+		(layer "F.Cu")
+		(uuid "5a94db47-8dda-4b0a-ae9f-4654cdf223ae")
+		(at 201.635894 90.240428 90)
+		(property "Reference" "REF**"
+			(at 0 -5 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "28b13830-51c5-4ff3-9dc0-3c925809f097")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Switch_Mini_Toggle"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "8eaceca9-096c-4bc4-b758-276ca187249a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94aa0670-9a70-4735-9a43-f3e632696f4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41d6fe02-3457-460e-828d-b7877b53c707")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "fc08c863-ed49-44f8-98aa-db58bf290736")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a371754c-fd7a-44b9-8b75-9992ff59d52a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(point
+			(at 195.635894 90.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "7981bf50-9106-4388-a569-74a9882a58f7")
+		)
+		(point
+			(at 207.635894 90.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "5106924e-134d-4629-b9e6-b920011cf0bb")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0 90)
+			(size 6.5 6.5)
+			(drill 6.5)
+			(layers)
+			(uuid "6c3ed186-96bc-41ed-88bd-804f7a2a0475")
+		)
+		(embedded_fonts no)
+		(model "${FORMANTKO_3DMODEL_DIR}/6mm SPDT Mini Toggle Switch.step"
+			(offset
+				(xyz 0 0 -5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
+			)
+		)
+	)
+	(footprint "FormantKO-Panel:Jack_3.5mm"
+		(layer "F.Cu")
+		(uuid "5af2b351-8f7d-44d2-ad1d-fba452367013")
+		(at 184.635894 170.240428)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a19c3c1b-6d40-473e-bbba-140b1d3212c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Jack_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f2ae0849-9473-41e7-9bf8-80b84195d119")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6b8fe54-8fe0-45e9-90aa-de1f586e71d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5b9d5c1-9abb-4ba2-b4eb-c6d9d7b08025")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "3a3f64e4-7421-4650-a9f6-25f1da6a9829")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "d3553b09-15be-4a09-80ce-7f801d2bb5c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(point
+			(at 184.635894 164.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "e82a08d8-de2d-40d6-807c-419ffe146de0")
+		)
+		(point
+			(at 184.635894 176.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "439a981c-7886-4aa0-b212-617f85053bac")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 6.5 6.5)
+			(drill 6.5)
+			(layers)
+			(uuid "d43b84c2-578b-4b3f-b206-67397cadd3ee")
+		)
+		(embedded_fonts no)
+		(model "${FORMANTKO_3DMODEL_DIR}/PJ-301BM.stp"
+			(offset
+				(xyz 0 0 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${FORMANTKO_3DMODEL_DIR}/Befaco - Nut (black).stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "FormantKO-Panel:Jack_3.5mm"
+		(layer "F.Cu")
+		(uuid "5bac5ef3-2bbd-469d-a4c3-94dfb9afef0a")
+		(at 184.635894 230.240428)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a74d48e4-dc24-46b3-9021-8afede15978e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Jack_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "679a7afd-e008-4341-9b28-6dadd2e1c097")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c50174a-e4d5-4c59-bd06-36ad25e4d2ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "842e6444-ce09-4bf6-b78c-1bfe85a136e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "fdd7eb81-9af9-47fd-9183-0dded4fdccc1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "5570c281-8d1f-464a-891a-13d16068f136")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(point
+			(at 184.635894 224.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "13ab3c2d-a942-4972-ab23-14fb1b930818")
+		)
+		(point
+			(at 184.635894 236.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "0a5d16cd-4197-43ad-aca8-2e11df7303d4")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 6.5 6.5)
+			(drill 6.5)
+			(layers)
+			(uuid "87d55dcc-ff6b-40da-94e4-f7855d3f2fec")
+		)
+		(embedded_fonts no)
+		(model "${FORMANTKO_3DMODEL_DIR}/PJ-301BM.stp"
+			(offset
+				(xyz 0 0 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${FORMANTKO_3DMODEL_DIR}/Befaco - Nut (black).stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "FormantKO-Panel:Jack_3.5mm"
+		(layer "F.Cu")
+		(uuid "5c48bbe4-ffc7-48ca-9eb0-de4589ff9124")
+		(at 184.635894 70.240428)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "293fd45f-eb5f-4101-8b70-2b4f9af46197")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Jack_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "67899de2-090a-4291-bb80-03395e18dfce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65a1d93d-ae08-4dfa-853f-ebcffab6bbee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bccbacc8-8235-47fb-ad54-db7f59cad0fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "a41373b2-378a-4b56-bb8b-b224dea71960")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f99de6da-d35f-47df-9a16-41bef6f24102")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(point
+			(at 184.635894 64.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "8f489326-18a9-4bd2-b189-036e81b7384a")
+		)
+		(point
+			(at 184.635894 76.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "948a72ae-c5fe-42c0-918b-2abff2fdd08a")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 6.5 6.5)
+			(drill 6.5)
+			(layers)
+			(uuid "e92960c0-ca46-41a8-931c-dd0ffbacb9fa")
+		)
+		(embedded_fonts no)
+		(model "${FORMANTKO_3DMODEL_DIR}/PJ-301BM.stp"
+			(offset
+				(xyz 0 0 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${FORMANTKO_3DMODEL_DIR}/Befaco - Nut (black).stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "FormantKO-Panel:Jack_3.5mm"
+		(layer "F.Cu")
+		(uuid "6cc326f2-48a8-40e7-8045-426659a9ace8")
+		(at 218.635894 230.240428)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d5980344-ed9a-4d4b-9ef2-802edcef12d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Jack_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "e3e8b61e-1034-43eb-bc9d-a3bcc72cac00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb98407c-74a8-46ba-b1a8-e0888c4270af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5aa5bd44-24be-49c6-ba3e-8d10f7501f88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "d7bb841f-f9f9-43b0-adf5-907f6a41c161")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "abd4091c-329d-45be-bbcf-d7936d9be714")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(point
+			(at 218.635894 224.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "b58776e2-cb07-4858-8aa8-5a8c0616fa39")
+		)
+		(point
+			(at 218.635894 236.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "86ccbdc0-d111-46c6-b100-a5d47658b988")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 6.5 6.5)
+			(drill 6.5)
+			(layers)
+			(uuid "bb61687d-5a3e-49fb-8eb6-b45af7da4aae")
+		)
+		(embedded_fonts no)
+		(model "${FORMANTKO_3DMODEL_DIR}/PJ-301BM.stp"
+			(offset
+				(xyz 0 0 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${FORMANTKO_3DMODEL_DIR}/Befaco - Nut (black).stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "FormantKO-Panel:Jack_3.5mm"
+		(layer "F.Cu")
+		(uuid "6d9114dd-60b9-4764-918f-83e1bcfa78ca")
+		(at 218.635894 110.240428)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "852486cd-533a-4325-ad16-d9ca7ee56519")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Jack_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "4a626ca1-3f78-4919-b0ce-b5309d4a9c70")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6086c0ec-6bc1-4e2f-95ba-95839c2d7e21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e028c741-9ac4-4a79-b5aa-98b32eccb3ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "81eff270-20f7-4688-bddd-d84aa35cfbdb")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "e6a59239-b613-4857-bc1c-ad827d79ecc8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(point
+			(at 218.635894 104.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "3416c5cf-4137-4055-8bbc-e3e6fa7862e0")
+		)
+		(point
+			(at 218.635894 116.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "1234a911-f020-4da3-bd4d-a3809663963d")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 6.5 6.5)
+			(drill 6.5)
+			(layers)
+			(uuid "bc7815dc-9930-4a12-8eac-62883eb10de2")
+		)
+		(embedded_fonts no)
+		(model "${FORMANTKO_3DMODEL_DIR}/PJ-301BM.stp"
+			(offset
+				(xyz 0 0 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${FORMANTKO_3DMODEL_DIR}/Befaco - Nut (black).stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "FormantKO-Panel:Jack_3.5mm"
+		(layer "F.Cu")
+		(uuid "6deb8575-615b-44eb-ae7b-6fbde30620cf")
+		(at 218.635894 130.240428)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3f34bb11-af6a-45c3-81f7-fe72be16a4fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Jack_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "6102ca36-2414-45e0-afb1-2c80747cd12e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5655e24d-0de7-4d0c-823f-ffbcefc92728")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d716e9d9-fa54-40f0-9208-0739b234a30d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "da023f41-0aad-4487-871b-48d9d6f42fea")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "74e75fac-a768-48db-aa5d-4dbe772ecfdc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(point
+			(at 218.635894 124.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "61985665-e9ae-40be-9a5d-b5e22ef3f812")
+		)
+		(point
+			(at 218.635894 136.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "ad093cda-acb8-4e34-b400-c1e4ecef3c25")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 6.5 6.5)
+			(drill 6.5)
+			(layers)
+			(uuid "58a296be-8dcf-44f9-96dc-7af23a2fa1e8")
+		)
+		(embedded_fonts no)
+		(model "${FORMANTKO_3DMODEL_DIR}/PJ-301BM.stp"
+			(offset
+				(xyz 0 0 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${FORMANTKO_3DMODEL_DIR}/Befaco - Nut (black).stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "FormantKO-Panel:Jack_3.5mm"
+		(layer "F.Cu")
+		(uuid "76d25259-e5ed-4188-b6a4-50dc84714321")
+		(at 201.635894 250.240428)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ddb6bc71-a93d-4a5b-9d3f-6192ce769359")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Jack_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ec049d0e-c4e3-4227-9013-c9012abb509a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8fc67d1-a183-4962-acd3-d5c3e56b91e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df2d3637-5a7a-4f24-a90f-3af13171ccd2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "12d84a32-eba0-4b7a-b4fe-1000018718b3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "3ec723e7-7bac-4750-a05e-32cce8eeda72")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(point
+			(at 201.635894 244.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "72b1e84c-3ee9-40e4-a262-c458a8bdabfe")
+		)
+		(point
+			(at 201.635894 256.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "f2c0996f-43a9-4916-a1fe-848cfe572b52")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 6.5 6.5)
+			(drill 6.5)
+			(layers)
+			(uuid "f5da4eaa-d822-4c6b-a827-0f40ff6ead7a")
+		)
+		(embedded_fonts no)
+		(model "${FORMANTKO_3DMODEL_DIR}/PJ-301BM.stp"
+			(offset
+				(xyz 0 0 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${FORMANTKO_3DMODEL_DIR}/Befaco - Nut (black).stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "FormantKO-Panel:Jack_3.5mm"
+		(layer "F.Cu")
+		(uuid "7e5ab162-6802-456e-b7ec-6ec0e27d0c25")
+		(at 218.635894 50.240428)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "96fbfe10-ebe7-4a11-bf1d-532b7a82b352")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Jack_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "62936fef-9da3-437e-a2ee-558e0cc92554")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3af3852-42d7-4b4d-84b8-04339f8760a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd5f59cf-aa61-46dd-a135-3c5723408ad6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "09b93c54-7a42-458f-8c82-0257b958641f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "bde459be-081c-4711-91c2-a94a07ae3c3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(point
+			(at 218.635894 44.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "44285b41-42d2-43d3-81d4-48f63d1ee9d4")
+		)
+		(point
+			(at 218.635894 56.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "8a29b823-6359-4bce-8846-3c85b3a60d96")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 6.5 6.5)
+			(drill 6.5)
+			(layers)
+			(uuid "371978fc-8073-439f-8ad9-867bbb934e56")
+		)
+		(embedded_fonts no)
+		(model "${FORMANTKO_3DMODEL_DIR}/PJ-301BM.stp"
+			(offset
+				(xyz 0 0 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${FORMANTKO_3DMODEL_DIR}/Befaco - Nut (black).stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "FormantKO-Panel:Switch_Mini_Toggle"
+		(layer "F.Cu")
+		(uuid "8b019e74-0bc2-4411-b20a-4613daba3eb4")
+		(at 201.635894 150.240428 90)
+		(property "Reference" "REF**"
+			(at 0 -5 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "184b2f19-ab39-4e5c-b1a7-7c15ceb46ffb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Switch_Mini_Toggle"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "5d24d325-715e-4e57-bb38-3fe51b0d5dd0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "926a9d7b-b1d4-44ec-a08c-0fa6a7b61087")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "272cb1c6-a34e-453f-bb9f-950a036117e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "ed9f80f3-8c73-49db-84ba-ad4dc1c0c762")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "62420fa4-d9c9-4cf1-ae12-9de91b7a35ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(point
+			(at 195.635894 150.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "bf1c3802-40d6-41b0-bb09-b1f4ef7aa10c")
+		)
+		(point
+			(at 207.635894 150.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "931e38c0-369f-4289-a1a5-95b37fe8fa71")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0 90)
+			(size 6.5 6.5)
+			(drill 6.5)
+			(layers)
+			(uuid "bde1e1f0-653f-43a1-83ae-258023d854da")
+		)
+		(embedded_fonts no)
+		(model "${FORMANTKO_3DMODEL_DIR}/6mm SPDT Mini Toggle Switch.step"
+			(offset
+				(xyz 0 0 -5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
+			)
+		)
+	)
+	(footprint "FormantKO-Panel:CardBracket"
+		(layer "F.Cu")
+		(uuid "8c80069a-c148-4d36-ae99-7f52f83631f8")
+		(at 173.695894 133.065428)
+		(property "Reference" "REF**"
+			(at 0 -94.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3c266a30-d1ce-4192-a0fc-5bf196a8b200")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "CardBracket"
+			(at 0 -93 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc258666-2d77-4d8e-b476-80e51d12d2a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -79 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ad3ce7c-0eaa-4ae9-92cb-55f01ebefa82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 -79 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "320b1fd2-e8f6-4f9e-a17d-ca4c35b5a7e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -2 -101)
+			(end 2 2)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "7ce73b96-63ef-47df-b85f-448cf8034549")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "3453034a-28e1-4257-b0ea-1468276584a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 -99)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "18606bd3-4515-41f2-9ee3-89a2a15877a8")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "056d56f4-11da-42ce-b4d3-a6640128e400")
+		)
+		(zone
+			(layers "F.Cu" "B.Cu")
+			(uuid "97d89c62-584f-43f9-955d-1aaa2ea0deec")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(keepout
+				(tracks not_allowed)
+				(vias not_allowed)
+				(pads not_allowed)
+				(copperpour allowed)
+				(footprints allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 171.695894 32.065428) (xy 175.695894 32.065428) (xy 175.695894 135.065428) (xy 171.695894 135.065428)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${FORMANTKO_3DMODEL_DIR}/60807011.stp"
+			(offset
+				(xyz -6.5 49.5 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "FormantKO-Panel:Jack_3.5mm"
+		(layer "F.Cu")
+		(uuid "a015d592-8a47-435c-9bf5-bbd985cb2147")
+		(at 201.635894 190.240428)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fb165c00-8153-4a3e-b4a5-00208e080fbb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Jack_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "4e446315-f801-404a-a256-63e872e43ec6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93a1860f-c496-4699-b49f-a5809fc31b5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3468ae7b-9bce-4da3-a09d-f722a7f93ff1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "f37d3923-f34f-4133-af31-688e962df7b6")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1577a791-be6f-42e5-a568-f32385c2ae17")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(point
+			(at 201.635894 184.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "13650ef4-7a0e-41e6-bd66-a7d401dbaa6d")
+		)
+		(point
+			(at 201.635894 196.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "29c64de2-80cc-4685-9bf1-5c1d54ee8f1e")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 6.5 6.5)
+			(drill 6.5)
+			(layers)
+			(uuid "3a1b6e57-ea46-41f9-95da-385d29d20a46")
+		)
+		(embedded_fonts no)
+		(model "${FORMANTKO_3DMODEL_DIR}/PJ-301BM.stp"
+			(offset
+				(xyz 0 0 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${FORMANTKO_3DMODEL_DIR}/Befaco - Nut (black).stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "FormantKO-Panel:PanelMountingHole"
+		(layer "F.Cu")
+		(uuid "b5556ca1-ebae-42a2-b95e-4b860ab4366c")
+		(at 173.695894 22.365428)
+		(property "Reference" "H1"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0757284c-be5e-4e8e-a6e8-617702a55c53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "TOP LEFT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ece7f7dd-81fc-450f-b79d-d4f7ee394123")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64dfcec6-48c8-44a5-829e-e014566f3a19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4457671e-8844-4411-881d-d72b67bd0e8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "FormantKO:MountingHole* MountingHole*")
+		(path "/7d906a4f-1e79-4c44-b46b-22f6ee26c1a0")
+		(sheetname "/")
+		(sheetfile "MULTIPLE_JACKS_6U.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "d7aa368c-3fd4-4ed8-bc0f-3f46f647e32c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole oval
+			(at 0 0)
+			(size 5.9 3.3)
+			(drill oval 5.9 3.3)
+			(layers "*.Cu" "*.Mask")
+			(uuid "b5612b0c-fe57-4732-830a-adfd355da930")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "FormantKO-Panel:Jack_3.5mm"
+		(layer "F.Cu")
+		(uuid "bdbead3c-3ab6-44ca-8680-be03ed3f42b9")
+		(at 184.635894 250.240428)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4887c72b-8b20-42f9-8175-4a6d391413f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Jack_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "0f9f46a5-d8cb-4824-a188-0d3d8da39451")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d479542-f70a-4988-8523-765563685bb3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2005122f-6669-46d6-a1f4-f065ed806ae7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "5903809e-a5de-4370-a07d-aff5a22a55d7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "7d8ece3b-552c-4156-abcf-81478eba0fd2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(point
+			(at 184.635894 244.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "b752a6e8-b1a4-4b03-ba99-bb5328bfdeeb")
+		)
+		(point
+			(at 184.635894 256.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "14966098-65db-4065-8eaf-80897422e9fd")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 6.5 6.5)
+			(drill 6.5)
+			(layers)
+			(uuid "043f9dbf-ccd7-48c6-835e-fd43ea522de9")
+		)
+		(embedded_fonts no)
+		(model "${FORMANTKO_3DMODEL_DIR}/PJ-301BM.stp"
+			(offset
+				(xyz 0 0 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${FORMANTKO_3DMODEL_DIR}/Befaco - Nut (black).stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "FormantKO-Panel:Jack_3.5mm"
+		(layer "F.Cu")
+		(uuid "c00f3223-0459-46a9-b827-bc32d1f0aa6c")
+		(at 201.635894 230.240428)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c8e166e3-8fd9-4f6d-974c-dbf925c213ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Jack_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "b8123675-bd43-4d21-a7d0-82c4ccad8116")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ca5423c-2dcf-4a39-93db-b96b1da97e41")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f1f1f30-5b9b-4378-834b-63227d7f5476")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "4f636539-0cf0-44bf-83c3-958d98d061e1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "97eec5d9-9fe5-4d6f-9eb2-f5a1bd045500")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(point
+			(at 201.635894 224.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "d76142ff-cf2f-4e49-b9ac-b48ec20913c0")
+		)
+		(point
+			(at 201.635894 236.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "606d3633-f409-4872-816c-84e493745ffe")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 6.5 6.5)
+			(drill 6.5)
+			(layers)
+			(uuid "2fff78a9-b98f-4860-9426-31d3997bb7c1")
+		)
+		(embedded_fonts no)
+		(model "${FORMANTKO_3DMODEL_DIR}/PJ-301BM.stp"
+			(offset
+				(xyz 0 0 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${FORMANTKO_3DMODEL_DIR}/Befaco - Nut (black).stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "FormantKO-Panel:Jack_3.5mm"
+		(layer "F.Cu")
+		(uuid "ce1f0d34-3ac0-4f59-b7bc-50202e028896")
+		(at 201.635894 170.240428)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a028a35d-b9e4-468b-a6d1-d40b40a20690")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Jack_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "7c1f8d31-ee50-4cf2-b7d9-d201eb6ee7a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3435b30-ac89-40c3-a1fc-e1d9e98a9a09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99485807-e266-4e96-a42c-82dcff79e51e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "7809080c-e658-401e-9c73-2bb7f2f1cd39")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ec37d859-d7ba-4505-8b94-20efa9dba484")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(point
+			(at 201.635894 164.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "c75c1183-ba5b-4491-9e39-cd853ac2d4db")
+		)
+		(point
+			(at 201.635894 176.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "b577eae3-197b-41d0-9622-3b7aed52d071")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 6.5 6.5)
+			(drill 6.5)
+			(layers)
+			(uuid "99a9a7e4-512e-456f-9904-b1632bf1f721")
+		)
+		(embedded_fonts no)
+		(model "${FORMANTKO_3DMODEL_DIR}/PJ-301BM.stp"
+			(offset
+				(xyz 0 0 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${FORMANTKO_3DMODEL_DIR}/Befaco - Nut (black).stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "FormantKO-Panel:PanelMountingHole"
+		(layer "F.Cu")
+		(uuid "e02aa084-c375-4676-8216-0b58acea7897")
+		(at 229.575894 22.365428)
+		(property "Reference" "H2"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "68ac1d7d-5b3e-4828-984a-7fa5284cd1bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "TOP RIGHT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f55d674-0cd1-4592-8fef-d18fe6fc6d40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0651cb3-d980-40cb-9d16-b68c273407ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5ce2dae-70a9-4450-94d2-6b6b88286c3c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "FormantKO:MountingHole* MountingHole*")
+		(path "/229035ef-1c75-4e94-b2d0-36f4850aa136")
+		(sheetname "/")
+		(sheetfile "MULTIPLE_JACKS_6U.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ae497692-2c3f-4917-a73e-43c49bdab88d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole oval
+			(at 0 0)
+			(size 5.9 3.3)
+			(drill oval 5.9 3.3)
+			(layers "*.Cu" "*.Mask")
+			(uuid "08b67a15-76ba-4897-bad9-c8c025fe0124")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "FormantKO-Panel:Jack_3.5mm"
+		(layer "F.Cu")
+		(uuid "ebde5fa2-8ad1-45a2-881e-73f98b0f7856")
+		(at 218.635894 170.240428)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a9544bd5-37d5-49bc-a2f2-13723d872357")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Jack_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "0e42da7a-b56e-4095-8dc9-756e0b8a24a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d3a3ee27-dc93-428d-805b-ddd02486343a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4873521e-705e-44fb-86f3-c5b8f1cef364")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "5d093927-6aec-42bb-af9c-813cbf95211c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "8b92caf7-de60-4436-9f5f-6976d49d4536")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(point
+			(at 218.635894 164.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "cf9328ff-3488-46e4-9367-03e8a506a4b3")
+		)
+		(point
+			(at 218.635894 176.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "1a3ca7fb-b572-421e-80b0-267a07e45f02")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 6.5 6.5)
+			(drill 6.5)
+			(layers)
+			(uuid "64a03c55-3552-4408-aa20-69c670767b6d")
+		)
+		(embedded_fonts no)
+		(model "${FORMANTKO_3DMODEL_DIR}/PJ-301BM.stp"
+			(offset
+				(xyz 0 0 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${FORMANTKO_3DMODEL_DIR}/Befaco - Nut (black).stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "FormantKO-Panel:Jack_3.5mm"
+		(layer "F.Cu")
+		(uuid "ec53c401-ea25-4507-b784-705e2b4da2db")
+		(at 184.635894 50.240428)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9f2058ff-7c2a-4bec-b799-bd89a14fb979")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Jack_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "9c5e75ff-a5e5-4443-aa03-40aaff200808")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6496088a-7c16-463a-8fbd-cf4180dad342")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec48a85c-87a8-482b-b710-45e2438fb8c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "db9dc713-5cb4-4e1a-865d-dc9b3cb7295b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "7e6c1bc0-1fad-482e-a977-6f0adb7e0c04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(point
+			(at 184.635894 44.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "0fdc7189-66af-4342-861a-c93ab3944755")
+		)
+		(point
+			(at 184.635894 56.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "68f17001-6b64-487a-8e7f-71e7b98cd122")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 6.5 6.5)
+			(drill 6.5)
+			(layers)
+			(uuid "d09b2e26-96bc-4c48-829a-db641e36a09d")
+		)
+		(embedded_fonts no)
+		(model "${FORMANTKO_3DMODEL_DIR}/PJ-301BM.stp"
+			(offset
+				(xyz 0 0 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${FORMANTKO_3DMODEL_DIR}/Befaco - Nut (black).stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "FormantKO-Panel:Switch_Mini_Toggle"
+		(layer "F.Cu")
+		(uuid "f77d1247-0fab-46c1-8fb6-613545a1fad0")
+		(at 201.635894 210.240428 90)
+		(property "Reference" "REF**"
+			(at 0 -5 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3aa1ab1f-fe66-4b37-988f-b29fad5b5252")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Switch_Mini_Toggle"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "38a843cd-f091-4e8d-9620-c37fa0231237")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "284c6bed-7f6e-4d18-a374-6aa601d9c5d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d068b19-3df6-40ee-ac36-53510fcd7c84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "9363c3e8-dbe5-47dc-971c-356187ed509e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "9765339e-6f0f-43d6-a5ff-9853c180775b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(point
+			(at 195.635894 210.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "13184487-61a5-448c-aef9-3b285098c718")
+		)
+		(point
+			(at 207.635894 210.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "43949dfe-860b-4a42-a9a6-e655953ab4d7")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0 90)
+			(size 6.5 6.5)
+			(drill 6.5)
+			(layers)
+			(uuid "e040699a-74ff-47f3-b556-61b12027e354")
+		)
+		(embedded_fonts no)
+		(model "${FORMANTKO_3DMODEL_DIR}/6mm SPDT Mini Toggle Switch.step"
+			(offset
+				(xyz 0 0 -5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
+			)
+		)
+	)
+	(footprint "FormantKO-Panel:Jack_3.5mm"
+		(layer "F.Cu")
+		(uuid "ffdfddc3-ade0-406c-a659-24be583247b3")
+		(at 218.635894 190.240428)
+		(property "Reference" "REF**"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "536cecad-05cc-4a26-b984-fd3e9d6d2b79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Jack_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "5ad410f9-54c2-4633-85c5-8ca9a31528ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2895f041-37b8-4902-a179-5dc29643f4c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8228dda0-ab99-4e3a-ba74-c262c98b4727")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 5 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "1f3ab0b4-96be-4040-97cc-6dfca2b1bd3c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "5142d53a-13f5-49e0-bc58-2c23403b1235")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(point
+			(at 218.635894 184.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "eaa25c85-39b5-4aa8-94b3-d7299e47eebe")
+		)
+		(point
+			(at 218.635894 196.240428)
+			(size 1)
+			(layer "F.SilkS")
+			(uuid "6ab90180-6c12-45f9-8baa-c9f163d7ffbd")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 6.5 6.5)
+			(drill 6.5)
+			(layers)
+			(uuid "bddd4590-cc05-4ae3-a0a7-485e5d6be125")
+		)
+		(embedded_fonts no)
+		(model "${FORMANTKO_3DMODEL_DIR}/PJ-301BM.stp"
+			(offset
+				(xyz 0 0 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${FORMANTKO_3DMODEL_DIR}/Befaco - Nut (black).stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(gr_rect
+		(start 167.245894 20.365428)
+		(end 236.025894 280.115428)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "97ced59f-bd78-4ded-a034-7f444ea38cc9")
+	)
+	(gr_line
+		(start 184.635894 50.240428)
+		(end 184.635894 70.240428)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9d79f181-fa98-4b99-83c3-f77bb933b8c7")
+	)
+	(gr_line
+		(start 184.635894 50.240428)
+		(end 218.635894 50.240428)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fc8a0ab0-7381-49fe-95d6-4c86b54f88ed")
+	)
+	(gr_line
+		(start 184.635894 110.240428)
+		(end 184.635894 130.240428)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f206441c-a863-40d4-9d6b-3df5311983d4")
+	)
+	(gr_line
+		(start 184.635894 110.240428)
+		(end 218.635894 110.240428)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bbc08d56-45d0-4beb-9b04-ddfdffc66377")
+	)
+	(gr_line
+		(start 184.635894 170.240428)
+		(end 184.635894 190.240428)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "579b5e37-8195-4804-85b3-3b61875ce5e9")
+	)
+	(gr_line
+		(start 184.635894 170.240428)
+		(end 218.635894 170.240428)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "afc1e326-e95a-43fe-a2f7-875f2c1eeb1d")
+	)
+	(gr_line
+		(start 184.635894 230.240428)
+		(end 184.635894 250.240428)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6749959f-6856-413d-baad-cc6426a5907e")
+	)
+	(gr_line
+		(start 184.635894 230.240428)
+		(end 218.635894 230.240428)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "efb8713f-141f-4dcc-9012-7245502ad3c4")
+	)
+	(gr_line
+		(start 201.635894 50.240428)
+		(end 201.635894 70.240428)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3e52beab-7814-4f58-9ffc-174f6b7eb28f")
+	)
+	(gr_line
+		(start 201.635894 70.240428)
+		(end 201.635894 110.240428)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "407ad903-2c26-4495-ad15-fa2e5512b600")
+	)
+	(gr_line
+		(start 201.635894 110.240428)
+		(end 201.635894 130.240428)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3a46c508-842f-4de5-ba6b-ba04048f3be5")
+	)
+	(gr_line
+		(start 201.635894 130.240428)
+		(end 201.635894 170.240428)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ee5805ac-b878-444a-a080-ba54f6992acc")
+	)
+	(gr_line
+		(start 201.635894 170.240428)
+		(end 201.635894 190.240428)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9d166a2a-07f8-4bd2-86ca-66957dc59f88")
+	)
+	(gr_line
+		(start 201.635894 190.240428)
+		(end 201.635894 230.240428)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "216c29a8-a912-4798-9032-42449cbd2409")
+	)
+	(gr_line
+		(start 201.635894 230.240428)
+		(end 201.635894 250.240428)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7ae914f8-1560-43ac-a3a6-8e98c6c7c1b3")
+	)
+	(gr_line
+		(start 218.635894 50.240428)
+		(end 218.635894 70.240428)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "372bfa5d-db6c-444c-913b-ff7320537443")
+	)
+	(gr_line
+		(start 218.635894 70.240428)
+		(end 184.635894 70.240428)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9455840a-07d8-42c7-a71f-214ab0a0f255")
+	)
+	(gr_line
+		(start 218.635894 110.240428)
+		(end 218.635894 130.240428)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "62ab9ef0-7b53-4c62-83d7-a0fe9f7869ff")
+	)
+	(gr_line
+		(start 218.635894 130.240428)
+		(end 184.635894 130.240428)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "92a57eee-0678-4231-b1fd-56682ce19744")
+	)
+	(gr_line
+		(start 218.635894 170.240428)
+		(end 218.635894 190.240428)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6b0c536d-5555-4e0c-901a-a2132fbfaf09")
+	)
+	(gr_line
+		(start 218.635894 190.240428)
+		(end 184.635894 190.240428)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "97f6af23-87ef-43e5-96e8-d23b3f3bfb36")
+	)
+	(gr_line
+		(start 218.635894 230.240428)
+		(end 218.635894 250.240428)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "56f655bb-5e51-4b81-bdaf-2f2352b01b34")
+	)
+	(gr_line
+		(start 218.635894 250.240428)
+		(end 184.635894 250.240428)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "17a3367d-0859-4ee2-93ed-67045753a32d")
+	)
+	(gr_line
+		(start 166.245894 50.240428)
+		(end 237.025894 50.240428)
+		(stroke
+			(width 0.05)
+			(type dot)
+		)
+		(layer "Dwgs.User")
+		(uuid "b29a077c-c8d3-4cd3-bb79-476dd178f234")
+	)
+	(gr_line
+		(start 166.245894 70.240428)
+		(end 237.025894 70.240428)
+		(stroke
+			(width 0.05)
+			(type dash)
+		)
+		(layer "Dwgs.User")
+		(uuid "fa513707-6398-4d63-aeaf-3bfeef051864")
+	)
+	(gr_line
+		(start 166.245894 90.240428)
+		(end 237.025894 90.240428)
+		(stroke
+			(width 0.05)
+			(type dot)
+		)
+		(layer "Dwgs.User")
+		(uuid "5d7b8c68-4138-4d35-b92b-97d1f7139e5d")
+	)
+	(gr_line
+		(start 166.245894 110.240428)
+		(end 237.025894 110.240428)
+		(stroke
+			(width 0.05)
+			(type dash)
+		)
+		(layer "Dwgs.User")
+		(uuid "35dd1d51-f7a2-40e3-9154-8cdbdbe70016")
+	)
+	(gr_line
+		(start 166.245894 130.240428)
+		(end 237.025894 130.240428)
+		(stroke
+			(width 0.05)
+			(type dot)
+		)
+		(layer "Dwgs.User")
+		(uuid "d06e69dd-ccbd-4cc7-b9e4-22f39e0cd12a")
+	)
+	(gr_line
+		(start 166.245894 150.240428)
+		(end 237.025894 150.240428)
+		(stroke
+			(width 0.2)
+			(type dash)
+		)
+		(layer "Dwgs.User")
+		(uuid "61d11dd9-c5df-42c6-bed1-06e21ad64727")
+	)
+	(gr_line
+		(start 166.245894 170.240428)
+		(end 237.025894 170.240428)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(layer "Dwgs.User")
+		(uuid "e660e522-6f45-4c91-a4fc-9ed4cb1be8e6")
+	)
+	(gr_line
+		(start 166.245894 190.240428)
+		(end 237.025894 190.240428)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "Dwgs.User")
+		(uuid "7a8dee5d-d5e6-4d4b-8636-87cc3a7ed25a")
+	)
+	(gr_line
+		(start 166.245894 210.240428)
+		(end 237.025894 210.240428)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(layer "Dwgs.User")
+		(uuid "1f112825-b70e-4ed9-9711-39e68100d4e9")
+	)
+	(gr_line
+		(start 166.245894 230.240428)
+		(end 237.025894 230.240428)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "Dwgs.User")
+		(uuid "b26e8ef8-88dd-4bb7-b1be-91079544f4cc")
+	)
+	(gr_line
+		(start 166.245894 250.240428)
+		(end 237.025894 250.240428)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(layer "Dwgs.User")
+		(uuid "846d7145-a578-4960-a612-85bdf5c16533")
+	)
+	(gr_line
+		(start 179.635894 19.365428)
+		(end 179.635894 281.115428)
+		(stroke
+			(width 0.05)
+			(type dot)
+		)
+		(layer "Dwgs.User")
+		(uuid "965b4a3c-37a6-44d7-a6a6-8b1a5831322b")
+	)
+	(gr_line
+		(start 184.635894 19.365428)
+		(end 184.635894 281.115428)
+		(stroke
+			(width 0.05)
+			(type dash)
+		)
+		(layer "Dwgs.User")
+		(uuid "2b9af797-89f1-4b8b-8ba7-3351def592f8")
+	)
+	(gr_line
+		(start 201.635894 19.365428)
+		(end 201.635894 281.115428)
+		(stroke
+			(width 0.2)
+			(type dash)
+		)
+		(layer "Dwgs.User")
+		(uuid "5cc290f6-fbbf-45f1-82fa-db4c63fdf951")
+	)
+	(gr_line
+		(start 218.635894 19.365428)
+		(end 218.635894 281.115428)
+		(stroke
+			(width 0.05)
+			(type dash)
+		)
+		(layer "Dwgs.User")
+		(uuid "0696d7f8-739a-4e10-a8b7-bcc79395c04f")
+	)
+	(gr_line
+		(start 223.635894 19.365428)
+		(end 223.635894 281.115428)
+		(stroke
+			(width 0.05)
+			(type dot)
+		)
+		(layer "Dwgs.User")
+		(uuid "9efabfc9-9e56-4f33-af60-1f21dbfb0e0c")
+	)
+	(gr_rect
+		(start 166.245894 19.365428)
+		(end 237.025894 281.115428)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "a3d7f74b-14d8-4233-8f3b-528a6d660dfa")
+	)
+	(gr_text "OFF"
+		(at 207.635894 90.240428 0)
+		(layer "F.SilkS")
+		(uuid "78f0f6b3-552a-444f-86e0-f54f61e4f1e3")
+		(effects
+			(font
+				(face "Eurostile Extended")
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(render_cache "OFF" 0
+			(polygon
+				(pts
+					(xy 209.53708 89.189635) (xy 209.751727 89.198561) (xy 209.9195 89.222609) (xy 210.04863 89.258257)
+					(xy 210.14638 89.302864) (xy 210.218884 89.354866) (xy 210.276825 89.421875) (xy 210.326191 89.514281)
+					(xy 210.365633 89.638555) (xy 210.392344 89.802659) (xy 210.40231 90.015787) (xy 210.40231 90.105302)
+					(xy 210.389665 90.415233) (xy 210.357016 90.635363) (xy 210.311112 90.786216) (xy 210.256741 90.885291)
+					(xy 210.196444 90.945147) (xy 210.104205 90.997581) (xy 209.969758 91.040865) (xy 209.780179 91.071087)
+					(xy 209.520349 91.08264) (xy 209.091947 91.091066) (xy 208.912673 91.093875) (xy 208.526281 91.079831)
+					(xy 208.362358 91.069207) (xy 208.227316 91.03969) (xy 208.116238 90.993863) (xy 208.025094 90.932919)
+					(xy 207.951848 90.853693) (xy 207.897153 90.751973) (xy 207.861693 90.622505) (xy 207.848751 90.458233)
+					(xy 207.843134 90.113728) (xy 207.845215 90.064758) (xy 208.417104 90.064758) (xy 208.417104 90.115194)
+					(xy 208.417104 90.190665) (xy 208.426063 90.364284) (xy 208.448047 90.473471) (xy 208.47731 90.537612)
+					(xy 208.511033 90.57169) (xy 208.566054 90.599536) (xy 208.650647 90.619347) (xy 208.775531 90.627127)
+					(xy 209.080712 90.632744) (xy 209.371972 90.629936) (xy 209.534017 90.622598) (xy 209.644968 90.603949)
+					(xy 209.717697 90.578156) (xy 209.759793 90.546979) (xy 209.792139 90.498178) (xy 209.814224 90.426023)
+					(xy 209.822722 90.32219) (xy 209.828339 90.070375) (xy 209.824148 89.946335) (xy 209.812952 89.850801)
+					(xy 209.788003 89.768589) (xy 209.749937 89.716467) (xy 209.694326 89.681943) (xy 209.608521 89.659192)
+					(xy 209.51306 89.648764) (xy 209.408364 89.645148) (xy 208.842697 89.647957) (xy 208.661439 89.659319)
+					(xy 208.548629 89.687158) (xy 208.491923 89.722104) (xy 208.453514 89.775704) (xy 208.432492 89.85361)
+					(xy 208.417104 90.064758) (xy 207.845215 90.064758) (xy 207.856032 89.810159) (xy 207.889013 89.599454)
+					(xy 207.934873 89.459122) (xy 207.988702 89.370253) (xy 208.047768 89.31718) (xy 208.136244 89.27056)
+					(xy 208.263309 89.232144) (xy 208.440281 89.205425) (xy 208.680276 89.195253) (xy 209.083521 89.186827)
+				)
+			)
+			(polygon
+				(pts
+					(xy 212.831916 89.194642) (xy 212.831916 89.616694) (xy 211.417872 89.616694) (xy 211.417872 89.944956)
+					(xy 212.831916 89.944956) (xy 212.831916 90.312298) (xy 211.417872 90.312298) (xy 211.417872 91.078243)
+					(xy 210.849519 91.078243) (xy 210.849519 89.194642)
+				)
+			)
+			(polygon
+				(pts
+					(xy 215.157108 89.194642) (xy 215.157108 89.616694) (xy 213.743064 89.616694) (xy 213.743064 89.944956)
+					(xy 215.157108 89.944956) (xy 215.157108 90.312298) (xy 213.743064 90.312298) (xy 213.743064 91.078243)
+					(xy 213.174711 91.078243) (xy 213.174711 89.194642)
+				)
+			)
+		)
+	)
+	(gr_text "OFF"
+		(at 207.635894 150.240428 0)
+		(layer "F.SilkS")
+		(uuid "5ede99a7-9618-4d02-99b2-9a95f682498c")
+		(effects
+			(font
+				(face "Eurostile Extended")
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(render_cache "OFF" 0
+			(polygon
+				(pts
+					(xy 209.53708 149.189635) (xy 209.751727 149.198561) (xy 209.9195 149.222609) (xy 210.04863 149.258257)
+					(xy 210.14638 149.302864) (xy 210.218884 149.354866) (xy 210.276825 149.421875) (xy 210.326191 149.514281)
+					(xy 210.365633 149.638555) (xy 210.392344 149.802659) (xy 210.40231 150.015787) (xy 210.40231 150.105302)
+					(xy 210.389665 150.415233) (xy 210.357016 150.635363) (xy 210.311112 150.786216) (xy 210.256741 150.885291)
+					(xy 210.196444 150.945147) (xy 210.104205 150.997581) (xy 209.969758 151.040865) (xy 209.780179 151.071087)
+					(xy 209.520349 151.08264) (xy 209.091947 151.091066) (xy 208.912673 151.093875) (xy 208.526281 151.079831)
+					(xy 208.362358 151.069207) (xy 208.227316 151.03969) (xy 208.116238 150.993863) (xy 208.025094 150.932919)
+					(xy 207.951848 150.853693) (xy 207.897153 150.751973) (xy 207.861693 150.622505) (xy 207.848751 150.458233)
+					(xy 207.843134 150.113728) (xy 207.845215 150.064758) (xy 208.417104 150.064758) (xy 208.417104 150.115194)
+					(xy 208.417104 150.190665) (xy 208.426063 150.364284) (xy 208.448047 150.473471) (xy 208.47731 150.537612)
+					(xy 208.511033 150.57169) (xy 208.566054 150.599536) (xy 208.650647 150.619347) (xy 208.775531 150.627127)
+					(xy 209.080712 150.632744) (xy 209.371972 150.629936) (xy 209.534017 150.622598) (xy 209.644968 150.603949)
+					(xy 209.717697 150.578156) (xy 209.759793 150.546979) (xy 209.792139 150.498178) (xy 209.814224 150.426023)
+					(xy 209.822722 150.32219) (xy 209.828339 150.070375) (xy 209.824148 149.946335) (xy 209.812952 149.850801)
+					(xy 209.788003 149.768589) (xy 209.749937 149.716467) (xy 209.694326 149.681943) (xy 209.608521 149.659192)
+					(xy 209.51306 149.648764) (xy 209.408364 149.645148) (xy 208.842697 149.647957) (xy 208.661439 149.659319)
+					(xy 208.548629 149.687158) (xy 208.491923 149.722104) (xy 208.453514 149.775704) (xy 208.432492 149.85361)
+					(xy 208.417104 150.064758) (xy 207.845215 150.064758) (xy 207.856032 149.810159) (xy 207.889013 149.599454)
+					(xy 207.934873 149.459122) (xy 207.988702 149.370253) (xy 208.047768 149.31718) (xy 208.136244 149.27056)
+					(xy 208.263309 149.232144) (xy 208.440281 149.205425) (xy 208.680276 149.195253) (xy 209.083521 149.186827)
+				)
+			)
+			(polygon
+				(pts
+					(xy 212.831916 149.194642) (xy 212.831916 149.616694) (xy 211.417872 149.616694) (xy 211.417872 149.944956)
+					(xy 212.831916 149.944956) (xy 212.831916 150.312298) (xy 211.417872 150.312298) (xy 211.417872 151.078243)
+					(xy 210.849519 151.078243) (xy 210.849519 149.194642)
+				)
+			)
+			(polygon
+				(pts
+					(xy 215.157108 149.194642) (xy 215.157108 149.616694) (xy 213.743064 149.616694) (xy 213.743064 149.944956)
+					(xy 215.157108 149.944956) (xy 215.157108 150.312298) (xy 213.743064 150.312298) (xy 213.743064 151.078243)
+					(xy 213.174711 151.078243) (xy 213.174711 149.194642)
+				)
+			)
+		)
+	)
+	(gr_text "OFF"
+		(at 207.635894 210.240428 0)
+		(layer "F.SilkS")
+		(uuid "fb6bc852-3c9e-4cde-b6c7-076745828341")
+		(effects
+			(font
+				(face "Eurostile Extended")
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(render_cache "OFF" 0
+			(polygon
+				(pts
+					(xy 209.53708 209.189635) (xy 209.751727 209.198561) (xy 209.9195 209.222609) (xy 210.04863 209.258257)
+					(xy 210.14638 209.302864) (xy 210.218884 209.354866) (xy 210.276825 209.421875) (xy 210.326191 209.514281)
+					(xy 210.365633 209.638555) (xy 210.392344 209.802659) (xy 210.40231 210.015787) (xy 210.40231 210.105302)
+					(xy 210.389665 210.415233) (xy 210.357016 210.635363) (xy 210.311112 210.786216) (xy 210.256741 210.885291)
+					(xy 210.196444 210.945147) (xy 210.104205 210.997581) (xy 209.969758 211.040865) (xy 209.780179 211.071087)
+					(xy 209.520349 211.08264) (xy 209.091947 211.091066) (xy 208.912673 211.093875) (xy 208.526281 211.079831)
+					(xy 208.362358 211.069207) (xy 208.227316 211.03969) (xy 208.116238 210.993863) (xy 208.025094 210.932919)
+					(xy 207.951848 210.853693) (xy 207.897153 210.751973) (xy 207.861693 210.622505) (xy 207.848751 210.458233)
+					(xy 207.843134 210.113728) (xy 207.845215 210.064758) (xy 208.417104 210.064758) (xy 208.417104 210.115194)
+					(xy 208.417104 210.190665) (xy 208.426063 210.364284) (xy 208.448047 210.473471) (xy 208.47731 210.537612)
+					(xy 208.511033 210.57169) (xy 208.566054 210.599536) (xy 208.650647 210.619347) (xy 208.775531 210.627127)
+					(xy 209.080712 210.632744) (xy 209.371972 210.629936) (xy 209.534017 210.622598) (xy 209.644968 210.603949)
+					(xy 209.717697 210.578156) (xy 209.759793 210.546979) (xy 209.792139 210.498178) (xy 209.814224 210.426023)
+					(xy 209.822722 210.32219) (xy 209.828339 210.070375) (xy 209.824148 209.946335) (xy 209.812952 209.850801)
+					(xy 209.788003 209.768589) (xy 209.749937 209.716467) (xy 209.694326 209.681943) (xy 209.608521 209.659192)
+					(xy 209.51306 209.648764) (xy 209.408364 209.645148) (xy 208.842697 209.647957) (xy 208.661439 209.659319)
+					(xy 208.548629 209.687158) (xy 208.491923 209.722104) (xy 208.453514 209.775704) (xy 208.432492 209.85361)
+					(xy 208.417104 210.064758) (xy 207.845215 210.064758) (xy 207.856032 209.810159) (xy 207.889013 209.599454)
+					(xy 207.934873 209.459122) (xy 207.988702 209.370253) (xy 208.047768 209.31718) (xy 208.136244 209.27056)
+					(xy 208.263309 209.232144) (xy 208.440281 209.205425) (xy 208.680276 209.195253) (xy 209.083521 209.186827)
+				)
+			)
+			(polygon
+				(pts
+					(xy 212.831916 209.194642) (xy 212.831916 209.616694) (xy 211.417872 209.616694) (xy 211.417872 209.944956)
+					(xy 212.831916 209.944956) (xy 212.831916 210.312298) (xy 211.417872 210.312298) (xy 211.417872 211.078243)
+					(xy 210.849519 211.078243) (xy 210.849519 209.194642)
+				)
+			)
+			(polygon
+				(pts
+					(xy 215.157108 209.194642) (xy 215.157108 209.616694) (xy 213.743064 209.616694) (xy 213.743064 209.944956)
+					(xy 215.157108 209.944956) (xy 215.157108 210.312298) (xy 213.743064 210.312298) (xy 213.743064 211.078243)
+					(xy 213.174711 211.078243) (xy 213.174711 209.194642)
+				)
+			)
+		)
+	)
+	(gr_text "FORMANT^{KO}"
+		(at 201.635894 276.115428 0)
+		(layer "F.SilkS")
+		(uuid "049a24e8-a461-4e08-bffd-deb6e9a07f28")
+		(effects
+			(font
+				(face "Eurostile Extended")
+				(size 2 2)
+			)
+		)
+		(render_cache "FORMANT^{KO}" 0
+			(polygon
+				(pts
+					(xy 191.89207 275.069642) (xy 191.89207 275.491694) (xy 190.478026 275.491694) (xy 190.478026 275.819956)
+					(xy 191.89207 275.819956) (xy 191.89207 276.187298) (xy 190.478026 276.187298) (xy 190.478026 276.953243)
+					(xy 189.909673 276.953243) (xy 189.909673 275.069642)
+				)
+			)
+			(polygon
+				(pts
+					(xy 193.892419 275.064635) (xy 194.107066 275.073561) (xy 194.274839 275.097609) (xy 194.403969 275.133257)
+					(xy 194.501719 275.177864) (xy 194.574223 275.229866) (xy 194.632164 275.296875) (xy 194.68153 275.389281)
+					(xy 194.720972 275.513555) (xy 194.747683 275.677659) (xy 194.757649 275.890787) (xy 194.757649 275.980302)
+					(xy 194.745003 276.290233) (xy 194.712355 276.510363) (xy 194.666451 276.661216) (xy 194.61208 276.760291)
+					(xy 194.551783 276.820147) (xy 194.459544 276.872581) (xy 194.325097 276.915865) (xy 194.135518 276.946087)
+					(xy 193.875688 276.95764) (xy 193.447286 276.966066) (xy 193.268012 276.968875) (xy 192.88162 276.954831)
+					(xy 192.717697 276.944207) (xy 192.582655 276.91469) (xy 192.471577 276.868863) (xy 192.380433 276.807919)
+					(xy 192.307187 276.728693) (xy 192.252492 276.626973) (xy 192.217032 276.497505) (xy 192.20409 276.333233)
+					(xy 192.198472 275.988728) (xy 192.200553 275.939758) (xy 192.772443 275.939758) (xy 192.772443 275.990194)
+					(xy 192.772443 276.065665) (xy 192.781402 276.239284) (xy 192.803386 276.348471) (xy 192.832649 276.412612)
+					(xy 192.866372 276.44669) (xy 192.921393 276.474536) (xy 193.005986 276.494347) (xy 193.13087 276.502127)
+					(xy 193.436051 276.507744) (xy 193.727311 276.504936) (xy 193.889356 276.497598) (xy 194.000307 276.478949)
+					(xy 194.073036 276.453156) (xy 194.115132 276.421979) (xy 194.147478 276.373178) (xy 194.169562 276.301023)
+					(xy 194.178061 276.19719) (xy 194.183678 275.945375) (xy 194.179487 275.821335) (xy 194.168291 275.725801)
+					(xy 194.143342 275.643589) (xy 194.105276 275.591467) (xy 194.049664 275.556943) (xy 193.96386 275.534192)
+					(xy 193.868399 275.523764) (xy 193.763703 275.520148) (xy 193.198036 275.522957) (xy 193.016777 275.534319)
+					(xy 192.903968 275.562158) (xy 192.847262 275.597104) (xy 192.808853 275.650704) (xy 192.78783 275.72861)
+					(xy 192.772443 275.939758) (xy 192.200553 275.939758) (xy 192.211371 275.685159) (xy 192.244352 275.474454)
+					(xy 192.290212 275.334122) (xy 192.344041 275.245253) (xy 192.403107 275.19218) (xy 192.491583 275.14556)
+					(xy 192.618648 275.107144) (xy 192.79562 275.080425) (xy 193.035615 275.070253) (xy 193.43886 275.061827)
+				)
+			)
+			(polygon
+				(pts
+					(xy 197.116483 275.079875) (xy 197.248983 275.107344) (xy 197.349201 275.148275) (xy 197.423804 275.200557)
+					(xy 197.481624 275.270004) (xy 197.526563 275.365286) (xy 197.556737 275.493509) (xy 197.568029 275.663641)
+					(xy 197.56421 275.785884) (xy 197.553985 275.880529) (xy 197.532518 275.966032) (xy 197.498054 276.036722)
+					(xy 197.451349 276.095638) (xy 197.39999 276.135274) (xy 197.327975 276.168496) (xy 197.164784 276.226743)
+					(xy 197.293818 276.251927) (xy 197.387327 276.286285) (xy 197.453235 276.327493) (xy 197.501512 276.384627)
+					(xy 197.533496 276.468757) (xy 197.545681 276.589932) (xy 197.545681 276.953243) (xy 196.96878 276.953243)
+					(xy 196.96878 276.771893) (xy 196.962042 276.640208) (xy 196.944966 276.550853) (xy 196.927132 276.519836)
+					(xy 196.890633 276.49467) (xy 196.826682 276.476199) (xy 196.722338 276.468665) (xy 195.773211 276.468665)
+					(xy 195.773211 276.953243) (xy 195.204858 276.953243) (xy 195.204858 276.007535) (xy 195.773211 276.007535)
+					(xy 196.632823 276.007535) (xy 196.705608 276.007535) (xy 196.836377 276.000062) (xy 196.909733 275.98256)
+					(xy 196.946431 275.960396) (xy 196.969482 275.92461) (xy 196.986854 275.85933) (xy 196.994059 275.749737)
+					(xy 196.9887 275.664343) (xy 196.975863 275.613938) (xy 196.948972 275.577442) (xy 196.900269 275.552999)
+					(xy 196.80648 275.533582) (xy 196.719652 275.530773) (xy 196.674833 275.530773) (xy 195.773211 275.530773)
+					(xy 195.773211 276.007535) (xy 195.204858 276.007535) (xy 195.204858 275.069642) (xy 196.943622 275.069642)
+				)
+			)
+			(polygon
+				(pts
+					(xy 200.66051 276.953243) (xy 200.66051 275.530895) (xy 199.83729 276.953243) (xy 199.380922 276.953243)
+					(xy 198.566128 275.530895) (xy 198.566128 276.953243) (xy 198.031358 276.953243) (xy 198.031358 275.069642)
+					(xy 198.935789 275.069642) (xy 199.621745 276.31064) (xy 200.299275 275.069642) (xy 201.198089 275.069642)
+					(xy 201.198089 276.953243)
+				)
+			)
+			(polygon
+				(pts
+					(xy 204.36372 276.953243) (xy 203.736505 276.953243) (xy 203.560039 276.601534) (xy 202.353357 276.601534)
+					(xy 202.168588 276.953243) (xy 201.535754 276.953243) (xy 201.942011 276.218561) (xy 202.552049 276.218561)
+					(xy 203.352921 276.218561) (xy 202.952485 275.445899) (xy 202.552049 276.218561) (xy 201.942011 276.218561)
+					(xy 202.577328 275.069642) (xy 203.344495 275.069642)
+				)
+			)
+			(polygon
+				(pts
+					(xy 206.35662 276.953243) (xy 205.231027 275.550434) (xy 205.231027 276.953243) (xy 204.696257 276.953243)
+					(xy 204.696257 275.069642) (xy 205.600688 275.069642) (xy 206.726281 276.469642) (xy 206.726281 275.069642)
+					(xy 207.261051 275.069642) (xy 207.261051 276.953243)
+				)
+			)
+			(polygon
+				(pts
+					(xy 208.410824 276.953243) (xy 208.410824 275.530773) (xy 207.576368 275.530773) (xy 207.576368 275.069642)
+					(xy 209.810824 275.069642) (xy 209.810824 275.530773) (xy 208.979177 275.530773) (xy 208.979177 276.953243)
+				)
+			)
+			(polygon
+				(pts
+					(xy 210.591423 275.388819) (xy 211.084183 274.94332) (xy 211.585858 274.94332) (xy 210.901368 275.533655)
+					(xy 211.661085 276.139133) (xy 211.12717 276.139133) (xy 210.591423 275.685818) (xy 210.405066 275.685818)
+					(xy 210.405066 276.139133) (xy 210.041266 276.139133) (xy 210.041266 274.94332) (xy 210.405066 274.94332)
+					(xy 210.405066 275.388819)
+				)
+			)
+			(polygon
+				(pts
+					(xy 212.923088 274.92952) (xy 213.089859 274.938315) (xy 213.211885 274.961391) (xy 213.299009 274.994738)
+					(xy 213.359428 275.035888) (xy 213.404894 275.092109) (xy 213.441562 275.175431) (xy 213.467021 275.294726)
+					(xy 213.476786 275.460993) (xy 213.476786 275.518756) (xy 213.468688 275.718206) (xy 213.447782 275.859836)
+					(xy 213.418395 275.956861) (xy 213.383608 276.020553) (xy 213.332335 276.068014) (xy 213.246716 276.107644)
+					(xy 213.112672 276.136243) (xy 212.912341 276.147559) (xy 212.638301 276.152933) (xy 212.523629 276.154765)
+					(xy 212.276333 276.145728) (xy 212.140746 276.133821) (xy 212.036072 276.101362) (xy 211.95552 276.051206)
+					(xy 211.908678 276.000255) (xy 211.873674 275.934818) (xy 211.850969 275.851505) (xy 211.84268 275.74578)
+					(xy 211.839138 275.52413) (xy 211.84047 275.492622) (xy 212.206357 275.492622) (xy 212.206357 275.524984)
+					(xy 212.206357 275.573589) (xy 212.212081 275.685205) (xy 212.22613 275.755432) (xy 212.244825 275.796705)
+					(xy 212.276463 275.825053) (xy 212.335293 275.845698) (xy 212.435701 275.854224) (xy 212.630973 275.857765)
+					(xy 212.817331 275.855933) (xy 212.960076 275.845968) (xy 213.038615 275.822716) (xy 213.073148 275.793609)
+					(xy 213.096564 275.742321) (xy 213.105904 275.658097) (xy 213.109445 275.496286) (xy 213.099553 275.355113)
+					(xy 213.083627 275.302253) (xy 213.059253 275.268774) (xy 213.023707 275.246581) (xy 212.968761 275.231893)
+					(xy 212.840656 275.222856) (xy 212.478688 275.224688) (xy 212.362732 275.231977) (xy 212.290499 275.249845)
+					(xy 212.254229 275.272311) (xy 212.229621 275.306792) (xy 212.216127 275.356945) (xy 212.206357 275.492622)
+					(xy 211.84047 275.492622) (xy 211.847398 275.328773) (xy 211.868517 275.193197) (xy 211.897876 275.102924)
+					(xy 211.932317 275.04578) (xy 211.982372 275.003639) (xy 212.063994 274.968386) (xy 212.189651 274.943041)
+					(xy 212.374885 274.933062) (xy 212.632927 274.927688)
+				)
+			)
+		)
+	)
+	(gr_text "ON"
+		(at 195.635894 90.240428 0)
+		(layer "F.SilkS")
+		(uuid "59968b28-2223-4acd-922f-f6b895596dad")
+		(effects
+			(font
+				(face "Eurostile Extended")
+				(size 2 2)
+			)
+			(justify right)
+		)
+		(render_cache "ON" 0
+			(polygon
+				(pts
+					(xy 191.518937 89.189635) (xy 191.733584 89.198561) (xy 191.901357 89.222609) (xy 192.030487 89.258257)
+					(xy 192.128237 89.302864) (xy 192.200741 89.354866) (xy 192.258682 89.421875) (xy 192.308048 89.514281)
+					(xy 192.34749 89.638555) (xy 192.374201 89.802659) (xy 192.384167 90.015787) (xy 192.384167 90.105302)
+					(xy 192.371522 90.415233) (xy 192.338873 90.635363) (xy 192.292969 90.786216) (xy 192.238598 90.885291)
+					(xy 192.178301 90.945147) (xy 192.086062 90.997581) (xy 191.951615 91.040865) (xy 191.762036 91.071087)
+					(xy 191.502206 91.08264) (xy 191.073804 91.091066) (xy 190.89453 91.093875) (xy 190.508138 91.079831)
+					(xy 190.344215 91.069207) (xy 190.209173 91.03969) (xy 190.098095 90.993863) (xy 190.006951 90.932919)
+					(xy 189.933705 90.853693) (xy 189.87901 90.751973) (xy 189.84355 90.622505) (xy 189.830608 90.458233)
+					(xy 189.824991 90.113728) (xy 189.827072 90.064758) (xy 190.398961 90.064758) (xy 190.398961 90.115194)
+					(xy 190.398961 90.190665) (xy 190.40792 90.364284) (xy 190.429904 90.473471) (xy 190.459167 90.537612)
+					(xy 190.49289 90.57169) (xy 190.547911 90.599536) (xy 190.632504 90.619347) (xy 190.757388 90.627127)
+					(xy 191.062569 90.632744) (xy 191.353829 90.629936) (xy 191.515874 90.622598) (xy 191.626825 90.603949)
+					(xy 191.699554 90.578156) (xy 191.74165 90.546979) (xy 191.773996 90.498178) (xy 191.796081 90.426023)
+					(xy 191.804579 90.32219) (xy 191.810196 90.070375) (xy 191.806005 89.946335) (xy 191.794809 89.850801)
+					(xy 191.76986 89.768589) (xy 191.731794 89.716467) (xy 191.676183 89.681943) (xy 191.590378 89.659192)
+					(xy 191.494917 89.648764) (xy 191.390221 89.645148) (xy 190.824554 89.647957) (xy 190.643296 89.659319)
+					(xy 190.530486 89.687158) (xy 190.47378 89.722104) (xy 190.435371 89.775704) (xy 190.414349 89.85361)
+					(xy 190.398961 90.064758) (xy 189.827072 90.064758) (xy 189.837889 89.810159) (xy 189.87087 89.599454)
+					(xy 189.91673 89.459122) (xy 189.970559 89.370253) (xy 190.029625 89.31718) (xy 190.118101 89.27056)
+					(xy 190.245166 89.232144) (xy 190.422138 89.205425) (xy 190.662133 89.195253) (xy 191.065378 89.186827)
+				)
+			)
+			(polygon
+				(pts
+					(xy 194.48893 91.078243) (xy 193.363337 89.675434) (xy 193.363337 91.078243) (xy 192.828567 91.078243)
+					(xy 192.828567 89.194642) (xy 193.732998 89.194642) (xy 194.858591 90.594642) (xy 194.858591 89.194642)
+					(xy 195.393361 89.194642) (xy 195.393361 91.078243)
+				)
+			)
+		)
+	)
+	(gr_text "ON"
+		(at 195.635894 150.240428 0)
+		(layer "F.SilkS")
+		(uuid "368e8e54-2b82-43b3-86e2-54780a973438")
+		(effects
+			(font
+				(face "Eurostile Extended")
+				(size 2 2)
+			)
+			(justify right)
+		)
+		(render_cache "ON" 0
+			(polygon
+				(pts
+					(xy 191.518937 149.189635) (xy 191.733584 149.198561) (xy 191.901357 149.222609) (xy 192.030487 149.258257)
+					(xy 192.128237 149.302864) (xy 192.200741 149.354866) (xy 192.258682 149.421875) (xy 192.308048 149.514281)
+					(xy 192.34749 149.638555) (xy 192.374201 149.802659) (xy 192.384167 150.015787) (xy 192.384167 150.105302)
+					(xy 192.371522 150.415233) (xy 192.338873 150.635363) (xy 192.292969 150.786216) (xy 192.238598 150.885291)
+					(xy 192.178301 150.945147) (xy 192.086062 150.997581) (xy 191.951615 151.040865) (xy 191.762036 151.071087)
+					(xy 191.502206 151.08264) (xy 191.073804 151.091066) (xy 190.89453 151.093875) (xy 190.508138 151.079831)
+					(xy 190.344215 151.069207) (xy 190.209173 151.03969) (xy 190.098095 150.993863) (xy 190.006951 150.932919)
+					(xy 189.933705 150.853693) (xy 189.87901 150.751973) (xy 189.84355 150.622505) (xy 189.830608 150.458233)
+					(xy 189.824991 150.113728) (xy 189.827072 150.064758) (xy 190.398961 150.064758) (xy 190.398961 150.115194)
+					(xy 190.398961 150.190665) (xy 190.40792 150.364284) (xy 190.429904 150.473471) (xy 190.459167 150.537612)
+					(xy 190.49289 150.57169) (xy 190.547911 150.599536) (xy 190.632504 150.619347) (xy 190.757388 150.627127)
+					(xy 191.062569 150.632744) (xy 191.353829 150.629936) (xy 191.515874 150.622598) (xy 191.626825 150.603949)
+					(xy 191.699554 150.578156) (xy 191.74165 150.546979) (xy 191.773996 150.498178) (xy 191.796081 150.426023)
+					(xy 191.804579 150.32219) (xy 191.810196 150.070375) (xy 191.806005 149.946335) (xy 191.794809 149.850801)
+					(xy 191.76986 149.768589) (xy 191.731794 149.716467) (xy 191.676183 149.681943) (xy 191.590378 149.659192)
+					(xy 191.494917 149.648764) (xy 191.390221 149.645148) (xy 190.824554 149.647957) (xy 190.643296 149.659319)
+					(xy 190.530486 149.687158) (xy 190.47378 149.722104) (xy 190.435371 149.775704) (xy 190.414349 149.85361)
+					(xy 190.398961 150.064758) (xy 189.827072 150.064758) (xy 189.837889 149.810159) (xy 189.87087 149.599454)
+					(xy 189.91673 149.459122) (xy 189.970559 149.370253) (xy 190.029625 149.31718) (xy 190.118101 149.27056)
+					(xy 190.245166 149.232144) (xy 190.422138 149.205425) (xy 190.662133 149.195253) (xy 191.065378 149.186827)
+				)
+			)
+			(polygon
+				(pts
+					(xy 194.48893 151.078243) (xy 193.363337 149.675434) (xy 193.363337 151.078243) (xy 192.828567 151.078243)
+					(xy 192.828567 149.194642) (xy 193.732998 149.194642) (xy 194.858591 150.594642) (xy 194.858591 149.194642)
+					(xy 195.393361 149.194642) (xy 195.393361 151.078243)
+				)
+			)
+		)
+	)
+	(gr_text "ON"
+		(at 195.635894 210.240428 0)
+		(layer "F.SilkS")
+		(uuid "3e127dd3-613f-4c23-af06-d345e53e5dbf")
+		(effects
+			(font
+				(face "Eurostile Extended")
+				(size 2 2)
+			)
+			(justify right)
+		)
+		(render_cache "ON" 0
+			(polygon
+				(pts
+					(xy 191.518937 209.189635) (xy 191.733584 209.198561) (xy 191.901357 209.222609) (xy 192.030487 209.258257)
+					(xy 192.128237 209.302864) (xy 192.200741 209.354866) (xy 192.258682 209.421875) (xy 192.308048 209.514281)
+					(xy 192.34749 209.638555) (xy 192.374201 209.802659) (xy 192.384167 210.015787) (xy 192.384167 210.105302)
+					(xy 192.371522 210.415233) (xy 192.338873 210.635363) (xy 192.292969 210.786216) (xy 192.238598 210.885291)
+					(xy 192.178301 210.945147) (xy 192.086062 210.997581) (xy 191.951615 211.040865) (xy 191.762036 211.071087)
+					(xy 191.502206 211.08264) (xy 191.073804 211.091066) (xy 190.89453 211.093875) (xy 190.508138 211.079831)
+					(xy 190.344215 211.069207) (xy 190.209173 211.03969) (xy 190.098095 210.993863) (xy 190.006951 210.932919)
+					(xy 189.933705 210.853693) (xy 189.87901 210.751973) (xy 189.84355 210.622505) (xy 189.830608 210.458233)
+					(xy 189.824991 210.113728) (xy 189.827072 210.064758) (xy 190.398961 210.064758) (xy 190.398961 210.115194)
+					(xy 190.398961 210.190665) (xy 190.40792 210.364284) (xy 190.429904 210.473471) (xy 190.459167 210.537612)
+					(xy 190.49289 210.57169) (xy 190.547911 210.599536) (xy 190.632504 210.619347) (xy 190.757388 210.627127)
+					(xy 191.062569 210.632744) (xy 191.353829 210.629936) (xy 191.515874 210.622598) (xy 191.626825 210.603949)
+					(xy 191.699554 210.578156) (xy 191.74165 210.546979) (xy 191.773996 210.498178) (xy 191.796081 210.426023)
+					(xy 191.804579 210.32219) (xy 191.810196 210.070375) (xy 191.806005 209.946335) (xy 191.794809 209.850801)
+					(xy 191.76986 209.768589) (xy 191.731794 209.716467) (xy 191.676183 209.681943) (xy 191.590378 209.659192)
+					(xy 191.494917 209.648764) (xy 191.390221 209.645148) (xy 190.824554 209.647957) (xy 190.643296 209.659319)
+					(xy 190.530486 209.687158) (xy 190.47378 209.722104) (xy 190.435371 209.775704) (xy 190.414349 209.85361)
+					(xy 190.398961 210.064758) (xy 189.827072 210.064758) (xy 189.837889 209.810159) (xy 189.87087 209.599454)
+					(xy 189.91673 209.459122) (xy 189.970559 209.370253) (xy 190.029625 209.31718) (xy 190.118101 209.27056)
+					(xy 190.245166 209.232144) (xy 190.422138 209.205425) (xy 190.662133 209.195253) (xy 191.065378 209.186827)
+				)
+			)
+			(polygon
+				(pts
+					(xy 194.48893 211.078243) (xy 193.363337 209.675434) (xy 193.363337 211.078243) (xy 192.828567 211.078243)
+					(xy 192.828567 209.194642) (xy 193.732998 209.194642) (xy 194.858591 210.594642) (xy 194.858591 209.194642)
+					(xy 195.393361 209.194642) (xy 195.393361 211.078243)
+				)
+			)
+		)
+	)
+	(gr_text "MULTIPLE\nJACKS"
+		(at 201.635894 24.365428 0)
+		(layer "F.SilkS")
+		(uuid "bbb33b4c-8012-4b98-9ae9-81be39e72b87")
+		(effects
+			(font
+				(face "Eurostile Extended")
+				(size 6 6)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(render_cache "MULTIPLE\nJACKS" 0
+			(polygon
+				(pts
+					(xy 181.018744 30.388875) (xy 181.018744 26.12183) (xy 178.549083 30.388875) (xy 177.179979 30.388875)
+					(xy 174.735597 26.12183) (xy 174.735597 30.388875) (xy 173.131288 30.388875) (xy 173.131288 24.738072)
+					(xy 175.844582 24.738072) (xy 177.90245 28.461066) (xy 179.935039 24.738072) (xy 182.63148 24.738072)
+					(xy 182.63148 30.388875)
+				)
+			)
+			(polygon
+				(pts
+					(xy 191.279875 27.960612) (xy 191.279875 28.288875) (xy 191.244867 28.836995) (xy 191.150163 29.26235)
+					(xy 191.007455 29.589085) (xy 190.822636 29.83679) (xy 190.59514 30.019213) (xy 190.253857 30.183928)
+					(xy 189.805235 30.314939) (xy 189.224326 30.40309) (xy 188.482684 30.435769) (xy 187.088301 30.427343)
+					(xy 186.044733 30.393198) (xy 185.391668 30.30974) (xy 185.02328 30.19014) (xy 184.709942 29.992808)
+					(xy 184.442418 29.711834) (xy 184.298127 29.468121) (xy 184.184894 29.148422) (xy 184.109197 28.734508)
+					(xy 184.081183 28.204977) (xy 184.081183 24.76152) (xy 185.786242 24.76152) (xy 185.786242 27.697929)
+					(xy 185.817106 28.266169) (xy 185.891266 28.605632) (xy 185.987743 28.791527) (xy 186.096948 28.884829)
+					(xy 186.280724 28.963789) (xy 186.570226 29.021178) (xy 187.004404 29.043952) (xy 187.76864 29.052378)
+					(xy 188.474257 29.043952) (xy 188.939689 29.011085) (xy 189.216815 28.931655) (xy 189.368919 28.825232)
+					(xy 189.465808 28.663436) (xy 189.5373 28.386393) (xy 189.566389 27.941928) (xy 189.566389 27.731635)
+					(xy 189.566389 24.76152) (xy 191.279875 24.76152)
+				)
+			)
+			(polygon
+				(pts
+					(xy 198.319198 29.005483) (xy 198.319198 30.388875) (xy 192.741668 30.388875) (xy 192.741668 24.738072)
+					(xy 194.446727 24.738072) (xy 194.446727 29.005483)
+				)
+			)
+			(polygon
+				(pts
+					(xy 201.256707 30.388875) (xy 201.256707 26.121464) (xy 198.753339 26.121464) (xy 198.753339 24.738072)
+					(xy 205.456707 24.738072) (xy 205.456707 26.121464) (xy 202.961766 26.121464) (xy 202.961766 30.388875)
+				)
+			)
+			(polygon
+				(pts
+					(xy 206.411452 30.388875) (xy 206.411452 24.738072) (xy 208.116511 24.738072) (xy 208.116511 30.388875)
+				)
+			)
+			(polygon
+				(pts
+					(xy 214.775144 24.772072) (xy 215.265872 24.861734) (xy 215.621419 24.991964) (xy 215.872443 25.153163)
+					(xy 216.028946 25.323406) (xy 216.161312 25.557514) (xy 216.266549 25.871449) (xy 216.33762 26.28518)
+					(xy 216.364104 26.821952) (xy 216.333161 27.440049) (xy 216.251046 27.904959) (xy 216.130978 28.247833)
+					(xy 215.981619 28.495138) (xy 215.823249 28.649907) (xy 215.602225 28.780754) (xy 215.30248 28.884996)
+					(xy 214.903612 28.955627) (xy 214.381707 28.982036) (xy 213.944634 28.982036) (xy 211.281898 28.982036)
+					(xy 211.281898 30.388875) (xy 209.576839 30.388875) (xy 209.576839 27.598645) (xy 211.281898 27.598645)
+					(xy 213.759986 27.598645) (xy 214.085539 27.579125) (xy 214.303977 27.529724) (xy 214.444355 27.460892)
+					(xy 214.544816 27.351251) (xy 214.614256 27.168887) (xy 214.641825 26.880937) (xy 214.613465 26.575686)
+					(xy 214.542264 26.382976) (xy 214.439958 26.267643) (xy 214.296129 26.194602) (xy 214.071257 26.142195)
+					(xy 213.734707 26.121464) (xy 211.281898 26.121464) (xy 211.281898 27.598645) (xy 209.576839 27.598645)
+					(xy 209.576839 24.738072) (xy 214.112795 24.738072)
+				)
+			)
+			(polygon
+				(pts
+					(xy 223.138179 29.005483) (xy 223.138179 30.388875) (xy 217.560649 30.388875) (xy 217.560649 24.738072)
+					(xy 219.265709 24.738072) (xy 219.265709 29.005483)
+				)
+			)
+			(polygon
+				(pts
+					(xy 230.334306 24.738072) (xy 230.334306 26.004227) (xy 225.789924 26.004227) (xy 225.789924 26.989014)
+					(xy 230.032055 26.989014) (xy 230.032055 28.091038) (xy 225.789924 28.091038) (xy 225.789924 29.12272)
+					(xy 230.334306 29.12272) (xy 230.334306 30.388875) (xy 224.084864 30.388875) (xy 224.084864 24.738072)
+				)
+			)
+			(polygon
+				(pts
+					(xy 187.182091 38.148324) (xy 187.148582 38.836818) (xy 187.060696 39.34227) (xy 186.934062 39.704273)
+					(xy 186.787307 39.942317) (xy 186.599651 40.125206) (xy 186.366301 40.259342) (xy 186.077503 40.345044)
+					(xy 185.487034 40.437187) (xy 185.023473 40.475469) (xy 184.174973 40.492322) (xy 183.138347 40.461049)
+					(xy 182.532928 40.386809) (xy 182.202336 40.276007) (xy 181.929768 40.089454) (xy 181.705311 39.820044)
+					(xy 181.590798 39.590044) (xy 181.498309 39.276511) (xy 181.43517 38.857908) (xy 181.411487 38.309524)
+					(xy 181.419914 38.030354) (xy 183.057928 38.030354) (xy 183.049502 38.401115) (xy 183.08443 38.683984)
+					(xy 183.174889 38.866376) (xy 183.314017 38.978505) (xy 183.611319 39.071506) (xy 184.082649 39.108931)
+					(xy 184.536208 39.108931) (xy 184.926994 39.079915) (xy 185.20812 39.003784) (xy 185.351042 38.910735)
+					(xy 185.437073 38.771788) (xy 185.468605 38.570375) (xy 185.477032 38.141363) (xy 185.477032 34.818072)
+					(xy 187.182091 34.818072)
+				)
+			)
+			(polygon
+				(pts
+					(xy 196.680085 40.468875) (xy 194.798438 40.468875) (xy 194.269041 39.413746) (xy 190.648996 39.413746)
+					(xy 190.094687 40.468875) (xy 188.196187 40.468875) (xy 189.414958 38.264827) (xy 191.245071 38.264827)
+					(xy 193.647688 38.264827) (xy 192.446379 35.946841) (xy 191.245071 38.264827) (xy 189.414958 38.264827)
+					(xy 191.320908 34.818072) (xy 193.622408 34.818072)
+				)
+			)
+			(polygon
+				(pts
+					(xy 204.750357 38.556453) (xy 204.714921 39.164836) (xy 204.622676 39.600049) (xy 204.4901 39.902856)
+					(xy 204.326107 40.106174) (xy 204.108086 40.252335) (xy 203.781447 40.372987) (xy 203.309996 40.4578)
+					(xy 202.650357 40.49049) (xy 201.348298 40.515769) (xy 200.290238 40.498917) (xy 199.541727 40.472921)
+					(xy 198.98667 40.404566) (xy 198.586304 40.30654) (xy 198.3066 40.18874) (xy 198.118797 40.057448)
+					(xy 197.918381 39.822409) (xy 197.768367 39.52495) (xy 197.67125 39.150902) (xy 197.635929 38.68175)
+					(xy 197.585371 37.503889) (xy 197.617227 36.786087) (xy 197.702859 36.228348) (xy 197.829613 35.801607)
+					(xy 197.988371 35.480459) (xy 198.163922 35.266612) (xy 198.400898 35.092766) (xy 198.712201 34.958571)
+					(xy 199.116048 34.869605) (xy 199.634812 34.836757) (xy 201.231062 34.794625) (xy 202.381812 34.807448)
+					(xy 203.482004 34.886949) (xy 203.79382 34.950898) (xy 204.044712 35.066502) (xy 204.246494 35.23178)
+					(xy 204.405974 35.451516) (xy 204.551291 35.79523) (xy 204.647697 36.240231) (xy 204.683312 36.811094)
+					(xy 203.028445 36.811094) (xy 203.002985 36.570441) (xy 202.937412 36.412228) (xy 202.839401 36.312106)
+					(xy 202.618255 36.222787) (xy 202.23893 36.186076) (xy 201.760092 36.178016) (xy 201.28968 36.178016)
+					(xy 200.424327 36.186443) (xy 200.016952 36.211685) (xy 199.747867 36.275261) (xy 199.578509 36.363469)
+					(xy 199.479474 36.470375) (xy 199.397377 36.673911) (xy 199.333706 37.04077) (xy 199.307283 37.646771)
+					(xy 199.338351 38.26871) (xy 199.412797 38.639021) (xy 199.508783 38.840386) (xy 199.620007 38.941783)
+					(xy 199.811562 39.027719) (xy 200.118242 39.09049) (xy 200.584062 39.115525) (xy 201.247914 39.132378)
+					(xy 202.121327 39.123952) (xy 202.464044 39.104004) (xy 202.698246 39.053151) (xy 202.852223 38.981802)
+					(xy 202.961443 38.865215) (xy 203.039035 38.657122) (xy 203.070577 38.311722) (xy 204.74193 38.311722)
+				)
+			)
+			(polygon
+				(pts
+					(xy 208.653235 36.928331) (xy 210.963162 34.818072) (xy 213.315221 34.818072) (xy 210.106236 37.602807)
+					(xy 213.668029 40.468875) (xy 211.164662 40.468875) (xy 208.653235 38.311722) (xy 207.779457 38.311722)
+					(xy 207.779457 40.468875) (xy 206.074397 40.468875) (xy 206.074397 34.818072) (xy 207.779457 34.818072)
+					(xy 207.779457 36.928331)
+				)
+			)
+			(polygon
+				(pts
+					(xy 216.227817 38.753924) (xy 216.257467 38.963823) (xy 216.335125 39.097889) (xy 216.458626 39.17854)
+					(xy 216.71329 39.240356) (xy 217.101229 39.265002) (xy 217.907597 39.273062) (xy 219.050287 39.23899)
+					(xy 219.367072 39.220836) (xy 219.557651 39.177038) (xy 219.663214 39.119555) (xy 219.767277 38.973954)
+					(xy 219.806096 38.744398) (xy 219.764322 38.535916) (xy 219.642332 38.378034) (xy 219.522922 38.310521)
+					(xy 219.325394 38.261227) (xy 219.016581 38.24138) (xy 218.739244 38.24138) (xy 215.933992 38.183128)
+					(xy 215.534576 38.153192) (xy 215.228217 38.072276) (xy 214.995206 37.949536) (xy 214.820611 37.787821)
+					(xy 214.689687 37.584813) (xy 214.588637 37.324412) (xy 214.521947 36.99347) (xy 214.497478 36.576254)
+					(xy 214.524326 36.117038) (xy 214.596217 35.76644) (xy 214.703009 35.502441) (xy 214.86973 35.281825)
+					(xy 215.112454 35.108207) (xy 215.450758 34.981837) (xy 216.035 34.877456) (xy 216.87042 34.819538)
+					(xy 218.050479 34.794625) (xy 219.243361 34.811478) (xy 219.92258 34.843303) (xy 220.394111 34.924684)
+					(xy 220.668241 35.026686) (xy 220.869196 35.165006) (xy 221.011435 35.339042) (xy 221.164682 35.638387)
+					(xy 221.242244 35.88346) (xy 221.278337 36.149007) (xy 221.292803 36.553173) (xy 219.621449 36.553173)
+					(xy 219.599465 36.365005) (xy 219.54077 36.232333) (xy 219.449258 36.140281) (xy 219.254964 36.054966)
+					(xy 218.96639 36.022312) (xy 218.143169 36.013885) (xy 216.84111 36.054918) (xy 216.593721 36.080048)
+					(xy 216.400008 36.14944) (xy 216.299993 36.226248) (xy 216.240574 36.328864) (xy 216.21939 36.465979)
+					(xy 216.246236 36.654895) (xy 216.317931 36.781865) (xy 216.433347 36.864217) (xy 216.668977 36.932162)
+					(xy 217.017332 36.958739) (xy 217.193919 36.958739) (xy 218.336243 36.975225) (xy 219.461714 36.983652)
+					(xy 220.024381 37.010684) (xy 220.458964 37.083228) (xy 220.789495 37.190596) (xy 221.036714 37.325469)
+					(xy 221.233745 37.514988) (xy 221.386081 37.788355) (xy 221.489035 38.170691) (xy 221.528009 38.695672)
+					(xy 221.493219 39.205534) (xy 221.400688 39.585054) (xy 221.263405 39.8631) (xy 221.086906 40.06221)
+					(xy 220.860963 40.209649) (xy 220.556921 40.325865) (xy 220.154502 40.404142) (xy 219.629509 40.433337)
+					(xy 217.445611 40.492322) (xy 216.303288 40.467409) (xy 215.833788 40.444591) (xy 215.466618 40.383005)
+					(xy 215.183214 40.291209) (xy 214.967524 40.175051) (xy 214.795487 40.012204) (xy 214.662753 39.77727)
+					(xy 214.573151 39.44873) (xy 214.539244 38.997556) (xy 214.539244 38.663432) (xy 216.21939 38.663432)
+				)
+			)
+		)
+	)
+	(gr_text "${MODULE} ${PARTNO}\nREVISION ${REVISION} ${ISSUE_DATE}"
+		(at 201.635894 276.115428 0)
+		(layer "B.SilkS")
+		(uuid "0f92db28-4901-40e5-b45e-5818e7c33191")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "${COMPANY}\n${TAG}"
+		(at 201.645894 24.365428 0)
+		(layer "B.SilkS")
+		(uuid "4ad8f9e2-2bf4-4150-963d-67f3793929ed")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(point
+		(at 201.635894 24.365428)
+		(size 1)
+		(layer "Dwgs.User")
+		(uuid "8c334b91-bea3-41a9-a6fa-171706ef2f78")
+	)
+	(point
+		(at 166.245894 19.365428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "3c2997f2-fc80-4105-bd46-8d28875d012f")
+	)
+	(point
+		(at 166.245894 281.115428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "7c37deac-1fcb-4c23-bab5-4c82a9fd9c4a")
+	)
+	(point
+		(at 179.635894 50.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "6fe80a53-79a0-4229-af8a-02a44053795b")
+	)
+	(point
+		(at 179.635894 70.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "1ab2404f-1948-4b38-99ce-35d00eb7eadb")
+	)
+	(point
+		(at 179.635894 90.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "4b232b91-5641-423c-9e59-957cde40b225")
+	)
+	(point
+		(at 179.635894 110.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "03eef960-fb09-4319-a97f-1a77910d95be")
+	)
+	(point
+		(at 179.635894 130.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "3f35e229-7ef7-4fa3-afe8-dda7ec84ebb5")
+	)
+	(point
+		(at 179.635894 150.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "d585ef26-217f-43e8-ba43-0a894f714c30")
+	)
+	(point
+		(at 179.635894 170.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "f50fbe70-b488-40f2-b1b2-66ac9e95824e")
+	)
+	(point
+		(at 179.635894 190.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "53ac639f-458d-44b0-9b45-e618b5c9b525")
+	)
+	(point
+		(at 179.635894 210.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "9ec168d7-b7ab-450d-8c39-295caf91e680")
+	)
+	(point
+		(at 179.635894 230.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "a634154b-e519-413b-a231-c807af78fd56")
+	)
+	(point
+		(at 179.635894 250.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "73fed5c6-8ed6-40a5-b059-d9b38d14f631")
+	)
+	(point
+		(at 184.635894 50.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "b27c518c-017a-4783-9249-0352370c56b6")
+	)
+	(point
+		(at 184.635894 70.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "8e5d96f7-2820-426c-9231-e91608c3fce3")
+	)
+	(point
+		(at 184.635894 90.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "35ccaec1-8d43-495d-903e-07479d33174c")
+	)
+	(point
+		(at 184.635894 110.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "ae43016b-e2be-4580-9c4b-b3f9281e0615")
+	)
+	(point
+		(at 184.635894 130.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "82bcd68e-1f32-49ab-8edb-108e203e18e9")
+	)
+	(point
+		(at 184.635894 150.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "f6caf664-bb8b-4e91-96d8-ec618321b378")
+	)
+	(point
+		(at 184.635894 170.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "4f4b67f1-fc83-47a4-9180-853bf79ad15c")
+	)
+	(point
+		(at 184.635894 190.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "f6f254f1-e7f9-4b4b-ba39-ae6e8501e9ec")
+	)
+	(point
+		(at 184.635894 210.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "ec0c19d4-fc4d-4d11-839f-931b962b6a13")
+	)
+	(point
+		(at 184.635894 230.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "947f21a2-df2b-4def-9b30-04109fcbbb3c")
+	)
+	(point
+		(at 184.635894 250.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "069b33f5-7f2b-4704-8e20-1ad4cbeec1ac")
+	)
+	(point
+		(at 201.635894 50.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "e17a18ce-d98c-4e02-9e1b-e7be657e1b22")
+	)
+	(point
+		(at 201.635894 70.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "4937c32b-3ac7-4cb8-be9b-48871e91cf1a")
+	)
+	(point
+		(at 201.635894 90.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "cf5e6a53-d918-4730-9207-b305955a282d")
+	)
+	(point
+		(at 201.635894 110.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "33411102-0c1e-49ca-b480-ec8cc131e278")
+	)
+	(point
+		(at 201.635894 130.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "5b3b3742-11fa-48ac-b8d8-c14d73249846")
+	)
+	(point
+		(at 201.635894 150.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "31443e0e-c8bd-4b0d-bfcf-b36e302e8189")
+	)
+	(point
+		(at 201.635894 150.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "94a80c9f-a88a-4627-a082-0df37457bef0")
+	)
+	(point
+		(at 201.635894 170.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "ef69a031-8c54-459c-b19c-f1c7d9729c62")
+	)
+	(point
+		(at 201.635894 190.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "2b618fe9-d197-406e-b73e-95a6d19fe6bc")
+	)
+	(point
+		(at 201.635894 210.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "9d71204b-e40b-48f4-8770-ae5833f3d16d")
+	)
+	(point
+		(at 201.635894 230.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "a5ea74d0-0454-48d0-a417-16468fafab32")
+	)
+	(point
+		(at 201.635894 250.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "c853a132-5382-41a2-a2a5-106ae4aa8f17")
+	)
+	(point
+		(at 201.635894 276.115428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "a333c94b-3dc3-4992-8e25-ca801d2ef33c")
+	)
+	(point
+		(at 218.635894 50.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "2f830e35-63c5-4717-b267-9466c26badbc")
+	)
+	(point
+		(at 218.635894 70.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "ba37e970-8338-4813-95c8-bce28bd6eade")
+	)
+	(point
+		(at 218.635894 90.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "2e3c7e9a-4e38-4810-b3d4-712206283dec")
+	)
+	(point
+		(at 218.635894 110.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "820cad9e-abf7-4103-8341-ae9784876b3d")
+	)
+	(point
+		(at 218.635894 130.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "e710eda2-530f-4cfa-9a1f-d523bbdf8317")
+	)
+	(point
+		(at 218.635894 150.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "cc5ec549-42bf-4c2f-a27a-decb429fbbb5")
+	)
+	(point
+		(at 218.635894 170.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "a5cc9006-2568-4902-a394-5b1044fe906a")
+	)
+	(point
+		(at 218.635894 190.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "de6da174-ee50-4d63-9ec3-370b2324a018")
+	)
+	(point
+		(at 218.635894 210.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "7cea2d48-ae64-4ec7-b16d-4ea4101dbcf0")
+	)
+	(point
+		(at 218.635894 230.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "25b34b13-c240-4a37-912c-2562ec108c47")
+	)
+	(point
+		(at 218.635894 250.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "df447bf0-a01e-424b-bd74-06366d9a5011")
+	)
+	(point
+		(at 223.635894 50.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "781b95a6-3c6c-4af6-bf30-46d8da5e30eb")
+	)
+	(point
+		(at 223.635894 70.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "80f074c4-8b88-4395-a5b9-6d7748adb3c5")
+	)
+	(point
+		(at 223.635894 90.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "462aa581-4640-4404-8ddc-1007ed365005")
+	)
+	(point
+		(at 223.635894 110.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "7fb8dec3-1d99-4116-be25-f13a43648702")
+	)
+	(point
+		(at 223.635894 130.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "278700af-e496-40af-8568-591100b80e14")
+	)
+	(point
+		(at 223.635894 150.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "8fe73205-8fd8-4180-be5b-c0eee5d9737f")
+	)
+	(point
+		(at 223.635894 170.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "9b0601af-ec86-4314-b537-89ab40add592")
+	)
+	(point
+		(at 223.635894 190.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "e4682c53-0f6c-4517-8355-7b1c80fa122b")
+	)
+	(point
+		(at 223.635894 210.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "2c692c05-f72f-4daf-b9dd-260ca85f70a6")
+	)
+	(point
+		(at 223.635894 230.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "ba4faf75-4892-4272-ba5e-604b006d8bb8")
+	)
+	(point
+		(at 223.635894 250.240428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "f9a7e71e-2f50-497b-acdf-2a8de096f01b")
+	)
+	(point
+		(at 237.025894 19.365428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "7d7743be-067b-4d37-add4-da9b8713f719")
+	)
+	(point
+		(at 237.025894 19.365428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "a3d2a68f-779b-47f1-a560-f0930e4beebc")
+	)
+	(point
+		(at 237.025894 19.365428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "ef7749c0-0f82-407f-917c-0bbf8a13b9a0")
+	)
+	(point
+		(at 237.025894 281.115428)
+		(size 1)
+		(layer "Edge.Cuts")
+		(uuid "20f9b4b4-1b7f-4a08-9fbc-344b6ad61d3d")
+	)
+	(embedded_fonts no)
+)
