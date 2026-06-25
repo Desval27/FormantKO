@@ -1,9 +1,6 @@
 # Formant-KO 
 
 # WIP
-
-⚠️ Very Incomplete⚠️
-
 A somewhat authentic (at least in spirit) knockoff of the Elektor Formant™ DIY project synthesizer.  
 
 Components that are not easily sourcable are substitued.  Substituted components or adapater boards are noted.
@@ -16,7 +13,13 @@ I have opted to keep the flying wires for connecting the panel components as opp
 
 The goal for verison 2 is to make both the cards and the bus system more configurable compared to the original normaled path (e.g. jumpers for signal routing, etc.).
 
+### What About the μA726?
+
+Of course this part is in very short supply and often quite expensive when available.  However, at least for this iteration, the plan is to replicate the original design as closely as possible.  Not only will this allow original parts to be used but it will also permit available drop in replacements such as the [pA726](https://www.portabellabz.be/pa726.html). 
+
 ## Status
+
+⚠️ Very Incomplete ⚠️
 
 Note: This information is only as accurate as I can remember to update it.
 
