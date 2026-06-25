@@ -19,7 +19,9 @@ Of course this part is in very short supply and often quite expensive when avail
 
 ### A Note About Board Heights
 
-The original Formant used two different PCB sizes.  These were Small (160mm x 100mm) and Large (160mm x 200mm).  The Small corresponds to the standard single height EuroCard, but the standard double height EuroCard is 160mm x 233.35mm.  This replica will use the double height EuroCard instead of the original Large.  This allows for eaiser usage of standard EuroCard cages and accessories.  All modules have mounting areas for typical Schroff EuroCard panel and rack accessories.
+The original Formant used two different PCB sizes.  These were Small (160mm x 100mm) and Large (160mm x 200mm).  The Small corresponds to the standard single height EuroCard, but the standard double height EuroCard is 160mm x 233.35mm. The latter being 33.35mm taller than the original.  This replica will use the double height EuroCard instead of the original Large.  This allows for eaiser usage of standard EuroCard cages and accessories.  
+
+Note: All modules offer mounting support for typical Schroff EuroCard panel and rack accessories.
 
 ## Status
 
