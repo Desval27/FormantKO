@@ -17,6 +17,10 @@ The goal for verison 2 is to make both the cards and the bus system more configu
 
 Of course this part is in very short supply and often quite expensive when available.  However, at least for this iteration, the plan is to replicate the original design as closely as possible.  Not only will this allow original parts to be used but it will also permit available drop in replacements such as the [pA726](https://www.portabellabz.be/pa726.html). 
 
+### A Note About Board Heights
+
+The original Formant used two different PCB sizes.  These were Small (160mm x 100mm) and Large (160mm x 200mm).  The Small corresponds to the standard single height EuroCard, but the standard double height EuroCard is 160mm x 233.35mm.  This replica will use the double height EuroCard instead of the original Large.  This allows for eaiser usage of standard EuroCard cages and accessories.  All modules have mounting areas for typical Schroff EuroCard panel and rack accessories.
+
 ## Status
 
 ⚠️ Very Incomplete ⚠️
