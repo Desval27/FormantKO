@@ -2,7 +2,7 @@
 
 # WIP
 
-⚠️ Incomplete⚠️
+⚠️ Very Incomplete⚠️
 
 A somewhat authentic (at least in spirit) knockoff of the Elektor Formant™ DIY project synthesizer.  
 
@@ -22,9 +22,9 @@ Note: This information is only as accurate as I can remember to update it.
 
 Most activity has been in the COM, NOISE, and LFOs modules. Scratch that....most activity has been bits and pieces all over.  I like to switch things up.
 
-Latest updates are for the [PSU](modules/PSU/README.md) module.
+Latest updates are for the [Phase-Shifter](modules/PHASE_SHIFTER/README.md) module.
 
-![PSU Top Render](modules/PSU/PSU_top.png "PSU Top Render")
+![Top Render](modules/PHASE_SHIFTER/PHASE_SHIFTER_top.png "Top Render")
 
 - ✓ PCB/Panel exists but likely a WIP.
 - ✔ PCB/Panel exists but may not be completely functional.
@@ -62,7 +62,7 @@ Latest updates are for the [PSU](modules/PSU/README.md) module.
 - ✓ [NOISE CNC](modules/NOISE_CNC/README.md)
 - [COM EXTENSIONS](modules/COM_EXT/README.md)
 - ✓ [RING MODULATOR](modules/RING_MODULATOR/README.md)
-- [PHASE SHIFTER](modules/PHASE_SHIFTER/README.md)
+- ✓ [PHASE SHIFTER](modules/PHASE_SHIFTER/README.md)
 - [KRIMISIZER](modules/KRIMISIZER/README.md)
 - [DIGITAL REVERB](modules/DIGITAL_REVERB/README.md)
 - [POWER SUPPLIES](modules/POWER_SUPPLIES/README.md)
