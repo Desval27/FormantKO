@@ -44,7 +44,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FormantKO:C_Disc"
+			(property "Footprint" "FormantKO:C_Rect"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -705,7 +705,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FormantKO:Generic_OpAmp_Single"
+		(symbol "FormantKO:GenericOpAmp_Single"
 			(pin_names
 				(offset 0.127)
 			)
@@ -725,7 +725,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Generic_OpAmp_Single"
+			(property "Value" "OpAmp"
 				(at 0 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -792,7 +792,7 @@
 					)
 				)
 			)
-			(symbol "Generic_OpAmp_Single_0_1"
+			(symbol "GenericOpAmp_Single_0_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -806,7 +806,7 @@
 					)
 				)
 			)
-			(symbol "Generic_OpAmp_Single_1_1"
+			(symbol "GenericOpAmp_Single_1_1"
 				(pin input line
 					(at 0 -7.62 90)
 					(length 5.08)
@@ -1117,7 +1117,7 @@
 					)
 				)
 			)
-			(property "Value" "R_Trim"
+			(property "Value" "R"
 				(at 4.572 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1275,7 +1275,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FormantKO:SWITCH_SPDT"
+		(symbol "FormantKO:SW_SPDT"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1297,7 +1297,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "SW"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1307,7 +1307,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FormantKO:Panel_Connector_1x03"
+			(property "Footprint" "FormantKO:PanelConnector_1x03"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1350,7 +1350,7 @@
 					)
 				)
 			)
-			(symbol "SWITCH_SPDT_0_1"
+			(symbol "SW_SPDT_0_1"
 				(circle
 					(center -2.54 1.905)
 					(radius 0.635)
@@ -1397,7 +1397,7 @@
 					)
 				)
 			)
-			(symbol "SWITCH_SPDT_1_1"
+			(symbol "SW_SPDT_1_1"
 				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
@@ -2053,6 +2053,26 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text_box "C13 *Optional. See Text.\nD3/D4, D5/D6 Matched\nR26, R27, R42, R43, R54 Hand Selected"
+		(exclude_from_sim no)
+		(at 19.05 187.96 0)
+		(size 48.26 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "0e44ec7b-846a-4d27-ade6-543783922544")
 	)
 	(junction
 		(at 76.2 49.53)
@@ -4488,14 +4508,14 @@
 		(dnp no)
 		(uuid "228e286b-c5f0-4565-b1b7-3267c7391e20")
 		(property "Reference" "D6"
-			(at 117.602 143.51 90)
+			(at 119.38 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "DUS"
@@ -4556,6 +4576,16 @@
 		(property "Sim.Pins" "1=K 2=A"
 			(at 120.65 146.05 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "*"
+			(at 119.888 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4758,7 +4788,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2e611057-369a-4a6e-8848-67745e6687b2")
 		(property "Reference" "D3"
 			(at 53.34 144.7799 90)
@@ -4815,6 +4844,16 @@
 				)
 			)
 		)
+		(property "Note" "*"
+			(at 56.896 145.034 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1e3197cf-ea89-4db0-b97c-3a6a58f3590c")
 		)
@@ -4831,7 +4870,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:SWITCH_SPDT")
+		(lib_id "FormantKO:SW_SPDT")
 		(at 190.5 34.29 0)
 		(unit 1)
 		(body_style 1)
@@ -4840,21 +4879,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2eaeb070-d343-4932-afbd-0f5a8bfe89e0")
 		(property "Reference" "S4"
-			(at 194.31 33.6549 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 190.5 34.29 0)
+			(at 190.5 33.528 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4863,7 +4890,17 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x03"
+		(property "Value" "SAW"
+			(at 194.818 37.592 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:PanelConnector_1x03"
 			(at 190.5 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -4896,8 +4933,9 @@
 				)
 			)
 		)
-		(property "Legend" "RAMP"
+		(property "Legend" ""
 			(at 194.31 36.1949 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4926,7 +4964,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:SWITCH_SPDT")
+		(lib_id "FormantKO:SW_SPDT")
 		(at 170.18 139.7 90)
 		(mirror x)
 		(unit 1)
@@ -4947,8 +4985,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 170.18 139.7 0)
+		(property "Value" "SINE"
+			(at 170.18 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4957,7 +4995,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x03"
+		(property "Footprint" "FormantKO:PanelConnector_1x03"
 			(at 170.18 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -4990,8 +5028,9 @@
 				)
 			)
 		)
-		(property "Legend" "SINE"
-			(at 170.815 144.78 90)
+		(property "Legend" ""
+			(at 170.18 134.62 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5110,14 +5149,14 @@
 		(dnp no)
 		(uuid "3914b7b1-3448-4e82-8602-06bffd940b6b")
 		(property "Reference" "D5"
-			(at 123.952 143.256 90)
+			(at 125.73 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "DUS"
@@ -5178,6 +5217,16 @@
 		(property "Sim.Pins" "1=K 2=A"
 			(at 127 146.05 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "*"
+			(at 126.238 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5466,7 +5515,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Generic_OpAmp_Single")
+		(lib_id "FormantKO:GenericOpAmp_Single")
 		(at 121.92 52.07 0)
 		(unit 1)
 		(body_style 1)
@@ -5486,7 +5535,7 @@
 				)
 			)
 		)
-		(property "Value" "µA741C"
+		(property "Value" "OpAmp"
 			(at 121.92 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -5645,7 +5694,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Generic_OpAmp_Single")
+		(lib_id "FormantKO:GenericOpAmp_Single")
 		(at 125.73 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -5665,7 +5714,7 @@
 				)
 			)
 		)
-		(property "Value" "µA741C"
+		(property "Value" "OpAmp"
 			(at 125.73 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -5774,7 +5823,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Disc"
+		(property "Footprint" "FormantKO:C_Rect"
 			(at 82.55 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5807,6 +5856,16 @@
 				)
 			)
 		)
+		(property "Note" "*"
+			(at 85.09 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3d59a086-a5b4-475a-949c-cec5c5bf712d")
 		)
@@ -5823,7 +5882,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Generic_OpAmp_Single")
+		(lib_id "FormantKO:GenericOpAmp_Single")
 		(at 88.9 64.77 0)
 		(unit 1)
 		(body_style 1)
@@ -5843,7 +5902,7 @@
 				)
 			)
 		)
-		(property "Value" "µA741C"
+		(property "Value" "OpAmp"
 			(at 88.9 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -6454,6 +6513,16 @@
 				)
 			)
 		)
+		(property "Note" "*"
+			(at 185.674 43.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "52ad2911-6f20-4559-8dc5-af1ff7ce2f7b")
 		)
@@ -6525,6 +6594,16 @@
 		(property "Description" "Resistor"
 			(at 184.15 99.06 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "*"
+			(at 186.944 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6656,7 +6735,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Disc"
+		(property "Footprint" "FormantKO:C_Rect"
 			(at 139.7 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6705,7 +6784,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Generic_OpAmp_Single")
+		(lib_id "FormantKO:GenericOpAmp_Single")
 		(at 153.67 137.16 0)
 		(unit 1)
 		(body_style 1)
@@ -6725,7 +6804,7 @@
 				)
 			)
 		)
-		(property "Value" "µA741C"
+		(property "Value" "OpAmp"
 			(at 153.67 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -6815,14 +6894,14 @@
 		(dnp no)
 		(uuid "8ea246ba-bb71-49b1-94c6-e4be0d5d52d2")
 		(property "Reference" "D4"
-			(at 104.902 143.256 90)
+			(at 105.664 143.256 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "DUG"
@@ -6861,6 +6940,16 @@
 		(property "Description" "Universal Germanium Diode"
 			(at 107.95 146.05 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "*"
+			(at 106.426 143.764 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6965,7 +7054,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:SWITCH_SPDT")
+		(lib_id "FormantKO:SW_SPDT")
 		(at 170.18 54.61 90)
 		(unit 1)
 		(body_style 1)
@@ -6974,10 +7063,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "96ff309c-53eb-4c38-b8db-95a4f9c7f28d")
 		(property "Reference" "S3"
-			(at 170.815 46.99 90)
+			(at 169.164 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6986,8 +7074,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 170.18 54.61 0)
+		(property "Value" "SPACED SAW"
+			(at 170.18 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6996,7 +7084,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x03"
+		(property "Footprint" "FormantKO:PanelConnector_1x03"
 			(at 170.18 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7029,8 +7117,9 @@
 				)
 			)
 		)
-		(property "Legend" "S RAMP"
+		(property "Legend" ""
 			(at 170.815 49.53 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7124,7 +7213,7 @@
 				)
 			)
 		)
-		(property "Legend" "???"
+		(property "Legend" "CLAMP"
 			(at 60.96 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7298,7 +7387,7 @@
 				)
 			)
 		)
-		(property "Legend" "???"
+		(property "Legend" "SINE"
 			(at 137.16 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7548,6 +7637,16 @@
 				)
 			)
 		)
+		(property "Note" "*"
+			(at 186.69 52.324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "73e377c2-d392-4d88-a315-68e31928ce10")
 		)
@@ -7747,7 +7846,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:SWITCH_SPDT")
+		(lib_id "FormantKO:SW_SPDT")
 		(at 170.18 99.06 90)
 		(mirror x)
 		(unit 1)
@@ -7759,7 +7858,7 @@
 		(dnp no)
 		(uuid "d10cb14f-692b-4261-a9a7-5108067a42ab")
 		(property "Reference" "S5"
-			(at 170.815 106.68 90)
+			(at 168.91 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7768,8 +7867,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 170.18 99.06 0)
+		(property "Value" "TRIANGLE"
+			(at 170.18 104.394 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7778,7 +7877,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x03"
+		(property "Footprint" "FormantKO:PanelConnector_1x03"
 			(at 170.18 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -7811,8 +7910,9 @@
 				)
 			)
 		)
-		(property "Legend" "TRIANGLE"
-			(at 170.815 104.14 90)
+		(property "Legend" ""
+			(at 170.18 93.98 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7983,6 +8083,16 @@
 				)
 			)
 		)
+		(property "Note" "*"
+			(at 186.69 137.414 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1f1b5f7c-b9ff-479f-9e80-fba616501aba")
 		)
@@ -8029,7 +8139,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Disc"
+		(property "Footprint" "FormantKO:C_Rect"
 			(at 101.6 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -8185,7 +8295,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Disc"
+		(property "Footprint" "FormantKO:C_Rect"
 			(at 177.8 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -8300,7 +8410,7 @@
 				)
 			)
 		)
-		(property "Legend" "???"
+		(property "Legend" "TRI SYM"
 			(at 46.99 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
