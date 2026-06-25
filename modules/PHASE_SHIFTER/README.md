@@ -2,7 +2,7 @@
 
 ## STATUS
 
-⚠️ Incomplete⚠️
+⚠️ Untested ⚠️
 
 ### Modifications
 
@@ -19,7 +19,7 @@
 
 ## Gerber to Order
 
-⚠️ Untested⚠️
+⚠️ Untested ⚠️
 
 - [Default](gerber_to_order/PHASE_SHIFTER_160.0x100.0mm_for_Default.zip)
 - [Elecrow](gerber_to_order/PHASE_SHIFTER_160.0x100.0mm_for_Elecrow.zip)
