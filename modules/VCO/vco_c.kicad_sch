@@ -2179,6 +2179,12 @@
 		(uuid "2f9c14ce-3aa1-489a-8207-66a972f4e904")
 	)
 	(junction
+		(at 101.6 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cba3648-397c-4abd-b42f-4b36130a7bcc")
+	)
+	(junction
 		(at 57.15 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2540,6 +2546,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 158.75) (xy 152.4 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45871263-2ea0-4844-a868-409d46a53197")
+	)
+	(wire
+		(pts
 			(xy 50.8 107.95) (xy 63.5 107.95)
 		)
 		(stroke
@@ -2770,7 +2786,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 158.75) (xy 152.4 158.75)
+			(xy 76.2 158.75) (xy 101.6 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4041,7 +4057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Rect"
+		(property "Footprint" "FormantKO:C_Rect_300"
 			(at 101.6 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -4416,6 +4432,83 @@
 			(project "VCO"
 				(path "/4e5598fb-beff-4366-b683-8101f99bc8b3"
 					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4f0f3a54-eae0-4a2d-9940-f2500a022b06")
+		(property "Reference" "#PWR056"
+			(at 101.6 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f619e7eb-28ba-4350-a852-0ed60042b569")
+		)
+		(instances
+			(project "VCO"
+				(path "/4e5598fb-beff-4366-b683-8101f99bc8b3"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
