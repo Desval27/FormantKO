@@ -5,7 +5,7 @@
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "USLetter")
 	(title_block
-		(title "VCF_12")
+		(title "VCF-12")
 		(date "2026-05-20")
 		(rev "A")
 		(company "THE HOUSE OF GALAHAD")
@@ -44,7 +44,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FormantKO:C_Disc"
+			(property "Footprint" "FormantKO:C_Rect"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -165,7 +165,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FormantKO:CA3080"
+		(symbol "FormantKO:CA3080_Swap"
 			(pin_names
 				(offset 0.127)
 			)
@@ -251,7 +251,7 @@
 					)
 				)
 			)
-			(symbol "CA3080_0_1"
+			(symbol "CA3080_Swap_0_1"
 				(polyline
 					(pts
 						(xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08) (xy 5.08 0)
@@ -265,7 +265,7 @@
 					)
 				)
 			)
-			(symbol "CA3080_1_1"
+			(symbol "CA3080_Swap_1_1"
 				(pin no_connect line
 					(at -2.54 2.54 270)
 					(length 2.54)
@@ -286,7 +286,7 @@
 					)
 				)
 				(pin input line
-					(at -7.62 2.54 0)
+					(at -7.62 -2.54 0)
 					(length 2.54)
 					(name "-"
 						(effects
@@ -304,7 +304,7 @@
 					)
 				)
 				(pin input line
-					(at -7.62 -2.54 0)
+					(at -7.62 2.54 0)
 					(length 2.54)
 					(name "+"
 						(effects
@@ -466,7 +466,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Transistor-Array NPN"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1428,7 +1428,7 @@
 					)
 				)
 			)
-			(property "Description" "50mA Id, 30V Vgs, N-Channel FET Transistor, TO-92"
+			(property "Description" "N-Channel FET Transistor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1592,197 +1592,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FormantKO:Panel_Potentiometer_3"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "P"
-				(at 2.54 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Panel_Potentiometer_3"
-				(at 2.54 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "FormantKO:Panel_Connector_1x03"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Dual variable resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Taper" "T"
-				(at 2.54 -0.635 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Legend" "Legend"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res dual resistor variable potentiometer rheostat"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_* FormantKO:Potentiometer*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Panel_Potentiometer_3_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.524) (xy 2.54 -2.54) (xy 1.524 -2.54) (xy 2.54 -2.54) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Panel_Potentiometer_3_1_1"
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "FormantKO:R"
 			(pin_numbers
 				(hide yes)
@@ -1923,6 +1732,200 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "FormantKO:R_Potentiometer"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "P"
+				(at 2.54 0.762 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R"
+				(at 2.54 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "FormantKO:PanelConnector_1x03"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Variable Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Taper" "Tap"
+				(at 2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Legend" "Legend"
+				(at 2.54 -4.064 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "R res dual resistor variable potentiometer rheostat"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_* FormantKO:Potentiometer*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.524) (xy -2.54 -2.54) (xy -1.524 -2.54) (xy -2.54 -2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_1_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "FormantKO:R_Trim"
 			(pin_numbers
 				(hide yes)
@@ -1945,7 +1948,7 @@
 					)
 				)
 			)
-			(property "Value" "R_Trim"
+			(property "Value" "R"
 				(at 4.572 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2103,7 +2106,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FormantKO:SWITCH_SPDT"
+		(symbol "FormantKO:SW_SPDT"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2125,7 +2128,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "SW"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2135,7 +2138,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FormantKO:Panel_Connector_1x03"
+			(property "Footprint" "FormantKO:PanelConnector_1x03"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2157,7 +2160,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Single Pole Double Throw Switch"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2168,7 +2171,17 @@
 					)
 				)
 			)
-			(symbol "SWITCH_SPDT_0_1"
+			(property "Legend" "LEGEND"
+				(at -5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
 				(circle
 					(center -2.54 1.905)
 					(radius 0.635)
@@ -2215,7 +2228,7 @@
 					)
 				)
 			)
-			(symbol "SWITCH_SPDT_1_1"
+			(symbol "SW_SPDT_1_1"
 				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
@@ -5605,7 +5618,7 @@
 				)
 			)
 		)
-		(property "Description" "50mA Id, 30V Vgs, N-Channel FET Transistor, TO-92"
+		(property "Description" "N-Channel FET Transistor"
 			(at 152.4 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5635,9 +5648,8 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Panel_Potentiometer_3")
-		(at 72.39 161.29 0)
-		(mirror x)
+		(lib_id "FormantKO:R_Potentiometer")
+		(at 72.39 161.29 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5647,7 +5659,7 @@
 		(dnp no)
 		(uuid "03dc8884-9715-443e-8abc-0bfc660606f3")
 		(property "Reference" "P5"
-			(at 71.12 157.988 0)
+			(at 75.438 159.512 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5658,7 +5670,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 71.12 160.02 0)
+			(at 75.438 161.544 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5668,7 +5680,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x03"
+		(property "Footprint" "FormantKO:PanelConnector_1x03"
 			(at 72.39 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -5690,7 +5702,7 @@
 				)
 			)
 		)
-		(property "Description" "Dual variable resistor"
+		(property "Description" "Variable Resistor"
 			(at 72.39 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -5702,7 +5714,7 @@
 			)
 		)
 		(property "Taper" "log"
-			(at 71.12 161.544 0)
+			(at 75.438 163.068 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5713,7 +5725,7 @@
 			)
 		)
 		(property "Legend" "Q"
-			(at 73.66 162.56 0)
+			(at 70.358 161.036 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5899,6 +5911,104 @@
 		)
 	)
 	(symbol
+		(lib_id "FormantKO:CA3080_Swap")
+		(at 127 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0816a100-29b1-4ea6-bd86-617899ce900a")
+		(property "Reference" "IC4"
+			(at 130.048 110.236 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CA3080"
+			(at 137.16 110.4198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:DIP-8"
+			(at 127 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/ca30/ca3080-a.pdf"
+			(at 127 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2MHz, Operational Transconductance Amplifier (OTA), gM spread 2:1, DIP-8/SOIC-8"
+			(at 127 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "6462dd21-5d90-43c3-8f18-4c97d82628ee")
+		)
+		(pin "6"
+			(uuid "fff3fbf6-29d5-4932-929c-2321c1e584f2")
+		)
+		(pin "4"
+			(uuid "54fd0d8e-6d14-4730-8b06-20b23822173b")
+		)
+		(pin "5"
+			(uuid "be15179c-f37b-4f3e-9656-3567d824415c")
+		)
+		(pin "7"
+			(uuid "13c37fbc-bed8-4493-aa06-bcc000fecc4a")
+		)
+		(pin "1"
+			(uuid "c96f1b47-569e-4007-9dcf-805aca4f65e3")
+		)
+		(pin "2"
+			(uuid "e55c017c-dbec-4eee-8b5e-7982f8762f78")
+		)
+		(pin "3"
+			(uuid "a03a1892-e730-442b-91ee-634bb4383610")
+		)
+		(instances
+			(project "VCF_12"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "IC4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FormantKO:C")
 		(at 138.43 133.35 180)
 		(unit 1)
@@ -5931,7 +6041,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Disc"
+		(property "Footprint" "FormantKO:C_Rect_200"
 			(at 138.43 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -6010,7 +6120,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Disc"
+		(property "Footprint" "FormantKO:C_Rect_200"
 			(at 100.33 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6247,7 +6357,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Disc"
+		(property "Footprint" "FormantKO:C_Rect"
 			(at 208.28 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -6296,7 +6406,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:SWITCH_SPDT")
+		(lib_id "FormantKO:SW_SPDT")
 		(at 222.25 148.59 0)
 		(unit 1)
 		(body_style 1)
@@ -6326,7 +6436,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x03"
+		(property "Footprint" "FormantKO:PanelConnector_1x03"
 			(at 222.25 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -6348,7 +6458,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Pole Double Throw Switch"
 			(at 222.25 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -6510,7 +6620,7 @@
 				)
 			)
 		)
-		(property "Description" "50mA Id, 30V Vgs, N-Channel FET Transistor, TO-92"
+		(property "Description" "N-Channel FET Transistor"
 			(at 209.55 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -6540,8 +6650,9 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Panel_Potentiometer_3")
-		(at 208.28 149.86 180)
+		(lib_id "FormantKO:R_Potentiometer")
+		(at 208.28 149.86 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6551,7 +6662,7 @@
 		(dnp no)
 		(uuid "143c40d0-add4-4ca7-9eae-fdc89785bbe1")
 		(property "Reference" "P6"
-			(at 209.55 146.558 0)
+			(at 204.978 147.828 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6562,7 +6673,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 209.55 148.59 0)
+			(at 204.978 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6572,7 +6683,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x03"
+		(property "Footprint" "FormantKO:PanelConnector_1x03"
 			(at 208.28 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -6594,7 +6705,7 @@
 				)
 			)
 		)
-		(property "Description" "Dual variable resistor"
+		(property "Description" "Variable Resistor"
 			(at 208.28 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -6606,7 +6717,7 @@
 			)
 		)
 		(property "Taper" "log"
-			(at 209.55 150.114 0)
+			(at 204.978 151.384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6617,7 +6728,7 @@
 			)
 		)
 		(property "Legend" "OUT"
-			(at 207.01 151.13 0)
+			(at 209.55 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6865,15 +6976,14 @@
 				)
 			)
 		)
-		(property "Legend" "OCTAVE/V"
-			(at 73.66 44.958 0)
+		(property "Legend" "LEGEND"
+			(at 81.28 46.228 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(pin "1"
@@ -7054,9 +7164,8 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Panel_Potentiometer_3")
+		(lib_id "FormantKO:R_Potentiometer")
 		(at 31.75 120.65 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7066,7 +7175,7 @@
 		(dnp no)
 		(uuid "1fcfa2f2-13ad-43f0-b55b-a81ef75d804e")
 		(property "Reference" "P4"
-			(at 34.29 118.872 0)
+			(at 28.448 118.618 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7077,7 +7186,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 34.29 120.65 0)
+			(at 28.448 120.396 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7087,7 +7196,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x03"
+		(property "Footprint" "FormantKO:PanelConnector_1x03"
 			(at 31.75 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -7109,7 +7218,7 @@
 				)
 			)
 		)
-		(property "Description" "Dual variable resistor"
+		(property "Description" "Variable Resistor"
 			(at 31.75 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -7121,7 +7230,7 @@
 			)
 		)
 		(property "Taper" "log"
-			(at 34.29 122.428 0)
+			(at 28.448 122.174 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7132,7 +7241,7 @@
 			)
 		)
 		(property "Legend" "ES"
-			(at 34.29 124.46 0)
+			(at 28.448 124.206 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7479,7 +7588,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:SWITCH_SPDT")
+		(lib_id "FormantKO:SW_SPDT")
 		(at 104.14 149.86 0)
 		(mirror y)
 		(unit 1)
@@ -7510,7 +7619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x03"
+		(property "Footprint" "FormantKO:PanelConnector_1x03"
 			(at 104.14 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -7532,7 +7641,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Pole Double Throw Switch"
 			(at 104.14 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -7830,7 +7939,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Disc"
+		(property "Footprint" "FormantKO:C_Rect"
 			(at 127 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7909,7 +8018,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Disc"
+		(property "Footprint" "FormantKO:C_Rect_200"
 			(at 72.39 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -8397,7 +8506,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Transistor-Array NPN"
 			(at 95.25 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8460,9 +8569,8 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Panel_Potentiometer_3")
+		(lib_id "FormantKO:R_Potentiometer")
 		(at 31.75 82.55 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8472,7 +8580,7 @@
 		(dnp no)
 		(uuid "5685f33f-374a-4f5b-a8e5-7592c7977e8b")
 		(property "Reference" "P2"
-			(at 34.29 80.772 0)
+			(at 28.448 80.518 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8483,7 +8591,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 34.29 82.55 0)
+			(at 28.448 82.296 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8493,7 +8601,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x03"
+		(property "Footprint" "FormantKO:PanelConnector_1x03"
 			(at 31.75 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8515,7 +8623,7 @@
 				)
 			)
 		)
-		(property "Description" "Dual variable resistor"
+		(property "Description" "Variable Resistor"
 			(at 31.75 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8527,7 +8635,7 @@
 			)
 		)
 		(property "Taper" "lin"
-			(at 34.29 84.328 0)
+			(at 28.448 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8538,7 +8646,7 @@
 			)
 		)
 		(property "Legend" "ENV"
-			(at 34.29 86.36 0)
+			(at 28.448 86.106 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8646,7 +8754,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:SWITCH_SPDT")
+		(lib_id "FormantKO:SW_SPDT")
 		(at 135.89 149.86 0)
 		(unit 1)
 		(body_style 1)
@@ -8676,7 +8784,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x03"
+		(property "Footprint" "FormantKO:PanelConnector_1x03"
 			(at 135.89 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -8698,7 +8806,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Pole Double Throw Switch"
 			(at 135.89 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -9123,7 +9231,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:C")
-		(at 44.45 26.67 0)
+		(at 44.45 26.67 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9133,7 +9241,7 @@
 		(dnp no)
 		(uuid "765534ca-4113-4e4f-bc8c-db94a9d81310")
 		(property "Reference" "C1"
-			(at 46.99 25.4 0)
+			(at 43.18 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9144,17 +9252,17 @@
 			)
 		)
 		(property "Value" "680n"
-			(at 46.99 27.94 0)
+			(at 45.72 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Disc"
+		(property "Footprint" "FormantKO:C_Rect"
 			(at 44.45 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -9203,9 +9311,8 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Panel_Potentiometer_3")
+		(lib_id "FormantKO:R_Potentiometer")
 		(at 31.75 95.25 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9215,7 +9322,7 @@
 		(dnp no)
 		(uuid "7733d7f7-bda9-4070-8511-78898a3c710d")
 		(property "Reference" "P3"
-			(at 34.29 93.472 0)
+			(at 37.338 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9226,7 +9333,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 34.29 95.25 0)
+			(at 37.338 95.758 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9236,7 +9343,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x03"
+		(property "Footprint" "FormantKO:PanelConnector_1x03"
 			(at 31.75 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -9258,7 +9365,7 @@
 				)
 			)
 		)
-		(property "Description" "Dual variable resistor"
+		(property "Description" "Variable Resistor"
 			(at 31.75 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -9270,7 +9377,7 @@
 			)
 		)
 		(property "Taper" "lin"
-			(at 34.29 97.028 0)
+			(at 37.338 97.536 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9281,7 +9388,7 @@
 			)
 		)
 		(property "Legend" "TM"
-			(at 34.29 99.06 0)
+			(at 37.338 99.568 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9381,104 +9488,6 @@
 			(project "VCF_12"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FormantKO:CA3080")
-		(at 189.23 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7a86b1d5-54ee-44bd-b612-7d5a2241f16c")
-		(property "Reference" "IC5"
-			(at 192.024 110.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CA3080"
-			(at 193.802 110.744 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FormantKO:DIP-8"
-			(at 189.23 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/ca30/ca3080-a.pdf"
-			(at 189.23 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2MHz, Operational Transconductance Amplifier (OTA), gM spread 2:1, DIP-8/SOIC-8"
-			(at 189.23 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c24d7799-dd19-4476-a4d4-878a7bfb8464")
-		)
-		(pin "2"
-			(uuid "eecbcf8c-b73e-49a5-a4e9-a5a67789f92f")
-		)
-		(pin "3"
-			(uuid "6f4b8203-987a-44aa-9ac1-c10b96cf3451")
-		)
-		(pin "4"
-			(uuid "9ee4d93d-6022-4f92-bc32-606a4cf73e0c")
-		)
-		(pin "5"
-			(uuid "63d16575-0dbf-4c9c-9cfd-cebf385c26f9")
-		)
-		(pin "6"
-			(uuid "99734a16-3ae6-4e63-b92d-b9b50d7f2681")
-		)
-		(pin "7"
-			(uuid "c1aeca2c-63b3-4729-94f6-7230f4a7ce1f")
-		)
-		(pin "8"
-			(uuid "5c17dd13-a6d6-4d5b-8b67-8188e1744c1a")
-		)
-		(instances
-			(project "VCF_12"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "IC5")
 					(unit 1)
 				)
 			)
@@ -9641,7 +9650,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:SWITCH_SPDT")
+		(lib_id "FormantKO:SW_SPDT")
 		(at 39.37 63.5 90)
 		(unit 1)
 		(body_style 1)
@@ -9671,7 +9680,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x03"
+		(property "Footprint" "FormantKO:PanelConnector_1x03"
 			(at 39.37 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9693,7 +9702,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Pole Double Throw Switch"
 			(at 39.37 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -10168,7 +10177,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Disc"
+		(property "Footprint" "FormantKO:C_Rect_200"
 			(at 200.66 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -10282,15 +10291,14 @@
 				)
 			)
 		)
-		(property "Legend" "OFFSET"
-			(at 34.29 39.878 0)
+		(property "Legend" "LEGEND"
+			(at 26.67 36.322 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(pin "1"
@@ -10884,104 +10892,6 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:CA3080")
-		(at 127 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "baab340e-16ca-4469-af9d-45e9723f97a6")
-		(property "Reference" "IC4"
-			(at 129.794 110.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CA3080"
-			(at 131.572 110.744 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FormantKO:DIP-8"
-			(at 127 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/ca30/ca3080-a.pdf"
-			(at 127 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2MHz, Operational Transconductance Amplifier (OTA), gM spread 2:1, DIP-8/SOIC-8"
-			(at 127 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "61b51196-84f2-4305-86d9-72a6aab4a517")
-		)
-		(pin "2"
-			(uuid "04f33caa-77cc-4115-96ef-407d257c1f36")
-		)
-		(pin "3"
-			(uuid "1c4a0ab2-eb36-4ebc-bf6a-0e64272cdeda")
-		)
-		(pin "4"
-			(uuid "2268e10b-17a8-4a96-8270-53e1642be440")
-		)
-		(pin "5"
-			(uuid "5ee60768-f0cf-4515-9320-92b316b80ba0")
-		)
-		(pin "6"
-			(uuid "d5a9ed05-fa34-4fd6-8da1-beeef6975ed2")
-		)
-		(pin "7"
-			(uuid "b9a2b604-669d-4a32-9f89-0c824c44164e")
-		)
-		(pin "8"
-			(uuid "4e9f2c08-7571-4d20-8a8b-e0c495e0720b")
-		)
-		(instances
-			(project "VCF_12"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "IC4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "FormantKO:R")
 		(at 81.28 101.6 0)
 		(unit 1)
@@ -11132,6 +11042,104 @@
 			(project "VCF_12"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:CA3080_Swap")
+		(at 189.23 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bdb3e2de-b38c-44e4-88eb-56b289a27e2d")
+		(property "Reference" "IC5"
+			(at 192.278 110.236 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CA3080"
+			(at 199.39 110.4198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:DIP-8"
+			(at 189.23 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/ca30/ca3080-a.pdf"
+			(at 189.23 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2MHz, Operational Transconductance Amplifier (OTA), gM spread 2:1, DIP-8/SOIC-8"
+			(at 189.23 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "bcf58974-bde2-4fbd-92cd-7b5382ee0134")
+		)
+		(pin "6"
+			(uuid "ff6a6bd9-9f2c-4c9a-b03e-fa4343af45ff")
+		)
+		(pin "4"
+			(uuid "c8c9076b-4136-4172-988b-e0f3c3dce410")
+		)
+		(pin "5"
+			(uuid "4e47c528-8644-4cf9-8b88-9313e88f6fcd")
+		)
+		(pin "7"
+			(uuid "015f4b43-45f0-4e0b-9f19-b75545df4b00")
+		)
+		(pin "1"
+			(uuid "7b4f4f62-b0c7-4cfa-baa1-6c65c1da29a1")
+		)
+		(pin "2"
+			(uuid "5121039e-aa95-44b8-86ac-bbd45ff40256")
+		)
+		(pin "3"
+			(uuid "885ed707-2cc6-4089-bc3f-9570d8f4a32b")
+		)
+		(instances
+			(project "VCF_12"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "IC5")
 					(unit 1)
 				)
 			)
@@ -11798,7 +11806,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Disc"
+		(property "Footprint" "FormantKO:C_Rect"
 			(at 31.75 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -11947,9 +11955,8 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Panel_Potentiometer_3")
+		(lib_id "FormantKO:R_Potentiometer")
 		(at 31.75 25.4 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11959,7 +11966,7 @@
 		(dnp no)
 		(uuid "f1a9d434-3c02-46d2-ae71-e6756d03b63f")
 		(property "Reference" "P1"
-			(at 34.29 23.622 0)
+			(at 28.194 23.368 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11970,7 +11977,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 34.29 25.4 0)
+			(at 28.194 25.146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11980,7 +11987,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x03"
+		(property "Footprint" "FormantKO:PanelConnector_1x03"
 			(at 31.75 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -12002,7 +12009,7 @@
 				)
 			)
 		)
-		(property "Description" "Dual variable resistor"
+		(property "Description" "Variable Resistor"
 			(at 31.75 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -12014,7 +12021,7 @@
 			)
 		)
 		(property "Taper" "lin"
-			(at 34.29 27.178 0)
+			(at 28.194 26.924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12025,7 +12032,7 @@
 			)
 		)
 		(property "Legend" "COARSE"
-			(at 34.29 29.21 0)
+			(at 28.194 28.956 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
