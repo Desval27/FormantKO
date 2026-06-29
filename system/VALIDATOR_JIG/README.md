@@ -2,7 +2,7 @@
 
 ## STATUS
 
-⚠️ Incomplete⚠️
+⚠️ Untested ⚠️
 
 But possibly ready to get first samples...
 
@@ -13,6 +13,8 @@ But possibly ready to get first samples...
 - [Interactive Bill of Materials](bom/ibom.html)
 
 ## Gerber to Order
+
+⚠️ Untested ⚠️
 
 - [Default](gerber_to_order/VALIDATOR_JIG_55.88x76.2mm_for_Default.zip)
 - [Elecrow](gerber_to_order/VALIDATOR_JIG_55.88x76.2mm_for_Elecrow.zip)

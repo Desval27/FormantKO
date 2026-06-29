@@ -1387,6 +1387,12 @@
 		(uuid "4b4fafba-a6ed-4188-830d-59230e9d662e")
 	)
 	(junction
+		(at 153.67 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "674b9e8d-b8a5-4a02-ae5a-10a86848aa3f")
+	)
+	(junction
 		(at 137.16 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1612,7 +1618,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 88.9) (xy 158.75 88.9)
+			(xy 149.86 88.9) (xy 153.67 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1659,6 +1665,16 @@
 			(type default)
 		)
 		(uuid "ec1f6bd6-9630-4b1f-a29c-3100e4fbd83c")
+	)
+	(wire
+		(pts
+			(xy 153.67 88.9) (xy 158.75 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0519908-2564-4a5c-bc12-951433b25586")
 	)
 	(wire
 		(pts
@@ -2037,7 +2053,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FormantKO:KEYSTONE_5005"
+		(property "Footprint" "FormantKO:KEYSTONE_5000"
 			(at 142.24 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -2350,7 +2366,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FormantKO:KEYSTONE_5001"
+		(property "Footprint" "FormantKO:KEYSTONE_5117"
 			(at 142.24 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2743,7 +2759,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:KEYSTONE_5005"
+		(property "Footprint" "FormantKO:KEYSTONE_5000"
 			(at 147.32 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -2859,6 +2875,84 @@
 			(project "VALIDATOR_JIG"
 				(path "/edaf0cb6-2af4-45d1-ac73-5a13d9505154"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:TestPoint")
+		(at 153.67 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "acdedb02-ef81-43b2-97f1-b55811f025c1")
+		(property "Reference" "TP5"
+			(at 153.67 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "FormantKO:KEYSTONE_5001"
+			(at 158.75 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 153.67 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1671e0fb-97b2-40a3-93a8-c648a94b241b")
+		)
+		(instances
+			(project "VALIDATOR_JIG"
+				(path "/edaf0cb6-2af4-45d1-ac73-5a13d9505154"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -3159,7 +3253,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:KEYSTONE_5001"
+		(property "Footprint" "FormantKO:KEYSTONE_5117"
 			(at 147.32 100.33 0)
 			(hide yes)
 			(show_name no)
