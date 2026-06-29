@@ -120,6 +120,7 @@ Latest updates are for the [Phase-Shifter](modules/PHASE_SHIFTER/README.md) modu
 
 - ✓ [BACKPLANE A](system/BACKPLANE_A/README.md)
 - ✓ [TEST HARNESS](system/TEST_HARNESS/README.md)
+- ✓ [µA726C TESTER](system/VALIDATOR_JIG/README.md)
 
 ## ⚠️ Disclaimer
 
