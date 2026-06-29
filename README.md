@@ -31,7 +31,7 @@ Note: This information is only as accurate as I can remember to update it.
 
 Most activity has been in the COM, NOISE, and LFOs modules. Scratch that....most activity has been bits and pieces all over.  I like to switch things up.
 
-Latest updates are for the [Phase-Shifter](modules/PHASE_SHIFTER/README.md) module.
+Latest updates are for the [VCF 12dB](modules/VCF_12/README.md) module.
 
 ![Top Render](modules/PHASE_SHIFTER/PHASE_SHIFTER_top.png "Top Render")
 
