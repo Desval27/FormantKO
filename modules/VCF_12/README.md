@@ -2,27 +2,24 @@
 
 ## Status
 
-⚠️ Incomplete⚠️
-
-0% Complete
-
-- [ ] Schematic
-- [ ] Schematic Additions
-- [ ] Schematic Review
-- [ ] PCB Placement
-- [ ] PCB Routing
-- [ ] PCB Review
-- [ ] Sample
-- [ ] Build
-- [ ] Calibrated
-- [ ] Tested
-
+⚠️ Untested ⚠️
 
 ## Documents
 
-## Interactive Bill of Materials
+- [Schematic](schematic.pdf)
+- [Assembly](plots/VCF_12__Assembly.pdf)
+- [Interactive Bill of Materials](bom/ibom.html)
+
 
 ## Gerber to Order
+
+⚠️ Untested ⚠️
+
+- [Default](gerber_to_order/VCF_12_160.0x233.35mm_for_Default.zip)
+- [Elecrow](gerber_to_order/VCF_12_160.0x233.35mm_for_Elecrow.zip)
+- [FusionPCB](gerber_to_order/VCF_12_160.0x233.35mm_for_FusionPCB.zip)
+- [JLCPCB](gerber_to_order/VCF_12_160.0x233.35mm_for_JLCPCB.zip)
+- [PCBWay](gerber_to_order/VCF_12_160.0x233.35mm_for_PCBWay.zip)
 
 ## Images
 
