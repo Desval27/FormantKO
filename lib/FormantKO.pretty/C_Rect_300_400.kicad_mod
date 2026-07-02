@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -2.54 0)
 		(layer "F.SilkS")
-		(uuid "7739a8db-bde9-4d66-8bd1-f142d943758d")
+		(uuid "409b6344-533e-4171-8308-cd564cdf7a7d")
 		(effects
 			(font
 				(size 1 1)
@@ -17,9 +17,9 @@
 		)
 	)
 	(property "Value" "C_Rect_300_400"
-		(at 0 0 0)
-		(layer "F.SilkS")
-		(uuid "8e6682f7-6e0d-43fc-bd4a-889640e2f8ab")
+		(at 0 -2.54 0)
+		(layer "F.Fab")
+		(uuid "088a5125-5d1b-4fa8-b514-7f86e5fb1577")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at -5.1435 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "de84ceb9-4074-4f5f-9d5e-5aeeab7159ac")
+		(uuid "84265ac8-c9fc-453d-9cab-706d74634657")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at -5.1435 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d440d9fa-16ac-4906-89d0-281b7bf815e1")
+		(uuid "bd9adc62-deec-4f8b-8de0-eeb47c8afd5c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +53,7 @@
 		(at -5.1435 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "256c99d9-e8b4-4294-bc24-8a469e5a5c5b")
+		(uuid "d2915ff2-772b-4d4a-b5da-43f46c008b6f")
 		(effects
 			(font
 				(size 1 1)
@@ -64,6 +64,26 @@
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
+		(start -2.667 0)
+		(end -0.762 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "50210854-f14d-4ac8-8d7e-c4ef7f8e6c87")
+	)
+	(fp_line
+		(start 2.667 0)
+		(end 0.889 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "aa517d30-43e1-4c68-881c-2920b569dadc")
+	)
+	(fp_line
 		(start 5.08 0)
 		(end 5.08 0)
 		(stroke
@@ -71,29 +91,40 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e40bb6be-143d-4d9f-aab8-091d25a5ad20")
+		(uuid "38f6de9a-4517-419d-be99-f43e709a15cc")
 	)
 	(fp_rect
-		(start -5.08 -1.27)
-		(end 7.62 1.27)
+		(start -0.762 -1.27)
+		(end -0.254 1.27)
 		(stroke
-			(width 0.3)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "d63ba751-e2f1-41fd-b495-3b3be3981a2e")
+		(uuid "f0211b21-d135-49c8-9815-0f815d345b0d")
 	)
 	(fp_rect
-		(start -5.334 -1.524)
-		(end 7.873999 1.532822)
+		(start 0.254 -1.27)
+		(end 0.762 1.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "62141870-b2d4-43dd-aa1c-db3211d1a9d9")
+	)
+	(fp_rect
+		(start -4.953 -1.397)
+		(end 7.492999 1.397)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "cd497d94-22a0-4a51-9ac1-a906c4cdc09d")
+		(uuid "9986197c-ab92-46da-96de-6c018d16b0cd")
 	)
 	(pad "1" thru_hole circle
 		(at -3.81 0)
@@ -101,7 +132,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "1286f015-7fe1-4053-9624-addc66bef6f7")
+		(uuid "91fb9848-00fe-4551-b997-38d1b5a5a124")
 	)
 	(pad "2" thru_hole circle
 		(at 3.81 0)
@@ -109,7 +140,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "cd2c49ce-ba9f-4cf0-bdc9-6b1b30e9fe3c")
+		(uuid "1f1c5850-b1fc-49ba-82e2-3ce3c70aba75")
 	)
 	(pad "2" thru_hole circle
 		(at 6.35 0)
@@ -117,7 +148,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "310d9830-e3ed-444a-bf0b-54f1fe3bbc30")
+		(uuid "83983e4f-1ef7-47fe-bc34-82aa30c3505d")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D10.5mm_W5.0mm_P7.50mm.step"
