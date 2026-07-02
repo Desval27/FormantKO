@@ -6,11 +6,10 @@
 
 ## Documents
 
-<!--
-- [Schematic](schematic.pdf)
--->
+- [Schematic](NOISE_DNG_schematic.pdf)
 - [Assembly](plots/NOISE_DNG__Assembly.pdf)
 - [Interactive Bill of Materials](bom/ibom.html)
+- [Translated Document](NOISE_DNG_translated.pdf)
 
 
 ## Gerber to Order
