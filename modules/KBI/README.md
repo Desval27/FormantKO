@@ -1,16 +1,18 @@
-# KBI
+# STATUS
 
-Keyboard Interface
+0% Complete
 
-## Status
+- [ ] Schematic
+- [ ] Schematic Additions
+- [ ] Schematic Review
+- [ ] PCB Placement
+- [ ] PCB Routing
+- [ ] PCB Review
+- [ ] Sample
+- [ ] Build
+- [ ] Calibrated
+- [ ] Tested
 
-⚠️ Incomplete⚠️
+![Rendered PCB Top](KBI_top.png "Rendered PCB Top")
 
-## Documents
-
-## Interactive Bill of Materials
-
-## Gerber to Order
-
-## Images
-
+![Rendered PCB Bottom](KBI_bottom.png "Rendered PCB Bottom")
