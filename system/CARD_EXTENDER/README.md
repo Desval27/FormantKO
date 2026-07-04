@@ -1,5 +1,11 @@
 # CARD-EXTENDER
 
+A card extender is a simple debugging aid that plugs into the system backplane and provides a second connector into which a module is inserted. This moves the module outside of the card cage, allowing it to operate normally while all of its components and test points remain fully accessible.
+
+For synthesizer systems such as the Formant, a card extender is invaluable during development, calibration, and troubleshooting. It allows oscilloscopes, multimeters, and logic analyzers to be connected without the module being buried inside the rack. Components can be adjusted, voltages measured, and signals traced while the module is running under normal operating conditions.
+
+Although not required for everyday use, a card extender is one of the most useful service tools for anyone building, repairing, or modifying Formant modules.
+
 ## STATUS
 
 ⚠️ Untested⚠️
