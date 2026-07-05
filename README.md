@@ -86,6 +86,7 @@ Latest updates are for the [VCF 12dB](modules/VCF_12/README.md) module.
 - ✓ [WAVEFORM-PROCESSOR](modules/WAVEFORM_PROCESSOR/README.md)
 - [MIXER](modules/MIXER/README.md)
 - ✓ [TUNING](modules/TUNING/README.md)
+- [SEQUENCER](modules/SEQUENCER/README.md)
 
 ## Panels
 
