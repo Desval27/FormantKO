@@ -1,5 +1,7 @@
 # 256 Step Sequencer
 
+A digital sequencer for voltage-controlled music synthesizers that can store and automatically play back up to 256 notes.
+
 ## Status
 
 ⚠️ Incomplete ⚠️
