@@ -1,26 +1,25 @@
-# SAMPLE & HOLD
+# Sample & Hold
 
 ## Status
 
-0% Complete
-
-- [ ] Schematic
-- [ ] Schematic Additions
-- [ ] Schematic Review
-- [ ] PCB Placement
-- [ ] PCB Routing
-- [ ] PCB Review
-- [ ] Sample
-- [ ] Build
-- [ ] Calibrated
-- [ ] Tested
+⚠️ Incomplete ⚠️
 
 ## Documents
 
-## Interactive Bill of Materials
+- [English Translation](SAMPLE_AND_HOLD_en.pdf)
+<!-- - [Schematic](plots/SEQUENCER__schematic.pdf) -->
+<!-- - [Assembly](plots/SEQUENCER__Assembly.pdf) -->
+<!-- - [Interactive Bill of Materials](bom/ibom.html) -->
+
 
 ## Gerber to Order
 
+⚠️ Untested ⚠️
+
 ## Images
-<!-- ![Rendered PCB](TEMPLATE.png "Rendered PCB") -->
-<!-- ![Rendered PCB](TEMPLATE.png "Rendered PCB") -->
+
+<!--
+![Rendered PCB Top](SEQUENCER_top.png "Rendered PCB Top")
+
+![Rendered PCB Bottom](SEQUENCER_bottom.png "Rendered PCB Bottom")
+-->
