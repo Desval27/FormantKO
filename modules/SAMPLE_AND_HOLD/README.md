@@ -7,8 +7,8 @@
 ## Documents
 
 - [English Translation](SAMPLE_AND_HOLD_en.pdf)
-<!-- - [Schematic](plots/SEQUENCER__schematic.pdf) -->
-<!-- - [Assembly](plots/SEQUENCER__Assembly.pdf) -->
+- [Schematic](plots/SAMPLE_AND_HOLD__schematic.pdf)
+<!-- - [Assembly](plots/SAMPLE_AND_HOLD__Assembly.pdf) -->
 <!-- - [Interactive Bill of Materials](bom/ibom.html) -->
 
 
@@ -18,8 +18,6 @@
 
 ## Images
 
-<!--
-![Rendered PCB Top](SEQUENCER_top.png "Rendered PCB Top")
+![Rendered PCB Top](SAMPLE_AND_HOLD_top.png "Rendered PCB Top")
 
-![Rendered PCB Bottom](SEQUENCER_bottom.png "Rendered PCB Bottom")
--->
+![Rendered PCB Bottom](SAMPLE_AND_HOLD_bottom.png "Rendered PCB Bottom")
