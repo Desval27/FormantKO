@@ -31,9 +31,9 @@ Note: This information is only as accurate as I can remember to update it.
 
 Most activity has been in the COM, NOISE, and LFOs modules. Scratch that....most activity has been bits and pieces all over.  I like to switch things up.
 
-Latest updates are for the [VCF 12dB](modules/VCF_12/README.md) module.
+Latest updates are for the [SAMPLE-AND-HOLD](modules/SAMPLE_AND_HOLD/README.md) module.
 
-![Top Render](modules/PHASE_SHIFTER/PHASE_SHIFTER_top.png "Top Render")
+![Top Render](modules/SAMPLE_AND_HOLD/SAMPLE_AND_HOLD_top.png "Top Render")
 
 - ✓ PCB/Panel exists but likely a WIP.
 - ✔ PCB/Panel exists but may not be completely functional.
@@ -82,7 +82,7 @@ Latest updates are for the [VCF 12dB](modules/VCF_12/README.md) module.
 - [LF VCO](modules/LF_VCO/README.md)
 - [DNG](modules/DNG/README.md)
 - [ENV FOLLOWER](modules/ENV_FOLLOWER/README.md)
-- [SAMPLE & HOLD](modules/SAMPLE_AND_HOLD/README.md)
+- ✔ [SAMPLE & HOLD](modules/SAMPLE_AND_HOLD/README.md)
 - ✓ [WAVEFORM-PROCESSOR](modules/WAVEFORM_PROCESSOR/README.md)
 - [MIXER](modules/MIXER/README.md)
 - ✓ [TUNING](modules/TUNING/README.md)
