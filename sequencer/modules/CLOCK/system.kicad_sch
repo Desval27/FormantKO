@@ -993,164 +993,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "FormantKO:Card_Bracket"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2262,8 +2104,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FormantKO:MonoJack"
-			(pin_numbers
+		(symbol "FormantKO:Wire_1x01"
+			(pin_names
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -2272,7 +2115,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 3.81 0)
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2281,8 +2124,8 @@
 					)
 				)
 			)
-			(property "Value" "MonoJack"
-				(at 7.62 -1.905 0)
+			(property "Value" "Wire_1x01"
+				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2291,7 +2134,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FormantKO:PanelConnector_1x02"
+			(property "Footprint" "FormantKO:Wire_1x01_General"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2313,7 +2156,7 @@
 					)
 				)
 			)
-			(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2324,18 +2167,7 @@
 					)
 				)
 			)
-			(property "Legend" "LEGEND"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "audio jack receptacle mono phone headphone TS connector"
+			(property "ki_keywords" "connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2346,7 +2178,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Jack*"
+			(property "ki_fp_filters" "Connector*:*_1x??_* FormantKO:Wire_1x01_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2357,34 +2189,10 @@
 					)
 				)
 			)
-			(symbol "MonoJack_0_1"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 0.635 -2.54) (xy 0.635 0) (xy 1.27 0.635) (xy 1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -0.635 0.635) (xy -1.27 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "Wire_1x01_1_1"
 				(rectangle
-					(start 2.54 -3.81)
-					(end -2.54 2.54)
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2394,22 +2202,20 @@
 					)
 				)
 				(rectangle
-					(start 3.81 0)
-					(end 2.54 2.54)
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-			)
-			(symbol "MonoJack_1_1"
 				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "S"
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2417,24 +2223,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3155,129 +2943,9 @@
 		)
 		(uuid "f2486399-661f-4121-855a-6f2bf57d5258")
 	)
-	(global_label "+15V"
-		(shape input)
-		(at 147.32 24.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1abddae4-b715-4a2f-a8e2-11cf4eccdadf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.1597 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 147.32 62.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2a780583-4ab5-4ef8-9879-01d1de5be164")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.3692 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "STRN"
-		(shape input)
-		(at 147.32 52.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2e6a522f-932a-4ccd-b9b4-49fde56f6a93")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.4621 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "GATE"
-		(shape input)
-		(at 185.42 63.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "41cb7d1d-468c-4600-8d97-5f65150c6188")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.8645 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "+15V"
-		(shape input)
-		(at 147.32 36.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "43991b38-4b53-41b9-9537-c55d16da5f7c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.1597 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "STUP"
-		(shape input)
-		(at 147.32 26.67 180)
+		(shape passive)
+		(at 160.02 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3285,9 +2953,9 @@
 			)
 			(justify right)
 		)
-		(uuid "4f058083-dec6-4b57-b881-1bcb1d316558")
+		(uuid "12ae9900-fff5-487c-98bb-7a3ba24c943a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.4621 26.67 0)
+			(at 153.1781 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3299,9 +2967,9 @@
 			)
 		)
 	)
-	(global_label "TRIG"
-		(shape input)
-		(at 185.42 50.8 180)
+	(global_label "CLR"
+		(shape passive)
+		(at 160.02 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3309,9 +2977,9 @@
 			)
 			(justify right)
 		)
-		(uuid "535c45a8-6015-4628-9b0d-26803cb459ed")
+		(uuid "4c046f80-09f2-4b45-94ce-e9320b5e3940")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.2273 50.8 0)
+			(at 154.3876 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3323,9 +2991,9 @@
 			)
 		)
 	)
-	(global_label "XCLK"
-		(shape output)
-		(at 185.42 25.4 180)
+	(global_label "RND"
+		(shape passive)
+		(at 160.02 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3333,81 +3001,9 @@
 			)
 			(justify right)
 		)
-		(uuid "7fed61cf-e105-4241-a02f-06bea9b83fa9")
+		(uuid "62e5fd38-514c-4c36-aaa9-066991298b07")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.5621 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "XSTP"
-		(shape input)
-		(at 185.42 76.2 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "97353b91-0c48-4e8c-b8f3-81ec88d3cf71")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.6831 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "RST"
-		(shape input)
-		(at 147.32 64.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a64729a7-f6e1-470f-a1d4-2e3118981030")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.7926 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "CKOUT"
-		(shape input)
-		(at 185.42 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aa9d3d55-f64a-44c6-8b95-0afb5faf6d22")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.1711 38.1 0)
+			(at 154.0852 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3420,8 +3016,8 @@
 		)
 	)
 	(global_label "STDN"
-		(shape input)
-		(at 147.32 39.37 180)
+		(shape passive)
+		(at 160.02 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3429,9 +3025,9 @@
 			)
 			(justify right)
 		)
-		(uuid "c30dd898-3242-4df9-a744-a936a0fff9a9")
+		(uuid "76aaca2a-5c2a-46d8-8cd8-d2e03c9fc46e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.4621 39.37 0)
+			(at 153.1781 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3443,9 +3039,9 @@
 			)
 		)
 	)
-	(global_label "+15V"
-		(shape input)
-		(at 147.32 49.53 180)
+	(global_label "CKOUT"
+		(shape passive)
+		(at 160.02 25.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3453,9 +3049,57 @@
 			)
 			(justify right)
 		)
-		(uuid "f8d22321-8f84-4c53-8858-72bd4c3c9592")
+		(uuid "8c5e1ee2-0143-45fe-b321-1f1f83356e6f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.1597 49.53 0)
+			(at 151.7871 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "RIN"
+		(shape passive)
+		(at 160.02 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a12bbb16-c0a8-4de6-a4de-6fdfdf678cb8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.7504 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "RST"
+		(shape passive)
+		(at 160.02 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c24a67f1-ec0d-454f-801e-f5570b6d8d0c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.5086 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3545,8 +3189,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 152.4 62.23 0)
+		(lib_id "FormantKO:Wire_1x01")
+		(at 165.1 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3555,9 +3199,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1c73fe47-5d71-412c-a616-237ceca05468")
-		(property "Reference" "J7"
-			(at 154.94 62.2299 0)
+		(uuid "0889c7e1-08d9-4b49-a6ec-6bcd2a3ff11f")
+		(property "Reference" "J3"
+			(at 167.64 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3568,7 +3212,7 @@
 			)
 		)
 		(property "Value" "RST"
-			(at 154.94 64.7699 0)
+			(at 167.64 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3578,8 +3222,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:PanelConnector_1x02"
-			(at 152.4 62.23 0)
+		(property "Footprint" "FormantKO:Wire_1x01_General"
+			(at 165.1 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3590,7 +3234,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 62.23 0)
+			(at 165.1 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3600,8 +3244,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 152.4 62.23 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 165.1 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3612,15 +3256,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f5d80878-61c8-4ce9-a250-febd1ba00eb2")
-		)
-		(pin "2"
-			(uuid "1c54d957-cc5c-4a35-a814-23da6dc1c364")
+			(uuid "9ec9b6d7-451d-4266-9afc-2b6ada7f73e1")
 		)
 		(instances
 			(project "CLOCK"
 				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
-					(reference "J7")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3782,99 +3423,6 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:MonoJack")
-		(at 190.5 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ea606d1-c613-4056-b3e4-45a278c425ea")
-		(property "Reference" "J3"
-			(at 195.58 37.4649 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CKOUT"
-			(at 195.58 40.0049 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FormantKO:PanelConnector_1x02"
-			(at 190.5 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-			(at 190.5 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Legend" "LEGEND"
-			(at 190.5 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "91a16e74-047a-4355-a35a-8d756bdb49fc")
-		)
-		(pin "1"
-			(uuid "bea3aea0-523d-41b9-bcb9-84d4bc01c540")
-		)
-		(instances
-			(project "CLOCK"
-				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "4xxx:40106")
 		(at 76.2 127 0)
 		(unit 7)
@@ -3988,489 +3536,6 @@
 				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
 					(reference "U1")
 					(unit 7)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 185.42 66.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3de1a281-4ca6-42e7-a469-8428c8b0d7ec")
-		(property "Reference" "#PWR019"
-			(at 185.42 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.42 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6ca9576e-ac95-4720-b5d0-549a8382200b")
-		)
-		(instances
-			(project "CLOCK"
-				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 185.42 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "550d7a89-aa45-4481-bcee-7d44e3e9cb11")
-		(property "Reference" "#PWR018"
-			(at 185.42 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.42 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d3f8bf53-2988-4fa1-bd5c-e56f6b0d2c53")
-		)
-		(instances
-			(project "CLOCK"
-				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 185.42 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "559d3792-6c5f-4336-bfcd-822f97e1bef1")
-		(property "Reference" "#PWR020"
-			(at 185.42 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.42 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b9271e2f-9e68-4ae3-811f-8e3f49d225ca")
-		)
-		(instances
-			(project "CLOCK"
-				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FormantKO:MonoJack")
-		(at 190.5 25.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5748f4fc-385f-4431-af9b-335af5452c6f")
-		(property "Reference" "J2"
-			(at 195.58 24.7649 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "XCLK"
-			(at 195.58 27.3049 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FormantKO:PanelConnector_1x02"
-			(at 190.5 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-			(at 190.5 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Legend" "LEGEND"
-			(at 190.5 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4caf4f7c-8afc-42bc-a88a-92376f7c70cb")
-		)
-		(pin "1"
-			(uuid "7caa9152-7b32-461c-b2f8-fb8dedc742fc")
-		)
-		(instances
-			(project "CLOCK"
-				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 152.4 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58ccc596-ca44-4ca6-8bb4-47c10604d40d")
-		(property "Reference" "J5"
-			(at 154.94 36.8299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "STDN"
-			(at 154.94 39.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FormantKO:PanelConnector_1x02"
-			(at 152.4 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 152.4 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2f6dcf89-0270-45e0-9a81-5ebc6fb0dfde")
-		)
-		(pin "2"
-			(uuid "97fdcc2c-5d54-4bc0-a932-686749e31ec4")
-		)
-		(instances
-			(project "CLOCK"
-				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 185.42 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6400aa26-48b9-40d2-99ce-2abc16d3d9b7")
-		(property "Reference" "#PWR08"
-			(at 185.42 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.42 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1f2dea7e-6ff6-4e74-ac6a-ed07db3868d6")
-		)
-		(instances
-			(project "CLOCK"
-				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
-					(reference "#PWR08")
-					(unit 1)
 				)
 			)
 		)
@@ -4672,8 +3737,8 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:MonoJack")
-		(at 190.5 63.5 0)
+		(lib_id "FormantKO:Wire_1x01")
+		(at 165.1 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4682,9 +3747,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "883910ec-1172-4358-bb94-45b23614bf11")
-		(property "Reference" "J9"
-			(at 195.58 62.8649 0)
+		(uuid "75345f85-a37d-425a-9bd3-780f47fe5a4e")
+		(property "Reference" "J4"
+			(at 167.64 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4694,8 +3759,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GATE"
-			(at 195.58 65.4049 0)
+		(property "Value" "RIN"
+			(at 167.64 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4705,8 +3770,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:PanelConnector_1x02"
-			(at 190.5 63.5 0)
+		(property "Footprint" "FormantKO:Wire_1x01_General"
+			(at 165.1 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4717,7 +3782,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 63.5 0)
+			(at 165.1 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4727,8 +3792,8 @@
 				)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-			(at 190.5 63.5 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 165.1 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4737,28 +3802,172 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Legend" "LEGEND"
-			(at 190.5 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e2b30fa2-11d4-4995-96cf-70d530b4a309")
 		)
 		(pin "1"
-			(uuid "a99d2c46-d41c-4408-ad41-0a0731e1b458")
+			(uuid "6a53cad4-1279-45d2-bc01-b7f09a71c22b")
 		)
 		(instances
 			(project "CLOCK"
 				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
-					(reference "J9")
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:Wire_1x01")
+		(at 165.1 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82f3c05e-9451-4e1c-974d-43b75572b584")
+		(property "Reference" "J2"
+			(at 167.64 24.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CKOUT"
+			(at 167.64 26.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_General"
+			(at 165.1 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 165.1 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6bdcdf6a-af45-4482-83e7-58c1ae8ee894")
+		)
+		(instances
+			(project "CLOCK"
+				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:Wire_1x01")
+		(at 165.1 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88dab191-4bf8-4b91-bdb4-59b9b0bd61b7")
+		(property "Reference" "J8"
+			(at 167.64 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STDN"
+			(at 167.64 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_General"
+			(at 165.1 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 165.1 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bea60f58-b4cb-4b56-ae91-0bdc2e49a087")
+		)
+		(instances
+			(project "CLOCK"
+				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -4836,83 +4045,6 @@
 			(project "CLOCK"
 				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 185.42 27.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8eea7a45-b8de-4a07-a0d6-99211dbeffc0")
-		(property "Reference" "#PWR07"
-			(at 185.42 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.42 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fb27e970-bdba-4639-8b9c-8a45b6b60a3c")
-		)
-		(instances
-			(project "CLOCK"
-				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5150,8 +4282,8 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:MonoJack")
-		(at 190.5 50.8 0)
+		(lib_id "FormantKO:Wire_1x01")
+		(at 165.1 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5160,9 +4292,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a978f5bc-70e1-40ba-af1e-679068788c7b")
-		(property "Reference" "J8"
-			(at 195.58 50.1649 0)
+		(uuid "b3a6fe67-f112-4722-a830-cfca8fb242c0")
+		(property "Reference" "J7"
+			(at 167.64 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5172,8 +4304,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TRIG"
-			(at 195.58 52.7049 0)
+		(property "Value" "STUP"
+			(at 167.64 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5183,8 +4315,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:PanelConnector_1x02"
-			(at 190.5 50.8 0)
+		(property "Footprint" "FormantKO:Wire_1x01_General"
+			(at 165.1 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5195,7 +4327,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 50.8 0)
+			(at 165.1 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5205,8 +4337,8 @@
 				)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-			(at 190.5 50.8 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 165.1 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5215,28 +4347,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Legend" "LEGEND"
-			(at 190.5 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2515ad1d-9353-4064-8f62-305b0f468f87")
 		)
 		(pin "1"
-			(uuid "0d64325c-a77e-459c-999b-ee9ca8ad539c")
+			(uuid "fe7f49de-c06d-476a-9123-191171700c04")
 		)
 		(instances
 			(project "CLOCK"
 				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
-					(reference "J8")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -5438,6 +4556,164 @@
 		)
 	)
 	(symbol
+		(lib_id "FormantKO:Wire_1x01")
+		(at 165.1 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c74755e6-8df8-4b2c-97db-b1cc6b6b43e9")
+		(property "Reference" "J6"
+			(at 167.64 49.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RND"
+			(at 167.64 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_General"
+			(at 165.1 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 165.1 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f9c88c4e-ad6d-422e-b4d8-bc5361b3a43c")
+		)
+		(instances
+			(project "CLOCK"
+				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:Wire_1x01")
+		(at 165.1 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d527c710-f2f4-4029-91fd-c69494df1a26")
+		(property "Reference" "J5"
+			(at 167.64 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CLR"
+			(at 167.64 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_General"
+			(at 165.1 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 165.1 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce5b92d6-5ebf-4c85-9ea5-db696acc2d39")
+		)
+		(instances
+			(project "CLOCK"
+				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FormantKO:Card_Connector")
 		(at 78.74 44.45 0)
 		(unit 1)
@@ -5607,266 +4883,10 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 152.4 24.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4cdd19a-04ae-4510-8911-fab9ce436d78")
-		(property "Reference" "J4"
-			(at 154.94 24.1299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "STUP"
-			(at 154.94 26.6699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FormantKO:PanelConnector_1x02"
-			(at 152.4 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 152.4 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5353dd76-275d-414d-b1f2-1c4735f46d21")
-		)
-		(pin "2"
-			(uuid "3d2c3893-f023-4e25-a6fc-9f88a76e8518")
-		)
-		(instances
-			(project "CLOCK"
-				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FormantKO:MonoJack")
-		(at 190.5 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6253519-ffa3-4fe1-b0c1-aa8e690e1256")
-		(property "Reference" "J10"
-			(at 195.58 75.5649 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "XSTP"
-			(at 195.58 78.1049 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FormantKO:PanelConnector_1x02"
-			(at 190.5 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-			(at 190.5 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Legend" "LEGEND"
-			(at 190.5 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "dd61266e-cda3-4f29-a546-a01a716fadc8")
-		)
-		(pin "1"
-			(uuid "aa561cfd-d2dd-4ce1-976c-7b2e79b3dfde")
-		)
-		(instances
-			(project "CLOCK"
-				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 152.4 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f788e377-52f8-48ec-8be2-ea84f59788d9")
-		(property "Reference" "J6"
-			(at 154.94 49.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "STRN"
-			(at 154.94 52.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FormantKO:PanelConnector_1x02"
-			(at 152.4 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 152.4 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e4df08e3-7d0c-45cf-89ce-5077cef5323a")
-		)
-		(pin "2"
-			(uuid "2f276fb8-9ba7-4ce6-a105-0876fc896e77")
-		)
-		(instances
-			(project "CLOCK"
-				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet_instances
 		(path "/"
-			(page "3")
+			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
