@@ -1,6 +1,6 @@
-# ANALOG
+# GATE
 
-CV-16
+GATE-16
 
 Format: 6U
 
@@ -16,6 +16,6 @@ Format: 6U
 
 ## Images
 
-![Rendered Panel Front](ANALOG_front.png "Rendered Panel Front")
+![Rendered Panel Front](GATE_front.png "Rendered Panel Front")
 
-![Rendered Panel Back](ANALOG_back.png "Rendered Panel Back")
+![Rendered Panel Back](GATE_back.png "Rendered Panel Back")
