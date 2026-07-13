@@ -1,26 +1,26 @@
-# TEMPLATE
+# TEMPLATE-3U
 
-## STATUS
+Format: 3U
 
-0% Complete
+## Status
 
-- [ ] Schematic
-- [ ] Schematic Additions
-- [ ] Schematic Review
-- [ ] PCB Placement
-- [ ] PCB Routing
-- [ ] PCB Review
-- [ ] Sample
-- [ ] Build
-- [ ] Calibrated
-- [ ] Tested
+⚠️ Incomplete⚠️
 
 ## Documents
 
-## Interactive Bill of Materials
+<!--
+- [Schematic](plots/TEMPLATE__Schematic.pdf)
+- [Assembly](plots/TEMPLATE__Assembly.pdf)
+-->
 
 ## Gerber to Order
 
+⚠️ Untested⚠️
+
 ## Images
 
-<!-- ![Rendered PCB](TEMPLATE.png "Rendered PCB") -->
+<!--
+![Rendered Panel Front](TEMPLATE_front.png "Rendered Panel Front")
+
+![Rendered Panel Back](TEMPLATE_back.png "Rendered Panel Back")
+-->

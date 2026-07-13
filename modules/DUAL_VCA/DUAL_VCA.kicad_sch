@@ -44,7 +44,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FormantKO:C_Disc"
+			(property "Footprint" "FormantKO:C_Rect"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -435,7 +435,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "CA3080_Swap"
+			(property "Value" "CA3080"
 				(at 1.27 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1123,6 +1123,359 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "FormantKO:DUG"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DUG"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "FormantKO:DUG"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Universal Germanium Diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Germanium"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DUG_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DUG_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FormantKO:DUS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DUS"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "FormantKO:DUS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Universal Silicon Diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DUS_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DUS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "FormantKO:D_LED"
 			(pin_numbers
 				(hide yes)
@@ -1146,7 +1499,7 @@
 					)
 				)
 			)
-			(property "Value" "D_LED"
+			(property "Value" "DLED"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1157,7 +1510,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FormantKO:Panel_Connector_1x02"
+			(property "Footprint" "FormantKO:PanelConnector_1x02"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1335,359 +1688,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FormantKO:D_UniversalGermanium"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_UniversalGermanium"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "FormantKO:DUG"
-				(at 0 -4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Universal Germanium Diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode Germanium"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?35*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_UniversalGermanium_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_UniversalGermanium_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "FormantKO:D_UniversalSilicon"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_UniversalSilicon"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "FormantKO:DUS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Universal Silicon Diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?35*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_UniversalSilicon_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_UniversalSilicon_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "FormantKO:GenericOpAmp_Single"
 			(pin_names
 				(offset 0.127)
@@ -1708,7 +1708,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "GenericOpAmp_Single"
+			(property "Value" "OpAmp"
 				(at 0 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1958,7 +1958,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "GenericOpAmp_Single_Swap"
+			(property "Value" "OpAmp"
 				(at 0 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2341,7 +2341,18 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "P"
-				(at 2.54 0.762 0)
+				(at 1.905 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "R"
+				(at 1.905 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2351,18 +2362,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "R_Potentiometer"
-				(at 2.54 -1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "FormantKO:Panel_Connector_1x03"
+			(property "Footprint" "FormantKO:PanelConnector_1x03"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2396,25 +2396,25 @@
 				)
 			)
 			(property "Taper" "Tap"
-				(at 2.54 -2.54 0)
+				(at 1.905 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 				)
 			)
 			(property "Legend" "Legend"
-				(at 2.54 -4.064 0)
+				(at -1.27 0.635 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify right)
 				)
 			)
 			(property "ki_keywords" "R res dual resistor variable potentiometer rheostat"
@@ -2544,7 +2544,7 @@
 					)
 				)
 			)
-			(property "Value" "R_Trim"
+			(property "Value" "R"
 				(at 4.572 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2724,7 +2724,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "SW"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2734,7 +2734,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FormantKO:Panel_Connector_1x03"
+			(property "Footprint" "FormantKO:PanelConnector_1x03"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2771,6 +2771,7 @@
 				(at -5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2825,6 +2826,22 @@
 				)
 			)
 			(symbol "SW_SPDT_1_1"
+				(text "b"
+					(at -4.318 5.08 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "a"
+					(at 4.318 5.08 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
@@ -2882,7 +2899,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FormantKO:T_Universal_PNP"
+		(symbol "FormantKO:TUP"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -2903,7 +2920,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "T_Universal_PNP"
+			(property "Value" "TUP"
 				(at 5.08 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2991,7 +3008,7 @@
 					)
 				)
 			)
-			(symbol "T_Universal_PNP_0_1"
+			(symbol "TUP_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -3064,7 +3081,7 @@
 					)
 				)
 			)
-			(symbol "T_Universal_PNP_1_1"
+			(symbol "TUP_1_1"
 				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
@@ -5873,7 +5890,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Disc"
+		(property "Footprint" "FormantKO:C_Rect"
 			(at 31.75 127 0)
 			(hide yes)
 			(show_name no)
@@ -6384,7 +6401,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Disc"
+		(property "Footprint" "FormantKO:C_Rect"
 			(at 95.25 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7403,7 +7420,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:D_UniversalGermanium")
+		(lib_id "FormantKO:DUG")
 		(at 102.87 182.88 270)
 		(unit 1)
 		(body_style 1)
@@ -7902,7 +7919,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:D_UniversalGermanium")
+		(lib_id "FormantKO:DUG")
 		(at 115.57 182.88 90)
 		(unit 1)
 		(body_style 1)
@@ -8369,7 +8386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x03"
+		(property "Footprint" "FormantKO:PanelConnector_1x03"
 			(at 38.1 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -8633,7 +8650,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Disc"
+		(property "Footprint" "FormantKO:C_Rect"
 			(at 190.5 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8951,7 +8968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x03"
+		(property "Footprint" "FormantKO:PanelConnector_1x03"
 			(at 146.05 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -9412,7 +9429,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x02"
+		(property "Footprint" "FormantKO:PanelConnector_1x02"
 			(at 109.22 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -9514,7 +9531,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x03"
+		(property "Footprint" "FormantKO:PanelConnector_1x03"
 			(at 158.75 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -9952,7 +9969,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x03"
+		(property "Footprint" "FormantKO:PanelConnector_1x03"
 			(at 38.1 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -10241,7 +10258,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:T_Universal_PNP")
+		(lib_id "FormantKO:TUP")
 		(at 226.06 72.39 0)
 		(mirror x)
 		(unit 1)
@@ -10575,7 +10592,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Disc"
+		(property "Footprint" "FormantKO:C_Rect"
 			(at 31.75 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -10624,7 +10641,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:D_UniversalSilicon")
+		(lib_id "FormantKO:DUS")
 		(at 215.9 58.42 270)
 		(unit 1)
 		(body_style 1)
@@ -11543,7 +11560,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:D_UniversalGermanium")
+		(lib_id "FormantKO:DUG")
 		(at 102.87 165.1 90)
 		(unit 1)
 		(body_style 1)
@@ -12513,7 +12530,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:D_UniversalGermanium")
+		(lib_id "FormantKO:DUG")
 		(at 115.57 165.1 270)
 		(unit 1)
 		(body_style 1)

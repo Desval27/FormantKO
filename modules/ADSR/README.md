@@ -1,12 +1,18 @@
 # ADSR
 
+Format: 3U
+
+### Modifications
+
+- Add external gate input.  This is normalized and will disconnect any existing internal gate bus assignment.
+
 ## Status
 
 ⚠️ Untested⚠️
 
 ## Documents
 
-- [Schematic](ADSR.pdf)
+- [Schematic](plots/ADSR__schematic.pdf)
 - [Assembly](plots/ADSR__Assembly.pdf)
 - [Interactive Bill of Materials](bom/ibom.html)
 
