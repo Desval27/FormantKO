@@ -124,7 +124,21 @@ Latest updates are for the [SAMPLE-AND-HOLD](modules/SAMPLE_AND_HOLD/README.md) 
 - ✓ [CARD_EXTENDER](system/CARD_EXTENDER/README.md)
 - ✓ [µA726C TESTER](system/VALIDATOR_JIG/README.md)
 
-## ⚠️ Disclaimer
+## Modular Sequencer Side Quest (based on MFOS 16-step Analog Sequencer)
+
+[MFOS Project](https://musicfromouterspace.com/index.php?MAINTAB=SYNTHDIY&PROJARG=SEQ16_2006/SEQ16_2006.php)
+
+### Modules
+
+- [CLOCK](sequencer/modules/CLOCK/README.md)
+- [ANALOG CV-16](sequencer/modules/ANALOG/README.md)
+
+### Panels
+
+- [CLOCK](sequencer/panels/CLOCK/README.md)
+- [ANALOG CV-16](sequencer/panels/ANALOG/README.md)
+
+## ⚠️ Disclaimer⚠️
 
 This project is provided **"as is"**, without warranty of any kind, express or implied,
 including but not limited to the warranties of merchantability, fitness for a
