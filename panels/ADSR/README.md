@@ -1,12 +1,14 @@
 # ADSR
 
+Formant: 3U
+
+### Modifications
+
+- Add external gate input.  This is normalized and will disconnect any existing internal gate bus assignment.
+
 ## Status
 
 ⚠️ Untested⚠️
-
-## Documents
-
-- [Assembly](plots/ADSR__Assembly.pdf)
 
 ## Gerber to Order
 
@@ -20,6 +22,6 @@
 
 ## Images
 
-![Rendered PCB Top](ADSR_top.png "Rendered PCB Top")
+![Rendered Panel Front](ADSR_front.png "Rendered Panel Front")
 
-![Rendered PCB Bottom](ADSR_bottom.png "Rendered PCB Bottom")
+![Rendered Panel Back](ADSR_back.png "Rendered Panel Back")
