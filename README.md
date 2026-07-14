@@ -31,9 +31,9 @@ Note: This information is only as accurate as I can remember to update it.
 
 Most activity has been in the COM, NOISE, and LFOs modules. Scratch that....most activity has been bits and pieces all over.  I like to switch things up.
 
-Latest updates are for the [SAMPLE-AND-HOLD](modules/SAMPLE_AND_HOLD/README.md) module.
+Latest updates are for the [DUAL-VCA](modules/DUAL_VCA/README.md) module.
 
-![Top Render](modules/SAMPLE_AND_HOLD/SAMPLE_AND_HOLD_top.png "Top Render")
+![Top Render](modules/DUAL_VCA/DUAL_VCA_top.png "Top Render")
 
 - ✓ PCB/Panel exists but likely a WIP.
 - ✔ PCB/Panel exists but may not be completely functional.
