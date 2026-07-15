@@ -2,11 +2,11 @@
 
 ## Status
 
-Incomplete
+⚠️ Untested⚠️
 
+<!--
 ## Documents
-
-- [Assembly](plots/COM__Assembly.pdf)
+-->
 
 ## Gerber To Order
 

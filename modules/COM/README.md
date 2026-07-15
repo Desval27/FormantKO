@@ -1,28 +1,27 @@
 # COM
 
+Format: 3U
+
+### Modifications
+
+- Changed power & gate leds to not require the interface receiver board.
+- Added Gate2 LED and associated tranistor driver.
+
 ## Status
 
-60% Complete
-
-- [x] Schematic
-- [x] Schematic Additions
-- [x] Schematic Review
-- [x] PCB Placement
-- [x] PCB Routing
-- [x] PCB Review
-- [ ] Sample
-- [ ] Build
-- [ ] Calibrated
-- [ ] Tested
+⚠️ Untested⚠️
 
 ## Documents
 
+- [Schematic](plots/COM__Schematic.pdf)
 - [Assembly](plots/COM__Assembly.pdf)
 - [Interactive Bill of Materials](bom/ibom.html)
 
+
 ## Gerber to Order
 
-!Untested!
+⚠️ Untested⚠️
+
 
 - [Default](gerber_to_order/COM_160.0x100.0mm_for_Default.zip)
 - [Elecrow](gerber_to_order/COM_160.0x100.0mm_for_Elecrow.zip)
