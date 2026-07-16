@@ -2030,6 +2030,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "FormantKO:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "FormantKO:KEYSTONE_5001"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "FormantKO:KEYSTONE_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+15V"
 			(power global)
 			(pin_numbers
@@ -2461,6 +2584,12 @@
 		(uuid "5ff87537-6762-499c-9aca-33b73ea1eecd")
 	)
 	(junction
+		(at 167.64 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c724f20-a5d1-420c-9b49-81809f6e2926")
+	)
+	(junction
 		(at 123.19 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2593,6 +2722,16 @@
 			(type default)
 		)
 		(uuid "15ed4d87-b29b-412a-9eff-e1bec7f87e21")
+	)
+	(wire
+		(pts
+			(xy 167.64 152.4) (xy 171.45 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16b0f7cc-e9ab-4fd7-86e8-82ded0533fc7")
 	)
 	(wire
 		(pts
@@ -3066,7 +3205,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 152.4) (xy 171.45 152.4)
+			(xy 165.1 152.4) (xy 167.64 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4554,7 +4693,7 @@
 				)
 			)
 		)
-		(property "Legend" "???"
+		(property "Legend" "OFFSET1"
 			(at 116.84 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4987,7 +5126,7 @@
 				)
 			)
 		)
-		(property "Legend" "???"
+		(property "Legend" "AMP1"
 			(at 158.75 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5083,7 +5222,7 @@
 				)
 			)
 		)
-		(property "Legend" "???"
+		(property "Legend" "LED1"
 			(at 113.792 136.398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5635,6 +5774,84 @@
 			(project "VC_LFOs"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:TestPoint")
+		(at 123.19 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "887fbd8e-388b-42b0-9068-1efe1a7976c7")
+		(property "Reference" "TP2"
+			(at 121.412 83.058 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OFFSET1"
+			(at 119.38 87.884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FormantKO:KEYSTONE_5001"
+			(at 128.27 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 123.19 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "735dc8a5-3fb2-4622-a12f-70b0baf78642")
+		)
+		(instances
+			(project "VC_LFOs"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -6302,6 +6519,84 @@
 		)
 	)
 	(symbol
+		(lib_id "FormantKO:TestPoint")
+		(at 167.64 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cd9ca02a-ee07-40b0-8824-e266ba31ab40")
+		(property "Reference" "TP1"
+			(at 165.862 150.368 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TRIANGLE1"
+			(at 163.83 155.194 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FormantKO:KEYSTONE_5001"
+			(at 172.72 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 167.64 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "621c255e-9498-4ec3-9629-623aaf4d3a45")
+		)
+		(instances
+			(project "VC_LFOs"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FormantKO:R")
 		(at 165.1 38.1 0)
 		(unit 1)
@@ -6787,7 +7082,7 @@
 				(justify left)
 			)
 		)
-		(property "Legend" "FREQUENZ"
+		(property "Legend" "FREQUENCY1"
 			(at 83.82 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)

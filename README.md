@@ -120,8 +120,8 @@ Latest updates are for the [DUAL-VCA](modules/DUAL_VCA/README.md) module.
 ## System
 
 - ✓ [BACKPLANE A](system/BACKPLANE_A/README.md)
-- ✅ [TEST HARNESS](system/TEST_HARNESS/README.md)
-- ✓ [CARD_EXTENDER](system/CARD_EXTENDER/README.md)
+- ✅ [TEST BOARD](system/TEST_HARNESS/README.md)
+- ✓ [CARD EXTENDER](system/CARD_EXTENDER/README.md)
 - ✓ [µA726C TESTER](system/VALIDATOR_JIG/README.md)
 
 ## Modular Sequencer Side Quest 
