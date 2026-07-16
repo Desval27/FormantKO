@@ -11,6 +11,246 @@
 		(comment 1 "FORMANT-KO")
 	)
 	(lib_symbols
+		(symbol "FormantKO:BC548C"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "T"
+				(at 5.08 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC548C"
+				(at 5.08 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "FormantKO:TO-92"
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://diotec.com/request/datasheet/bc546.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "NPN transistor, collector/base/emitter"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=C 2=B 3=E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BJT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-92*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BC548C_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BC548C_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "FormantKO:C"
 			(pin_numbers
 				(hide yes)
@@ -24,29 +264,27 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 0.635 2.54 0)
+				(at -2.032 2.286 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "C"
-				(at 0.635 -2.54 0)
+				(at 2.032 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "FormantKO:C_Disc"
-				(at 0.9652 -3.81 0)
+			(property "Footprint" "FormantKO:C_Rect"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -220,7 +458,7 @@
 					)
 				)
 			)
-			(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(property "Description" "Universal Silicon Diode"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -297,7 +535,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -314,6 +552,218 @@
 				)
 			)
 			(symbol "DUS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FormantKO:D_LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DLED"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "FormantKO:PanelConnector_1x02"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Legend" "LEGEND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "D_LED_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1011,207 +1461,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FormantKO:Panel_LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Panel_LED"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "FormantKO:Panel_Connector_1x02"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Panel_LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Panel_LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "FormantKO:Panel_Potentiometer_3"
 			(pin_numbers
 				(hide yes)
@@ -1407,7 +1656,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at -2.54 1.778 0)
+				(at 0 2.032 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1417,17 +1666,17 @@
 				)
 			)
 			(property "Value" "R"
-				(at 0 0 90)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
 				)
 			)
 			(property "Footprint" "FormantKO:R_Axial_Horizontal"
-				(at -1.778 0 90)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1438,7 +1687,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1483,8 +1732,8 @@
 			)
 			(symbol "R_0_1"
 				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1496,7 +1745,7 @@
 			)
 			(symbol "R_1_1"
 				(pin passive line
-					(at 0 3.81 270)
+					(at -3.81 0 0)
 					(length 1.27)
 					(name ""
 						(effects
@@ -1514,7 +1763,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
+					(at 3.81 0 180)
 					(length 1.27)
 					(name ""
 						(effects
@@ -1547,29 +1796,27 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "P"
-				(at 2.54 -2.54 90)
+				(at -2.286 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "R_Trim"
-				(at -2.54 -0.635 90)
+			(property "Value" "R"
+				(at 4.572 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" "FormantKO:Potentiometer_Trimmer"
-				(at -1.778 0 90)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1595,6 +1842,16 @@
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Legend" "LEGEND"
+				(at 5.08 -1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1637,8 +1894,8 @@
 					)
 				)
 				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1689,235 +1946,6 @@
 					(at 0 3.81 270)
 					(length 1.27)
 					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "FormantKO:TUN"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "T"
-				(at 5.08 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "TUN"
-				(at 5.08 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "FormantKO:TUN"
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "NPN transistor, emitter/base/collector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "NPN"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=E 2=B 3=C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "BJT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TUN_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TUN_1_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2336,18 +2364,6 @@
 		(uuid "3a65b6db-9239-4f34-880f-edca96d8e7b7")
 	)
 	(junction
-		(at 50.8 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3cdc0161-72a2-4d0c-ba39-8fa937a2c530")
-	)
-	(junction
-		(at 93.98 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a5299ea-4eba-41c0-b66b-bc55083f070f")
-	)
-	(junction
 		(at 101.6 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2376,6 +2392,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f21afe5-2553-4e0e-9f1d-6dc5f9309e49")
+	)
+	(junction
+		(at 93.98 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85a5313d-0ca4-4b50-9a20-e1542b130276")
 	)
 	(junction
 		(at 116.84 104.14)
@@ -2492,6 +2514,16 @@
 			(type default)
 		)
 		(uuid "0fdd0456-9060-46d4-bfe2-e93606fd9693")
+	)
+	(wire
+		(pts
+			(xy 50.8 111.76) (xy 50.8 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff6a27a-0583-4dd1-84a8-d956770f81e0")
 	)
 	(wire
 		(pts
@@ -2862,16 +2894,6 @@
 			(type default)
 		)
 		(uuid "7961cf76-b10f-41a1-92c0-e085d578e836")
-	)
-	(wire
-		(pts
-			(xy 50.8 115.57) (xy 53.34 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a7ec9a2-c7a6-4e95-a51c-b5d812cfe96e")
 	)
 	(wire
 		(pts
@@ -3285,16 +3307,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 111.76) (xy 50.8 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db8e1097-3e9a-4b1b-9bca-a899a26b2202")
-	)
-	(wire
-		(pts
 			(xy 107.95 57.15) (xy 107.95 54.61)
 		)
 		(stroke
@@ -3468,7 +3480,7 @@
 		(dnp no)
 		(uuid "0567236c-2138-4c1d-8916-455b6dc916fc")
 		(property "Reference" "P8"
-			(at 46.736 106.934 0)
+			(at 52.324 107.696 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3479,7 +3491,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 52.324 107.696 0)
+			(at 52.324 109.474 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3523,7 +3535,7 @@
 			)
 		)
 		(property "Taper" "log"
-			(at 52.578 109.728 0)
+			(at 52.578 111.252 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3533,14 +3545,15 @@
 				(justify right)
 			)
 		)
-		(property "Legend" "LFO RATE"
-			(at 41.402 107.95 0)
+		(property "Legend" "RATE"
+			(at 49.53 107.188 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -3639,100 +3652,6 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:R_Trim")
-		(at 50.8 119.38 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0ea3dfa2-5a56-4060-adf8-53d50b1e9fea")
-		(property "Reference" "X2"
-			(at 49.022 118.364 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10R"
-			(at 56.134 120.142 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FormantKO:Potentiometer_Trimmer"
-			(at 52.578 119.38 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Trimmable resistor (preset resistor)"
-			(at 50.8 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Legend" "MIN FREQ"
-			(at 42.418 120.396 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0d8861bb-ac03-493c-9964-6715231925c7")
-		)
-		(pin "1"
-			(uuid "a070de2f-01f8-4a21-ba50-2d21c45324d3")
-		)
-		(pin "3"
-			(uuid "f04f8c2a-6b15-4885-abb8-e09ba891ed13")
-		)
-		(instances
-			(project "LFOs"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fae8c8d4-a55b-4bd8-92d0-42f6d047b844"
-					(reference "X2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 83.82 156.21 0)
 		(unit 1)
@@ -3811,7 +3730,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:R")
-		(at 50.8 127 180)
+		(at 50.8 127 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3821,7 +3740,7 @@
 		(dnp no)
 		(uuid "193d318e-b7ab-4e7f-8f78-f01f3fb0b6ad")
 		(property "Reference" "R17"
-			(at 45.466 125.476 0)
+			(at 49.53 127 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3832,18 +3751,17 @@
 			)
 		)
 		(property "Value" "39R"
-			(at 50.8 129.032 90)
+			(at 50.8 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "FormantKO:R_Axial_Horizontal"
-			(at 52.578 127 90)
+			(at 50.8 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3854,7 +3772,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 127 0)
+			(at 50.8 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3892,7 +3810,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:R")
-		(at 101.6 38.1 270)
+		(at 101.6 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3902,29 +3820,28 @@
 		(dnp no)
 		(uuid "1d2782a9-c084-447f-a0ba-5fb1efdee1f5")
 		(property "Reference" "R25"
-			(at 103.378 35.814 90)
+			(at 101.6 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify bottom)
 			)
 		)
 		(property "Value" "10k"
-			(at 103.378 38.1 90)
+			(at 101.6 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "FormantKO:R_Axial_Horizontal"
-			(at 101.6 36.322 90)
+			(at 101.6 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3935,7 +3852,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 38.1 0)
+			(at 101.6 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3973,7 +3890,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:R")
-		(at 82.55 25.4 270)
+		(at 82.55 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3983,29 +3900,28 @@
 		(dnp no)
 		(uuid "21cbc218-1888-49ac-a9cb-7de1feb3bd7a")
 		(property "Reference" "R24"
-			(at 83.566 22.86 90)
+			(at 82.55 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify bottom)
 			)
 		)
 		(property "Value" "100k"
-			(at 85.09 25.4 90)
+			(at 82.55 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "FormantKO:R_Axial_Horizontal"
-			(at 82.55 23.622 90)
+			(at 82.55 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4016,7 +3932,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 25.4 0)
+			(at 82.55 25.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4053,113 +3969,6 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:TUN")
-		(at 69.85 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2789046c-060b-4983-adb6-b57e159d7f48")
-		(property "Reference" "T2"
-			(at 74.93 49.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TUN"
-			(at 74.93 52.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FormantKO:TUN"
-			(at 74.93 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "NPN transistor, emitter/base/collector"
-			(at 69.85 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 69.85 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 69.85 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0c172fba-95cf-4318-929d-196ca82a24a4")
-		)
-		(pin "1"
-			(uuid "b47c22d7-122f-4cd6-90c3-af48cecade59")
-		)
-		(pin "3"
-			(uuid "93d764ea-8dd1-43c7-81fe-0c9bf2ee481a")
-		)
-		(instances
-			(project "LFOs"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fae8c8d4-a55b-4bd8-92d0-42f6d047b844"
-					(reference "T2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "FormantKO:R_Trim")
 		(at 78.74 123.19 0)
 		(unit 1)
@@ -4171,29 +3980,29 @@
 		(dnp no)
 		(uuid "31e9675f-8f5b-4956-adde-8b8a431ef94a")
 		(property "Reference" "P5"
-			(at 74.676 122.682 0)
+			(at 77.47 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10k"
-			(at 80.01 123.952 0)
+			(at 77.724 123.698 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "FormantKO:Potentiometer_Trimmer"
-			(at 76.962 123.19 90)
+			(at 78.74 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4225,14 +4034,15 @@
 				)
 			)
 		)
-		(property "Legend" "OFFSET NULL"
-			(at 82.804 130.048 0)
+		(property "Legend" "NULL"
+			(at 78.74 118.872 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -4422,29 +4232,29 @@
 		(dnp no)
 		(uuid "3c2ad02c-3f5b-4c46-b08b-16c4a1cbab44")
 		(property "Reference" "P6"
-			(at 79.756 152.908 0)
+			(at 82.55 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10k"
-			(at 85.09 151.638 0)
+			(at 82.55 154.178 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "FormantKO:Potentiometer_Trimmer"
-			(at 82.042 152.4 90)
+			(at 83.82 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4476,14 +4286,15 @@
 				)
 			)
 		)
-		(property "Legend" "LED SYNC"
-			(at 78.232 156.21 0)
+		(property "Legend" "LED"
+			(at 85.09 151.638 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -4583,6 +4394,113 @@
 		)
 	)
 	(symbol
+		(lib_id "FormantKO:BC548C")
+		(at 69.85 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "418fdb8c-19b7-4426-87ce-ee8bb0d21e19")
+		(property "Reference" "T2"
+			(at 74.93 49.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC548C"
+			(at 74.93 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FormantKO:TO-92"
+			(at 74.93 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/bc546.pdf"
+			(at 69.85 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "NPN transistor, collector/base/emitter"
+			(at 69.85 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 69.85 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 69.85 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "fd99e6f4-65a1-46e6-b601-ee1450dd810d")
+		)
+		(pin "1"
+			(uuid "a5a1be7b-7082-4abf-8a35-03d14ac54b21")
+		)
+		(pin "2"
+			(uuid "dbcb6ee4-f02f-4b71-9ecd-6d71986a6edc")
+		)
+		(instances
+			(project "LFOs"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fae8c8d4-a55b-4bd8-92d0-42f6d047b844"
+					(reference "T2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 72.39 57.15 0)
 		(unit 1)
@@ -4663,7 +4581,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:R")
-		(at 83.82 165.1 90)
+		(at 83.82 165.1 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4673,29 +4591,28 @@
 		(dnp no)
 		(uuid "4327b65a-e7a2-4661-bdd1-1331099105dd")
 		(property "Reference" "R35"
-			(at 80.772 162.814 90)
+			(at 83.82 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify top)
 			)
 		)
 		(property "Value" "470R"
-			(at 81.28 165.1 90)
+			(at 83.82 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "FormantKO:R_Axial_Horizontal"
-			(at 83.82 166.878 90)
+			(at 83.82 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4706,7 +4623,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 165.1 0)
+			(at 83.82 165.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4821,7 +4738,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:R")
-		(at 120.65 30.48 270)
+		(at 120.65 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4831,29 +4748,28 @@
 		(dnp no)
 		(uuid "45379033-9445-45e3-bf16-a1b45bc058fb")
 		(property "Reference" "R27"
-			(at 121.666 27.94 90)
+			(at 120.65 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify bottom)
 			)
 		)
 		(property "Value" "10k"
-			(at 122.428 30.48 90)
+			(at 120.65 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "FormantKO:R_Axial_Horizontal"
-			(at 120.65 28.702 90)
+			(at 120.65 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4864,7 +4780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 30.48 0)
+			(at 120.65 30.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4931,8 +4847,8 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Rect_400_600"
-			(at 82.55 87.9348 0)
+		(property "Footprint" "FormantKO:C_Rect"
+			(at 78.74 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4981,7 +4897,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:R")
-		(at 63.5 101.6 270)
+		(at 63.5 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4991,29 +4907,28 @@
 		(dnp no)
 		(uuid "50cbda61-e475-45fa-928c-9a7673bab684")
 		(property "Reference" "R19"
-			(at 64.516 99.06 90)
+			(at 63.5 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "68k"
-			(at 65.024 101.6 90)
+			(at 63.5 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify bottom)
 			)
 		)
 		(property "Footprint" "FormantKO:R_Axial_Horizontal"
-			(at 63.5 99.822 90)
+			(at 63.5 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5024,7 +4939,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 101.6 0)
+			(at 63.5 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5073,7 +4988,7 @@
 		(dnp no)
 		(uuid "5937f622-ca60-4151-b688-b7251864e44b")
 		(property "Reference" "IC4"
-			(at 66.294 149.86 0)
+			(at 64.77 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5084,6 +4999,7 @@
 		)
 		(property "Value" "LM324"
 			(at 66.294 152.4 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5177,7 +5093,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Panel_LED")
+		(lib_id "FormantKO:D_LED")
 		(at 66.04 172.72 0)
 		(unit 1)
 		(body_style 1)
@@ -5207,7 +5123,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x02"
+		(property "Footprint" "FormantKO:PanelConnector_1x02"
 			(at 66.04 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -5345,7 +5261,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:R")
-		(at 63.5 127 0)
+		(at 63.5 127 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5355,29 +5271,28 @@
 		(dnp no)
 		(uuid "5c585fa4-3a7d-4198-bfac-8d0065172fe8")
 		(property "Reference" "R20"
-			(at 60.96 125.984 90)
+			(at 62.23 127 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "68k"
-			(at 63.5 125.476 90)
+			(at 63.5 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "FormantKO:R_Axial_Horizontal"
-			(at 61.722 127 90)
+			(at 63.5 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5388,7 +5303,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 127 0)
+			(at 63.5 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5448,6 +5363,7 @@
 		)
 		(property "Value" "LM324"
 			(at 85.852 33.528 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5594,7 +5510,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "Universal Silicon Diode"
 			(at 66.04 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -5644,7 +5560,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:R")
-		(at 139.7 120.65 0)
+		(at 139.7 120.65 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5654,29 +5570,28 @@
 		(dnp no)
 		(uuid "6b7ae889-5f4c-4a19-9bd3-70965be99319")
 		(property "Reference" "R32"
-			(at 137.668 118.872 0)
+			(at 138.43 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "3k9"
-			(at 139.7 118.872 90)
+			(at 139.7 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "FormantKO:R_Axial_Horizontal"
-			(at 137.922 120.65 90)
+			(at 139.7 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5687,7 +5602,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 120.65 0)
+			(at 139.7 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5725,7 +5640,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:R")
-		(at 83.82 139.7 180)
+		(at 83.82 139.7 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5735,7 +5650,7 @@
 		(dnp no)
 		(uuid "7022e2dd-0f4f-4406-bd89-d818aa252782")
 		(property "Reference" "R18"
-			(at 78.486 138.176 0)
+			(at 82.55 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5746,18 +5661,17 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 83.82 141.224 90)
+			(at 83.82 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "FormantKO:R_Axial_Horizontal"
-			(at 85.598 139.7 90)
+			(at 83.82 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5768,7 +5682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 139.7 0)
+			(at 83.82 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5806,7 +5720,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:R")
-		(at 139.7 165.1 90)
+		(at 139.7 165.1 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5816,29 +5730,28 @@
 		(dnp no)
 		(uuid "75d8e3d6-0a5a-49ab-9042-2a4546e83f7f")
 		(property "Reference" "R34"
-			(at 136.652 162.814 90)
+			(at 139.7 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify top)
 			)
 		)
 		(property "Value" "1k"
-			(at 138.43 165.1 90)
+			(at 139.7 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "FormantKO:R_Axial_Horizontal"
-			(at 139.7 166.878 90)
+			(at 139.7 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5849,7 +5762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 165.1 0)
+			(at 139.7 165.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5965,7 +5878,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:R")
-		(at 63.5 35.56 270)
+		(at 63.5 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5975,29 +5888,28 @@
 		(dnp no)
 		(uuid "795faf8e-74eb-4cc1-88e2-db7d613b52cd")
 		(property "Reference" "R21"
-			(at 64.516 33.02 90)
+			(at 63.5 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify bottom)
 			)
 		)
 		(property "Value" "100k"
-			(at 66.04 35.56 90)
+			(at 63.5 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "FormantKO:R_Axial_Horizontal"
-			(at 63.5 33.782 90)
+			(at 63.5 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6008,7 +5920,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 35.56 0)
+			(at 63.5 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6124,7 +6036,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:R")
-		(at 107.95 104.14 270)
+		(at 107.95 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6134,29 +6046,28 @@
 		(dnp no)
 		(uuid "84955e9c-c629-433b-aad7-401d5707e6d5")
 		(property "Reference" "R30"
-			(at 108.966 101.6 90)
+			(at 107.95 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify bottom)
 			)
 		)
 		(property "Value" "100k"
-			(at 110.49 104.14 90)
+			(at 107.95 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "FormantKO:R_Axial_Horizontal"
-			(at 107.95 102.362 90)
+			(at 107.95 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6167,7 +6078,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 104.14 0)
+			(at 107.95 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6304,7 +6215,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:R")
-		(at 107.95 95.25 270)
+		(at 107.95 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6314,29 +6225,28 @@
 		(dnp no)
 		(uuid "94e6cdc1-372b-4e08-aa07-66de9188be16")
 		(property "Reference" "R31"
-			(at 108.966 92.71 90)
+			(at 107.95 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify bottom)
 			)
 		)
 		(property "Value" "100k"
-			(at 110.49 95.25 90)
+			(at 107.95 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "FormantKO:R_Axial_Horizontal"
-			(at 107.95 93.472 90)
+			(at 107.95 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6347,7 +6257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 95.25 0)
+			(at 107.95 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6385,7 +6295,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:R")
-		(at 107.95 50.8 0)
+		(at 107.95 50.8 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6395,29 +6305,28 @@
 		(dnp no)
 		(uuid "9c004bb3-81e5-4a7a-a4d1-76145d3848d7")
 		(property "Reference" "R26"
-			(at 105.41 49.784 90)
+			(at 106.68 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "4k7"
-			(at 107.95 49.022 90)
+			(at 107.95 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "FormantKO:R_Axial_Horizontal"
-			(at 106.172 50.8 90)
+			(at 107.95 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6428,7 +6337,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 50.8 0)
+			(at 107.95 50.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6584,7 +6493,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:R")
-		(at 58.42 57.15 0)
+		(at 58.42 57.15 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6594,29 +6503,28 @@
 		(dnp no)
 		(uuid "b11fe654-3ad6-4d09-8bbe-e68951383e29")
 		(property "Reference" "R23"
-			(at 55.88 56.134 90)
+			(at 57.15 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "47k"
-			(at 58.42 55.372 90)
+			(at 58.42 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "FormantKO:R_Axial_Horizontal"
-			(at 56.642 57.15 90)
+			(at 58.42 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6627,7 +6535,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 57.15 0)
+			(at 58.42 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6687,6 +6595,7 @@
 		)
 		(property "Value" "LM324"
 			(at 125.984 44.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6781,7 +6690,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:R")
-		(at 139.7 40.64 270)
+		(at 139.7 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6791,29 +6700,28 @@
 		(dnp no)
 		(uuid "b2dfde14-4cf0-4e2c-9660-aa8dcd32f233")
 		(property "Reference" "R28"
-			(at 140.716 38.1 90)
+			(at 139.7 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify bottom)
 			)
 		)
 		(property "Value" "1k"
-			(at 140.97 40.64 90)
+			(at 139.7 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "FormantKO:R_Axial_Horizontal"
-			(at 139.7 38.862 90)
+			(at 139.7 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6824,7 +6732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 40.64 0)
+			(at 139.7 40.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6862,7 +6770,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:R")
-		(at 139.7 69.85 270)
+		(at 139.7 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6872,29 +6780,28 @@
 		(dnp no)
 		(uuid "b60abfe9-694c-4215-91f1-5ae158b65d5b")
 		(property "Reference" "R29"
-			(at 140.716 67.31 90)
+			(at 139.7 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify bottom)
 			)
 		)
 		(property "Value" "1k"
-			(at 140.97 69.85 90)
+			(at 139.7 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "FormantKO:R_Axial_Horizontal"
-			(at 139.7 68.072 90)
+			(at 139.7 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6905,7 +6812,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 69.85 0)
+			(at 139.7 69.85 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6954,29 +6861,29 @@
 		(dnp no)
 		(uuid "c48aeae0-9686-4311-b699-fa51bcd7312f")
 		(property "Reference" "P7"
-			(at 135.636 133.858 0)
+			(at 138.43 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10k"
-			(at 140.97 132.588 0)
+			(at 138.43 135.128 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "FormantKO:Potentiometer_Trimmer"
-			(at 137.922 133.35 90)
+			(at 139.7 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7008,14 +6915,15 @@
 				)
 			)
 		)
-		(property "Legend" "SIG AMP"
-			(at 146.812 134.874 0)
+		(property "Legend" "AMP"
+			(at 140.97 132.588 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -7115,7 +7023,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:R")
-		(at 139.7 146.05 0)
+		(at 139.7 146.05 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7125,29 +7033,28 @@
 		(dnp no)
 		(uuid "e18c75ce-25bf-46e9-847b-8693fdd44fed")
 		(property "Reference" "R33"
-			(at 137.668 144.272 0)
+			(at 138.43 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "470R"
-			(at 139.7 143.51 90)
+			(at 139.7 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "FormantKO:R_Axial_Horizontal"
-			(at 137.922 146.05 90)
+			(at 139.7 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7158,7 +7065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 146.05 0)
+			(at 139.7 146.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7206,7 +7113,7 @@
 		(dnp no)
 		(uuid "f35883e9-0f93-4524-9d0a-04864846b33f")
 		(property "Reference" "IC4"
-			(at 128.27 116.84 0)
+			(at 128.27 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7217,6 +7124,7 @@
 		)
 		(property "Value" "LM324"
 			(at 128.27 114.3 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7311,7 +7219,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:R")
-		(at 63.5 40.64 270)
+		(at 63.5 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7321,29 +7229,28 @@
 		(dnp no)
 		(uuid "fc363af9-7bf0-47b2-95d5-02ed6030f38b")
 		(property "Reference" "R22"
-			(at 64.516 38.1 90)
+			(at 63.5 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify bottom)
 			)
 		)
 		(property "Value" "100k"
-			(at 66.04 40.64 90)
+			(at 63.5 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "FormantKO:R_Axial_Horizontal"
-			(at 63.5 38.862 90)
+			(at 63.5 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7354,7 +7261,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 40.64 0)
+			(at 63.5 40.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
