@@ -81,7 +81,7 @@ Latest updates are for the [DUAL-VCA](modules/DUAL_VCA/README.md) module.
 - [VC LFOs](modules/VC_LFOs/README.md)
 - [LF VCO](modules/LF_VCO/README.md)
 - [DNG](modules/DNG/README.md)
-- [ENV FOLLOWER](modules/ENV_FOLLOWER/README.md)
+- ✓ [ENVELOPE_FOLLOWER](modules/ENVELOPE_FOLLOWER/README.md)
 - ✔ [SAMPLE & HOLD](modules/SAMPLE_AND_HOLD/README.md)
 - ✓ [WAVEFORM-PROCESSOR](modules/WAVEFORM_PROCESSOR/README.md)
 - [MIXER](modules/MIXER/README.md)
