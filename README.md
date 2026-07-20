@@ -31,7 +31,7 @@ Note: This information is only as accurate as I can remember to update it.
 
 Most activity has been in the COM, NOISE, and LFOs modules. Scratch that....most activity has been bits and pieces all over.  I like to switch things up.
 
-Latest updates are for the [DUAL-VCA](modules/DUAL_VCA/README.md) module.
+Latest updates are for the [ENVELLPE FOLLOWER](modules/ENVELOPE_FOLLOWER/README.md) module.
 
 ![Top Render](modules/DUAL_VCA/DUAL_VCA_top.png "Top Render")
 
