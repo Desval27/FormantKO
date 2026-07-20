@@ -3,7 +3,14 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "98b3f369-9a71-47fb-889a-cfe98cf44647")
-	(paper "A4")
+	(paper "USLetter")
+	(title_block
+		(title "BACKPLANE-A")
+		(date "2026-07-20")
+		(rev "A")
+		(company "THE HOUSE OF GALAHAD")
+		(comment 1 "FORMANT^{KO}")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
@@ -15,29 +22,27 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J15"
-				(at 2.54 0.0001 0)
+			(property "Reference" "J"
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "KBINTF"
-				(at 2.54 -2.5399 0)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "FormantKO:Molex_Mini-Fit_Jr_2x02_Horizontal"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -424,7 +429,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FormantKO:Bus_Power_In"
+		(symbol "FormantKO:BusPowerIn"
 			(pin_numbers
 				(hide yes)
 			)
@@ -446,7 +451,7 @@
 					)
 				)
 			)
-			(property "Value" "Bus_Power_In"
+			(property "Value" "BusPowerIn"
 				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -456,7 +461,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FormantKO:Bus_Power_Connector"
+			(property "Footprint" "FormantKO:BusPowerConnector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -511,7 +516,7 @@
 					)
 				)
 			)
-			(symbol "Bus_Power_In_1_1"
+			(symbol "BusPowerIn_1_1"
 				(rectangle
 					(start -3.81 5.08)
 					(end 3.175 -5.08)
@@ -642,7 +647,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FormantKO:Bus_Power_Out"
+		(symbol "FormantKO:BusPowerOut"
 			(pin_numbers
 				(hide yes)
 			)
@@ -664,7 +669,7 @@
 					)
 				)
 			)
-			(property "Value" "Bus_Power_Out"
+			(property "Value" "BusPowerOut"
 				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -674,7 +679,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FormantKO:Bus_Power_Connector"
+			(property "Footprint" "FormantKO:BusPowerConnector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -729,7 +734,7 @@
 					)
 				)
 			)
-			(symbol "Bus_Power_Out_1_1"
+			(symbol "BusPowerOut_1_1"
 				(rectangle
 					(start -3.81 5.08)
 					(end 3.175 -5.08)
@@ -892,7 +897,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FormantKO:C_Disc"
+			(property "Footprint" "FormantKO:C_Rect"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1200,7 +1205,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FormantKO:Mounting_Hole"
+		(symbol "FormantKO:MountingHole"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1210,7 +1215,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "H"
-				(at 0 5.08 0)
+				(at 0 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1219,10 +1224,11 @@
 					)
 				)
 			)
-			(property "Value" "Mounting_Hole"
-				(at 0 3.175 0)
+			(property "Value" "MountingHole"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1233,6 +1239,7 @@
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1283,7 +1290,7 @@
 					)
 				)
 			)
-			(symbol "Mounting_Hole_0_1"
+			(symbol "MountingHole_0_1"
 				(circle
 					(center 0 0)
 					(radius 1.27)
@@ -3371,7 +3378,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Mounting_Hole")
+		(lib_id "FormantKO:MountingHole")
 		(at 50.8 177.8 0)
 		(unit 1)
 		(body_style 1)
@@ -3383,7 +3390,7 @@
 		(fields_autoplaced yes)
 		(uuid "0900d062-b16e-42bc-b0d4-7f0421c3bcc3")
 		(property "Reference" "H5"
-			(at 53.34 175.2599 0)
+			(at 53.34 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3406,7 +3413,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:MountingHole_2.7mm_M2.5"
-			(at 53.34 180.3399 0)
+			(at 50.8 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3414,7 +3421,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
@@ -3603,7 +3609,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Mounting_Hole")
+		(lib_id "FormantKO:MountingHole")
 		(at 69.85 186.69 0)
 		(unit 1)
 		(body_style 1)
@@ -3615,7 +3621,7 @@
 		(fields_autoplaced yes)
 		(uuid "12e47aa5-17d6-4e5f-93b9-4604c59415b5")
 		(property "Reference" "H21"
-			(at 72.39 184.1499 0)
+			(at 72.39 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3638,7 +3644,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:MountingHole_2.7mm_M2.5"
-			(at 72.39 189.2299 0)
+			(at 69.85 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3646,7 +3652,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
@@ -3769,7 +3774,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Mounting_Hole")
+		(lib_id "FormantKO:MountingHole")
 		(at 69.85 177.8 0)
 		(unit 1)
 		(body_style 1)
@@ -3781,7 +3786,7 @@
 		(fields_autoplaced yes)
 		(uuid "16a01edf-c62e-486f-a98a-2e0a1b9ea4f5")
 		(property "Reference" "H8"
-			(at 72.39 175.2599 0)
+			(at 72.39 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3804,7 +3809,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:MountingHole_2.7mm_M2.5"
-			(at 72.39 180.3399 0)
+			(at 69.85 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3812,7 +3817,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
@@ -3847,7 +3851,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Mounting_Hole")
+		(lib_id "FormantKO:MountingHole")
 		(at 31.75 186.69 0)
 		(unit 1)
 		(body_style 1)
@@ -3859,7 +3863,7 @@
 		(fields_autoplaced yes)
 		(uuid "171d69a0-f4e1-4256-8232-2a6224306d5a")
 		(property "Reference" "H15"
-			(at 34.29 184.1499 0)
+			(at 34.29 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3882,7 +3886,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:MountingHole_2.7mm_M2.5"
-			(at 34.29 189.2299 0)
+			(at 31.75 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3890,7 +3894,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
@@ -4035,7 +4038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "FormantKO:C_Rect_200"
 			(at 114.3 127 0)
 			(hide yes)
 			(show_name no)
@@ -4084,7 +4087,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Bus_Power_In")
+		(lib_id "FormantKO:BusPowerIn")
 		(at 45.72 41.91 0)
 		(unit 1)
 		(body_style 1)
@@ -4117,7 +4120,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:Bus_Power_Connector"
+		(property "Footprint" "FormantKO:BusPowerConnector"
 			(at 45.72 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4172,7 +4175,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Mounting_Hole")
+		(lib_id "FormantKO:MountingHole")
 		(at 76.2 177.8 0)
 		(unit 1)
 		(body_style 1)
@@ -4184,7 +4187,7 @@
 		(fields_autoplaced yes)
 		(uuid "276ebe42-cf00-474a-959b-bf600eaaf82c")
 		(property "Reference" "H9"
-			(at 78.74 175.2599 0)
+			(at 78.74 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4207,7 +4210,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:MountingHole_2.7mm_M2.5"
-			(at 78.74 180.3399 0)
+			(at 76.2 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4215,7 +4218,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
@@ -4250,7 +4252,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Mounting_Hole")
+		(lib_id "FormantKO:MountingHole")
 		(at 101.6 186.69 0)
 		(unit 1)
 		(body_style 1)
@@ -4262,7 +4264,7 @@
 		(fields_autoplaced yes)
 		(uuid "27abc471-270c-4f5b-ab69-a3051fd4ae4d")
 		(property "Reference" "H26"
-			(at 104.14 184.1499 0)
+			(at 104.14 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4285,7 +4287,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:MountingHole_2.7mm_M2.5"
-			(at 104.14 189.2299 0)
+			(at 101.6 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4293,7 +4295,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
@@ -4328,7 +4329,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Mounting_Hole")
+		(lib_id "FormantKO:MountingHole")
 		(at 50.8 186.69 0)
 		(unit 1)
 		(body_style 1)
@@ -4340,7 +4341,7 @@
 		(fields_autoplaced yes)
 		(uuid "27abff96-17b7-4797-b53f-df4db4a1cd32")
 		(property "Reference" "H18"
-			(at 53.34 184.1499 0)
+			(at 53.34 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4363,7 +4364,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:MountingHole_2.7mm_M2.5"
-			(at 53.34 189.2299 0)
+			(at 50.8 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4371,7 +4372,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
@@ -4486,7 +4486,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Mounting_Hole")
+		(lib_id "FormantKO:MountingHole")
 		(at 31.75 177.8 0)
 		(unit 1)
 		(body_style 1)
@@ -4498,7 +4498,7 @@
 		(fields_autoplaced yes)
 		(uuid "2cae658c-c048-4d60-af1d-7e1af6ad2e5a")
 		(property "Reference" "H2"
-			(at 34.29 175.2599 0)
+			(at 34.29 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4521,7 +4521,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:MountingHole_2.7mm_M2.5"
-			(at 34.29 180.3399 0)
+			(at 31.75 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4529,7 +4529,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
@@ -4564,7 +4563,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Mounting_Hole")
+		(lib_id "FormantKO:MountingHole")
 		(at 44.45 177.8 0)
 		(unit 1)
 		(body_style 1)
@@ -4576,7 +4575,7 @@
 		(fields_autoplaced yes)
 		(uuid "3471d6b8-0bb8-4947-93c5-1823c079be5e")
 		(property "Reference" "H4"
-			(at 46.99 175.2599 0)
+			(at 46.99 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4599,7 +4598,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:MountingHole_2.7mm_M2.5"
-			(at 46.99 180.3399 0)
+			(at 44.45 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4607,7 +4606,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
@@ -4829,7 +4827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "FormantKO:C_Rect_200"
 			(at 165.1 127 0)
 			(hide yes)
 			(show_name no)
@@ -4878,7 +4876,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Mounting_Hole")
+		(lib_id "FormantKO:MountingHole")
 		(at 101.6 177.8 0)
 		(unit 1)
 		(body_style 1)
@@ -4890,7 +4888,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d1a8aa0-8b75-4f33-a78e-2fb107a132bb")
 		(property "Reference" "H13"
-			(at 104.14 175.2599 0)
+			(at 104.14 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4913,7 +4911,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:MountingHole_2.7mm_M2.5"
-			(at 104.14 180.3399 0)
+			(at 101.6 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4921,7 +4919,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
@@ -4989,7 +4986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "FormantKO:C_Rect_200"
 			(at 133.35 127 0)
 			(hide yes)
 			(show_name no)
@@ -5208,7 +5205,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Mounting_Hole")
+		(lib_id "FormantKO:MountingHole")
 		(at 95.25 177.8 0)
 		(unit 1)
 		(body_style 1)
@@ -5220,7 +5217,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b7c4c34-25e9-4575-9d54-07408bd539fc")
 		(property "Reference" "H12"
-			(at 97.79 175.2599 0)
+			(at 97.79 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5243,7 +5240,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:MountingHole_2.7mm_M2.5"
-			(at 97.79 180.3399 0)
+			(at 95.25 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5251,7 +5248,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
@@ -5286,7 +5282,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Mounting_Hole")
+		(lib_id "FormantKO:MountingHole")
 		(at 44.45 186.69 0)
 		(unit 1)
 		(body_style 1)
@@ -5298,7 +5294,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c73527f-73bf-433d-bfc0-6374deef4d1c")
 		(property "Reference" "H17"
-			(at 46.99 184.1499 0)
+			(at 46.99 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5321,7 +5317,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:MountingHole_2.7mm_M2.5"
-			(at 46.99 189.2299 0)
+			(at 44.45 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5329,7 +5325,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
@@ -5364,7 +5359,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Mounting_Hole")
+		(lib_id "FormantKO:MountingHole")
 		(at 88.9 177.8 0)
 		(unit 1)
 		(body_style 1)
@@ -5376,7 +5371,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d733a9e-c34c-4f46-a673-1fc7469074e8")
 		(property "Reference" "H11"
-			(at 91.44 175.2599 0)
+			(at 91.44 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5399,7 +5394,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:MountingHole_2.7mm_M2.5"
-			(at 91.44 180.3399 0)
+			(at 88.9 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5407,7 +5402,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
@@ -5475,7 +5469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "FormantKO:C_Rect_200"
 			(at 101.6 127 0)
 			(hide yes)
 			(show_name no)
@@ -5601,7 +5595,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Mounting_Hole")
+		(lib_id "FormantKO:MountingHole")
 		(at 63.5 186.69 0)
 		(unit 1)
 		(body_style 1)
@@ -5613,7 +5607,7 @@
 		(fields_autoplaced yes)
 		(uuid "54ff40ec-2875-4167-9a40-7b588df827cb")
 		(property "Reference" "H20"
-			(at 66.04 184.1499 0)
+			(at 66.04 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5636,7 +5630,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:MountingHole_2.7mm_M2.5"
-			(at 66.04 189.2299 0)
+			(at 63.5 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5644,7 +5638,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
@@ -5679,7 +5672,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Mounting_Hole")
+		(lib_id "FormantKO:MountingHole")
 		(at 38.1 186.69 0)
 		(unit 1)
 		(body_style 1)
@@ -5691,7 +5684,7 @@
 		(fields_autoplaced yes)
 		(uuid "5522fcbe-1861-42b7-b309-22fec1c881e1")
 		(property "Reference" "H16"
-			(at 40.64 184.1499 0)
+			(at 40.64 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5714,7 +5707,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:MountingHole_2.7mm_M2.5"
-			(at 40.64 189.2299 0)
+			(at 38.1 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5722,7 +5715,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
@@ -5790,7 +5782,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "FormantKO:C_Rect_200"
 			(at 146.05 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5916,7 +5908,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Bus_Power_Out")
+		(lib_id "FormantKO:BusPowerOut")
 		(at 45.72 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -5949,7 +5941,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:Bus_Power_Connector"
+		(property "Footprint" "FormantKO:BusPowerConnector"
 			(at 45.72 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -6081,7 +6073,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Mounting_Hole")
+		(lib_id "FormantKO:MountingHole")
 		(at 25.4 186.69 0)
 		(unit 1)
 		(body_style 1)
@@ -6093,7 +6085,7 @@
 		(fields_autoplaced yes)
 		(uuid "60f3d93d-b1d2-4e59-b2d8-01aa29c02ea9")
 		(property "Reference" "H14"
-			(at 27.94 184.1499 0)
+			(at 27.94 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6116,7 +6108,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:MountingHole_2.7mm_M2.5"
-			(at 27.94 189.2299 0)
+			(at 25.4 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6124,7 +6116,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
@@ -6236,7 +6227,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Mounting_Hole")
+		(lib_id "FormantKO:MountingHole")
 		(at 88.9 186.69 0)
 		(unit 1)
 		(body_style 1)
@@ -6248,7 +6239,7 @@
 		(fields_autoplaced yes)
 		(uuid "7126303a-007a-4f63-bd54-80295bb685c7")
 		(property "Reference" "H24"
-			(at 91.44 184.1499 0)
+			(at 91.44 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6271,7 +6262,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:MountingHole_2.7mm_M2.5"
-			(at 91.44 189.2299 0)
+			(at 88.9 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6279,7 +6270,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
@@ -6347,7 +6337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "FormantKO:C_Rect_200"
 			(at 146.05 127 0)
 			(hide yes)
 			(show_name no)
@@ -6816,7 +6806,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Mounting_Hole")
+		(lib_id "FormantKO:MountingHole")
 		(at 57.15 186.69 0)
 		(unit 1)
 		(body_style 1)
@@ -6828,7 +6818,7 @@
 		(fields_autoplaced yes)
 		(uuid "853271f4-0800-4a66-98a7-26f2b0da22c2")
 		(property "Reference" "H19"
-			(at 59.69 184.1499 0)
+			(at 59.69 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6851,7 +6841,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:MountingHole_2.7mm_M2.5"
-			(at 59.69 189.2299 0)
+			(at 57.15 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6859,7 +6849,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
@@ -7311,7 +7300,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Mounting_Hole")
+		(lib_id "FormantKO:MountingHole")
 		(at 38.1 177.8 0)
 		(unit 1)
 		(body_style 1)
@@ -7323,7 +7312,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d92ffee-84ce-45f4-95cb-b21b22c2c4b9")
 		(property "Reference" "H3"
-			(at 40.64 175.2599 0)
+			(at 40.64 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7346,7 +7335,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:MountingHole_2.7mm_M2.5"
-			(at 40.64 180.3399 0)
+			(at 38.1 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7354,7 +7343,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
@@ -7515,7 +7503,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "FormantKO:C_Rect_200"
 			(at 177.8 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -7564,7 +7552,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Mounting_Hole")
+		(lib_id "FormantKO:MountingHole")
 		(at 25.4 177.8 0)
 		(unit 1)
 		(body_style 1)
@@ -7576,7 +7564,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3118eb8-eb89-46da-b921-26175a4730c1")
 		(property "Reference" "H1"
-			(at 27.94 175.2599 0)
+			(at 27.94 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7599,7 +7587,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:MountingHole_2.7mm_M2.5"
-			(at 27.94 180.3399 0)
+			(at 25.4 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7607,7 +7595,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
@@ -7735,7 +7722,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Mounting_Hole")
+		(lib_id "FormantKO:MountingHole")
 		(at 63.5 177.8 0)
 		(unit 1)
 		(body_style 1)
@@ -7747,7 +7734,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0082a03-a9ef-4651-9690-6b67deefa56b")
 		(property "Reference" "H7"
-			(at 66.04 175.2599 0)
+			(at 66.04 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7770,7 +7757,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:MountingHole_2.7mm_M2.5"
-			(at 66.04 180.3399 0)
+			(at 63.5 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7778,7 +7765,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
@@ -7846,7 +7832,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "FormantKO:C_Rect_200"
 			(at 114.3 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8049,7 +8035,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Mounting_Hole")
+		(lib_id "FormantKO:MountingHole")
 		(at 57.15 177.8 0)
 		(unit 1)
 		(body_style 1)
@@ -8061,7 +8047,7 @@
 		(fields_autoplaced yes)
 		(uuid "cfbbc846-a658-4558-9e0a-718f3eb76e3e")
 		(property "Reference" "H6"
-			(at 59.69 175.2599 0)
+			(at 59.69 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8084,7 +8070,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:MountingHole_2.7mm_M2.5"
-			(at 59.69 180.3399 0)
+			(at 57.15 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8092,7 +8078,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
@@ -8127,7 +8112,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Mounting_Hole")
+		(lib_id "FormantKO:MountingHole")
 		(at 82.55 186.69 0)
 		(unit 1)
 		(body_style 1)
@@ -8139,7 +8124,7 @@
 		(fields_autoplaced yes)
 		(uuid "dca073d9-0406-4bbf-8c8d-e8353e9ed42a")
 		(property "Reference" "H23"
-			(at 85.09 184.1499 0)
+			(at 85.09 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8162,7 +8147,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:MountingHole_2.7mm_M2.5"
-			(at 85.09 189.2299 0)
+			(at 82.55 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8170,7 +8155,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
@@ -8205,7 +8189,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Mounting_Hole")
+		(lib_id "FormantKO:MountingHole")
 		(at 95.25 186.69 0)
 		(unit 1)
 		(body_style 1)
@@ -8217,7 +8201,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2ee827a-bbfb-4b0b-a68f-8736a733a908")
 		(property "Reference" "H25"
-			(at 97.79 184.1499 0)
+			(at 97.79 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8240,7 +8224,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:MountingHole_2.7mm_M2.5"
-			(at 97.79 189.2299 0)
+			(at 95.25 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8248,7 +8232,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
@@ -8409,7 +8392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "FormantKO:C_Rect_200"
 			(at 177.8 127 0)
 			(hide yes)
 			(show_name no)
@@ -8458,7 +8441,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Mounting_Hole")
+		(lib_id "FormantKO:MountingHole")
 		(at 82.55 177.8 0)
 		(unit 1)
 		(body_style 1)
@@ -8470,7 +8453,7 @@
 		(fields_autoplaced yes)
 		(uuid "edab257c-cb87-4eb3-874e-80af9301d1fc")
 		(property "Reference" "H10"
-			(at 85.09 175.2599 0)
+			(at 85.09 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8493,7 +8476,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:MountingHole_2.7mm_M2.5"
-			(at 85.09 180.3399 0)
+			(at 82.55 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8501,7 +8484,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
@@ -8940,7 +8922,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Mounting_Hole")
+		(lib_id "FormantKO:MountingHole")
 		(at 76.2 186.69 0)
 		(unit 1)
 		(body_style 1)
@@ -8952,7 +8934,7 @@
 		(fields_autoplaced yes)
 		(uuid "fdb97767-881e-4ffb-b22f-25b32b9a9127")
 		(property "Reference" "H22"
-			(at 78.74 184.1499 0)
+			(at 78.74 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8975,7 +8957,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:MountingHole_2.7mm_M2.5"
-			(at 78.74 189.2299 0)
+			(at 76.2 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8983,7 +8965,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
