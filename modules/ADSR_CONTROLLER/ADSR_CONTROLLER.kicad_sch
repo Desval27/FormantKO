@@ -1864,12 +1864,6 @@
 		(uuid "960f25c2-ed15-4803-886b-df8e6bc32cb1")
 	)
 	(junction
-		(at 97.79 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "99886d5f-793c-4e13-b600-91d08525fc6e")
-	)
-	(junction
 		(at 113.03 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2061,7 +2055,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 138.43) (xy 97.79 138.43)
+			(xy 91.44 138.43) (xy 99.06 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2381,16 +2375,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 138.43) (xy 99.06 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da0c89d8-263d-4352-b0a8-870a3e9ff12b")
-	)
-	(wire
-		(pts
 			(xy 191.77 102.87) (xy 187.96 102.87)
 		)
 		(stroke
@@ -2448,16 +2432,6 @@
 			(type default)
 		)
 		(uuid "eee90e1b-0a4b-45a7-a99e-fc70f64d9e57")
-	)
-	(wire
-		(pts
-			(xy 97.79 133.35) (xy 97.79 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f30f1c93-fc17-4e72-98f9-5c69b23ad4df")
 	)
 	(wire
 		(pts
@@ -2541,7 +2515,7 @@
 			)
 		)
 	)
-	(global_label "S2c"
+	(global_label "S2b"
 		(shape passive)
 		(at 170.18 102.87 90)
 		(fields_autoplaced yes)
@@ -2553,7 +2527,7 @@
 		)
 		(uuid "55c53a55-c26f-48d7-a63f-4188f0f0ea40")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.18 97.2981 90)
+			(at 170.18 97.2377 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2637,7 +2611,7 @@
 			)
 		)
 	)
-	(global_label "X1"
+	(global_label "REPEAT"
 		(shape passive)
 		(at 191.77 102.87 0)
 		(fields_autoplaced yes)
@@ -2649,7 +2623,7 @@
 		)
 		(uuid "7cfa9848-8013-4ba5-b9dd-2d6b2c859a23")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.2533 102.87 0)
+			(at 200.7285 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2663,7 +2637,7 @@
 	)
 	(global_label "S1a"
 		(shape passive)
-		(at 97.79 133.35 90)
+		(at 95.25 138.43 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2673,7 +2647,7 @@
 		)
 		(uuid "a1465622-55c5-4cfc-84dd-a17733a1711e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.79 127.7177 90)
+			(at 95.25 132.7977 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2682,6 +2656,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "S1b"
+		(shape passive)
+		(at 95.25 143.51 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c89b5fa4-1ac5-47b2-947f-954e632f5f4b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.25 149.1423 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)

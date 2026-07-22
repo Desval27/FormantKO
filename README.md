@@ -31,9 +31,9 @@ Note: This information is only as accurate as I can remember to update it.
 
 Most activity has been in the COM, NOISE, and LFOs modules. Scratch that....most activity has been bits and pieces all over.  I like to switch things up.
 
-Latest updates are for the [ENVELOPE FOLLOWER](modules/ENVELOPE_FOLLOWER/README.md) module.
+Latest updates are for the [ADSR CONTROLLER](modules/ADSR_CONTROLLER/README.md) module.
 
-![Top Render](modules/ENVELOPE_FOLLOWER/ENVELOPE_FOLLOWER_top.png "Top Render")
+![Top Render](modules/ADSR_CONTROLLER/ADSR_CONTROLLER_top.png "Top Render")
 
 - ✓ PCB/Panel exists but likely a WIP.
 - ✔ PCB/Panel exists but may not be completely functional or untested.
@@ -77,7 +77,7 @@ Latest updates are for the [ENVELOPE FOLLOWER](modules/ENVELOPE_FOLLOWER/README.
 - [POWER SUPPLIES](modules/POWER_SUPPLIES/README.md)
 - [KOV KB-GATE DISTRIBUTION](modules/KOV_KB_GATE_DISTRIBUTION/README.md)
 - [MULTIPLE JACKS](modules/MULTIPLE_JACKS/README.md)
-- [ADSR CONTROLLER](modules/ADSR_CONTROLLER/README.md)
+- ✔ [ADSR CONTROLLER](modules/ADSR_CONTROLLER/README.md)
 - ✓ [VC LFOs](modules/VC_LFOs/README.md)
 - [LF VCO](modules/LF_VCO/README.md)
 - [DNG](modules/DNG/README.md)

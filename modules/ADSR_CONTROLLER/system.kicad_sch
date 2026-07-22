@@ -2837,30 +2837,6 @@
 	)
 	(global_label "S3a"
 		(shape passive)
-		(at 144.78 80.01 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "215122f5-5fd1-453f-8912-cf61ed4bee31")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.78 85.6423 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "S3a"
-		(shape passive)
 		(at 144.78 74.93 90)
 		(fields_autoplaced yes)
 		(effects
@@ -2869,7 +2845,7 @@
 			)
 			(justify left)
 		)
-		(uuid "217bc2fc-75db-42e1-8cf5-78c2d944d789")
+		(uuid "215122f5-5fd1-453f-8912-cf61ed4bee31")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 144.78 69.2977 90)
 			(hide yes)
@@ -2880,6 +2856,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "S3b"
+		(shape passive)
+		(at 144.78 80.01 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "217bc2fc-75db-42e1-8cf5-78c2d944d789")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.78 85.6423 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -3051,7 +3051,7 @@
 			)
 		)
 	)
-	(global_label "S3a"
+	(global_label "S3b"
 		(shape passive)
 		(at 207.01 143.51 180)
 		(fields_autoplaced yes)
@@ -3123,9 +3123,9 @@
 			)
 		)
 	)
-	(global_label "X2"
+	(global_label "REPEAT"
 		(shape passive)
-		(at 140.97 80.01 180)
+		(at 140.97 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3135,7 +3135,7 @@
 		)
 		(uuid "705780cc-f0ae-48e2-afc9-a0819e05d413")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.4867 80.01 0)
+			(at 132.0115 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3483,6 +3483,30 @@
 			)
 		)
 	)
+	(global_label "DELAY"
+		(shape passive)
+		(at 140.97 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb41914e-f1f5-468f-83dd-261e943b4e58")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.2814 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "+15V"
 		(shape passive)
 		(at 99.06 83.82 0)
@@ -3592,30 +3616,6 @@
 		(uuid "ec8c7c90-e793-4c43-846b-8854038ce3f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 201.3777 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "X1"
-		(shape passive)
-		(at 140.97 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f70548b2-9481-4832-9a7b-3cf18f8935f3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.4867 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5208,6 +5208,7 @@
 	(symbol
 		(lib_id "FormantKO:SW_SPDT")
 		(at 154.94 77.47 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5271,7 +5272,7 @@
 			)
 		)
 		(property "Legend" "DELAY"
-			(at 148.082 77.724 90)
+			(at 148.082 77.216 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
