@@ -31,12 +31,12 @@ Note: This information is only as accurate as I can remember to update it.
 
 Most activity has been in the COM, NOISE, and LFOs modules. Scratch that....most activity has been bits and pieces all over.  I like to switch things up.
 
-Latest updates are for the [ENVELLPE FOLLOWER](modules/ENVELOPE_FOLLOWER/README.md) module.
+Latest updates are for the [ENVELOPE FOLLOWER](modules/ENVELOPE_FOLLOWER/README.md) module.
 
-![Top Render](modules/DUAL_VCA/DUAL_VCA_top.png "Top Render")
+![Top Render](modules/ENVELOPE_FOLLOWER/ENVELOPE_FOLLOWER_top.png "Top Render")
 
 - ✓ PCB/Panel exists but likely a WIP.
-- ✔ PCB/Panel exists but may not be completely functional.
+- ✔ PCB/Panel exists but may not be completely functional or untested.
 - ✅ PCB/Panel exists and is working (for a given value of "working").
 
 ## Modules
@@ -48,14 +48,14 @@ Latest updates are for the [ENVELLPE FOLLOWER](modules/ENVELOPE_FOLLOWER/README.
 - ✓ [KEYBOARD INTERFACE](modules/KBI/README.md)
 - ✓ [KEYBOARD DIVIDER](modules/KB_DIV/README.md)
 - ✓ [INTERFACE RECEIVER](modules/INTF_RCVR/README.md)
-- ✓ [POWER SUPPLY](system/PSU/README.md)
+- ✔ [POWER SUPPLY](system/PSU/README.md)
 - ✓ [POWER SUPPLY TRANSISTORS](system/PSU/PSU_PT/README.md)
 - ✓ [VCO](modules/VCO/README.md)
 - ✓ [VCF 12dB](modules/VCF_12/README.md)
 - [VCF 24dB](modules/VCF_24/README.md)
 - ✓ [RFM](modules/RFM/README.md)
 - ✓ [ADSR](modules/ADSR/README.md)
-- ✓ [DUAL VCA](modules/DUAL_VCA/README.md)
+- ✔ [DUAL VCA](modules/DUAL_VCA/README.md)
 - [LFOs](modules/LFOs/README.md)
 - ✓ [NOISE](modules/NOISE/README.md)
 - ✓ [COM](modules/COM/README.md)
@@ -71,21 +71,21 @@ Latest updates are for the [ENVELLPE FOLLOWER](modules/ENVELOPE_FOLLOWER/README.
 - ✓ [NOISE CNC](modules/NOISE_CNC/README.md)
 - [COM EXTENSIONS](modules/COM_EXT/README.md)
 - ✓ [RING MODULATOR](modules/RING_MODULATOR/README.md)
-- ✓ [PHASE SHIFTER](modules/PHASE_SHIFTER/README.md)
+- ✔ [PHASE SHIFTER](modules/PHASE_SHIFTER/README.md)
 - [KRIMISIZER](modules/KRIMISIZER/README.md)
 - [DIGITAL REVERB](modules/DIGITAL_REVERB/README.md)
 - [POWER SUPPLIES](modules/POWER_SUPPLIES/README.md)
 - [KOV KB-GATE DISTRIBUTION](modules/KOV_KB_GATE_DISTRIBUTION/README.md)
 - [MULTIPLE JACKS](modules/MULTIPLE_JACKS/README.md)
 - [ADSR CONTROLLER](modules/ADSR_CONTROLLER/README.md)
-- [VC LFOs](modules/VC_LFOs/README.md)
+- ✓ [VC LFOs](modules/VC_LFOs/README.md)
 - [LF VCO](modules/LF_VCO/README.md)
 - [DNG](modules/DNG/README.md)
-- ✓ [ENVELOPE_FOLLOWER](modules/ENVELOPE_FOLLOWER/README.md)
+- ✔ [ENVELOPE_FOLLOWER](modules/ENVELOPE_FOLLOWER/README.md)
 - ✔ [SAMPLE & HOLD](modules/SAMPLE_AND_HOLD/README.md)
 - ✓ [WAVEFORM-PROCESSOR](modules/WAVEFORM_PROCESSOR/README.md)
 - [MIXER](modules/MIXER/README.md)
-- ✓ [TUNING](modules/TUNING/README.md)
+- ✔ [TUNING](modules/TUNING/README.md)
 - [SEQUENCER](modules/SEQUENCER/README.md)
 
 ## Panels
@@ -112,7 +112,7 @@ Latest updates are for the [ENVELLPE FOLLOWER](modules/ENVELOPE_FOLLOWER/README.
 - ✓ [MULTIPLE JACKS 3U](panels/MULTIPLE_JACKS_3U/README.md)
 - ✓ [MULTIPLE JACKS 6U](panels/MULTIPLE_JACKS_6U/README.md)
 - [DNG](panels/DNG/README.md)
-- [ENVELOPE FOLLOWER](panels/ENVELOPE_FOLLOWER/README.md)
+- ✓ [ENVELOPE FOLLOWER](panels/ENVELOPE_FOLLOWER/README.md)
 - [WAVEFORM PROCESSOR](panels/WAVEFORM_PROCESSOR/README.md)
 - [MIXER 3](panels/MIXER_3/README.md)
 - ✓ [TUNING](panels/TUNING/README.md)
