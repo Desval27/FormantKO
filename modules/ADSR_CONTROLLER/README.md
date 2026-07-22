@@ -22,6 +22,6 @@ The ADSR Controller expands the capabilities of the standard Formant ADSR module
 
 ## Images
 
-![Rendered Panel Front](ADSR_CONTROLLER_front.png "Rendered Panel Front")
+![Rendered PCB Top](ADSR_CONTROLLER_top.png "Rendered PCB Top")
 
-![Rendered Panel Back](ADSR_CONTROLLER_back.png "Rendered Panel Back")
+![Rendered PCB Bottom](ADSR_CONTROLLER_bottom.png "Rendered PCB Bottom")
