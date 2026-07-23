@@ -1215,6 +1215,7 @@
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1255,10 +1256,9 @@
 				)
 			)
 			(property "Legend" "LEGEND"
-				(at -5.08 0 0)
+				(at 0 1.016 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2096,6 +2096,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 82.55) (xy 158.75 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65229fcb-3b47-4cb5-a12b-33a3055c5267")
+	)
+	(wire
+		(pts
 			(xy 114.3 57.15) (xy 114.3 59.69)
 		)
 		(stroke
@@ -2316,16 +2326,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 91.44) (xy 158.75 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d628917c-8359-4d69-95eb-db8b876d78eb")
-	)
-	(wire
-		(pts
 			(xy 58.42 69.85) (xy 165.1 69.85)
 		)
 		(stroke
@@ -2414,8 +2414,56 @@
 		)
 		(uuid "fe76c45f-26a1-464d-a58d-82824e8f423d")
 	)
+	(global_label "S1a"
+		(shape passive)
+		(at 158.75 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e0d5514-a65b-41da-8cfa-0fc3ee4d480e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.1177 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "S1m"
+		(shape passive)
+		(at 177.8 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b405975a-3675-4be6-98bc-222412baa836")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.9766 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "OS"
-		(shape output)
+		(shape passive)
 		(at 228.6 69.85 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2427,6 +2475,30 @@
 		(uuid "d1cdb7e0-f127-40fa-b18b-dfa5b5cab27c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 234.2203 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "S1b"
+		(shape passive)
+		(at 165.1 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8befff3-c44c-49a8-87a4-921a5964dac2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.7323 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2804,7 +2876,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FormantKO:R_Axial_Horizontal"
+		(property "Footprint" ""
 			(at 43.18 68.58 0)
 			(hide yes)
 			(show_name no)
