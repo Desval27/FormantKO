@@ -1,28 +1,22 @@
 # POWER SUPPLIES
 
+Format: Multiple
+
 ## Status
 
-[Translated Source](POWER_SUPPLIES.pdf)
-
-0% Complete
-
-- [ ] Schematic
-- [ ] Schematic Additions
-- [ ] Schematic Review
-- [ ] PCB Placement
-- [ ] PCB Routing
-- [ ] PCB Review
-- [ ] Sample
-- [ ] Build
-- [ ] Calibrated
-- [ ] Tested
+⚠️Incomplete⚠️
 
 ## Documents
 
-## Interactive Bill of Materials
+- [English Translation](doc/POWER_SUPPLIES__en.pdf)
+
 
 ## Gerber to Order
 
+⚠️Untested⚠️
+
+
 ## Images
-<!-- ![Rendered PCB](TEMPLATE.png "Rendered PCB") -->
-<!-- ![Rendered PCB](TEMPLATE.png "Rendered PCB") -->
+
+![Rendered 9V PCB Top](9V_PSU/9V_PSU_top.png "Rendered 9V PCB Top")
+![Rendered 9V PCB Bottom](9V_PSU/9V_PSU_bottom.png "Rendered 9V PCB Bottom")
