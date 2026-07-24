@@ -1,15 +1,20 @@
 # TUNING
 
+Format: 3U
+
+The **Tuning Module** provides a stable and convenient pitch reference for calibrating the synthesizer. It generates a fixed reference tone and/or precision control voltage that allows VCOs to be adjusted for correct tuning, octave tracking, and consistency across the system. Rather than being used as part of a patch during performance, it serves as a workshop and maintenance tool, making oscillator calibration faster, more accurate, and repeatable after construction, repair, or periodic adjustment.
+
 ## Status
 
 ⚠️ Untested ⚠️
 
 ## Documents
 
-- [English Translation](TUNING_en.pdf)
-- [Schematic](plots/TUNING__schematic.pdf)
-- [Assembly](plots/TUNING__Assembly.pdf)
-- [Interactive Bill of Materials](bom/ibom.html)
+- [English Translation](doc/TUNING__en.pdf)
+- [Schematic](doc/schematic.pdf)
+- [Assembly](doc/assembly.pdf)
+- [Bill of Materials](doc/bom.csv)
+- [Interactive Bill of Materials](doc/ibom.html)
 
 
 ## Gerber to Order

@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "TUNING")
-		(date "2026-05-30")
+		(date "2026-07-24")
 		(rev "A")
 		(company "THE HOUSE OF GALAHAD")
 		(comment 1 "FORMANT-KO")
@@ -685,6 +685,179 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Elektuur:V-GND"
+			(power global)
+			(body_styles demorgan)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.27)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at -2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "V-GND"
+				(at 2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "GND/0/frame/chassis (global node 0)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Label" "GND"
+				(at 2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "V GND 0 frame chassis potential voltage tension global AC DC power supply node label pin terminal functional equipotential bonding earth earthing ground grounding"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "V-GND_1_1"
+				(rectangle
+					(start -1.905 -2.159)
+					(end 1.905 -2.921)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.159)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "V-GND_1_2"
+				(rectangle
+					(start -1.905 0.381)
+					(end 1.905 -0.381)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 0 0)
 							)
 						)
 					)
@@ -3874,7 +4047,7 @@
 			)
 		)
 	)
-	(global_label "S1a"
+	(global_label "GND"
 		(shape passive)
 		(at 190.5 48.26 180)
 		(fields_autoplaced yes)
@@ -3886,7 +4059,7 @@
 		)
 		(uuid "f1c32a4e-593f-4f88-9335-872ae4bc1bd6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.8677 48.26 0)
+			(at 184.5652 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4243,7 +4416,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Elektuur:V-GND")
 		(at 114.3 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -4252,9 +4425,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6b9cc060-58ca-4e98-85ae-244f8b5fc6de")
-		(property "Reference" "#PWR016"
-			(at 114.3 107.95 0)
+		(fields_autoplaced yes)
+		(uuid "776333cc-42c7-4e54-aa6f-38c73ab18839")
+		(property "Reference" "#PWR01"
+			(at 111.76 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4262,16 +4436,19 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 105.41 0)
+			(at 116.84 101.6 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4296,7 +4473,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "GND/0/frame/chassis (global node 0)"
 			(at 114.3 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4307,13 +4484,25 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "a734896e-1715-4c64-8fd4-54db74da15e0")
+		(property "Label" "GND"
+			(at 116.84 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "0"
+			(uuid "864ebf1d-5dd1-4027-8fa3-26de7de6eb5f")
 		)
 		(instances
 			(project "TUNING"
 				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
-					(reference "#PWR016")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4351,7 +4540,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
 			(at 54.61 96.52 0)
 			(hide yes)
 			(show_name no)
