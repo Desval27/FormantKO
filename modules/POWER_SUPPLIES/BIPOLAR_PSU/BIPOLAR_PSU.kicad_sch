@@ -3776,7 +3776,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4129,7 +4129,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4001"
+		(property "Value" "${SIM.PARAMS}"
 			(at 128.27 95.2499 0)
 			(hide yes)
 			(show_name no)
@@ -4173,30 +4173,6 @@
 				)
 			)
 		)
-		(property "Spice_Node_Sequence" "2 1"
-			(at 118.11 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Spice_Lib_File" "semiconductor.lib"
-			(at 125.73 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(property "Rating" "V/A"
 			(at 127 90.805 0)
 			(hide yes)
@@ -4207,6 +4183,40 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "type=\"\" model=\"1N4001\" lib=\"semiconductor.lib\""
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "2=1 1=2"
+			(at 118.11 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -4246,7 +4256,7 @@
 				)
 			)
 		)
-		(property "Value" "AC1"
+		(property "Value" "AC"
 			(at 109.22 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4289,7 +4299,7 @@
 				)
 			)
 		)
-		(property "Spice_Primitive" "R"
+		(property "Sim.Device" "SPICE"
 			(at 109.855 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4301,8 +4311,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Spice_Model" "0"
-			(at 107.315 95.885 0)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4310,7 +4320,17 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right top)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4668,7 +4688,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4853,7 +4873,7 @@
 				)
 			)
 		)
-		(property "Value" "ACG"
+		(property "Value" "CT"
 			(at 109.22 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5066,7 +5086,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4001"
+		(property "Value" "${SIM.PARAMS}"
 			(at 138.43 105.4099 0)
 			(hide yes)
 			(show_name no)
@@ -5110,30 +5130,6 @@
 				)
 			)
 		)
-		(property "Spice_Node_Sequence" "2 1"
-			(at 128.27 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Spice_Lib_File" "semiconductor.lib"
-			(at 135.89 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(property "Rating" "V/A"
 			(at 137.16 100.965 0)
 			(hide yes)
@@ -5146,11 +5142,45 @@
 				(justify right)
 			)
 		)
+		(property "Sim.Device" "SPICE"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "type=\"\" model=\"1N4001\" lib=\"semiconductor.lib\""
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "2=1 1=2"
+			(at 128.27 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "1"
-			(uuid "659a9d4f-03de-421d-9885-aaea8481eee7")
+			(uuid "659a9d4f-03de-421d-9885-aaea8481eee8")
 		)
 		(pin "2"
-			(uuid "b10e63dc-b5fd-4a5b-a37b-e0fde85a155b")
+			(uuid "b10e63dc-b5fd-4a5b-a37b-e0fde85a155c")
 		)
 		(instances
 			(project "BIPOLAR_PSU"
@@ -5315,7 +5345,7 @@
 			)
 		)
 		(pin "0"
-			(uuid "6095d9fa-e2a8-4472-9f10-e00aba31c9f4")
+			(uuid "6095d9fa-e2a8-4472-9f10-e00aba31c9f5")
 		)
 		(instances
 			(project "BIPOLAR_PSU"
@@ -6510,7 +6540,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6569,16 +6599,16 @@
 			)
 		)
 		(pin "4"
-			(uuid "1e363971-d948-43ca-93b0-6b531a966a1c")
+			(uuid "1e363971-d948-43ca-93b0-6b531a966a1d")
 		)
 		(pin "2"
-			(uuid "dff6e052-6552-49b1-b5b7-d7d88f634498")
+			(uuid "dff6e052-6552-49b1-b5b7-d7d88f634499")
 		)
 		(pin "1"
-			(uuid "3e992d46-75d7-4414-acdd-7c5fe4c5d93d")
+			(uuid "3e992d46-75d7-4414-acdd-7c5fe4c5d93e")
 		)
 		(pin "3"
-			(uuid "bdc57ca1-86e9-4a90-8ae2-c5f910082ffa")
+			(uuid "bdc57ca1-86e9-4a90-8ae2-c5f910082ffb")
 		)
 		(instances
 			(project "BIPOLAR_PSU"
@@ -6714,7 +6744,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4001"
+		(property "Value" "${SIM.PARAMS}"
 			(at 132.08 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -6758,30 +6788,6 @@
 				)
 			)
 		)
-		(property "Spice_Node_Sequence" "2 1"
-			(at 132.08 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Spice_Lib_File" "semiconductor.lib"
-			(at 132.08 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(property "Rating" "V/A"
 			(at 135.255 99.06 0)
 			(hide yes)
@@ -6794,11 +6800,45 @@
 				(justify right)
 			)
 		)
+		(property "Sim.Device" "SPICE"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "type=\"\" model=\"1N4001\" lib=\"semiconductor.lib\""
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "2=1 1=2"
+			(at 132.08 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "1"
-			(uuid "659a9d4f-03de-421d-9885-aaea8481eee7")
+			(uuid "659a9d4f-03de-421d-9885-aaea8481eee9")
 		)
 		(pin "2"
-			(uuid "b10e63dc-b5fd-4a5b-a37b-e0fde85a155b")
+			(uuid "b10e63dc-b5fd-4a5b-a37b-e0fde85a155d")
 		)
 		(instances
 			(project "BIPOLAR_PSU"
@@ -6830,7 +6870,7 @@
 				)
 			)
 		)
-		(property "Value" "AC2"
+		(property "Value" "AC"
 			(at 109.22 108.712 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6940,7 +6980,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4001"
+		(property "Value" "${SIM.PARAMS}"
 			(at 121.92 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -6984,30 +7024,6 @@
 				)
 			)
 		)
-		(property "Spice_Node_Sequence" "2 1"
-			(at 121.92 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Spice_Lib_File" "semiconductor.lib"
-			(at 121.92 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(property "Rating" "V/A"
 			(at 125.095 109.22 0)
 			(hide yes)
@@ -7020,11 +7036,45 @@
 				(justify right)
 			)
 		)
+		(property "Sim.Device" "SPICE"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "type=\"\" model=\"1N4001\" lib=\"semiconductor.lib\""
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "2=1 1=2"
+			(at 121.92 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "1"
-			(uuid "659a9d4f-03de-421d-9885-aaea8481eee7")
+			(uuid "659a9d4f-03de-421d-9885-aaea8481eeea")
 		)
 		(pin "2"
-			(uuid "b10e63dc-b5fd-4a5b-a37b-e0fde85a155b")
+			(uuid "b10e63dc-b5fd-4a5b-a37b-e0fde85a155e")
 		)
 		(instances
 			(project "BIPOLAR_PSU"
