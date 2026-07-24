@@ -15,7 +15,7 @@ Format: Multiple
 - [Assembly](BIPOLAR_PSU/doc/assembly.pdf)
 - [Schematic](BIPOLAR_PSU/doc/schematic.pdf)
 - [Bill of Materials](BIPOLAR_PSU/doc/bom.csv)
-- [Interactive Bill of Materials](BIPLOLAR_PSU/doc/ibom.html)
+- [Interactive Bill of Materials](BIPOLAR_PSU/doc/ibom.html)
 
 ### 9V Power Supply
 
@@ -38,7 +38,7 @@ Format: Multiple
 ## Images
 
 ![Rendered BIPOLAR PCB Top](BIPOLAR_PSU/BIPOLAR_PSU_top.png "Rendered BIPOLAR PCB Top")
-![Rendered BIPOLAR PCB Bottom](BIPOLAR_PSU/BIPOLAR_PS_bottom.png "Rendered BIPOLAR PCB Bottom")
+![Rendered BIPOLAR PCB Bottom](BIPOLAR_PSU/BIPOLAR_PSU_bottom.png "Rendered BIPOLAR PCB Bottom")
 
 ![Rendered 9V PCB Top](9V_PSU/9V_PSU_top.png "Rendered 9V PCB Top")
 ![Rendered 9V PCB Bottom](9V_PSU/9V_PSU_bottom.png "Rendered 9V PCB Bottom")
