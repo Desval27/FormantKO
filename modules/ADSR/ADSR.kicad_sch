@@ -12,7 +12,194 @@
 		(comment 1 "FORMANT-KO")
 	)
 	(lib_symbols
-		(symbol "FormantKO:BC548C"
+		(symbol "FormantKO:1N4148"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "FormantKO:DO-35_400mil"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds12019.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fast Switching Diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1N4148_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FormantKO:BC108C"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -33,7 +220,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BC548C"
+			(property "Value" "BC108C"
 				(at 5.08 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -44,7 +231,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "FormantKO:TO-92"
+			(property "Footprint" "FormantKO:TO-18_Wide"
 				(at 5.08 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -55,7 +242,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://diotec.com/request/datasheet/bc546.pdf"
+			(property "Datasheet" "https://www.alldatasheet.com/datasheet-pdf/view/607096/CDIL/BC108C.html"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -66,7 +253,7 @@
 					)
 				)
 			)
-			(property "Description" "NPN transistor, collector/base/emitter"
+			(property "Description" "NPN transistor, emitter/base/collector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -88,7 +275,7 @@
 					)
 				)
 			)
-			(property "Sim.Pins" "1=C 2=B 3=E"
+			(property "Sim.Pins" "1=E 2=B 3=C"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -110,18 +297,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "TO-92*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BC548C_0_1"
+			(symbol "BC108C_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -158,7 +334,7 @@
 					)
 				)
 			)
-			(symbol "BC548C_1_1"
+			(symbol "BC108C_1_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -196,9 +372,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "C"
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -232,9 +408,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "E"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -284,7 +460,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FormantKO:C_Disc"
+			(property "Footprint" "FormantKO:C_Rect"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -615,7 +791,7 @@
 					)
 				)
 			)
-			(property "Value" "D_LED"
+			(property "Value" "DLED"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -626,7 +802,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FormantKO:Panel_Connector_1x02"
+			(property "Footprint" "FormantKO:PanelConnector_1x02"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -804,193 +980,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FormantKO:D_UniversalSilicon"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_UniversalSilicon"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "FormantKO:DUS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Universal Silicon Diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?35*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_UniversalSilicon_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_UniversalSilicon_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "FormantKO:GenericOpAmp_Single"
 			(pin_names
 				(offset 0.127)
@@ -1011,7 +1000,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "GenericOpAmp_Single"
+			(property "Value" "OpAmp"
 				(at 0 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1261,7 +1250,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "GenericOpAmp_Single_Swap"
+			(property "Value" "OpAmp"
 				(at 0 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1644,18 +1633,18 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "P"
-				(at 2.54 0.762 0)
+				(at 1.905 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
 			(property "Value" "R"
-				(at 2.54 -1.016 0)
+				(at 1.905 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1699,25 +1688,25 @@
 				)
 			)
 			(property "Taper" "Tap"
-				(at 2.54 -2.54 0)
+				(at 1.905 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 				)
 			)
 			(property "Legend" "Legend"
-				(at 2.54 -4.064 0)
+				(at -1.27 0.635 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify right)
 				)
 			)
 			(property "ki_keywords" "R res dual resistor variable potentiometer rheostat"
@@ -1847,7 +1836,7 @@
 					)
 				)
 			)
-			(property "Value" "R_Trim"
+			(property "Value" "R"
 				(at 4.572 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2031,6 +2020,7 @@
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2071,7 +2061,7 @@
 				)
 			)
 			(property "Legend" "LEGEND"
-				(at -5.08 0 0)
+				(at 0 1.016 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2128,6 +2118,22 @@
 				)
 			)
 			(symbol "SW_SPDT_1_1"
+				(text "b"
+					(at -4.318 5.08 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "a"
+					(at 4.318 5.08 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
@@ -2175,6 +2181,283 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FormantKO:WireConnector"
+			(body_styles demorgan)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "WireConnector"
+				(at 0 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "FormantKO:Wire_1x01_General"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "terminal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Spice_Primitive" "R"
+				(at 0.635 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Spice_Model" "0"
+				(at -1.905 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right top)
+				)
+			)
+			(property "ki_keywords" "J R terminal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "WireConnector_1_0"
+				(polyline
+					(pts
+						(xy -0.381 -0.381) (xy -0.889 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 0.381) (xy 0.889 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "WireConnector_1_1"
+				(pin passive line
+					(at 0 0 180)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "WireConnector_1_2"
+				(pin passive line
+					(at -0.8128 0 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0.8128 0 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "WireConnector_1_3"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.7272)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.7272)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "WireConnector_1_4"
+				(pin passive line
+					(at 0 0.8128 270)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -0.8128 90)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2588,6 +2871,30 @@
 		(uuid "ed840589-1494-44a3-9339-25c2a46d0a37")
 	)
 	(junction
+		(at 215.9 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03b93f9d-6ba7-4dbf-8a87-ae018cb11aa2")
+	)
+	(junction
+		(at 215.9 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ce3fffb-925a-48f3-9eb1-afabaab07558")
+	)
+	(junction
+		(at 223.52 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d9f79d3-a8b5-4c07-903f-183ae04c21f6")
+	)
+	(junction
+		(at 127 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1258e9dc-2c89-4faf-a394-384381061257")
+	)
+	(junction
 		(at 146.05 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2604,6 +2911,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f38a1b9-65e6-47fc-9ccc-74ce8876ef44")
+	)
+	(junction
+		(at 129.54 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20cea36d-3547-423c-b1fb-3a75972ac497")
 	)
 	(junction
 		(at 33.02 74.93)
@@ -2648,6 +2961,12 @@
 		(uuid "34da133b-7b6c-43be-b123-24ac6184791d")
 	)
 	(junction
+		(at 215.9 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3acbd1ae-a198-49d1-8d71-c4a3a2e6d9a2")
+	)
+	(junction
 		(at 152.4 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2658,6 +2977,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d781ce0-44d8-4e2f-a186-0aaeb054990f")
+	)
+	(junction
+		(at 167.64 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f4cdedb-fef4-46bd-a35f-cb09e2339d6b")
 	)
 	(junction
 		(at 114.3 53.34)
@@ -2720,10 +3045,22 @@
 		(uuid "6aaa7652-d144-4564-aefd-6f6b3b4a823c")
 	)
 	(junction
+		(at 116.84 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f3a8721-bbf9-4611-a8da-a623f08bb63d")
+	)
+	(junction
 		(at 196.85 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "735ee3ec-2f65-4195-90a7-87cdea7be8ed")
+	)
+	(junction
+		(at 213.36 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75aa7b15-0d24-4da1-b9c3-d83072960869")
 	)
 	(junction
 		(at 114.3 48.26)
@@ -2738,10 +3075,22 @@
 		(uuid "791431e0-7bf1-4a07-a92d-0177f6bbc95d")
 	)
 	(junction
+		(at 165.1 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7944bce7-2de3-4b20-bfd6-514c0e2bed6c")
+	)
+	(junction
 		(at 76.2 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ac91252-7fba-4674-badc-31d00e42f8b0")
+	)
+	(junction
+		(at 245.11 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8428e316-4bad-4c6d-84de-99c961c816e7")
 	)
 	(junction
 		(at 76.2 25.4)
@@ -2784,6 +3133,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9de07074-ca51-44a4-b4c5-5d384c5510e0")
+	)
+	(junction
+		(at 44.45 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2aca2de-090f-4b29-a6f9-bf609023bcc6")
 	)
 	(junction
 		(at 38.1 25.4)
@@ -2834,6 +3189,12 @@
 		(uuid "b9cf9e39-c699-4f2c-976f-49573e2b8619")
 	)
 	(junction
+		(at 114.3 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc800da1-ac4c-4398-9b6e-15a344fc056b")
+	)
+	(junction
 		(at 215.9 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2864,6 +3225,12 @@
 		(uuid "cc62d033-88d7-44d1-8058-2593edde3aea")
 	)
 	(junction
+		(at 247.65 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce5fcc9b-64d4-43ce-b53c-e00d169697fe")
+	)
+	(junction
 		(at 127 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2874,6 +3241,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2b2fe4f-711b-4ed6-8088-9a65acae645b")
+	)
+	(junction
+		(at 33.02 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee63a9a0-8a25-4275-837b-0cca30549718")
 	)
 	(junction
 		(at 133.35 63.5)
@@ -3573,16 +3946,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 73.66) (xy 114.3 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b75532d-55b7-4b09-b2fb-00ff0dbd57f2")
-	)
-	(wire
-		(pts
 			(xy 127 73.66) (xy 127 78.74)
 		)
 		(stroke
@@ -3990,6 +4353,16 @@
 			(type default)
 		)
 		(uuid "98842364-ee26-43f9-b4c2-27ae7bb5d101")
+	)
+	(wire
+		(pts
+			(xy 114.3 73.66) (xy 114.3 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c4fd38b-e7ea-412a-a267-c8cf4fa07d94")
 	)
 	(wire
 		(pts
@@ -4952,7 +5325,231 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:D_UniversalSilicon")
+		(lib_id "FormantKO:WireConnector")
+		(at 127 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0218c79a-7a0e-499a-9796-a38992fd9afa")
+		(property "Reference" "J11"
+			(at 123.444 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P2.3"
+			(at 122.428 67.564 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_General"
+			(at 127 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 127 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 127.635 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 12.7 -8.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 12.7 -8.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "737e9332-2606-4801-b239-95d8225aed50")
+		)
+		(instances
+			(project "ADSR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 33.02 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0864a019-61c8-4e88-8d5c-e83b1545c552")
+		(property "Reference" "J20"
+			(at 35.814 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S1a"
+			(at 28.448 71.374 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_General"
+			(at 33.02 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 33.02 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 33.655 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at -81.28 -5.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at -81.28 -5.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d23eb74-e603-4799-a4f7-e0a4c41c39e6")
+		)
+		(instances
+			(project "ADSR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:1N4148")
 		(at 219.71 97.79 0)
 		(mirror x)
 		(unit 1)
@@ -4973,8 +5570,8 @@
 				)
 			)
 		)
-		(property "Value" "DUS"
-			(at 220.9799 100.33 90)
+		(property "Value" "1N4148"
+			(at 219.71 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4982,10 +5579,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:DUS"
+		(property "Footprint" "FormantKO:DO-35_400mil"
 			(at 219.71 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4996,7 +5592,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds12019.pdf"
 			(at 219.71 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -5007,7 +5603,7 @@
 				)
 			)
 		)
-		(property "Description" "Universal Silicon Diode"
+		(property "Description" "Fast Switching Diode"
 			(at 219.71 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -5056,7 +5652,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:BC548C")
+		(lib_id "FormantKO:BC108C")
 		(at 73.66 50.8 0)
 		(unit 1)
 		(body_style 1)
@@ -5067,7 +5663,7 @@
 		(dnp no)
 		(uuid "0c2a8b66-0ad6-483c-8925-0dab5c6a0116")
 		(property "Reference" "T2"
-			(at 78.74 52.0701 0)
+			(at 78.74 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5077,8 +5673,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC548C"
-			(at 78.74 49.5301 0)
+		(property "Value" "BC108C"
+			(at 78.74 52.07 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5088,7 +5685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:TO-92"
+		(property "Footprint" "FormantKO:TO-18_Wide"
 			(at 78.74 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -5099,7 +5696,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/bc546.pdf"
+		(property "Datasheet" "https://www.alldatasheet.com/datasheet-pdf/view/607096/CDIL/BC108C.html"
 			(at 73.66 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5110,7 +5707,7 @@
 				)
 			)
 		)
-		(property "Description" "NPN transistor, collector/base/emitter"
+		(property "Description" "NPN transistor, emitter/base/collector"
 			(at 73.66 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5132,7 +5729,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
+		(property "Sim.Pins" "1=E 2=B 3=C"
 			(at 73.66 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5156,6 +5753,118 @@
 			(project "ADSR"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "T2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 129.54 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1360470c-e676-4e3a-af74-01961c009604")
+		(property "Reference" "J12"
+			(at 125.984 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P2.2"
+			(at 124.968 67.564 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_General"
+			(at 129.54 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 129.54 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 130.175 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 15.24 -8.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 15.24 -8.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "119ddf9d-755e-439c-bf97-dc38ee51c53d")
+		)
+		(instances
+			(project "ADSR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -5261,6 +5970,118 @@
 		)
 	)
 	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 215.9 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "14939535-b113-4fd7-858a-563c9fbdad26")
+		(property "Reference" "J19"
+			(at 212.344 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P4.3"
+			(at 211.328 54.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_General"
+			(at 215.9 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 215.9 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 216.535 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 101.6 -21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 101.6 -21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60e06b25-eaf6-4bb3-94ff-672265cc745f")
+		)
+		(instances
+			(project "ADSR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+15V")
 		(at 247.65 25.4 0)
 		(unit 1)
@@ -5338,7 +6159,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:BC548C")
+		(lib_id "FormantKO:BC108C")
 		(at 120.65 50.8 90)
 		(mirror x)
 		(unit 1)
@@ -5350,7 +6171,19 @@
 		(dnp no)
 		(uuid "16e327dd-9628-4275-9afb-62c83ef2b419")
 		(property "Reference" "T3"
-			(at 121.9201 55.88 0)
+			(at 120.65 56.134 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BC108C"
+			(at 121.92 55.88 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5360,18 +6193,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC548C"
-			(at 119.3801 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FormantKO:TO-92"
+		(property "Footprint" "FormantKO:TO-18_Wide"
 			(at 118.11 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -5382,7 +6204,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/bc546.pdf"
+		(property "Datasheet" "https://www.alldatasheet.com/datasheet-pdf/view/607096/CDIL/BC108C.html"
 			(at 120.65 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5393,7 +6215,7 @@
 				)
 			)
 		)
-		(property "Description" "NPN transistor, collector/base/emitter"
+		(property "Description" "NPN transistor, emitter/base/collector"
 			(at 120.65 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5415,7 +6237,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
+		(property "Sim.Pins" "1=E 2=B 3=C"
 			(at 120.65 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5705,7 +6527,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:BC548C")
+		(lib_id "FormantKO:BC108C")
 		(at 171.45 50.8 90)
 		(mirror x)
 		(unit 1)
@@ -5717,7 +6539,19 @@
 		(dnp no)
 		(uuid "234539a0-72ff-491d-b961-e4b3a88893ad")
 		(property "Reference" "T6"
-			(at 172.7201 55.88 0)
+			(at 171.45 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "BC108C"
+			(at 172.72 55.88 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5727,18 +6561,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC548C"
-			(at 170.1801 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FormantKO:TO-92"
+		(property "Footprint" "FormantKO:TO-18_Wide"
 			(at 168.91 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -5749,7 +6572,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/bc546.pdf"
+		(property "Datasheet" "https://www.alldatasheet.com/datasheet-pdf/view/607096/CDIL/BC108C.html"
 			(at 171.45 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5760,7 +6583,7 @@
 				)
 			)
 		)
-		(property "Description" "NPN transistor, collector/base/emitter"
+		(property "Description" "NPN transistor, emitter/base/collector"
 			(at 171.45 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5782,7 +6605,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
+		(property "Sim.Pins" "1=E 2=B 3=C"
 			(at 171.45 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5898,6 +6721,230 @@
 			(project "ADSR"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 127 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "27d3223d-d3de-433c-840e-64eef864d1fc")
+		(property "Reference" "J13"
+			(at 123.444 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P2.1"
+			(at 122.428 75.184 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_General"
+			(at 127 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 127 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 127.635 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 12.7 -1.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 12.7 -1.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b3aa47ae-25c1-4075-91fc-cf4415d0ec9e")
+		)
+		(instances
+			(project "ADSR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 247.65 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "29f5ea33-3be8-497f-af2b-dfe855c88fdd")
+		(property "Reference" "J26"
+			(at 250.444 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.078 65.024 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_General"
+			(at 247.65 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 247.65 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 248.285 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 133.35 -11.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 133.35 -11.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2dd4c59b-7cce-4709-b7c4-4da09114d6bc")
+		)
+		(instances
+			(project "ADSR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J26")
 					(unit 1)
 				)
 			)
@@ -6302,7 +7349,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:BC548C")
+		(lib_id "FormantKO:BC108C")
 		(at 40.64 50.8 0)
 		(mirror y)
 		(unit 1)
@@ -6315,7 +7362,7 @@
 		(fields_autoplaced yes)
 		(uuid "373ec9b7-93ba-4f35-8642-96fcab944d8f")
 		(property "Reference" "T1"
-			(at 35.56 49.5299 0)
+			(at 35.56 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6325,8 +7372,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC548C"
+		(property "Value" "BC108C"
 			(at 35.56 52.0699 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6336,7 +7384,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:TO-92"
+		(property "Footprint" "FormantKO:TO-18_Wide"
 			(at 35.56 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -6347,7 +7395,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/bc546.pdf"
+		(property "Datasheet" "https://www.alldatasheet.com/datasheet-pdf/view/607096/CDIL/BC108C.html"
 			(at 40.64 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6358,7 +7406,7 @@
 				)
 			)
 		)
-		(property "Description" "NPN transistor, collector/base/emitter"
+		(property "Description" "NPN transistor, emitter/base/collector"
 			(at 40.64 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6380,7 +7428,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
+		(property "Sim.Pins" "1=E 2=B 3=C"
 			(at 40.64 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6521,7 +7569,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x02"
+		(property "Footprint" "FormantKO:PanelConnector_1x02_PinSwap"
 			(at 219.71 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6565,6 +7613,17 @@
 				)
 			)
 		)
+		(property "Legend" "ENV IND"
+			(at 219.71 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c2b08d59-9302-482a-84c8-a77b98c34052")
 		)
@@ -6581,7 +7640,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:D_UniversalSilicon")
+		(lib_id "FormantKO:1N4148")
 		(at 146.05 69.85 270)
 		(unit 1)
 		(body_style 1)
@@ -6602,8 +7661,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DUS"
-			(at 148.59 71.1199 90)
+		(property "Value" "1N4148"
+			(at 143.51 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6611,10 +7670,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:DUS"
+		(property "Footprint" "FormantKO:DO-35_400mil"
 			(at 146.05 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6625,7 +7683,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds12019.pdf"
 			(at 146.05 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6636,7 +7694,7 @@
 				)
 			)
 		)
-		(property "Description" "Universal Silicon Diode"
+		(property "Description" "Fast Switching Diode"
 			(at 146.05 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7002,7 +8060,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:BC548C")
+		(lib_id "FormantKO:BC108C")
 		(at 156.21 52.07 0)
 		(unit 1)
 		(body_style 1)
@@ -7013,7 +8071,7 @@
 		(dnp no)
 		(uuid "52dd4d1a-abe7-45bc-8f35-8991d30026a5")
 		(property "Reference" "T5"
-			(at 161.29 53.3401 0)
+			(at 161.29 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7023,8 +8081,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC548C"
-			(at 161.29 50.8001 0)
+		(property "Value" "BC108C"
+			(at 161.29 53.34 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7034,7 +8093,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:TO-92"
+		(property "Footprint" "FormantKO:TO-18_Wide"
 			(at 161.29 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -7045,7 +8104,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/bc546.pdf"
+		(property "Datasheet" "https://www.alldatasheet.com/datasheet-pdf/view/607096/CDIL/BC108C.html"
 			(at 156.21 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -7056,7 +8115,7 @@
 				)
 			)
 		)
-		(property "Description" "NPN transistor, collector/base/emitter"
+		(property "Description" "NPN transistor, emitter/base/collector"
 			(at 156.21 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -7078,7 +8137,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
+		(property "Sim.Pins" "1=E 2=B 3=C"
 			(at 156.21 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -7207,6 +8266,118 @@
 		)
 	)
 	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 215.9 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "57de1ce5-382c-4f98-a85c-9dab6c717630")
+		(property "Reference" "J17"
+			(at 212.344 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P4.1"
+			(at 211.328 62.484 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_General"
+			(at 215.9 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 215.9 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 216.535 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 101.6 -13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 101.6 -13.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "538d8f10-1f46-41f8-975f-d874265af51b")
+		)
+		(instances
+			(project "ADSR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FormantKO:GenericOpAmp_Single_Swap")
 		(at 180.34 104.14 0)
 		(unit 1)
@@ -7328,7 +8499,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "27k"
+		(property "Value" "10k"
 			(at 215.9 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7467,7 +8638,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:D_UniversalSilicon")
+		(lib_id "FormantKO:1N4148")
 		(at 146.05 95.25 270)
 		(mirror x)
 		(unit 1)
@@ -7489,8 +8660,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DUS"
-			(at 148.59 93.9801 90)
+		(property "Value" "1N4148"
+			(at 143.51 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7498,10 +8669,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:DUS_500"
+		(property "Footprint" "FormantKO:DO-35_500mil"
 			(at 146.05 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7512,7 +8682,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds12019.pdf"
 			(at 146.05 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7523,7 +8693,7 @@
 				)
 			)
 		)
-		(property "Description" "Universal Silicon Diode"
+		(property "Description" "Fast Switching Diode"
 			(at 146.05 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7830,7 +9000,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:D_UniversalSilicon")
+		(lib_id "FormantKO:1N4148")
 		(at 165.1 95.25 90)
 		(mirror x)
 		(unit 1)
@@ -7852,8 +9022,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DUS"
-			(at 162.56 96.5199 90)
+		(property "Value" "1N4148"
+			(at 167.64 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7861,10 +9031,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:DUS"
+		(property "Footprint" "FormantKO:DO-35_400mil"
 			(at 165.1 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7875,7 +9044,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds12019.pdf"
 			(at 165.1 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7886,7 +9055,7 @@
 				)
 			)
 		)
-		(property "Description" "Universal Silicon Diode"
+		(property "Description" "Fast Switching Diode"
 			(at 165.1 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -8119,7 +9288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x03"
+		(property "Footprint" "FormantKO:PanelConnector_1x03_PinSwap"
 			(at 38.1 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -8152,6 +9321,17 @@
 				)
 			)
 		)
+		(property "Legend" "MODE"
+			(at 38.1 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "42040b1e-88c4-46dc-a631-49fbc70b0027")
 		)
@@ -8165,6 +9345,230 @@
 			(project "ADSR"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 245.11 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7848b1b3-afa6-470c-b58c-e78f5b6367df")
+		(property "Reference" "J25"
+			(at 247.904 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EOS"
+			(at 240.538 103.124 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_General"
+			(at 245.11 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 245.11 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 245.745 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 130.81 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 130.81 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d50cc97-aa32-4a35-a1dd-f7c4ad747d1a")
+		)
+		(instances
+			(project "ADSR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 116.84 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "797d7795-9fb7-40d5-8f91-e9c9a60fc93f")
+		(property "Reference" "J10"
+			(at 119.634 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P1.2"
+			(at 112.268 67.564 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_General"
+			(at 116.84 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 116.84 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 117.475 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 2.54 -8.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 2.54 -8.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6cc2e27-7a91-407e-9083-8ff7cd44da69")
+		)
+		(instances
+			(project "ADSR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -8203,7 +9607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x03"
+		(property "Footprint" "FormantKO:PanelConnector_1x03"
 			(at 127 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8351,6 +9755,118 @@
 			(project "ADSR"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 165.1 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "83829f23-84dd-4e68-a100-40714bb73807")
+		(property "Reference" "J15"
+			(at 161.544 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P3.3"
+			(at 160.528 67.564 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_General"
+			(at 165.1 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 165.1 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 165.735 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 50.8 -8.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 50.8 -8.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd268383-4c18-4496-8386-9f4a07c5f244")
+		)
+		(instances
+			(project "ADSR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -8754,7 +10270,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:BC548C")
+		(lib_id "FormantKO:BC108C")
 		(at 135.89 52.07 0)
 		(mirror y)
 		(unit 1)
@@ -8766,7 +10282,7 @@
 		(dnp no)
 		(uuid "ad4f776b-e960-45c8-8f16-f67c8207d4b5")
 		(property "Reference" "T4"
-			(at 130.81 53.3401 0)
+			(at 130.81 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8776,8 +10292,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC548C"
-			(at 130.81 50.8001 0)
+		(property "Value" "BC108C"
+			(at 130.81 53.34 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8787,7 +10304,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:TO-92"
+		(property "Footprint" "FormantKO:TO-18_Wide"
 			(at 130.81 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -8798,7 +10315,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/bc546.pdf"
+		(property "Datasheet" "https://www.alldatasheet.com/datasheet-pdf/view/607096/CDIL/BC108C.html"
 			(at 135.89 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -8809,7 +10326,7 @@
 				)
 			)
 		)
-		(property "Description" "NPN transistor, collector/base/emitter"
+		(property "Description" "NPN transistor, emitter/base/collector"
 			(at 135.89 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -8831,7 +10348,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
+		(property "Sim.Pins" "1=E 2=B 3=C"
 			(at 135.89 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -8855,6 +10372,118 @@
 			(project "ADSR"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "T4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 167.64 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "afde341e-6031-4b3d-9a6c-4411267b8644")
+		(property "Reference" "J16"
+			(at 164.084 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P3.2"
+			(at 163.068 67.564 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_General"
+			(at 167.64 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 167.64 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 168.275 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 53.34 -8.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 53.34 -8.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d908d802-5345-4870-83f2-e163507a4e51")
+		)
+		(instances
+			(project "ADSR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -8974,7 +10603,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x03"
+		(property "Footprint" "FormantKO:PanelConnector_1x03_PinSwap"
 			(at 215.9 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -9234,7 +10863,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Disc_300_400"
+		(property "Footprint" "FormantKO:C_Rect"
 			(at 48.26 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -9283,7 +10912,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:D_UniversalSilicon")
+		(lib_id "FormantKO:1N4148")
 		(at 127 95.25 90)
 		(unit 1)
 		(body_style 1)
@@ -9304,8 +10933,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DUS"
-			(at 124.46 93.9801 90)
+		(property "Value" "1N4148"
+			(at 129.54 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9313,10 +10942,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:DUS"
+		(property "Footprint" "FormantKO:DO-35_400mil"
 			(at 127 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -9327,7 +10955,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds12019.pdf"
 			(at 127 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -9338,7 +10966,7 @@
 				)
 			)
 		)
-		(property "Description" "Universal Silicon Diode"
+		(property "Description" "Fast Switching Diode"
 			(at 127 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -9500,7 +11128,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FormantKO:Potentiometer_Trimmer"
+		(property "Footprint" "FormantKO:Potentiometer_Trimmer_PinSwap"
 			(at 215.9 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9643,6 +11271,230 @@
 		)
 	)
 	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 114.3 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cc71ea36-4f73-409e-a5b0-194063fc6a02")
+		(property "Reference" "J9"
+			(at 110.744 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P1.3"
+			(at 109.728 67.564 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_General"
+			(at 114.3 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 114.3 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 114.935 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 0 -8.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 0 -8.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "139ebba3-b0f9-4dea-9949-347bd47132a6")
+		)
+		(instances
+			(project "ADSR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 44.45 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d0629e97-1009-433f-91c1-0a6144abcba7")
+		(property "Reference" "J22"
+			(at 47.244 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S1m"
+			(at 39.878 73.914 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_General"
+			(at 44.45 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 44.45 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 45.085 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at -69.85 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at -69.85 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2104fc66-85a8-4c7b-b01b-6e361996d3ea")
+		)
+		(instances
+			(project "ADSR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FormantKO:R_Potentiometer")
 		(at 114.3 69.85 0)
 		(unit 1)
@@ -9675,7 +11527,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x03"
+		(property "Footprint" "FormantKO:PanelConnector_1x03"
 			(at 114.3 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -9826,7 +11678,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:D_UniversalSilicon")
+		(lib_id "FormantKO:1N4148")
 		(at 114.3 95.25 270)
 		(unit 1)
 		(body_style 1)
@@ -9847,8 +11699,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DUS"
-			(at 116.84 96.5199 90)
+		(property "Value" "1N4148"
+			(at 111.76 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9856,10 +11708,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:DUS"
+		(property "Footprint" "FormantKO:DO-35_400mil"
 			(at 114.3 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -9870,7 +11721,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds12019.pdf"
 			(at 114.3 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -9881,7 +11732,7 @@
 				)
 			)
 		)
-		(property "Description" "Universal Silicon Diode"
+		(property "Description" "Fast Switching Diode"
 			(at 114.3 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -10007,6 +11858,118 @@
 		)
 	)
 	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 213.36 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dac63b61-fa4a-4f99-b38f-34064ce8ab88")
+		(property "Reference" "J18"
+			(at 209.804 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P4.2"
+			(at 208.788 54.864 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_General"
+			(at 213.36 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 213.36 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 213.995 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 99.06 -21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 99.06 -21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb6870bc-a571-433f-92ea-eff8c494a5f1")
+		)
+		(instances
+			(project "ADSR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FormantKO:R")
 		(at 154.94 44.45 0)
 		(unit 1)
@@ -10081,6 +12044,118 @@
 			(project "ADSR"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 114.3 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e1781427-754b-401a-85d2-58b877c420af")
+		(property "Reference" "J8"
+			(at 110.744 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P1.1"
+			(at 109.728 75.184 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_General"
+			(at 114.3 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 114.3 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 114.935 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "215078b8-d8e1-472e-97f9-d11c761ac197")
+		)
+		(instances
+			(project "ADSR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -10185,7 +12260,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "27k"
+		(property "Value" "10k"
 			(at 234.95 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10324,6 +12399,230 @@
 		)
 	)
 	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 215.9 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ec8e5302-701b-4035-927d-dfb8e783acc5")
+		(property "Reference" "J23"
+			(at 218.694 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D6a"
+			(at 211.328 105.664 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_General"
+			(at 215.9 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 215.9 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 216.535 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 101.6 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 101.6 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af1f765a-4ee6-4e92-a46c-eb84317fb68e")
+		)
+		(instances
+			(project "ADSR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 223.52 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f0654548-0bbc-438b-b5ed-716b02ff41ab")
+		(property "Reference" "J24"
+			(at 226.314 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D6k"
+			(at 218.948 105.664 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_General"
+			(at 223.52 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 223.52 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 224.155 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 109.22 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 109.22 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a054d59e-f54a-41ae-a3ec-abd2d843ce46")
+		)
+		(instances
+			(project "ADSR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FormantKO:R")
 		(at 57.15 33.02 90)
 		(unit 1)
@@ -10404,6 +12703,118 @@
 		)
 	)
 	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 33.02 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f330a404-2ac7-434f-b7b4-e55a15e96d9f")
+		(property "Reference" "J21"
+			(at 35.814 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S1b"
+			(at 28.448 76.454 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_General"
+			(at 33.02 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 33.02 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 33.655 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at -81.28 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at -81.28 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cdc1e04b-8963-4743-a2fe-7aedfec0aba0")
+		)
+		(instances
+			(project "ADSR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FormantKO:R_Potentiometer")
 		(at 165.1 69.85 0)
 		(unit 1)
@@ -10436,7 +12847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x03"
+		(property "Footprint" "FormantKO:PanelConnector_1x03"
 			(at 165.1 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10584,6 +12995,118 @@
 			(project "ADSR"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 165.1 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fb8575a9-625f-486c-855f-e4e20f0c64f3")
+		(property "Reference" "J14"
+			(at 161.544 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P3.1"
+			(at 160.528 75.184 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_General"
+			(at 165.1 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 165.1 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 165.735 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 50.8 -1.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 50.8 -1.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ff250066-d1ca-4265-8a40-c5aa32f71037")
+		)
+		(instances
+			(project "ADSR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J14")
 					(unit 1)
 				)
 			)
