@@ -105,7 +105,7 @@
         "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
-        "isolated_copper": "warning",
+        "isolated_copper": "ignore",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
@@ -517,7 +517,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.254,
+        "clearance": 0.381,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -547,7 +547,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "plots",
+      "plot": "doc",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -562,7 +562,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "doc/bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -635,6 +635,24 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Params",
+          "name": "Sim.Params",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
           "show": false
         }
       ],
@@ -712,7 +730,7 @@
         "uuid": "c4180125-30a4-4709-af20-86798ec7ea53"
       }
     ],
-    "used_designators": "C5-9,#PWR1-8,T1-2,D1-3,J3-10,IC4,U1",
+    "used_designators": "U1,IC4,J3-10,T1-2,#PWR1-8,D1-3,C5-9",
     "variants": []
   },
   "sheets": [
