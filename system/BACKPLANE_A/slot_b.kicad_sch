@@ -2679,6 +2679,212 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
+				(arc
+					(start -1.524 0.254)
+					(mid 0 0.762)
+					(end 1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 187.96 129.54) (xy 205.74 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28b2db02-508f-4bec-972b-18dea761ad48")
+	)
+	(wire
+		(pts
+			(xy 173.99 127) (xy 175.26 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d127739-514e-4727-bac7-a572817b3dcc")
+	)
+	(wire
+		(pts
+			(xy 157.48 129.54) (xy 175.26 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "753141b4-687e-41e9-a27c-c343a0259b66")
+	)
+	(wire
+		(pts
+			(xy 189.23 127) (xy 187.96 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82ecb8a2-ba35-4bd3-87b1-feb7cccb4cdf")
 	)
 	(global_label "RFM"
 		(shape output)
@@ -2706,7 +2912,7 @@
 	)
 	(global_label "GATE2"
 		(shape output)
-		(at 184.15 129.54 0)
+		(at 215.9 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2716,7 +2922,7 @@
 		)
 		(uuid "02e25ca6-337f-406e-8c80-e16f6ff2c213")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.8199 129.54 0)
+			(at 224.5699 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2994,7 +3200,7 @@
 	)
 	(global_label "RFM"
 		(shape output)
-		(at 223.52 142.24 0)
+		(at 255.27 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3004,7 +3210,7 @@
 		)
 		(uuid "0f2aac1e-99b9-4276-9699-86e980fcdd8e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.3152 142.24 0)
+			(at 262.0652 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3162,7 +3368,7 @@
 	)
 	(global_label "ENV1"
 		(shape output)
-		(at 171.45 132.08 180)
+		(at 175.26 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3172,7 +3378,7 @@
 		)
 		(uuid "18889408-e6e3-4bf9-8392-aebc27a32961")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.6872 132.08 0)
+			(at 167.4972 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3234,7 +3440,7 @@
 	)
 	(global_label "GATE2"
 		(shape output)
-		(at 223.52 129.54 0)
+		(at 255.27 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3244,7 +3450,7 @@
 		)
 		(uuid "197a7313-b1ff-4d71-8e29-d249bc194c21")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.1899 129.54 0)
+			(at 263.9399 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3282,7 +3488,7 @@
 	)
 	(global_label "ENV2"
 		(shape output)
-		(at 184.15 132.08 0)
+		(at 187.96 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3292,7 +3498,7 @@
 		)
 		(uuid "19dc9e32-d0c4-4cf3-896a-640a670f3119")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.9128 132.08 0)
+			(at 195.7228 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3306,7 +3512,7 @@
 	)
 	(global_label "VCO1"
 		(shape output)
-		(at 210.82 139.7 180)
+		(at 242.57 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3316,7 +3522,7 @@
 		)
 		(uuid "1a378369-828a-4f41-9231-0735c6926a14")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.9362 139.7 0)
+			(at 234.6862 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3426,7 +3632,7 @@
 	)
 	(global_label "KOV1"
 		(shape output)
-		(at 171.45 127 180)
+		(at 163.83 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3436,7 +3642,7 @@
 		)
 		(uuid "1ec22d81-0bf3-440e-a055-670d9857d8fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.5662 127 0)
+			(at 155.9462 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3666,7 +3872,7 @@
 	)
 	(global_label "GATE1"
 		(shape output)
-		(at 171.45 129.54 180)
+		(at 147.32 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3676,7 +3882,7 @@
 		)
 		(uuid "28392c19-9597-45fa-935c-c030404f8a27")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.7801 129.54 0)
+			(at 138.6501 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3978,7 +4184,7 @@
 	)
 	(global_label "ENV4"
 		(shape output)
-		(at 184.15 134.62 0)
+		(at 187.96 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3988,7 +4194,7 @@
 		)
 		(uuid "36fc9628-01a1-46ad-9ddb-d00650f52e02")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.9128 134.62 0)
+			(at 195.7228 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4218,7 +4424,7 @@
 	)
 	(global_label "VCF1"
 		(shape output)
-		(at 171.45 144.78 180)
+		(at 175.26 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4228,7 +4434,7 @@
 		)
 		(uuid "45323091-892a-4f1f-b255-6442713c3e75")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.8081 144.78 0)
+			(at 167.6181 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4266,7 +4472,7 @@
 	)
 	(global_label "GND"
 		(shape output)
-		(at 210.82 137.16 180)
+		(at 242.57 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4276,7 +4482,7 @@
 		)
 		(uuid "49fbefa9-1bdc-4ba9-954e-b69df7dd1ae9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.9643 137.16 0)
+			(at 235.7143 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4290,7 +4496,7 @@
 	)
 	(global_label "VCO1"
 		(shape output)
-		(at 171.45 139.7 180)
+		(at 175.26 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4300,7 +4506,7 @@
 		)
 		(uuid "4b88de93-9b13-4766-974a-8be47c1d5d31")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.5662 139.7 0)
+			(at 167.3762 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4434,7 +4640,7 @@
 	)
 	(global_label "ENV3"
 		(shape output)
-		(at 210.82 134.62 180)
+		(at 242.57 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4444,7 +4650,7 @@
 		)
 		(uuid "50bd12e7-b2b3-4fa3-9747-566dcf4998fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.0572 134.62 0)
+			(at 234.8072 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4554,7 +4760,7 @@
 	)
 	(global_label "VCF2"
 		(shape output)
-		(at 184.15 144.78 0)
+		(at 187.96 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4564,7 +4770,7 @@
 		)
 		(uuid "5417ae34-81ec-46d5-8c93-34374d2500b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.7919 144.78 0)
+			(at 195.6019 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4602,7 +4808,7 @@
 	)
 	(global_label "VCA2"
 		(shape output)
-		(at 184.15 147.32 0)
+		(at 187.96 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4612,7 +4818,7 @@
 		)
 		(uuid "567e8b91-4a0a-4a13-bf60-ac878ff445a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.7919 147.32 0)
+			(at 195.6019 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4818,7 +5024,7 @@
 	)
 	(global_label "ENV4"
 		(shape output)
-		(at 223.52 134.62 0)
+		(at 255.27 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4828,7 +5034,7 @@
 		)
 		(uuid "5a9226a1-5669-4c3b-b342-1b1a5c4092e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.2828 134.62 0)
+			(at 263.0328 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4938,7 +5144,7 @@
 	)
 	(global_label "VCA2"
 		(shape output)
-		(at 223.52 147.32 0)
+		(at 255.27 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4948,7 +5154,7 @@
 		)
 		(uuid "626cde59-8001-45c1-a4ba-a19d9422072f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.1619 147.32 0)
+			(at 262.9119 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5010,7 +5216,7 @@
 	)
 	(global_label "KOV2"
 		(shape output)
-		(at 223.52 127 0)
+		(at 255.27 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5020,7 +5226,7 @@
 		)
 		(uuid "66a9d3c7-f054-495d-9073-b6d33f015ca6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.4038 127 0)
+			(at 263.1538 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5034,7 +5240,7 @@
 	)
 	(global_label "VCO2"
 		(shape output)
-		(at 184.15 139.7 0)
+		(at 187.96 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5044,7 +5250,7 @@
 		)
 		(uuid "6733bee9-fceb-47f8-b0dc-49cc2050e581")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.0338 139.7 0)
+			(at 195.8438 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5226,7 +5432,7 @@
 	)
 	(global_label "GND"
 		(shape output)
-		(at 184.15 137.16 0)
+		(at 187.96 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5236,7 +5442,7 @@
 		)
 		(uuid "741f2ebf-a012-41b3-ab67-063a927525de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.0057 137.16 0)
+			(at 194.8157 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5298,7 +5504,7 @@
 	)
 	(global_label "GATE1"
 		(shape output)
-		(at 210.82 129.54 180)
+		(at 242.57 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5308,7 +5514,7 @@
 		)
 		(uuid "790f3a03-da92-4010-bb66-9e6f93898552")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.1501 129.54 0)
+			(at 233.9001 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5322,7 +5528,7 @@
 	)
 	(global_label "KOV1"
 		(shape output)
-		(at 210.82 127 180)
+		(at 242.57 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5332,7 +5538,7 @@
 		)
 		(uuid "7948d7a4-7384-4d18-9c7e-f2e8ffc02bb9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.9362 127 0)
+			(at 234.6862 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5538,7 +5744,7 @@
 	)
 	(global_label "ENV2"
 		(shape output)
-		(at 223.52 132.08 0)
+		(at 255.27 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5548,7 +5754,7 @@
 		)
 		(uuid "84d9cf1e-3609-4f87-8593-69b11a84bcc9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.2828 132.08 0)
+			(at 263.0328 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5826,7 +6032,7 @@
 	)
 	(global_label "RFM"
 		(shape output)
-		(at 184.15 142.24 0)
+		(at 187.96 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5836,7 +6042,7 @@
 		)
 		(uuid "9ba953c8-bb16-47d7-8afc-875ec163eb66")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.9452 142.24 0)
+			(at 194.7552 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5922,7 +6128,7 @@
 	)
 	(global_label "VCO3"
 		(shape output)
-		(at 171.45 142.24 180)
+		(at 175.26 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5932,7 +6138,7 @@
 		)
 		(uuid "a067089d-2edd-4754-9689-279f4141f725")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.5662 142.24 0)
+			(at 167.3762 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6018,7 +6224,7 @@
 	)
 	(global_label "COM1"
 		(shape output)
-		(at 171.45 149.86 180)
+		(at 175.26 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6028,7 +6234,7 @@
 		)
 		(uuid "a6bad680-8ecf-4a68-95fe-08fdabf95bbf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.2034 149.86 0)
+			(at 167.0134 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6090,7 +6296,7 @@
 	)
 	(global_label "VCF1"
 		(shape output)
-		(at 210.82 144.78 180)
+		(at 242.57 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6100,7 +6306,7 @@
 		)
 		(uuid "aaca54a0-a33e-4abb-8f7a-c763164d3627")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.1781 144.78 0)
+			(at 234.9281 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6162,7 +6368,7 @@
 	)
 	(global_label "COM1"
 		(shape output)
-		(at 210.82 149.86 180)
+		(at 242.57 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6172,7 +6378,7 @@
 		)
 		(uuid "af045841-bab7-45e3-8806-fcf665eae393")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.5734 149.86 0)
+			(at 234.3234 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6282,7 +6488,7 @@
 	)
 	(global_label "PA1"
 		(shape output)
-		(at 223.52 149.86 0)
+		(at 255.27 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6292,7 +6498,7 @@
 		)
 		(uuid "b3f9a61d-04f0-4bad-8fa1-9602634cdd0a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.0733 149.86 0)
+			(at 261.8233 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6594,7 +6800,7 @@
 	)
 	(global_label "KOV2"
 		(shape output)
-		(at 184.15 127 0)
+		(at 199.39 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6604,7 +6810,7 @@
 		)
 		(uuid "c20b1668-18e8-4d84-9bb0-0450f7ef7a46")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.0338 127 0)
+			(at 207.2738 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6666,7 +6872,7 @@
 	)
 	(global_label "GND"
 		(shape output)
-		(at 223.52 137.16 0)
+		(at 255.27 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6676,7 +6882,7 @@
 		)
 		(uuid "c4aba307-1596-4edd-9504-235f2eafff04")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.3757 137.16 0)
+			(at 262.1257 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6762,7 +6968,7 @@
 	)
 	(global_label "VCO2"
 		(shape output)
-		(at 223.52 139.7 0)
+		(at 255.27 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6772,7 +6978,7 @@
 		)
 		(uuid "cc0292c8-9c4f-4c8c-8163-0a4e0f4e5f42")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.4038 139.7 0)
+			(at 263.1538 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6858,7 +7064,7 @@
 	)
 	(global_label "ENV1"
 		(shape output)
-		(at 210.82 132.08 180)
+		(at 242.57 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6868,7 +7074,7 @@
 		)
 		(uuid "d10598a6-9eab-4e3d-a9a2-53a675463373")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.0572 132.08 0)
+			(at 234.8072 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7098,7 +7304,7 @@
 	)
 	(global_label "PA1"
 		(shape output)
-		(at 184.15 149.86 0)
+		(at 187.96 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7108,7 +7314,7 @@
 		)
 		(uuid "d77c6d9d-0f92-40a8-8ca1-2b2a0e4a845a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.7033 149.86 0)
+			(at 194.5133 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7146,7 +7352,7 @@
 	)
 	(global_label "ENV3"
 		(shape output)
-		(at 171.45 134.62 180)
+		(at 175.26 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7156,7 +7362,7 @@
 		)
 		(uuid "d7f67aff-c70d-43cd-8277-515d50e6776a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.6872 134.62 0)
+			(at 167.4972 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7482,7 +7688,7 @@
 	)
 	(global_label "VCF2"
 		(shape output)
-		(at 223.52 144.78 0)
+		(at 255.27 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7492,7 +7698,7 @@
 		)
 		(uuid "e6ef6780-1afb-4369-8bdd-e9488911dcb5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.1619 144.78 0)
+			(at 262.9119 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7722,7 +7928,7 @@
 	)
 	(global_label "VCO3"
 		(shape output)
-		(at 210.82 142.24 180)
+		(at 242.57 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7732,7 +7938,7 @@
 		)
 		(uuid "ed77d8f1-8898-4865-94b9-c9ac5f07847b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.9362 142.24 0)
+			(at 234.6862 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7746,7 +7952,7 @@
 	)
 	(global_label "GND"
 		(shape output)
-		(at 171.45 137.16 180)
+		(at 175.26 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7756,7 +7962,7 @@
 		)
 		(uuid "f0a56742-e9b3-48ec-816e-f9b858e60a39")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.5943 137.16 0)
+			(at 168.4043 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7794,7 +8000,7 @@
 	)
 	(global_label "VCA1"
 		(shape output)
-		(at 210.82 147.32 180)
+		(at 242.57 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7804,7 +8010,7 @@
 		)
 		(uuid "f1e0e818-a9b5-484a-b0d4-3faacb39015b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.1781 147.32 0)
+			(at 234.9281 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7962,7 +8168,7 @@
 	)
 	(global_label "VCA1"
 		(shape output)
-		(at 171.45 147.32 180)
+		(at 175.26 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7972,7 +8178,7 @@
 		)
 		(uuid "f572f88d-2032-4b7a-a954-3de85eeb8a7b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.8081 147.32 0)
+			(at 167.6181 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8249,8 +8455,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x10_Odd_Even")
-		(at 176.53 137.16 0)
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 168.91 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8259,9 +8465,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "18a1e50e-c20e-4c5a-be8f-bc871ceb0f1d")
-		(property "Reference" "J16"
-			(at 177.8 120.65 0)
+		(uuid "0dbd8ffa-6301-4bd6-9c5a-6c177f99ed32")
+		(property "Reference" "JP1"
+			(at 168.91 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8270,8 +8476,8 @@
 				)
 			)
 		)
-		(property "Value" "BUS CONNECTOR IN"
-			(at 177.8 123.19 0)
+		(property "Value" "KOV1"
+			(at 168.91 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8280,8 +8486,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical"
-			(at 176.53 137.16 0)
+		(property "Footprint" "FormantKO:Jumper_1x02"
+			(at 168.91 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8292,7 +8498,87 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 137.16 0)
+			(at 168.91 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 168.91 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bfef7085-d078-4d56-9218-a166e165efb1")
+		)
+		(pin "2"
+			(uuid "6a8d4bd2-a26c-4d4c-a967-9a6052358602")
+		)
+		(instances
+			(project "BACKPLANE_A"
+				(path "/46ce1248-c4d7-43b4-9600-afbf45bf5fa8"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x10_Odd_Even")
+		(at 180.34 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18a1e50e-c20e-4c5a-be8f-bc871ceb0f1d")
+		(property "Reference" "J16"
+			(at 181.61 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BUS CONNECTOR IN"
+			(at 181.61 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical"
+			(at 180.34 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8303,7 +8589,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 176.53 137.16 0)
+			(at 180.34 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8650,7 +8936,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x10_Odd_Even")
-		(at 215.9 137.16 0)
+		(at 247.65 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8661,7 +8947,7 @@
 		(fields_autoplaced yes)
 		(uuid "486dc545-1a6f-408b-b074-ef6be3ac2f22")
 		(property "Reference" "J17"
-			(at 217.17 120.65 0)
+			(at 248.92 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8671,7 +8957,7 @@
 			)
 		)
 		(property "Value" "BUS CONNECTOR OUT"
-			(at 217.17 123.19 0)
+			(at 248.92 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8681,7 +8967,7 @@
 			)
 		)
 		(property "Footprint" "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical"
-			(at 215.9 137.16 0)
+			(at 247.65 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8692,7 +8978,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 137.16 0)
+			(at 247.65 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8703,7 +8989,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 215.9 137.16 0)
+			(at 247.65 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9049,6 +9335,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 152.4 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62715149-94c2-46c9-9350-69270e664ad4")
+		(property "Reference" "JP2"
+			(at 152.4 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GATE1"
+			(at 152.4 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Jumper_1x02"
+			(at 152.4 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 152.4 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aba71e5d-acc0-4718-b913-02cee40b73d9")
+		)
+		(pin "2"
+			(uuid "00aa10cd-e846-436e-a6a0-77b6933ba533")
+		)
+		(instances
+			(project "BACKPLANE_A"
+				(path "/46ce1248-c4d7-43b4-9600-afbf45bf5fa8"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FormantKO:BusConnector")
 		(at 115.57 149.86 0)
 		(unit 1)
@@ -9309,6 +9675,85 @@
 			(project "BACKPLANE_A"
 				(path "/46ce1248-c4d7-43b4-9600-afbf45bf5fa8"
 					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 210.82 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "967273c1-77be-4015-9ea9-21b8c06598c4")
+		(property "Reference" "JP4"
+			(at 210.82 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GATE2"
+			(at 210.82 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Jumper_1x02"
+			(at 210.82 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 210.82 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e98b737d-387a-477a-9dc4-63921bd349ab")
+		)
+		(pin "2"
+			(uuid "ea1d090e-1f6f-4e83-89cf-8ab52f6356c1")
+		)
+		(instances
+			(project "BACKPLANE_A"
+				(path "/46ce1248-c4d7-43b4-9600-afbf45bf5fa8"
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -10107,6 +10552,86 @@
 			(project "BACKPLANE_A"
 				(path "/46ce1248-c4d7-43b4-9600-afbf45bf5fa8"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 194.31 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4a545d7-40f7-4c4d-b6bc-38ea81a135b1")
+		(property "Reference" "JP3"
+			(at 194.31 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KOV2"
+			(at 194.31 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Jumper_1x02"
+			(at 194.31 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 194.31 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aee74963-3355-41e7-ac66-b401999d16ff")
+		)
+		(pin "2"
+			(uuid "52ae1d15-de3a-4a1d-be37-3bf3b3f96a1c")
+		)
+		(instances
+			(project "BACKPLANE_A"
+				(path "/46ce1248-c4d7-43b4-9600-afbf45bf5fa8"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
