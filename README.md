@@ -45,11 +45,6 @@ Latest updates are for the [ADSR CONTROLLER](modules/ADSR_CONTROLLER/README.md) 
 
 ### Book 1
 
-- ✓ [KEYBOARD INTERFACE](modules/KBI/README.md)
-- ✓ [KEYBOARD DIVIDER](modules/KB_DIV/README.md)
-- ✓ [INTERFACE RECEIVER](modules/INTF_RCVR/README.md)
-- ✔ [POWER SUPPLY](system/PSU/README.md)
-- ✓ [POWER SUPPLY TRANSISTORS](system/PSU/PSU_PT/README.md)
 - ✓ [VCO](modules/VCO/README.md)
 - ✓ [VCF 12dB](modules/VCF_12/README.md)
 - [VCF 24dB](modules/VCF_24/README.md)
@@ -119,6 +114,11 @@ Latest updates are for the [ADSR CONTROLLER](modules/ADSR_CONTROLLER/README.md) 
 
 ## System
 
+- ✓ [KEYBOARD INTERFACE](system/KBI/README.md)
+- ✓ [KEYBOARD DIVIDER](system/KB_DIV/README.md)
+- ✓ [INTERFACE RECEIVER](system/INTF_RCVR/README.md)
+- ✔ [POWER SUPPLY](system/PSU/README.md)
+- ✓ [POWER SUPPLY TRANSISTORS](system/PSU/PSU_PT/README.md)
 - ✓ [BACKPLANE A](system/BACKPLANE_A/README.md)
 - ✅ [TEST BOARD](system/TEST_HARNESS/README.md)
 - ✓ [CARD EXTENDER](system/CARD_EXTENDER/README.md)
