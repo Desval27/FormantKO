@@ -24,29 +24,27 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 0.635 2.54 0)
+				(at -2.032 2.286 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "C"
-				(at 0.635 -2.54 0)
+				(at 2.032 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "FormantKO:C_Disc"
-				(at 0.9652 -3.81 0)
+			(property "Footprint" "FormantKO:C_Rect"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -220,7 +218,7 @@
 					)
 				)
 			)
-			(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(property "Description" "Universal Silicon Diode"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -297,7 +295,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -314,6 +312,218 @@
 				)
 			)
 			(symbol "DUS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FormantKO:D_LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DLED"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "FormantKO:PanelConnector_1x02"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Legend" "LEGEND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "D_LED_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -603,207 +813,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FormantKO:Panel_LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Panel_LED"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "FormantKO:Panel_Connector_1x02"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Panel_LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Panel_LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "FormantKO:R"
 			(pin_numbers
 				(hide yes)
@@ -817,7 +826,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at -2.54 1.778 0)
+				(at 0 2.032 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -827,17 +836,17 @@
 				)
 			)
 			(property "Value" "R"
-				(at 0 0 90)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
 				)
 			)
 			(property "Footprint" "FormantKO:R_Axial_Horizontal"
-				(at -1.778 0 90)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -848,7 +857,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -893,8 +902,8 @@
 			)
 			(symbol "R_0_1"
 				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -906,7 +915,7 @@
 			)
 			(symbol "R_1_1"
 				(pin passive line
-					(at 0 3.81 270)
+					(at -3.81 0 0)
 					(length 1.27)
 					(name ""
 						(effects
@@ -924,7 +933,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
+					(at 3.81 0 180)
 					(length 1.27)
 					(name ""
 						(effects
@@ -966,7 +975,7 @@
 					)
 				)
 			)
-			(property "Value" "R_Trim"
+			(property "Value" "R"
 				(at 4.572 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1436,9 +1445,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FormantKO:Wire_1x01"
+		(symbol "FormantKO:WireConnector"
+			(body_styles demorgan)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016)
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -1447,19 +1460,21 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 0 1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Wire_1x01"
-				(at 0 -2.54 0)
+			(property "Value" "WireConnector"
+				(at 0 -1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1488,7 +1503,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "terminal"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1499,7 +1514,31 @@
 					)
 				)
 			)
-			(property "ki_keywords" "connector"
+			(property "Spice_Primitive" "R"
+				(at 0.635 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Spice_Model" "0"
+				(at -1.905 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right top)
+				)
+			)
+			(property "ki_keywords" "J R terminal"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1510,174 +1549,34 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_* FormantKO:Wire_1x01_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Wire_1x01_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "R_Trim_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "P"
-				(at -2.286 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Trim"
-				(at 4.572 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "FormantKO:Potentiometer_Trimmer"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Trimmable resistor (preset resistor)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Legend" "LEGEND"
-				(at 5.08 -1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor variable potentiometer trimmer"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_Trim_1_0_1"
+			(symbol "WireConnector_1_0"
 				(polyline
 					(pts
-						(xy -2.54 -2.54) (xy 1.905 1.905) (xy 2.54 1.27) (xy 1.27 2.54)
+						(xy -0.381 -0.381) (xy -0.889 -0.889)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(rectangle
-					(start -1.016 2.54)
-					(end 1.016 -2.54)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 0.381) (xy 0.889 0.889)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1687,11 +1586,31 @@
 					)
 				)
 			)
-			(symbol "R_Trim_1_1_1"
+			(symbol "WireConnector_1_1"
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
+					(at 0 0 180)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "WireConnector_1_2"
+				(pin passive line
+					(at -0.8128 0 0)
+					(length 0)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1707,9 +1626,9 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -3.81 90)
-					(length 1.27)
-					(name ""
+					(at 0.8128 0 180)
+					(length 0)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1724,17 +1643,75 @@
 						)
 					)
 				)
+			)
+			(symbol "WireConnector_1_3"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
+					(at 0 2.54 270)
+					(length 1.7272)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.7272)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "WireConnector_1_4"
+				(pin passive line
+					(at 0 0.8128 270)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -0.8128 90)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2114,127 +2091,18 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
-		(at 160.02 88.9)
+		(at 95.25 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0495bf7b-c092-4fd2-9815-ebef09eff977")
+		(uuid "1be2fad2-4f8c-4bb8-8cab-b56d9cde134a")
+	)
+	(junction
+		(at 152.4 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47c54e06-c289-4055-9ec2-1cac4fcb5952")
 	)
 	(junction
 		(at 114.3 143.51)
@@ -2267,22 +2135,28 @@
 		(uuid "6fc6d8a6-6527-4662-8080-a7d5673443e2")
 	)
 	(junction
+		(at 95.25 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "725c34cb-9a57-4adb-8a1e-22df97cd1cbf")
+	)
+	(junction
 		(at 209.55 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a6fa294-b9ce-4a56-9448-46751e4f3907")
 	)
 	(junction
-		(at 160.02 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "87870527-52bd-45d7-90d4-f21b42fd0ce3")
-	)
-	(junction
 		(at 114.3 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d57e1f7-6625-42a8-a0af-7870446037d3")
+	)
+	(junction
+		(at 95.25 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96a5c19d-3c2e-4fb1-abcf-1c8bbab924aa")
 	)
 	(junction
 		(at 152.4 44.45)
@@ -2297,22 +2171,16 @@
 		(uuid "a869da79-8393-4da8-a8ea-e41093a5e1f4")
 	)
 	(junction
-		(at 160.02 101.6)
+		(at 152.4 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b2211eb7-1321-4170-b032-a43ed31fc289")
+		(uuid "afd4a844-2451-4a5c-9763-34da6bcb73e0")
 	)
 	(junction
 		(at 209.55 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c35a3a82-7054-4f01-afcd-9a90f3f14f1d")
-	)
-	(junction
-		(at 95.25 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c51c7b26-a1f1-4869-bff4-b9379e450075")
 	)
 	(junction
 		(at 209.55 99.06)
@@ -2372,7 +2240,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 66.04) (xy 66.04 66.04)
+			(xy 62.23 66.04) (xy 66.04 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2399,16 +2267,6 @@
 			(type default)
 		)
 		(uuid "1051978c-9d5b-4d01-9472-973a96beadce")
-	)
-	(wire
-		(pts
-			(xy 152.4 76.2) (xy 160.02 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "184ab240-6b5c-482d-ad0e-f4fe553d6505")
 	)
 	(wire
 		(pts
@@ -2452,6 +2310,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 57.15) (xy 152.4 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "397a9bf9-06fe-4828-a00b-fe29f077425e")
+	)
+	(wire
+		(pts
 			(xy 46.99 116.84) (xy 50.8 116.84)
 		)
 		(stroke
@@ -2459,26 +2327,6 @@
 			(type default)
 		)
 		(uuid "3c1b81a0-1e37-426e-8bc4-422205b8592f")
-	)
-	(wire
-		(pts
-			(xy 160.02 101.6) (xy 165.1 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d5a146d-12c2-44e0-af8f-4663a8d06e85")
-	)
-	(wire
-		(pts
-			(xy 158.75 114.3) (xy 165.1 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "532d226d-7c65-4e7e-9091-417a60c2ddaf")
 	)
 	(wire
 		(pts
@@ -2532,16 +2380,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 101.6) (xy 160.02 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6752ef19-907b-4464-a6c5-dcbe3d93585c")
-	)
-	(wire
-		(pts
 			(xy 73.66 66.04) (xy 66.04 66.04)
 		)
 		(stroke
@@ -2579,16 +2417,6 @@
 			(type default)
 		)
 		(uuid "739339dc-b3a7-4c3a-8f5a-bafe0fd886b1")
-	)
-	(wire
-		(pts
-			(xy 152.4 88.9) (xy 160.02 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75be8be1-e36e-4b32-bb8e-7e620ee153df")
 	)
 	(wire
 		(pts
@@ -2632,7 +2460,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 45.72) (xy 95.25 45.72)
+			(xy 64.77 50.8) (xy 95.25 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2652,7 +2480,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 45.72) (xy 95.25 63.5)
+			(xy 95.25 50.8) (xy 95.25 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2742,16 +2570,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 76.2) (xy 165.1 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5389281-473e-47e9-829a-0acadac93e8f")
-	)
-	(wire
-		(pts
 			(xy 105.41 132.08) (xy 105.41 129.54)
 		)
 		(stroke
@@ -2762,7 +2580,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 60.96) (xy 64.77 45.72)
+			(xy 64.77 60.96) (xy 64.77 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2799,26 +2617,6 @@
 			(type default)
 		)
 		(uuid "c526e828-6b34-4f81-afba-862ed4f5a9f7")
-	)
-	(wire
-		(pts
-			(xy 160.02 88.9) (xy 165.1 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c56bfbdf-4c4d-47f6-b022-fcdf2a2e6867")
-	)
-	(wire
-		(pts
-			(xy 158.75 127) (xy 165.1 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7ed8a55-cc91-45c9-8099-c059c1768d02")
 	)
 	(wire
 		(pts
@@ -2942,6 +2740,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 31.75) (xy 152.4 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb1e9ad5-e3da-4829-b728-edf1b4ea61c1")
+	)
+	(wire
+		(pts
 			(xy 116.84 139.7) (xy 127 139.7)
 		)
 		(stroke
@@ -2962,7 +2770,7 @@
 	)
 	(global_label "KOV IN"
 		(shape input)
-		(at 54.61 66.04 180)
+		(at 62.23 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2972,7 +2780,7 @@
 		)
 		(uuid "0ac7acfa-cd26-4240-a0fa-58bd146f37a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.9377 66.04 0)
+			(at 52.5577 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3056,30 +2864,6 @@
 			)
 		)
 	)
-	(global_label "GATE IN"
-		(shape output)
-		(at 158.75 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ca7a4eaa-bc78-43b4-90ca-d3aa5ccf3745")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.2916 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "KOV OUT"
 		(shape input)
 		(at 203.2 80.01 180)
@@ -3128,33 +2912,9 @@
 			)
 		)
 	)
-	(global_label "KOV IN"
-		(shape output)
-		(at 158.75 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f6674581-ccc7-41b1-9c31-28fb09e95e47")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.0777 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(symbol
 		(lib_id "FormantKO:R")
-		(at 95.25 135.89 0)
+		(at 95.25 135.89 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3164,7 +2924,7 @@
 		(dnp no)
 		(uuid "0dfd3149-bed3-4219-bf04-db6d75492877")
 		(property "Reference" "R30"
-			(at 97.028 134.366 0)
+			(at 93.726 134.112 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3175,18 +2935,17 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 95.25 137.16 90)
+			(at 95.25 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "FormantKO:R_Axial_Horizontal"
-			(at 93.472 135.89 90)
+			(at 95.25 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3197,7 +2956,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 135.89 0)
+			(at 95.25 135.89 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3322,6 +3081,109 @@
 		)
 	)
 	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 152.4 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1922952a-0acb-4e1b-9a3b-df02eefd85f5")
+		(property "Reference" "J12"
+			(at 152.4 52.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-"
+			(at 152.4 56.515 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_General"
+			(at 152.4 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 152.4 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spice_Primitive" "R"
+			(at 153.035 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Spice_Model" "0"
+			(at 150.495 56.515 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "1"
+			(uuid "f8ebacc2-d206-42ef-9d70-33f6a4140218")
+		)
+		(instances
+			(project "INTF_RCVR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FormantKO:R_Trim")
 		(at 55.88 116.84 270)
 		(mirror x)
@@ -3354,7 +3216,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:Potentiometer_Trimmer"
-			(at 55.88 118.618 90)
+			(at 55.88 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3386,8 +3248,8 @@
 				)
 			)
 		)
-		(property "Legend" "SENSITIVITY"
-			(at 55.88 123.698 90)
+		(property "Legend" "GATE SENS"
+			(at 55.88 122.936 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3416,7 +3278,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:R")
-		(at 66.04 73.66 0)
+		(at 66.04 73.66 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3426,7 +3288,7 @@
 		(dnp no)
 		(uuid "1b59d18e-e88b-4901-ab6c-a7f280f694e8")
 		(property "Reference" "R29"
-			(at 67.818 72.136 0)
+			(at 64.516 71.882 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3437,18 +3299,17 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 66.04 76.2 90)
+			(at 66.04 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "FormantKO:R_Axial_Horizontal"
-			(at 64.262 73.66 90)
+			(at 66.04 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3459,7 +3320,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 73.66 0)
+			(at 66.04 73.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3496,8 +3357,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 160.02 88.9 0)
+		(lib_id "FormantKO:WireConnector")
+		(at 66.04 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3506,9 +3367,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "24c21cee-afca-471a-99ed-b25ae4d58fa2")
-		(property "Reference" "#FLG02"
-			(at 160.02 86.995 0)
+		(uuid "3a3a5392-9ff3-499c-8529-f69f4b4483c0")
+		(property "Reference" "J8"
+			(at 66.04 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3518,8 +3379,8 @@
 				)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 160.02 83.82 0)
+		(property "Value" "KOV"
+			(at 66.04 67.945 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3529,8 +3390,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 160.02 88.9 0)
+		(property "Footprint" "FormantKO:Wire_1x01_General"
+			(at 66.04 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3541,7 +3402,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 88.9 0)
+			(at 66.04 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3551,8 +3412,8 @@
 				)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 160.02 88.9 0)
+		(property "Description" "terminal"
+			(at 66.04 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3560,93 +3421,39 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Spice_Primitive" "R"
+			(at 66.675 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Spice_Model" "0"
+			(at 64.135 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
-			(uuid "ea9cf75d-6221-42e9-8c9f-9de3acd11023")
+			(uuid "8fc0b796-4648-4c15-b0db-531c5f5e0102")
 		)
 		(instances
 			(project "INTF_RCVR"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-15V")
-		(at 152.4 88.9 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "334c66da-1677-45e6-8534-6aa9f25b35d4")
-		(property "Reference" "#PWR02"
-			(at 152.4 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-15V"
-			(at 152.4 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 152.4 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9885bfbd-e816-4afb-82fa-72aab202da93")
-		)
-		(instances
-			(project "INTF_RCVR"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR02")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -3752,8 +3559,8 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Wire_1x01")
-		(at 170.18 114.3 0)
+		(lib_id "FormantKO:WireConnector")
+		(at 95.25 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3762,31 +3569,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3ad7b0c6-8580-4ac8-9bf1-29545c68e1c8")
-		(property "Reference" "J6"
-			(at 172.72 113.0299 0)
+		(uuid "3b987a90-03e4-4806-83eb-c859bf8cf716")
+		(property "Reference" "J2"
+			(at 95.25 125.095 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "KOV"
-			(at 172.72 115.5699 0)
+		(property "Value" "D4k"
+			(at 95.25 128.905 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "FormantKO:Wire_1x01_General"
-			(at 170.18 114.3 0)
+			(at 95.25 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3797,7 +3604,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 114.3 0)
+			(at 95.25 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3807,8 +3614,42 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 170.18 114.3 0)
+		(property "Description" "terminal"
+			(at 95.25 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 95.885 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 0 7.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 0 7.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3819,12 +3660,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a2da8b37-f1d2-4d3d-8041-170aab5474f3")
+			(uuid "7cdf94b6-0635-4378-8550-4a81f4e7a1e2")
 		)
 		(instances
 			(project "INTF_RCVR"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J6")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -3854,13 +3695,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 114.3 0)
+			(at 68.58 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3909,7 +3751,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R_Trim_1")
 		(lib_id "FormantKO:R_Trim")
 		(at 114.3 135.89 0)
 		(mirror y)
@@ -3942,7 +3783,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:Potentiometer_Trimmer"
-			(at 116.078 135.89 90)
+			(at 114.3 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3974,8 +3815,8 @@
 				)
 			)
 		)
-		(property "Legend" "GATE V ADJ"
-			(at 121.666 133.35 0)
+		(property "Legend" "GATE V"
+			(at 118.11 141.478 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4026,13 +3867,14 @@
 			)
 		)
 		(property "Value" "-15V"
-			(at 78.74 76.2 0)
+			(at 81.28 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -4081,8 +3923,8 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Wire_1x01")
-		(at 170.18 101.6 0)
+		(lib_id "FormantKO:WireConnector")
+		(at 50.8 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4091,31 +3933,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5667a428-48f6-4cb9-9df1-5ded26d42551")
-		(property "Reference" "J3"
-			(at 172.72 100.3299 0)
+		(uuid "56be6632-a53d-4bd1-81ac-9da02380e169")
+		(property "Reference" "J9"
+			(at 50.8 114.935 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 172.72 102.8699 0)
+		(property "Value" "G"
+			(at 50.8 118.745 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:Wire_1x01_GND"
-			(at 170.18 101.6 0)
+		(property "Footprint" "FormantKO:Wire_1x01_General"
+			(at 50.8 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4126,7 +3968,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 101.6 0)
+			(at 50.8 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4136,8 +3978,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 170.18 101.6 0)
+		(property "Description" "terminal"
+			(at 50.8 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4145,15 +3987,39 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Spice_Primitive" "R"
+			(at 51.435 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Spice_Model" "0"
+			(at 48.895 118.745 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
-			(uuid "60a13b3b-d523-489b-89a0-8a1c8054090a")
+			(uuid "b767e6b0-5566-45c2-aa04-43ed94231ee6")
 		)
 		(instances
 			(project "INTF_RCVR"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J3")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -4193,8 +4059,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Disc"
-			(at 153.3652 54.61 0)
+		(property "Footprint" "FormantKO:C_Rect_300"
+			(at 152.4 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4265,13 +4131,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 82.55 0)
+			(at 68.58 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4343,13 +4210,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 152.4 0)
+			(at 116.84 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4392,6 +4260,109 @@
 			(project "INTF_RCVR"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:D_LED")
+		(at 95.25 123.19 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "66004807-88ac-4000-8208-72ebf7039c94")
+		(property "Reference" "D4"
+			(at 97.79 121.92 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DLED"
+			(at 95.25 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:PanelConnector_1x02"
+			(at 95.25 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 95.25 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 95.25 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Legend" "GATE LED"
+			(at 97.79 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "61872e49-9579-450e-8a7a-be1f77a1d038")
+		)
+		(pin "1"
+			(uuid "279fca90-111f-4632-88ae-7715e2d2518d")
+		)
+		(instances
+			(project "INTF_RCVR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4451,7 +4422,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "Universal Silicon Diode"
 			(at 55.88 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4555,7 +4526,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "Universal Silicon Diode"
 			(at 105.41 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -4605,7 +4576,7 @@
 	)
 	(symbol
 		(lib_id "power:-15V")
-		(at 152.4 54.61 180)
+		(at 152.4 57.15 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4616,7 +4587,7 @@
 		(fields_autoplaced yes)
 		(uuid "775003f2-91b9-4764-87e6-034244a00f0f")
 		(property "Reference" "#PWR018"
-			(at 152.4 50.8 0)
+			(at 152.4 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4627,17 +4598,18 @@
 			)
 		)
 		(property "Value" "-15V"
-			(at 152.4 59.69 0)
+			(at 154.94 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 54.61 0)
+			(at 152.4 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4648,7 +4620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 54.61 0)
+			(at 152.4 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4659,7 +4631,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 152.4 54.61 0)
+			(at 152.4 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4682,8 +4654,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+15V")
-		(at 152.4 76.2 0)
+		(lib_id "FormantKO:WireConnector")
+		(at 152.4 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4692,9 +4664,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7a1e175d-761a-4d2d-8401-273f573dcb98")
-		(property "Reference" "#PWR01"
-			(at 152.4 80.01 0)
+		(uuid "7b37aff6-590f-4a30-8a37-25718e4e6731")
+		(property "Reference" "J11"
+			(at 152.4 32.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4704,8 +4676,9 @@
 				)
 			)
 		)
-		(property "Value" "+15V"
-			(at 152.4 71.12 0)
+		(property "Value" "+"
+			(at 152.4 36.195 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4714,8 +4687,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 152.4 76.2 0)
+		(property "Footprint" "FormantKO:Wire_1x01_General"
+			(at 152.4 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4726,7 +4699,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 76.2 0)
+			(at 152.4 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4736,8 +4709,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 152.4 76.2 0)
+		(property "Description" "terminal"
+			(at 152.4 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4745,15 +4718,39 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Spice_Primitive" "R"
+			(at 153.035 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Spice_Model" "0"
+			(at 150.495 36.195 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
-			(uuid "0e73e01b-2ca9-4d1e-9526-a6280ba28ceb")
+			(uuid "a872657c-055d-4497-8456-dfdd2a4be0e6")
 		)
 		(instances
 			(project "INTF_RCVR"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR01")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -4783,13 +4780,14 @@
 			)
 		)
 		(property "Value" "+15V"
-			(at 78.74 50.8 0)
+			(at 81.28 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4838,8 +4836,8 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Wire_1x01")
-		(at 170.18 76.2 0)
+		(lib_id "FormantKO:WireConnector")
+		(at 152.4 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4848,31 +4846,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7ee02bfe-37f2-4b68-b332-5b8cfac2d2fb")
-		(property "Reference" "J1"
-			(at 172.72 74.9299 0)
+		(uuid "81a6d213-f6c3-4571-b279-f932eef77783")
+		(property "Reference" "J10"
+			(at 152.4 42.545 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "+15V"
-			(at 172.72 77.4699 0)
+		(property "Value" "⟘"
+			(at 152.4 46.355 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "FormantKO:Wire_1x01_General"
-			(at 170.18 76.2 0)
+			(at 152.4 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4883,7 +4881,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 76.2 0)
+			(at 152.4 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4893,8 +4891,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 170.18 76.2 0)
+		(property "Description" "terminal"
+			(at 152.4 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4902,94 +4900,39 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Spice_Primitive" "R"
+			(at 153.035 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Spice_Model" "0"
+			(at 150.495 46.355 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
-			(uuid "9da57176-3704-4572-9a3f-89e55e1e3e5d")
+			(uuid "d2000e69-8448-4bf6-8e88-852b52c960bb")
 		)
 		(instances
 			(project "INTF_RCVR"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 160.02 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e3ea4a0-75b7-4def-8eae-d2a3a678cc3c")
-		(property "Reference" "#FLG01"
-			(at 160.02 74.295 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 160.02 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 160.02 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4af8f218-6770-47be-86ae-4c95b4d3312a")
-		)
-		(instances
-			(project "INTF_RCVR"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#FLG01")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -5019,13 +4962,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 130.81 0)
+			(at 68.58 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5162,85 +5106,6 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Wire_1x01")
-		(at 170.18 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a34785d6-2245-4054-83b5-6b2ba1cd695f")
-		(property "Reference" "J7"
-			(at 172.72 125.7299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GATE"
-			(at 172.72 128.2699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FormantKO:Wire_1x01_General"
-			(at 170.18 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 170.18 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "debd19bb-d1a7-4a14-b1ca-0e55c7536c5a")
-		)
-		(instances
-			(project "INTF_RCVR"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:-15V")
 		(at 78.74 121.92 180)
 		(unit 1)
@@ -5264,13 +5129,14 @@
 			)
 		)
 		(property "Value" "-15V"
-			(at 78.74 127 0)
+			(at 81.28 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -5418,189 +5284,8 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Panel_LED")
-		(at 95.25 123.19 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b9ecba08-5781-4477-810f-010b852832fd")
-		(property "Reference" "D4"
-			(at 90.424 121.92 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GATE LED"
-			(at 97.282 123.19 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "FormantKO:LED_Panel"
-			(at 95.25 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 95.25 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 95.25 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Legend" "GATE LED"
-			(at 100.33 120.396 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "53ac34ea-748f-440e-88e9-2ef576357632")
-		)
-		(pin "1"
-			(uuid "0652e6e4-0dd5-477b-9743-2b547a0fcb91")
-		)
-		(instances
-			(project "INTF_RCVR"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 152.4 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf3a507b-ac76-451e-876e-4bc806e73637")
-		(property "Reference" "#PWR03"
-			(at 152.4 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 152.4 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "690f15b9-fa9f-4b53-83ac-88b811b2acfc")
-		)
-		(instances
-			(project "INTF_RCVR"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+15V")
-		(at 152.4 34.29 0)
+		(at 152.4 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5611,7 +5296,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf747df8-7eb3-46ab-ab77-3453be511013")
 		(property "Reference" "#PWR017"
-			(at 152.4 38.1 0)
+			(at 152.4 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5622,17 +5307,18 @@
 			)
 		)
 		(property "Value" "+15V"
-			(at 152.4 29.21 0)
+			(at 154.94 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 34.29 0)
+			(at 152.4 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5643,7 +5329,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 34.29 0)
+			(at 152.4 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5654,7 +5340,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 152.4 34.29 0)
+			(at 152.4 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5677,8 +5363,8 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Wire_1x01")
-		(at 170.18 88.9 0)
+		(lib_id "FormantKO:WireConnector")
+		(at 95.25 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5687,31 +5373,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cb743f6b-abf6-4031-9f4f-7a6043b7868c")
-		(property "Reference" "J2"
-			(at 172.72 87.6299 0)
+		(uuid "c8f22bd1-3d97-41ed-8d79-67132221dced")
+		(property "Reference" "J1"
+			(at 95.25 117.475 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "-15V"
-			(at 172.72 90.1699 0)
+		(property "Value" "D4a"
+			(at 95.25 121.285 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "FormantKO:Wire_1x01_General"
-			(at 170.18 88.9 0)
+			(at 95.25 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5722,7 +5408,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 88.9 0)
+			(at 95.25 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5732,8 +5418,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 170.18 88.9 0)
+		(property "Description" "terminal"
+			(at 95.25 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5741,15 +5427,39 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Spice_Primitive" "R"
+			(at 95.885 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Spice_Model" "0"
+			(at 93.345 121.285 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
-			(uuid "8a76e477-ff46-4a22-90cc-271a2c820cd3")
+			(uuid "c0f952da-1230-4d72-8701-7bcc271d77b1")
 		)
 		(instances
 			(project "INTF_RCVR"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5779,13 +5489,14 @@
 			)
 		)
 		(property "Value" "+15V"
-			(at 78.74 101.6 0)
+			(at 81.28 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5867,8 +5578,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Disc"
-			(at 153.3652 41.91 0)
+		(property "Footprint" "FormantKO:C_Rect_300"
+			(at 152.4 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5939,13 +5650,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 49.53 0)
+			(at 149.86 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5995,7 +5707,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:R")
-		(at 114.3 123.19 0)
+		(at 114.3 123.19 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6005,7 +5717,7 @@
 		(dnp no)
 		(uuid "e7c8657d-7879-4120-80c1-b7dc30a3fc41")
 		(property "Reference" "R31"
-			(at 116.078 121.666 0)
+			(at 113.03 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6016,18 +5728,17 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 114.3 124.46 90)
+			(at 114.3 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "FormantKO:R_Axial_Horizontal"
-			(at 112.522 123.19 90)
+			(at 114.3 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6038,7 +5749,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 123.19 0)
+			(at 114.3 123.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6069,85 +5780,6 @@
 			(project "INTF_RCVR"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 160.02 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4ab5c59-e929-4357-b516-e8d038b235a9")
-		(property "Reference" "#FLG03"
-			(at 160.02 99.695 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 160.02 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 160.02 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0a6db4ad-22ff-4b1f-bb09-f3ae9b5aa76e")
-		)
-		(instances
-			(project "INTF_RCVR"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -6186,8 +5818,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Disc"
-			(at 67.0052 124.46 0)
+		(property "Footprint" "FormantKO:C_Rect_300"
+			(at 66.04 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -1,27 +1,17 @@
-(footprint "DUS_500"
+(footprint "DO-35_500mil"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 	(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
-	(property "Reference" "REF**"
-		(at 0.635 0 0)
-		(layer "F.SilkS")
-		(uuid "2376750d-35cd-4430-974b-94fabf2dd388")
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-		)
-	)
-	(property "Value" "DUS_500"
+	(property "Value" "DO-35_500mil"
 		(at 0.635 0 0)
 		(layer "F.Fab")
-		(uuid "2a62d711-7b89-402e-8ace-6012bc11b8e9")
+		(uuid "a07bfd2c-8b2d-491c-9176-e755ccc19785")
 		(effects
 			(font
-				(size 0.762 0.762)
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -30,7 +20,7 @@
 		(at -6.985 -0.254 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a92aba66-e406-4e20-b19a-e51687d63355")
+		(uuid "ef29f0cc-03d0-47af-bc59-5b60b387a7f7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +31,7 @@
 		(at -6.985 -0.254 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "70abbfc4-a856-44af-aff3-e7c36aabd945")
+		(uuid "1ae12d13-5bc8-4a08-9152-2254c36e2317")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,7 +42,7 @@
 		(at -6.985 -0.254 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "24e281f4-dc85-455f-8dc0-1163d40b1955")
+		(uuid "f74d2956-1561-4818-b076-fd006239666e")
 		(effects
 			(font
 				(size 1 1)
@@ -60,27 +50,37 @@
 			)
 		)
 	)
+	(property "Reference" "REF**"
+		(at 0.635 0 0)
+		(layer "F.SilkS")
+		(uuid "bd878cea-8061-432e-ad60-db7e2e1f16f6")
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+	)
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -5.207 0)
+		(start -5.08 0)
 		(end -2.281353 0)
 		(stroke
 			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9206357d-6696-413e-b477-719d795e73f2")
+		(uuid "b328a879-a72d-4851-b585-ee4726d3d934")
 	)
 	(fp_line
-		(start 5.207 0)
+		(start 5.08 0)
 		(end 2.413 0)
 		(stroke
 			(width 0.254)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6901083b-0534-47e2-8eaf-cb72f13a8dae")
+		(uuid "4ebf58f2-7fd0-40df-9fb7-17e2e26546b0")
 	)
 	(fp_rect
 		(start -2.281353 -1.016)
@@ -91,7 +91,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "b8f06555-fa97-414d-bb12-d1eb0ef84bcd")
+		(uuid "6a2b6570-11f0-439b-a007-9316514e353c")
 	)
 	(fp_poly
 		(pts
@@ -103,57 +103,57 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "aa374a46-468a-4e82-aaa3-d1438ecb32c8")
+		(uuid "5a54f748-9810-4186-b0f6-9c5371417d60")
 	)
 	(fp_rect
-		(start -7.493 -1.27)
-		(end 7.493 1.27)
+		(start -7.62 -1.27)
+		(end 7.62 1.27)
 		(stroke
-			(width 0.1)
+			(width 0.127)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "fe51cb57-c416-4a4d-8447-dfbc3d1b71bf")
+		(uuid "f6078fb9-cfff-413b-a289-58aa20ac570d")
 	)
 	(fp_rect
-		(start -7.366 -1.143)
-		(end 7.366 1.143)
+		(start -7.62 -1.27)
+		(end 7.62 1.27)
 		(stroke
-			(width 0.1)
+			(width 0.127)
 			(type default)
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "e548e119-a256-48d6-b557-fb51718669b1")
+		(uuid "c9d1b95a-4011-4503-8252-4d01d5c4ccd6")
 	)
 	(pad "1" thru_hole roundrect
 		(at -6.35 0.02)
-		(size 1.905 1.905)
+		(size 2.032 2.032)
 		(drill 0.889)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(roundrect_rratio 0.1333333333)
-		(uuid "0b5f6d51-d89c-4c69-91ed-a7a083df6f07")
+		(roundrect_rratio 0.125)
+		(uuid "0c85a28b-328d-45d0-a5fa-55f0d1373aa9")
 	)
 	(pad "2" thru_hole circle
 		(at 6.35 0)
-		(size 1.905 1.905)
+		(size 2.032 2.032)
 		(drill 0.889)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "9321ab05-3ff4-4021-9e40-d51e38cc9714")
+		(uuid "9a5653d1-c847-4077-8dd3-dbcd12cc1dff")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P12.70mm_Horizontal.step"
 		(offset
-			(xyz -6.985 0.254 0)
+			(xyz -6.35 0.254 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
