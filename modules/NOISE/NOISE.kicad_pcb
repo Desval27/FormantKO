@@ -145,7 +145,7 @@
 	(footprint "FormantKO:CP_Axial_600"
 		(layer "F.Cu")
 		(uuid "071764a7-02a9-43b6-ba88-16a0e81b4c25")
-		(at 164.21 74.68 180)
+		(at 169.29 78.49 180)
 		(descr "CP, Axial series, Axial, Horizontal, pin pitch=15mm, length*diameter=10*4.5mm^2, Electrolytic Capacitor, http://www.vishay.com/docs/28325/021asm.pdf")
 		(tags "CP Axial series Axial Horizontal pin pitch 15mm  length 10mm diameter 4.5mm Electrolytic Capacitor")
 		(property "Reference" "C2"
@@ -181,7 +181,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor"
 			(at -7.5 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -192,11 +192,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/THT/other"
-			(at -7.5 0 180)
-			(layer "F.SilkS")
+		(property "Voltage" "16V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "eb6d9961-9a41-4e71-aac2-0af3621b0a78")
+			(uuid "74ebda77-d945-458b-a8d8-2993f115c3b7")
 			(effects
 				(font
 					(size 1 1)
@@ -208,6 +209,12 @@
 		(path "/780736e0-6a70-40ad-a674-d3f63068faed")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -491,7 +498,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at -6.35 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -502,22 +509,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at -6.35 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "1b465e3f-151e-4e11-aa0f-7e6e740068a7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/9ac61f57-1aff-48cb-ba87-b7a446684a97")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -643,7 +644,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at -6.35 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -654,22 +655,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at -6.35 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "4ea94c86-19fa-48ba-9c01-b269678d9fca")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/fd791176-68fe-4249-ba9d-7dbc9e64dc36")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -741,7 +736,7 @@
 			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/NOISE/X1")
+			(net "Net-(C6-Pad2)")
 			(pintype "passive")
 			(uuid "13c2a2d0-09bb-4980-a9bf-c8a61a12322a")
 		)
@@ -755,6 +750,171 @@
 			)
 			(rotate
 				(xyz -0 -0 -0)
+			)
+		)
+	)
+	(footprint "FormantKO:Wire_1x01_General"
+		(layer "F.Cu")
+		(uuid "1a71b306-5bd2-43c5-90a8-81a19edac234")
+		(at 45.853 95.259)
+		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter")
+		(tags "connector wire 0.5sqmm")
+		(property "Reference" "J11"
+			(at 0 -2.286 0)
+			(layer "F.Fab")
+			(uuid "a11c3ebe-170d-49d6-864a-589d086f33d9")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "P1b-1"
+			(at 0 -2.286 0)
+			(layer "F.SilkS")
+			(uuid "826de084-52eb-408c-aa1a-21436c15237d")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "046033fa-b3bb-4279-94cc-a2500496a601")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f604ca24-f09a-431d-9475-30324de641d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d262314c-41d4-4e12-968e-4e251b72ec10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a28af90c-3fef-4f36-be04-651ebf8cb960")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db43649a-e95d-4f4f-a0f7-029de7b7d9d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/b3a68b20-b41b-45fb-8024-5e64c3cc75ec")
+		(sheetname "/NOISE/")
+		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 1.524 0)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "3dc23956-ff1a-40c3-87f4-2d8f04c93303")
+		)
+		(fp_rect
+			(start -1.651 -1.651)
+			(end 1.651 1.651)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "83ad9ab2-c6d5-4a9f-bd5e-c097ad969e7e")
+		)
+		(fp_rect
+			(start -1.397 -1.397)
+			(end 1.397 1.397)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "0202479c-b6e1-4cea-ab62-d750b19ef89e")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.05 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "a17346c5-653a-4ffa-b6a7-56f63d68bf15")
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.54 2.54)
+			(drill 0.889)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(IC3-+)")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "35698ffa-534a-4954-8650-6d5117e761fa")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -795,7 +955,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at -2.54 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -806,22 +966,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/THT/other"
-			(at -2.54 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "29b6d1f9-a85f-4de3-a8c0-48eb352563ec")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/0fc17a3b-9b4a-41ad-b342-60f96d3d198d")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -936,7 +1090,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm741.pdf"
 			(at -3.81 -3.81 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -947,7 +1101,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Operational Amplifier"
 			(at -3.81 -3.81 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -958,22 +1112,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/DIP/legacy"
-			(at -3.81 -3.81 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "58908bbe-fe46-4c97-852d-9e730f123396")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TSSOP*3x3mm*P0.65mm*")
 		(path "/3da5ada0-60f8-4cf3-99cc-1f2cfb39c578")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "2" "7" "4" "8" "1" "5" "6")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1205,10 +1353,175 @@
 			)
 		)
 	)
+	(footprint "FormantKO:Wire_1x01_General"
+		(layer "F.Cu")
+		(uuid "27b8844e-ce5c-4f76-b49d-f64bcbd7253f")
+		(at 41.451 77.651)
+		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter")
+		(tags "connector wire 0.5sqmm")
+		(property "Reference" "J2"
+			(at 0 -2.286 0)
+			(layer "F.Fab")
+			(uuid "88641755-c7d2-48e2-aba5-a04b58af9b4b")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "D2a"
+			(at 0 -2.286 0)
+			(layer "F.SilkS")
+			(uuid "6c38fbfe-2fa0-4d22-970c-87d8e9699191")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "553ba699-828f-479d-93fe-401556a8f549")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8a7cb64-7f4e-4638-abf6-0cf5471c26c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6dc1216b-e15b-4468-bdf9-4e37c7df45aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a887445c-b3cc-45ec-afd2-22bdb92953bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "574cb000-c398-4a6a-9b7d-0511deeffff0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/de5ab45e-884d-499f-8e1d-4360a3c168ea")
+		(sheetname "/NOISE/")
+		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 1.524 0)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "95470460-9a5d-43b5-8136-a23d9c64a5b1")
+		)
+		(fp_rect
+			(start -1.651 -1.651)
+			(end 1.651 1.651)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "acd35812-5866-4b25-ad8d-9a751822a39d")
+		)
+		(fp_rect
+			(start -1.397 -1.397)
+			(end 1.397 1.397)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "6d309fe1-081c-42e2-ab5d-30dc0b8577ac")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.05 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "83b31acc-f9cf-46bb-a140-932ae3cdcf3a")
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.54 2.54)
+			(drill 0.889)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(D1-K)")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "783a0710-d225-41f9-bd6c-627b162049e2")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "FormantKO:CP_Axial_600"
 		(layer "F.Cu")
 		(uuid "2b6e6d59-fd1e-4996-8c18-227f554cc966")
-		(at 194.68 78.96 90)
+		(at 199.77 100.08 90)
 		(descr "CP, Axial series, Axial, Horizontal, pin pitch=15mm, length*diameter=10*4.5mm^2, Electrolytic Capacitor, http://www.vishay.com/docs/28325/021asm.pdf")
 		(tags "CP Axial series Axial Horizontal pin pitch 15mm  length 10mm diameter 4.5mm Electrolytic Capacitor")
 		(property "Reference" "C10"
@@ -1244,7 +1557,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor"
 			(at -7.5 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1255,11 +1568,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/THT/other"
-			(at -7.5 0 90)
-			(layer "F.SilkS")
+		(property "Voltage" "25V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "f0433833-f42a-4da7-94c3-88a69f2964d3")
+			(uuid "02def445-4cc4-4158-9a9d-7bae8b678661")
 			(effects
 				(font
 					(size 1 1)
@@ -1271,6 +1585,12 @@
 		(path "/624ff4eb-9c9f-45a4-b26f-d3b662ca01b7")
 		(sheetname "/SYSTEM/")
 		(sheetfile "system.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1554,7 +1874,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at -6.35 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1565,22 +1885,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at -6.35 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "03726ea5-04b7-47f7-9232-db97707546db")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/acc955ae-3773-466c-9390-7dec95bc7ac8")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1706,7 +2020,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at -6.35 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -1717,22 +2031,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at -6.35 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "0553fb59-887e-4c84-86ce-f6500c61e304")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/a8eae328-7755-42e3-b016-3dbc1f9731fc")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1794,7 +2102,7 @@
 			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(P1-Pad2)")
+			(net "Net-(J8-Pad1)")
 			(pintype "passive")
 			(uuid "702bf5eb-54d6-47c9-a5b7-d8fa6a807b5f")
 		)
@@ -1804,7 +2112,7 @@
 			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/NOISE/X1")
+			(net "Net-(C6-Pad2)")
 			(pintype "passive")
 			(uuid "239e7ccb-1cce-488a-873a-5e7e97259f16")
 		)
@@ -1858,7 +2166,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at -6.35 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1869,22 +2177,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at -6.35 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "2cf77cc7-2508-4cb5-883e-cdfff0ef9bf8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/e469915c-e05c-4508-9748-61b5adc3b4e4")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2010,7 +2312,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at -6.35 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -2021,22 +2323,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at -6.35 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "9035a6c1-078d-4310-91d1-447a739409b8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/c798fbee-0d97-4de4-8ade-6bd74a0b23b3")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2162,7 +2458,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at -6.35 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2173,22 +2469,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at -6.35 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "fd6e8273-1737-4d92-87f6-52c733cdfaba")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/bc4a039f-15c8-4e36-a902-9d20039a0980")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2316,7 +2606,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor"
 			(at -7.5 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2327,11 +2617,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/THT/other"
-			(at -7.5 0 0)
-			(layer "F.SilkS")
+		(property "Voltage" "35V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "1a747676-0278-45c3-9dc6-2dac14f02c36")
+			(uuid "2e3d231b-b28a-4ce2-bf03-5319055d8dea")
 			(effects
 				(font
 					(size 1 1)
@@ -2343,6 +2634,12 @@
 		(path "/039aedc4-2785-4703-8543-8ec6c1d2089c")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2626,7 +2923,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at -6.35 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2637,22 +2934,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at -6.35 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a2ee0791-12c5-44a7-819e-56b136b757c3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/cf23ba1a-8c9b-4909-ab91-e8515df7dcf6")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2724,7 +3015,7 @@
 			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/NOISE/X1")
+			(net "Net-(C6-Pad2)")
 			(pintype "passive")
 			(uuid "a2281bc6-9056-4662-895b-4c5ce7d7f4e8")
 		)
@@ -2738,6 +3029,171 @@
 			)
 			(rotate
 				(xyz -0 -0 -0)
+			)
+		)
+	)
+	(footprint "FormantKO:Wire_1x01_General"
+		(layer "F.Cu")
+		(uuid "4fefb9a0-6482-445b-bae4-c70d1a4a0fe7")
+		(at 50.255 77.651)
+		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter")
+		(tags "connector wire 0.5sqmm")
+		(property "Reference" "J12"
+			(at 0 -2.286 0)
+			(layer "F.Fab")
+			(uuid "225161c8-7d7b-41fc-aab6-46b925c1c811")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "P1b-2"
+			(at 0 -2.286 0)
+			(layer "F.SilkS")
+			(uuid "58be83e7-65e0-4644-93a8-f5e0d985ff72")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c79ddb3-d027-4d02-b8f4-e97701c3d098")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c22258e-cba7-448c-a1db-dbc6f24947c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e781f589-cf0a-420c-a2d6-6f90fa091dc9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "287b0168-570d-486b-8051-e5da20de3b0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd31ca67-d1e9-42c0-a928-e825448f2775")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/b1aac5a5-f8ba-4dab-af4f-ed34f735772d")
+		(sheetname "/NOISE/")
+		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 1.524 0)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "d0f91e50-8986-4fdb-8bfc-4235c3a5e89f")
+		)
+		(fp_rect
+			(start -1.651 -1.651)
+			(end 1.651 1.651)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "d8dc5907-15f9-4a41-b029-f2400d30c0f3")
+		)
+		(fp_rect
+			(start -1.397 -1.397)
+			(end 1.397 1.397)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "47f22936-4a1b-4008-aea7-937881a494ae")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.05 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "b5780ae0-f451-4f42-bc31-dcec882b6a42")
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.54 2.54)
+			(drill 0.889)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(J12-Pad1)")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "7618ef82-4ef2-4b13-879d-5e9bd73b82f2")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -2778,7 +3234,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at -6.35 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2789,22 +3245,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at -6.35 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "50641f26-18c8-4ecf-a7a5-219146b6bbdd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/a6aba656-493d-42c6-bc99-26dc2b95ac91")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2930,7 +3380,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at -6.35 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -2941,22 +3391,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at -6.35 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "5614d58a-db14-428b-9774-490801d8b105")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/5a76c845-d1f5-4db2-90dd-a7f33dff8200")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3048,7 +3492,7 @@
 	(footprint "FormantKO:R_Axial_Horizontal"
 		(layer "F.Cu")
 		(uuid "553ed467-a4e7-4a67-af93-84eb4a515d98")
-		(at 141.35 87.38 180)
+		(at 145.16 91.19 180)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R5"
@@ -3082,7 +3526,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at -6.35 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3093,22 +3537,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at -6.35 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "054b4178-c758-437f-bf20-9aaf0cfc872a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/0ce120cb-8b72-42ac-bd6d-fe99bd513c0d")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3200,7 +3638,7 @@
 	(footprint "FormantKO:CP_Axial_600"
 		(layer "F.Cu")
 		(uuid "5552f5b2-3004-4624-9674-e8c468ea873c")
-		(at 194.68 101.82 90)
+		(at 190.88 86.11 90)
 		(descr "CP, Axial series, Axial, Horizontal, pin pitch=15mm, length*diameter=10*4.5mm^2, Electrolytic Capacitor, http://www.vishay.com/docs/28325/021asm.pdf")
 		(tags "CP Axial series Axial Horizontal pin pitch 15mm  length 10mm diameter 4.5mm Electrolytic Capacitor")
 		(property "Reference" "C11"
@@ -3236,7 +3674,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor"
 			(at -7.5 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3247,11 +3685,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/THT/other"
-			(at -7.5 0 90)
-			(layer "F.SilkS")
+		(property "Voltage" "V"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "38f0b3bb-d660-487b-9619-cb7985f895a0")
+			(uuid "237f7265-461f-4c96-b8fa-20fb38b63228")
 			(effects
 				(font
 					(size 1 1)
@@ -3263,6 +3702,12 @@
 		(path "/666d7f6e-9ee6-49a4-819e-80327bb24cda")
 		(sheetname "/SYSTEM/")
 		(sheetfile "system.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3535,7 +3980,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm741.pdf"
 			(at -3.81 -3.81 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3546,7 +3991,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Operational Amplifier"
 			(at -3.81 -3.81 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3557,22 +4002,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/DIP/legacy"
-			(at -3.81 -3.81 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "2330096c-5257-46c6-9cb3-d5115845b455")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TSSOP*3x3mm*P0.65mm*")
 		(path "/5e8a32f7-9864-4066-a5e6-ffafd2dcce93")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "2" "7" "4" "8" "1" "5" "6")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3807,7 +4246,7 @@
 	(footprint "FormantKO:CP_Axial_600"
 		(layer "F.Cu")
 		(uuid "5e0c2b16-9bb3-4e8c-b274-7c5051df27a1")
-		(at 178.18 95 -90)
+		(at 184.53 98.81 -90)
 		(descr "CP, Axial series, Axial, Horizontal, pin pitch=15mm, length*diameter=10*4.5mm^2, Electrolytic Capacitor, http://www.vishay.com/docs/28325/021asm.pdf")
 		(tags "CP Axial series Axial Horizontal pin pitch 15mm  length 10mm diameter 4.5mm Electrolytic Capacitor")
 		(property "Reference" "C1"
@@ -3843,7 +4282,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor"
 			(at -7.5 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -3854,11 +4293,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/THT/other"
-			(at -7.5 0 270)
-			(layer "F.SilkS")
+		(property "Voltage" "25V"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "69384b78-6cf1-4a73-852f-dc5d64925180")
+			(uuid "3a546bae-a7fa-42e4-b78a-1dc1d31fe6d0")
 			(effects
 				(font
 					(size 1 1)
@@ -3870,6 +4310,12 @@
 		(path "/4b98f9bf-c4d7-449b-80fc-b7dfb96b4731")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4153,7 +4599,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at -2.54 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -4164,22 +4610,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/THT/other"
-			(at -2.54 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "30f2547b-a4d8-41e9-9a18-3a920ef4cd2e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/1066dc5d-e5b5-4ad0-bf64-e97cbfa3290f")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4305,7 +4745,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Trimmable resistor (preset resistor)"
 			(at 0.015 2.54 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -4316,11 +4756,10 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "potentiometer/THT"
-			(at 0.015 2.54 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b05308a9-6e89-4a3b-b865-9541e6c23695")
+		(property "Legend" "LED ADJ"
+			(at 0 5.842 180)
+			(layer "F.SilkS" knockout)
+			(uuid "de0bb9ed-02bf-4d3e-8d74-13aef578697e")
 			(effects
 				(font
 					(size 1 1)
@@ -4328,20 +4767,16 @@
 				)
 			)
 		)
-		(property "Legend" "LEGEND"
-			(at 0 5.842 180)
-			(layer "F.SilkS" knockout)
-			(uuid "de0bb9ed-02bf-4d3e-8d74-13aef578697e")
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/0e6a0646-66d0-4f3d-b8e0-8f9be3b953de")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4548,7 +4983,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at -6.35 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4559,22 +4994,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at -6.35 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "d6d32965-c219-4d7a-b9f1-06e2cf27a35c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/337b03fe-d793-4db7-8038-391f8b78c875")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4663,10 +5092,175 @@
 			)
 		)
 	)
+	(footprint "FormantKO:Wire_1x01_General"
+		(layer "F.Cu")
+		(uuid "67d62247-a045-45ab-b9bf-d4e066d8455f")
+		(at 50.255 86.455)
+		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter")
+		(tags "connector wire 0.5sqmm")
+		(property "Reference" "J14"
+			(at 0 -2.286 0)
+			(layer "F.Fab")
+			(uuid "f4e89ef2-1a77-430e-8fa8-835877fd9045")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 0 -2.286 0)
+			(layer "F.SilkS")
+			(uuid "4efc6e4b-f4b0-4f37-985c-847438630884")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "afba7e56-ca1c-444b-8aa3-e41c4ba06e8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8316be7a-d9f6-4e50-938c-b34af460939f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be60b562-22f1-48cb-9f10-8da6a64978f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "520d998c-7229-4c45-bd15-1fcb66898eac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c2b27dc-fcb8-48bf-b332-d5fb6eeb395e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/08cf3182-7e9e-4fe3-a1ac-aaa2545178fe")
+		(sheetname "/SYSTEM/")
+		(sheetfile "system.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 1.524 0)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "42ff83b5-cb03-475d-a634-02e73e6de459")
+		)
+		(fp_rect
+			(start -1.651 -1.651)
+			(end 1.651 1.651)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "4a834bab-5e45-46f7-8fa0-b59cd31570fe")
+		)
+		(fp_rect
+			(start -1.397 -1.397)
+			(end 1.397 1.397)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "beaa5805-61b3-4302-a6ca-a4426487073d")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.05 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "fadf56bd-1a61-4099-800e-354a8e68ccba")
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.54 2.54)
+			(drill 0.889)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "4d64d6b0-7b6b-4681-bf65-42c7ab82baa3")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "FormantKO:R_Axial_Horizontal"
 		(layer "F.Cu")
 		(uuid "693936dc-a5c1-4e2e-af1c-4375dc077c39")
-		(at 173.1 86.11 90)
+		(at 178.18 89.92 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2"
@@ -4700,7 +5294,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at -6.35 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4711,22 +5305,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at -6.35 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "60baaab3-3dfe-4813-b21e-32eecde291de")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/f8dee78f-ba96-402b-9938-75e878b44209")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4841,7 +5429,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm741.pdf"
 			(at -3.81 -3.81 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -4852,7 +5440,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Operational Amplifier"
 			(at -3.81 -3.81 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -4863,22 +5451,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/DIP/legacy"
-			(at -3.81 -3.81 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "dc7edeb2-a0ce-4332-b562-075055bee2ec")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TSSOP*3x3mm*P0.65mm*")
 		(path "/667efffa-0957-4ca7-94d3-bb6ac07431cd")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "7" "4" "8" "1" "5" "6")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5110,10 +5692,175 @@
 			)
 		)
 	)
+	(footprint "FormantKO:Wire_1x01_General"
+		(layer "F.Cu")
+		(uuid "7eec26f1-c60f-45fc-955f-660d097100be")
+		(at 50.255 90.857)
+		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter")
+		(tags "connector wire 0.5sqmm")
+		(property "Reference" "J15"
+			(at 0 -2.286 0)
+			(layer "F.Fab")
+			(uuid "b40d0039-1d9e-47e5-8213-27a5e51fb48e")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 0 -2.286 0)
+			(layer "F.SilkS")
+			(uuid "77fc8301-9da4-4409-a9da-4cde47473587")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec26d909-da81-41b3-b4c5-19697c1dc244")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68de86ee-ed92-446c-beb4-42c126a1878b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c19cd182-06bd-48f1-99d3-e1635adc0e2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7fd03763-fe8a-4703-98bc-fdcc110010e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1dd7fcb-86de-465c-971a-2cdb251880c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/475e1f08-8fad-4cae-88fd-9b94c90e3907")
+		(sheetname "/SYSTEM/")
+		(sheetfile "system.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 1.524 0)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "ae3a6615-4897-4dcd-9f52-b064741249db")
+		)
+		(fp_rect
+			(start -1.651 -1.651)
+			(end 1.651 1.651)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "6dfb2b07-fbcc-4e1d-9d78-59f473b5ef9a")
+		)
+		(fp_rect
+			(start -1.397 -1.397)
+			(end 1.397 1.397)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "45df0bd1-5d5b-46f8-9c4a-5950c2f5ea15")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.05 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "28c5919b-3dac-4345-81d1-41175f490e41")
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.54 2.54)
+			(drill 0.889)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "c5c115b8-b6e7-4675-8ed7-01d04bd468f9")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "FormantKO:R_Axial_Horizontal"
 		(layer "F.Cu")
 		(uuid "832c1bc6-c5ea-4c4a-a101-774f09327ab7")
-		(at 152.78 88.65 -90)
+		(at 156.59 92.46 -90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R4"
@@ -5147,7 +5894,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at -6.35 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -5158,22 +5905,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at -6.35 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "3fcbd280-c2a6-4ae4-81da-c10f81dba04a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/88bccc10-543e-4e79-bbde-e6635204dbcf")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5288,7 +6029,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm741.pdf"
 			(at -3.81 -3.81 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5299,7 +6040,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Operational Amplifier"
 			(at -3.81 -3.81 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5310,22 +6051,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/DIP/legacy"
-			(at -3.81 -3.81 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "88d8342a-875b-41c8-afb7-7942faf15307")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TSSOP*3x3mm*P0.65mm*")
 		(path "/2cb57864-08d5-4d94-8c75-45b6ee6e7fb9")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "2" "7" "4" "8" "1" "5" "6")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5518,7 +6253,7 @@
 			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/NOISE/X1")
+			(net "Net-(C6-Pad2)")
 			(pintype "output")
 			(uuid "c81f2ecf-01ab-47c8-8fed-92775354790c")
 		)
@@ -5594,7 +6329,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at -1.25 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5605,18 +6340,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/JST"
-			(at -1.25 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a38c2502-15ff-4542-ab6a-6e5c703154d8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Legend" "LEGEND"
 			(at 0 -3.556 90)
 			(layer "F.SilkS" knockout)
@@ -5624,6 +6347,20 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f4f03a2-7b75-461d-9b6c-657a6193db2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5631,6 +6368,12 @@
 		(path "/b359ceb7-7fe8-4a5f-8ec5-4952e27bce39")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5838,7 +6581,7 @@
 	(footprint "FormantKO:CP_Axial_600"
 		(layer "F.Cu")
 		(uuid "88100882-e663-45f2-899f-c4cc29c8618c")
-		(at 160.4 89.92 -90)
+		(at 164.21 91.19 -90)
 		(descr "CP, Axial series, Axial, Horizontal, pin pitch=15mm, length*diameter=10*4.5mm^2, Electrolytic Capacitor, http://www.vishay.com/docs/28325/021asm.pdf")
 		(tags "CP Axial series Axial Horizontal pin pitch 15mm  length 10mm diameter 4.5mm Electrolytic Capacitor")
 		(property "Reference" "C3"
@@ -5874,7 +6617,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor"
 			(at -7.5 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -5885,11 +6628,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/THT/other"
-			(at -7.5 0 270)
-			(layer "F.SilkS")
+		(property "Voltage" "35V"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "0b2f8708-ddb4-4bed-9509-5a4510f12e70")
+			(uuid "9b55011a-7b19-4fee-977f-135af41a39f8")
 			(effects
 				(font
 					(size 1 1)
@@ -5901,6 +6645,12 @@
 		(path "/acea0d4e-db11-409f-b7fe-695b3f60a746")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6184,7 +6934,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at -6.35 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6195,22 +6945,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at -6.35 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "761dc8e4-b2d7-4167-b5d7-631ed31bfd33")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/dc894901-2e4b-4786-be80-aa83c11a32a0")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6282,7 +7026,7 @@
 			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(P1-Pad5)")
+			(net "Net-(J12-Pad1)")
 			(pintype "passive")
 			(uuid "a6bd8b8f-26d5-4d4d-ab1b-3173eae4fad7")
 		)
@@ -6302,7 +7046,7 @@
 	(footprint "FormantKO:R_Axial_Horizontal"
 		(layer "F.Cu")
 		(uuid "8987143f-ae95-461a-9643-9dee8bed9d3e")
-		(at 168.02 91.19 90)
+		(at 174.37 95 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R1"
@@ -6336,7 +7080,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at -6.35 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6347,22 +7091,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at -6.35 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b7e06140-1bd7-459f-bb94-7a9b95f4a5c7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/91e909de-32ff-433e-9e9b-89f7068dbe99")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6488,7 +7226,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at -2.54 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -6499,22 +7237,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/THT/other"
-			(at -2.54 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "0d48e6e8-ade4-43f3-9d23-7243a2f077d9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/2f9712ba-eda6-4e8a-a2aa-4a37c6ff7af4")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6576,7 +7308,7 @@
 			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/NOISE/X1")
+			(net "Net-(C6-Pad2)")
 			(pintype "passive")
 			(uuid "7b6cfa07-f55c-4140-acd6-3844a38dd13c")
 		)
@@ -6586,7 +7318,7 @@
 			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/NOISE/X1")
+			(net "Net-(C6-Pad2)")
 			(pintype "passive")
 			(uuid "4912aeb0-af17-4141-8d23-09153b8e66e3")
 		)
@@ -6603,7 +7335,173 @@
 			)
 		)
 	)
+	(footprint "FormantKO:Wire_1x01_General"
+		(layer "F.Cu")
+		(uuid "a1f309a1-ba6a-4fa5-9584-9183134740c7")
+		(at 41.451 90.857)
+		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter")
+		(tags "connector wire 0.5sqmm")
+		(property "Reference" "J5"
+			(at 0 -2.286 0)
+			(layer "F.Fab")
+			(uuid "a210755c-7cd9-4d4b-bbae-9efceb59e486")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "CN"
+			(at 0 -2.286 0)
+			(layer "F.SilkS")
+			(uuid "f42fd0cf-7d49-4c98-8e0e-951fb8fe232f")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5cc73a0-7b2e-4686-9fd8-7d08d3993072")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1c53363-827f-4a91-aae4-164e055b10de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58108136-eec7-4857-8654-a17feee7754b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56a7ca33-afc0-481a-91e3-6768489840a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f746e65-6d46-4fa8-85ee-ecc75e370c2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/4d1a0135-26b4-4270-bf4b-978c3005c6df")
+		(sheetname "/NOISE/")
+		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 1.524 0)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "2e10e277-a9a2-4f93-a840-c3fff242a273")
+		)
+		(fp_rect
+			(start -1.651 -1.651)
+			(end 1.651 1.651)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "59376a7b-f104-4a03-8954-943276f78c57")
+		)
+		(fp_rect
+			(start -1.397 -1.397)
+			(end 1.397 1.397)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "80cf678a-0bc7-4784-bad6-f97f6a6c85cf")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.05 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "ded1b0f5-38d3-435e-a4e5-ec841544a6c2")
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.54 2.54)
+			(drill 0.889)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "CN")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "c921c5ef-9e62-4521-9462-cf4584dbe3ae")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "FormantKO:CardBracket"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "a1f8d5a5-c630-435a-95dd-2ed3f358da0c")
 		(at 55 95)
@@ -6661,7 +7559,12 @@
 		(path "/3ad7ad9a-9d47-4085-a79e-b6f8df321aa6")
 		(sheetname "/SYSTEM/")
 		(sheetfile "system.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -6822,6 +7725,171 @@
 			)
 		)
 	)
+	(footprint "FormantKO:Wire_1x01_General"
+		(layer "F.Cu")
+		(uuid "c5777289-5f5f-4b90-8d86-edd6ad0ab77e")
+		(at 45.853 86.455)
+		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter")
+		(tags "connector wire 0.5sqmm")
+		(property "Reference" "J9"
+			(at 0 -2.286 0)
+			(layer "F.Fab")
+			(uuid "6432bc18-881a-4196-8023-acadbbf8d01f")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "P1a-2"
+			(at 0 -2.286 0)
+			(layer "F.SilkS")
+			(uuid "b6428611-6a88-4e98-ab79-4b16deb8eecd")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2ce4e4b-28c4-45df-8817-08544083a509")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf018844-e43b-4216-9ab3-7723f5e931c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2e2c9bd-1397-4f73-9322-a5000a6f4a1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5dc21acb-25ec-44a9-a103-f80d97623621")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f62762a-d308-455b-9890-5a9fe4380667")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/b08da7ea-46e0-42db-a271-48628b8904cf")
+		(sheetname "/NOISE/")
+		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 1.524 0)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "28cec715-ea54-469d-ba3a-4c0f28318f9b")
+		)
+		(fp_rect
+			(start -1.651 -1.651)
+			(end 1.651 1.651)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "e0713a7d-0ea3-4969-9966-4b421da20f5d")
+		)
+		(fp_rect
+			(start -1.397 -1.397)
+			(end 1.397 1.397)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "4e634cb0-95fb-45dc-b37e-7736ecab526d")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.05 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "4bc730cb-c9f6-4dfe-a56d-bbdba0373454")
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.54 2.54)
+			(drill 0.889)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(J8-Pad1)")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "a373e7c3-bb69-455e-bf21-ce04263fb111")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "FormantKO:R_Axial_Horizontal"
 		(layer "F.Cu")
 		(uuid "d3d5ad64-ffed-4860-b4ce-f1910a8d21b8")
@@ -6838,7 +7906,7 @@
 				)
 			)
 		)
-		(property "Value" "480Ω"
+		(property "Value" "470Ω"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "84103a83-2f87-4c25-b7f4-71d363ec7abc")
@@ -6859,7 +7927,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at -6.35 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -6870,22 +7938,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at -6.35 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "bc8b4eb8-c668-424e-9fba-ca9905eff7ce")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/0c6810d7-42f9-4c46-bea3-702a5894e415")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6974,10 +8036,340 @@
 			)
 		)
 	)
+	(footprint "FormantKO:Wire_1x01_General"
+		(layer "F.Cu")
+		(uuid "d4355ead-8a13-4277-8584-a7f20c33e649")
+		(at 45.853 90.857)
+		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter")
+		(tags "connector wire 0.5sqmm")
+		(property "Reference" "J10"
+			(at 0 -2.286 0)
+			(layer "F.Fab")
+			(uuid "2dba4609-4b75-4d0d-b970-35486767dec6")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "P1a-1"
+			(at 0 -2.286 0)
+			(layer "F.SilkS")
+			(uuid "29a268cd-4457-4c2d-9030-ed5427007b27")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9cc3686c-7f13-46c7-9ff0-a868362dbac6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdc53f1f-8c1a-4139-bd42-f8d424ff21da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "654cfe03-9e9d-4e48-b3b1-d8c9f05ee159")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "413677af-f6d1-48d1-b5fb-f677c377dfe7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca6c6788-6c39-4a15-bc7a-57241b410fc6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/9da44e52-ed42-4562-8b24-4089163e6d38")
+		(sheetname "/NOISE/")
+		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 1.524 0)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "84c1c7fc-1f36-437a-9f38-112b0cc5fae9")
+		)
+		(fp_rect
+			(start -1.651 -1.651)
+			(end 1.651 1.651)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "35f1e747-0aa5-4abc-b409-9606ce003393")
+		)
+		(fp_rect
+			(start -1.397 -1.397)
+			(end 1.397 1.397)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "a23b317f-8ef4-4a2d-a2ae-58f8427befd0")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.05 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "e11e14b1-e710-4c51-9337-66d33ffda9ee")
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.54 2.54)
+			(drill 0.889)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(C8-Pad1)")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "1f479085-7b7b-4871-acd3-018499043d44")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "FormantKO:Wire_1x01_General"
+		(layer "F.Cu")
+		(uuid "d724832e-3af2-4da2-9ca3-d65f8b8b3e45")
+		(at 45.853 82.053)
+		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter")
+		(tags "connector wire 0.5sqmm")
+		(property "Reference" "J8"
+			(at 0 -2.286 0)
+			(layer "F.Fab")
+			(uuid "e8fa7f07-111b-44e1-aa1a-d360646a5b99")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "P1a-3"
+			(at 0 -2.286 0)
+			(layer "F.SilkS")
+			(uuid "e623f3d7-50de-4a5e-a51e-70717d3caff6")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37fdb8f0-1ac1-49db-ba49-a961ececd49f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85a787fa-496f-4e37-8964-7d14d4b31020")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "045ccf75-463e-4fc3-bce8-6fed688577be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c740ab2-489b-43d4-b2ae-37ded446b434")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b6ab422-c32f-47fe-92c2-d65aba7cbaad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/e0c09f5a-f5df-46e2-9ad5-f1902576063e")
+		(sheetname "/NOISE/")
+		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 1.524 0)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "2a924e2c-99f7-497e-9da6-dc42e2348ec7")
+		)
+		(fp_rect
+			(start -1.651 -1.651)
+			(end 1.651 1.651)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "5a3f72f2-cd05-42af-b1b7-52a536592cbb")
+		)
+		(fp_rect
+			(start -1.397 -1.397)
+			(end 1.397 1.397)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "0023ba4f-cf17-4eeb-a792-2de9a38e53b6")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.05 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "cda0933f-d546-4010-90c9-71f38229dd07")
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.54 2.54)
+			(drill 0.889)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(J8-Pad1)")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "39d8cad1-36a7-447d-a33b-c31250ae9d4f")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "FormantKO:PanelConnector_1x06"
 		(layer "F.Cu")
 		(uuid "d7785f99-d634-4ae6-8dec-fb85fe9441d4")
-		(at 61.74 105.16 90)
+		(at 61.74 123.04 90)
 		(descr "JST XH series connector, B6B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
 		(property "Reference" "P1"
@@ -7011,7 +8403,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual variable resistor"
 			(at -6.25 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7022,11 +8414,10 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/JST"
-			(at -6.25 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "276d19b7-a254-4926-a8f9-33d0e75c947f")
+		(property "Legend" "L"
+			(at 0 -3.429 90)
+			(layer "F.SilkS" knockout)
+			(uuid "3bbe529b-3c0b-4a59-9627-bac17fa59237")
 			(effects
 				(font
 					(size 1 1)
@@ -7034,13 +8425,16 @@
 				)
 			)
 		)
-		(property "Legend" "LEGEND"
-			(at 0 -3.429 90)
-			(layer "F.SilkS" knockout)
-			(uuid "3bbe529b-3c0b-4a59-9627-bac17fa59237")
+		(property "Taper" "lin"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "afa9c278-6e7b-47d0-a1a2-afa0038816bb")
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7048,6 +8442,16 @@
 		(path "/f8f6e323-d473-4285-b402-6612be3438ad")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "2")
+			)
+			(unit
+				(name "B")
+				(pins "6" "4" "5")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7233,7 +8637,7 @@
 			(drill 0.95)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(P1-Pad2)")
+			(net "Net-(J8-Pad1)")
 			(pintype "passive")
 			(uuid "ac4b2a79-af68-4c09-bf5c-c5c3eaf97207")
 		)
@@ -7243,7 +8647,7 @@
 			(drill 0.95)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(P1-Pad2)")
+			(net "Net-(J8-Pad1)")
 			(pintype "passive")
 			(uuid "b7fc5c4d-4baa-4ed8-acf7-262a4068978e")
 		)
@@ -7263,7 +8667,7 @@
 			(drill 0.95)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(P1-Pad5)")
+			(net "Net-(J12-Pad1)")
 			(pintype "passive")
 			(uuid "582306f0-f461-4f1d-9e2f-2dbefe0a421e")
 		)
@@ -7273,7 +8677,7 @@
 			(drill 0.95)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(P1-Pad5)")
+			(net "Net-(J12-Pad1)")
 			(pintype "passive")
 			(uuid "a29b4518-4dbb-4961-828f-eaf132efa02e")
 		)
@@ -7293,7 +8697,7 @@
 	(footprint "FormantKO:C_Rect"
 		(layer "F.Cu")
 		(uuid "d78399f8-1768-457d-a12f-617a21b0d2bd")
-		(at 152.78 105.16 -90)
+		(at 161.67 105.16 -90)
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, diameter*width=7.5*2.5mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm diameter 7.5mm width 2.5mm Capacitor")
 		(property "Reference" "C9"
@@ -7327,7 +8731,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at -2.54 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -7338,22 +8742,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/THT/other"
-			(at -2.54 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b8ad4b4a-786a-46f0-9fc1-067cf24baaae")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/dce7d104-29b5-4e39-9841-d193858de55f")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7479,7 +8877,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at -2.54 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7490,22 +8888,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/THT/other"
-			(at -2.54 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "d9034648-7e77-44c5-9332-b38ddefcea64")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/6e611bdd-fbad-4a67-83db-c5f5825cc983")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7610,7 +9002,7 @@
 				)
 			)
 		)
-		(property "Value" "DUS"
+		(property "Value" "1N4148"
 			(at 0.635 0 180)
 			(layer "F.Fab")
 			(uuid "a5bab97f-24f8-4aea-af37-01b879c17ced")
@@ -7621,7 +9013,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at -5.08 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -7632,7 +9024,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Universal Silicon Diode"
 			(at -5.08 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -7643,11 +9035,25 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "diode/THT"
-			(at -5.08 0 180)
-			(layer "F.SilkS")
+		(property "Sim.Device" "D"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "cb5ad557-1db5-418c-b0b5-620cf2e5f218")
+			(uuid "f177e19d-8b3d-44b0-ade1-d09a2cc990b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f89c8d4-ccc7-4ba5-9569-354f4fe77169")
 			(effects
 				(font
 					(size 1 1)
@@ -7659,6 +9065,12 @@
 		(path "/13b81921-9482-4079-bf3d-8e25e9dfd028")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7799,7 +9211,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at -6.35 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7810,22 +9222,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at -6.35 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "950951c2-77f7-42c8-a7b4-43d743963178")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/87c15e6d-1225-496f-9c59-1cee74080596")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7930,7 +9336,7 @@
 				)
 			)
 		)
-		(property "Value" "470k"
+		(property "Value" "470Ω"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "2ad24d22-b8ac-4484-a242-ce8b854af2e9")
@@ -7951,7 +9357,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at -6.35 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7962,22 +9368,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at -6.35 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "842b76ef-f0f6-4c8a-a13c-f6dc6f24aee1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/7988217e-7037-4ec9-9512-e776cdcc061a")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8066,12 +9466,672 @@
 			)
 		)
 	)
-	(footprint "FormantKO:TO-18"
+	(footprint "FormantKO:Wire_1x01_General"
+		(layer "F.Cu")
+		(uuid "e135f17a-fdad-44d4-aa7b-3039bd7f6761")
+		(at 50.255 82.053)
+		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter")
+		(tags "connector wire 0.5sqmm")
+		(property "Reference" "J13"
+			(at 0 -2.286 0)
+			(layer "F.Fab")
+			(uuid "87bba3d4-3954-4db8-8e15-a780b69221a9")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "P1b-3"
+			(at 0 -2.286 0)
+			(layer "F.SilkS")
+			(uuid "cdd01d3f-563b-4c7d-8df0-f549a9e3f7eb")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6939da9-4958-4288-86e7-0d1933ad5640")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02189ec0-376c-416d-9308-4419364ba278")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab5aa462-8c24-454c-81e7-8f1d9e68f47e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58569725-e182-4ec5-873e-0b6c5e8662c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5dec5e1a-a637-41ce-8876-a2846e7860b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/49953a5a-858d-4c88-9228-d8b1bbbf4a3a")
+		(sheetname "/NOISE/")
+		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 1.524 0)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "86ff2046-98b5-4a4b-b581-d29d8782d59f")
+		)
+		(fp_rect
+			(start -1.651 -1.651)
+			(end 1.651 1.651)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "5f60d3ec-786c-4eb1-8143-bcb265828d5b")
+		)
+		(fp_rect
+			(start -1.397 -1.397)
+			(end 1.397 1.397)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "49ca9a51-c224-46e6-9f06-39f9d9a35a85")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.05 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "9029cdf4-680f-4321-966b-abfa559c471c")
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.54 2.54)
+			(drill 0.889)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(J12-Pad1)")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "b463a55f-bcc4-4486-ac00-5f71ee8b6f82")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "FormantKO:Wire_1x01_General"
+		(layer "F.Cu")
+		(uuid "e95e5393-1760-4bda-8c83-9ee20be77675")
+		(at 41.451 86.455)
+		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter")
+		(tags "connector wire 0.5sqmm")
+		(property "Reference" "J4"
+			(at 0 -2.286 0)
+			(layer "F.Fab")
+			(uuid "c8102ec2-2b3e-46a3-8f0c-12cbdc2a4d1e")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WN"
+			(at 0 -2.286 0)
+			(layer "F.SilkS")
+			(uuid "fe56ccc5-a755-4909-a03c-ecd78c63e8bc")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "758341dc-6bfa-4291-a65b-bfd87a5776b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f98991ec-dc3e-4ea5-91da-b94d35c318f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54a9eb73-08eb-4b10-925a-87b8f74c5aef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b8e0a77-723c-400a-8e44-1ef304ac2e19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "190ef1a0-b5c1-43a0-8767-1fb63e89567d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/49ce5020-8230-4987-9bf9-7a8ff8bea5b1")
+		(sheetname "/NOISE/")
+		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 1.524 0)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "ecc8aa7a-a12c-4416-a53c-f400f125f25e")
+		)
+		(fp_rect
+			(start -1.651 -1.651)
+			(end 1.651 1.651)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "4caf3d07-175c-4c60-b70f-46433b33c330")
+		)
+		(fp_rect
+			(start -1.397 -1.397)
+			(end 1.397 1.397)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "7d717f50-0b3f-4c52-909b-a69a3177cb71")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.05 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "acf1a6ea-de72-4407-923b-948bbc84c3f1")
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.54 2.54)
+			(drill 0.889)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "WN")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "821708c3-1e9f-4480-9429-993c95dac0ef")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "FormantKO:Wire_1x01_General"
+		(layer "F.Cu")
+		(uuid "eaf7305e-e3b2-463e-b5b0-2b7d0832112c")
+		(at 45.853 77.651)
+		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter")
+		(tags "connector wire 0.5sqmm")
+		(property "Reference" "J7"
+			(at 0 -2.286 0)
+			(layer "F.Fab")
+			(uuid "c61a2df3-ab70-402c-baaf-6b6b9ad3aeb4")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 0 -2.286 0)
+			(layer "F.SilkS")
+			(uuid "b41d8ff5-40fa-4e5d-8504-ce2ab15cb9d4")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef5def87-8c2d-47c8-8471-01b3eca250c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0226a7c-d823-42ba-8537-5f0b08d4d71f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed9066f2-5fa3-4f7b-9c7c-fb7119df5592")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d32b409a-39a9-45cd-a63f-dec685a8bc64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "704bc2b0-5dd1-41df-ae44-5372a47a9a57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/14022783-ad3a-4285-bfc3-c4d22d9f2ade")
+		(sheetname "/NOISE/")
+		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 1.524 0)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "8514a2a9-c05e-4ea5-8496-65a6f7d31e07")
+		)
+		(fp_rect
+			(start -1.651 -1.651)
+			(end 1.651 1.651)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "b609118a-cec4-483b-aa2c-0725e0fed638")
+		)
+		(fp_rect
+			(start -1.397 -1.397)
+			(end 1.397 1.397)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "edf3c2df-a361-4f02-9e5a-ab3989939a9c")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.05 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "57b1a6d8-3b13-4d19-90d9-3ad8cbf4d072")
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.54 2.54)
+			(drill 0.889)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "af3da80d-359b-4b14-b122-b434b063f2fd")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "FormantKO:Wire_1x01_General"
+		(layer "F.Cu")
+		(uuid "f2245ee7-00b4-4d4e-ab1b-70aa3da25172")
+		(at 41.451 95.259)
+		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter")
+		(tags "connector wire 0.5sqmm")
+		(property "Reference" "J6"
+			(at 0 -2.286 0)
+			(layer "F.Fab")
+			(uuid "cf4ccea4-589c-4de8-90fd-5e4790ee30a3")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "RV"
+			(at 0 -2.286 0)
+			(layer "F.SilkS")
+			(uuid "31035010-1c1e-4b45-978d-d18172ad3b6d")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c78c2abd-5a7e-42c7-af60-b5df88411111")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c503d4ca-1e1d-420a-923b-360a6956d2b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2079260-9cb8-4e4c-945c-538be767e0b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07d9a19f-5c95-4aa4-ac96-5de07a0f3e35")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23fdf663-4ca2-4396-aa43-26f28ab92d06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/60f3601f-c828-4606-9d10-ee718910911a")
+		(sheetname "/NOISE/")
+		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 1.524 0)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "b5bc65d5-bd61-4557-b3b1-d88072c16855")
+		)
+		(fp_rect
+			(start -1.651 -1.651)
+			(end 1.651 1.651)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "86d199e3-b7cc-4e56-9012-fa6e34e6481d")
+		)
+		(fp_rect
+			(start -1.397 -1.397)
+			(end 1.397 1.397)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "be5eba7d-0b0c-4b09-8cb5-e0210a95fcc5")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.05 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "30d70de1-30c5-4b1f-85be-7b663a677314")
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.54 2.54)
+			(drill 0.889)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "RV")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "ade11236-05d9-4e35-88ed-eaa2b850c59d")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "FormantKO:HWS1257"
 		(layer "F.Cu")
 		(uuid "f6b0c95e-5588-49f7-a295-837a4dc00cbc")
-		(at 160.4 65.79 180)
+		(at 169.29 65.79 180)
 		(property "Reference" "T1"
-			(at 0 -1.524 180)
+			(at 0 -2.54 180)
 			(layer "F.SilkS")
 			(uuid "d803bfd3-d99e-43e9-8227-f7a12e05038c")
 			(effects
@@ -8081,7 +10141,7 @@
 			)
 		)
 		(property "Value" "TUN"
-			(at 0 -1.524 180)
+			(at 0 -2.54 180)
 			(layer "F.Fab")
 			(uuid "1cf6bab3-e7bd-487d-aa26-69630f1527fd")
 			(effects
@@ -8112,273 +10172,106 @@
 				)
 			)
 		)
+		(property "Height" "7mm"
+			(at 0 0 180)
+			(layer "Cmts.User")
+			(hide yes)
+			(uuid "79100675-52ed-463e-a8e8-0efe11c3bfa5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
 		(path "/825759c8-024c-4424-b4e3-5dd79055c6f4")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -2.05061 -2.75772)
-			(end -1.5231 -2.23021)
+		(fp_circle
+			(center 0 0)
+			(end 4.953 0)
 			(stroke
-				(width 0.127)
+				(width 0.254)
 				(type solid)
 			)
+			(fill no)
 			(layer "F.SilkS")
-			(uuid "b67a2b11-d4dc-44fe-83c0-898fc1fb3c87")
+			(uuid "e1f58341-313c-4365-841c-bf45845cfdf3")
 		)
-		(fp_line
-			(start -2.23021 -1.5231)
-			(end -2.75772 -2.05061)
+		(fp_circle
+			(center -5.08 -2.54)
+			(end -4.826 -2.54)
 			(stroke
-				(width 0.127)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
+			(fill yes)
 			(layer "F.SilkS")
-			(uuid "a4d8970c-b3ee-4b5f-b179-391cc55237f0")
-		)
-		(fp_line
-			(start -2.75772 -2.33345)
-			(end -2.33345 -2.75772)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0142f0d1-2d09-4a98-a8b4-f0b7d0c3bd1c")
-		)
-		(fp_arc
-			(start -2.33345 -2.75772)
-			(mid -2.19203 -2.816298)
-			(end -2.05061 -2.75772)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "66d1ac04-d0cf-4e2e-be90-3af711ae7399")
-		)
-		(fp_arc
-			(start -2.75772 -2.05061)
-			(mid -2.816298 -2.19203)
-			(end -2.75772 -2.33345)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f73f846b-cbab-4b74-bff0-075d452da572")
+			(uuid "46a25dab-231a-49bc-b3c4-75c30a27c9d3")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 2.7 0)
+			(end 6.096 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "7751c143-b8cf-47c7-aa1a-5f873d1e4553")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 4.953 0)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(fill no)
-			(layer "F.SilkS")
-			(uuid "8e6aafcb-b878-4f2a-a001-b76392f68d8b")
-		)
-		(fp_circle
-			(center -3.25 0)
-			(end -3.15 0)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "bef2585c-f914-4e4d-bc13-ee3017b39541")
 		)
-		(fp_line
-			(start -1.48731 -2.54797)
-			(end -2.19203 -3.25269)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "08faef03-4c56-4dc0-a72c-945d7081d207")
-		)
-		(fp_line
-			(start -2.54797 -1.48731)
-			(end -3.25269 -2.19203)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ea5c15e8-070b-43e0-80ab-162b28e1de97")
-		)
-		(fp_line
-			(start -3.25269 -2.19203)
-			(end -2.19203 -3.25269)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ab90cd72-91f8-4ef1-8d8d-819fbba4b95e")
-		)
-		(fp_arc
-			(start 2.94999 0)
-			(mid 0 2.94999)
-			(end -2.94999 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "b899e719-cb57-4573-9ce8-41497cb68a5e")
-		)
-		(fp_arc
-			(start 0 -2.94999)
-			(mid 2.085958 -2.085958)
-			(end 2.94999 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "56ddfbd6-a68f-4e06-a365-03964a793f35")
-		)
-		(fp_arc
-			(start -1.48731 -2.54797)
-			(mid -0.770339 -2.847699)
-			(end 0 -2.94999)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "590c2561-2b33-46fe-b1a0-de11cc73dd3a")
-		)
-		(fp_arc
-			(start -2.94999 0)
-			(mid -2.847248 -0.770217)
-			(end -2.54797 -1.48731)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "16d2f71e-f7ca-4798-ba5d-027057916dba")
-		)
-		(fp_line
-			(start -2.05061 -2.75772)
-			(end -1.5231 -2.23021)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "0040d2d4-81eb-4491-abcc-5b9d5fc48be9")
-		)
-		(fp_line
-			(start -2.23021 -1.5231)
-			(end -2.75772 -2.05061)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "87282e22-d3b7-4605-b8e1-7f846e2a0a0b")
-		)
-		(fp_line
-			(start -2.75772 -2.33345)
-			(end -2.33345 -2.75772)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f2e8e7bd-450c-4370-a3cd-3b2ba1138aaa")
-		)
-		(fp_arc
-			(start -2.33345 -2.75772)
-			(mid -2.19203 -2.816298)
-			(end -2.05061 -2.75772)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "435756e8-5ed4-49b3-92f0-2bb3b4e6d11b")
-		)
-		(fp_arc
-			(start -2.75772 -2.05061)
-			(mid -2.816298 -2.19203)
-			(end -2.75772 -2.33345)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "8d1ce02e-77c2-497c-a1f3-3738ffc2b998")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 2.7 0)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "3adda900-ae7f-4d2a-9cc7-ec482408481b")
-		)
-		(fp_circle
-			(center -3.25 0)
-			(end -3.15 0)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "d5488f6b-6c2c-4355-bbb6-9b47ce7304c0")
-		)
-		(pad "1" thru_hole circle
-			(at -1.27 0 180)
-			(size 1.27 1.27)
-			(drill 0.762)
+		(pad "1" thru_hole roundrect
+			(at -2.54 0 180)
+			(size 1.905 1.905)
+			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(roundrect_rratio 0.2)
 			(net "Net-(T1-E)")
 			(pinfunction "E_1")
 			(pintype "passive")
-			(solder_mask_margin 0.102)
+			(thermal_bridge_angle 45)
 			(uuid "bfe10d24-138d-41c6-b0e7-b395f543d01d")
 		)
 		(pad "2" thru_hole circle
-			(at 0 1.27 180)
-			(size 1.27 1.27)
-			(drill 0.762)
+			(at 0 2.54 180)
+			(size 1.905 1.905)
+			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
 			(pinfunction "B_2")
 			(pintype "input")
-			(solder_mask_margin 0.102)
 			(uuid "6f3baa0d-e585-450c-b0d0-1962a0cc308c")
 		)
 		(pad "3" thru_hole circle
-			(at 1.27 0 183)
-			(size 1.27 1.27)
-			(drill 0.762)
+			(at 2.54 0 183)
+			(size 1.905 1.905)
+			(drill 0.889)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "unconnected-(T1-C-Pad3)")
 			(pinfunction "C_3")
 			(pintype "passive+no_connect")
-			(solder_mask_margin 0.102)
 			(uuid "4542b385-6524-458a-a143-b45cba2debfe")
 		)
 		(embedded_fonts no)
-		(model "${FORMANTKO_3DMODEL_DIR}/TO-18_3.stp"
+		(model "${FORMANTKO_3DMODEL_DIR}/TO-18_4.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 1.905)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -8391,7 +10284,7 @@
 	(footprint "FormantKO:R_Axial_Horizontal"
 		(layer "F.Cu")
 		(uuid "f751bd6a-530c-4d68-b289-2448e867200a")
-		(at 152.78 70.87 90)
+		(at 156.59 74.68 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R3"
@@ -8425,7 +10318,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at -6.35 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8436,22 +10329,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at -6.35 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b48ac2ba-3c95-4fb9-bf97-68b1146a2bb7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/13e7bc5e-6504-43a1-b8c6-4040bc51c7cd")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8540,6 +10427,171 @@
 			)
 		)
 	)
+	(footprint "FormantKO:Wire_1x01_General"
+		(layer "F.Cu")
+		(uuid "f969aeb1-2a3b-4729-bfa6-3c76b006ef2b")
+		(at 41.451 82.053)
+		(descr "Soldered wire connection, for a single 0.5 mm² wire, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter")
+		(tags "connector wire 0.5sqmm")
+		(property "Reference" "J3"
+			(at 0 -2.286 0)
+			(layer "F.Fab")
+			(uuid "b7ae61a9-a928-4c25-bbff-9ef2484e5a4c")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "D2k"
+			(at 0 -2.286 0)
+			(layer "F.SilkS")
+			(uuid "4ebac7d9-1d42-41c9-9d3a-4c090babc468")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3bf86084-706a-4990-9f09-2eee1ff99a8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47071c65-5311-420d-bbef-b49db4031443")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2d9dcca-44fc-4555-b3b7-aeaad220074b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1092a5c-6bc7-4429-8e7e-987e2c1baac7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46f4950b-ef22-4883-9113-08098da8fbbb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/900fec12-cd53-4446-969a-2b2beec365e4")
+		(sheetname "/NOISE/")
+		(sheetfile "NOISE.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 1.524 0)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "7a558672-c5f1-43e3-b9d7-1ce67677c77a")
+		)
+		(fp_rect
+			(start -1.651 -1.651)
+			(end 1.651 1.651)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "bd32e40c-2721-48b2-8b71-c17c56445b1d")
+		)
+		(fp_rect
+			(start -1.397 -1.397)
+			(end 1.397 1.397)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "88fe86ef-24ef-41ce-a44d-8bfafdad1aa5")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.05 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "a46f8126-97e4-40af-8009-82fe6fb87bc4")
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.54 2.54)
+			(drill 0.889)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(D1-A)")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "47bd4bc4-9a7b-4376-b5c3-fef90ef12913")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "FormantKO:CardConnector"
 		(locked yes)
 		(layer "F.Cu")
@@ -8579,7 +10631,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIN41612 connector, double row (AB) even pins only, 02x16, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at -39.37 5.3 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8590,22 +10642,19 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/IEC_DIN"
-			(at -39.37 5.3 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "32d56737-7231-4578-a3bb-0dc61ccd2384")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "DIN41612*2x*")
 		(path "/0f515fd3-b78a-4ac6-a13e-89533737f22b")
 		(sheetname "/SYSTEM/")
 		(sheetfile "system.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "a2" "a4" "a6" "a8" "a10" "a12" "a14" "a16" "a18" "a20" "a22" "a24"
+					"a26" "a28" "a30" "a32" "b2" "b4" "b6" "b8" "b10" "b12" "b14" "b16"
+					"b18" "b20" "b22" "b24" "b26" "b28" "b30" "b32"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9547,6 +11596,7 @@
 			(width 0.15)
 			(type dot)
 		)
+		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "0636c495-0ad1-4cf8-a342-a8ca14aac1b4")
 	)
@@ -9557,6 +11607,7 @@
 			(width 0.3)
 			(type dot)
 		)
+		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "0ccba160-4fa2-44e1-8ca9-0b7bd137aa50")
 	)
@@ -9567,6 +11618,7 @@
 			(width 0.3)
 			(type dot)
 		)
+		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "b3b36954-c48d-4689-976f-70de95637454")
 	)
@@ -9577,6 +11629,7 @@
 			(width 0.15)
 			(type dot)
 		)
+		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "fe32d9d1-ae72-4687-8233-60d1b904f37a")
 	)
@@ -9588,10 +11641,12 @@
 			(type solid)
 		)
 		(fill no)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "13dc543d-1074-458e-b1b4-3c458ffc51a0")
 	)
 	(gr_text "| ${TITLE} | ${COMMENT5} |"
+		(locked yes)
 		(at 62.6 143.26 0)
 		(layer "F.Cu" knockout)
 		(uuid "0d885d43-1ee8-4a91-b04b-362c2d5b19f3")
@@ -9604,6 +11659,7 @@
 		)
 	)
 	(gr_text "${COMMENT1}"
+		(locked yes)
 		(at 206.12 46.74 0)
 		(layer "F.Cu" knockout)
 		(uuid "1693ac10-c0d9-4cf0-973b-997fa7ea3cd3")
@@ -9702,6 +11758,7 @@
 		)
 	)
 	(gr_text "| ${COMMENT2} | ${COMMENT3} | ${COMMENT4} |"
+		(locked yes)
 		(at 206.12 143.26 0)
 		(layer "B.SilkS")
 		(uuid "917df4b7-b587-4459-8219-04e7f7941ecb")
@@ -9714,6 +11771,7 @@
 		)
 	)
 	(gr_text "| ${COMPANY} | ${COMMENT1} ${TITLE} | REV ${REVISION} | ${ISSUE_DATE} |"
+		(locked yes)
 		(at 206.12 46.74 0)
 		(layer "B.SilkS")
 		(uuid "51b02514-af30-408a-84de-2ce9cf30f776")
@@ -9727,6 +11785,7 @@
 		)
 	)
 	(zone
+		(locked yes)
 		(layers "F.Cu" "B.Cu")
 		(uuid "d2260a56-ed0b-4278-8230-a7c18c79d8fa")
 		(hatch full 0.508)
@@ -9757,6 +11816,7 @@
 		)
 	)
 	(zone
+		(locked yes)
 		(layers "F.Cu" "B.Cu")
 		(uuid "e794d273-f4b4-4aa5-aac7-8d6c32f06a9d")
 		(hatch full 0.508)

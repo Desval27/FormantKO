@@ -1,0 +1,144 @@
+(footprint "HWS1257"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.54 0)
+		(layer "F.SilkS")
+		(uuid "5ff29036-d843-4321-81cf-3478923ddc44")
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+	)
+	(property "Value" "HWS1257"
+		(at 0 -2.54 0)
+		(layer "F.Fab")
+		(uuid "5e7a4047-f856-42e8-896d-9e5288a38473")
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b34f1c1-c917-4ad4-a7a4-b20c396541f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac4545c0-72da-46ab-ad1c-8331264281ba")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "7mm"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "8d52464d-0933-425e-bfdc-2077927b172d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -5.08 -2.54)
+		(end -4.826 -2.54)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "b10212e9-43ff-4c77-afc3-3d7660faea1c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.953 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6845c8ae-31fd-403f-8f99-d70d097842f7")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6.096 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "cc499369-8d94-4859-95e0-ec7a7b780bdb")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.953 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "cdec6064-cad6-46bc-bafc-3762c986436e")
+	)
+	(pad "1" thru_hole roundrect
+		(at -2.54 0)
+		(size 1.905 1.905)
+		(drill 0.889)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.2)
+		(thermal_bridge_angle 45)
+		(uuid "8ec9ea12-133f-48b6-b49e-9d52ee03742a")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54)
+		(size 1.905 1.905)
+		(drill 0.889)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e975aedb-c560-4920-94a4-ffeb5721b142")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0 3)
+		(size 1.905 1.905)
+		(drill 0.889)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7769bb1d-6649-41d0-86ce-38d837fcdb04")
+	)
+	(embedded_fonts no)
+	(model "${FORMANTKO_3DMODEL_DIR}/TO-18_4.stp"
+		(offset
+			(xyz 0 0 1.905)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 90 -90)
+		)
+	)
+)
