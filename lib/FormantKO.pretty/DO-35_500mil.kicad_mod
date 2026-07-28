@@ -5,10 +5,20 @@
 	(layer "F.Cu")
 	(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 	(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
+	(property "Reference" "REF**"
+		(at 0.635 0 0)
+		(layer "F.SilkS")
+		(uuid "ea5a7634-1231-4879-9535-d05c62734917")
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+	)
 	(property "Value" "DO-35_500mil"
 		(at 0.635 0 0)
 		(layer "F.Fab")
-		(uuid "a07bfd2c-8b2d-491c-9176-e755ccc19785")
+		(uuid "60ba290e-2bea-4b99-999b-86df0b56a7cb")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +30,7 @@
 		(at -6.985 -0.254 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ef29f0cc-03d0-47af-bc59-5b60b387a7f7")
+		(uuid "cfdec993-023a-482c-aad1-43583fae35a8")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -31,7 +41,7 @@
 		(at -6.985 -0.254 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1ae12d13-5bc8-4a08-9152-2254c36e2317")
+		(uuid "a6a2897f-2280-4aec-94bd-c95434046788")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,21 +52,11 @@
 		(at -6.985 -0.254 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "f74d2956-1561-4818-b076-fd006239666e")
+		(uuid "c29c4e70-aea6-40ea-8d82-515c80aac4c2")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-		)
-	)
-	(property "Reference" "REF**"
-		(at 0.635 0 0)
-		(layer "F.SilkS")
-		(uuid "bd878cea-8061-432e-ad60-db7e2e1f16f6")
-		(effects
-			(font
-				(size 1 1)
 			)
 		)
 	)
@@ -70,7 +70,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b328a879-a72d-4851-b585-ee4726d3d934")
+		(uuid "e4d71ea9-0214-45ba-bc1b-e4cbc9c7c201")
 	)
 	(fp_line
 		(start 5.08 0)
@@ -80,7 +80,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4ebf58f2-7fd0-40df-9fb7-17e2e26546b0")
+		(uuid "8e09a999-0911-4d0b-9baf-6d730c2d5692")
 	)
 	(fp_rect
 		(start -2.281353 -1.016)
@@ -91,7 +91,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "6a2b6570-11f0-439b-a007-9316514e353c")
+		(uuid "9f546752-ecbf-44d8-b9a8-7adfead285d1")
 	)
 	(fp_poly
 		(pts
@@ -103,7 +103,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "5a54f748-9810-4186-b0f6-9c5371417d60")
+		(uuid "40a2ce8b-aaaa-4a68-97d2-24e0caba3c91")
 	)
 	(fp_rect
 		(start -7.62 -1.27)
@@ -114,7 +114,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "f6078fb9-cfff-413b-a289-58aa20ac570d")
+		(uuid "c9b71f61-d0b4-4534-99a3-a3932bc04bd8")
 	)
 	(fp_rect
 		(start -7.62 -1.27)
@@ -125,7 +125,29 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "c9d1b95a-4011-4503-8252-4d01d5c4ccd6")
+		(uuid "ea3345b0-b995-4799-918b-679fb9bd2682")
+	)
+	(fp_text user "k"
+		(at -8.128 0 0)
+		(layer "F.Fab")
+		(uuid "592b3e34-a854-436c-a398-af6d32b5d934")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "a"
+		(at 8.255 0 0)
+		(layer "F.Fab")
+		(uuid "6b0ee9b1-0ec5-48b4-adaa-73913dfde983")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(pad "1" thru_hole roundrect
 		(at -6.35 0.02)
@@ -134,7 +156,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.125)
-		(uuid "0c85a28b-328d-45d0-a5fa-55f0d1373aa9")
+		(uuid "6e52af68-b03c-41d7-b7ec-a896d2aa1b47")
 	)
 	(pad "2" thru_hole circle
 		(at 6.35 0)
@@ -142,7 +164,7 @@
 		(drill 0.889)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "9a5653d1-c847-4077-8dd3-dbcd12cc1dff")
+		(uuid "8629bf99-78f1-41a9-ba8e-b1509b4fbf1f")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P12.70mm_Horizontal.step"

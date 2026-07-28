@@ -98,7 +98,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(aux_axis_origin 55 145)
 		(grid_origin 135 95)
 		(pcbplotparams
@@ -182,7 +181,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at -7.5 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -193,12 +192,11 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at -7.5 0 180)
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f8625675-e26f-412b-bd9e-cb9a2d136fab")
+			(uuid "dc636b65-f979-4362-9a96-a5c121e7fa6c")
 			(effects
 				(font
 					(size 1 1)
@@ -210,12 +208,6 @@
 		(path "/780736e0-6a70-40ad-a674-d3f63068faed")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -474,17 +466,19 @@
 			(uuid "594077b5-a8db-426d-91b8-cbeaac9527b7")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Value" "47k"
-			(at 0 0 0)
+			(at 0 2.032 0)
 			(layer "F.Fab")
 			(uuid "adebbd96-85fc-4aec-a520-7de8c6a631ad")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -499,7 +493,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at -6.35 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -510,23 +504,29 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at -6.35 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5e5c0770-fa81-41a6-b591-48b6c5a83e06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9ac61f57-1aff-48cb-ba87-b7a446684a97")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -5.08 0)
 			(end -3.81 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -536,7 +536,7 @@
 			(start 3.81 0)
 			(end 5.08 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -546,7 +546,7 @@
 			(start -3.81 -1.27)
 			(end 3.81 1.27)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(fill no)
@@ -557,7 +557,7 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.0508)
 				(type solid)
 			)
 			(fill no)
@@ -568,17 +568,28 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.1016)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
 			(uuid "b02094dc-89db-4e4c-ad68-2ab7d2974694")
 		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "49f8509f-9522-4c6c-b027-4781eb47938c")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
 		(pad "1" thru_hole circle
 			(at -6.35 0)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC2--)")
@@ -588,7 +599,7 @@
 		(pad "2" thru_hole circle
 			(at 6.35 0)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(R10-Pad2)")
@@ -615,27 +626,29 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R14"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.SilkS")
 			(uuid "73770a50-1bdd-42f9-af62-cc226e23d783")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Value" "1k"
-			(at 0 0 0)
+			(at 0 2.032 180)
 			(layer "F.Fab")
 			(uuid "9d99b904-70ea-46b3-ab91-d5918651a77d")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at -6.35 0 0)
+			(at -6.35 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "46435e52-89d1-4463-bb4f-801c0e21012a")
@@ -645,8 +658,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at -6.35 0 0)
+		(property "Description" ""
+			(at -6.35 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a63e5f50-ba0e-4060-a0a4-de8eb61d50f7")
@@ -656,23 +669,29 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at -6.35 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "89fc09a5-b721-4a69-9f7b-79ddd8187c40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/fd791176-68fe-4249-ba9d-7dbc9e64dc36")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 3.81 0)
 			(end 5.08 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -682,7 +701,7 @@
 			(start -5.08 0)
 			(end -3.81 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -692,7 +711,7 @@
 			(start -3.81 -1.27)
 			(end 3.81 1.27)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(fill no)
@@ -703,7 +722,7 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.0508)
 				(type solid)
 			)
 			(fill no)
@@ -714,17 +733,28 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.1016)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
 			(uuid "85ae55e8-947d-4ffc-b143-afcff4a7273d")
 		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "f03fbab2-0d05-445b-9848-2e9d83c394e5")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
 		(pad "1" thru_hole circle
 			(at -6.35 0 180)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "CN")
@@ -734,7 +764,7 @@
 		(pad "2" thru_hole circle
 			(at 6.35 0 180)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(C6-Pad2)")
@@ -791,7 +821,7 @@
 				)
 			)
 		)
-		(property "Description" "terminal"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -802,38 +832,11 @@
 				)
 			)
 		)
-		(property "Sim.Device" "SPICE"
+		(property "KiLib_Generator" "connector/wire"
 			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "90aeb167-031d-4e2e-98b3-af3d66d9858e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5cdc3f03-a7af-46ee-a508-86a25aeb6c53")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=1"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d106f4c6-2e79-4a00-b6c4-dd70bd3251e4")
 			(effects
 				(font
 					(size 1 1)
@@ -844,12 +847,7 @@
 		(path "/b3a68b20-b41b-45fb-8024-5e64c3cc75ec")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -958,7 +956,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at -6.4135 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -969,16 +967,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at -6.4135 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4620b62c-f862-4ae3-ba4f-f8a81f7e0ae0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/0fc17a3b-9b4a-41ad-b342-60f96d3d198d")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -1094,7 +1098,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm741.pdf"
+		(property "Datasheet" ""
 			(at -3.81 -3.81 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -1105,7 +1109,7 @@
 				)
 			)
 		)
-		(property "Description" "Single Operational Amplifier"
+		(property "Description" ""
 			(at -3.81 -3.81 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -1116,16 +1120,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/DIP/legacy"
+			(at -3.81 -3.81 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "17884417-5bbd-4967-a552-c71644d28b7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TSSOP*3x3mm*P0.65mm*")
 		(path "/3da5ada0-60f8-4cf3-99cc-1f2cfb39c578")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "2" "7" "4" "8" "1" "5" "6")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1394,7 +1404,7 @@
 				)
 			)
 		)
-		(property "Description" "terminal"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1405,38 +1415,11 @@
 				)
 			)
 		)
-		(property "Sim.Device" "SPICE"
+		(property "KiLib_Generator" "connector/wire"
 			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6d984d83-2f7b-47e9-ab34-89e7d13c791b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1937c4d2-1a34-490b-8382-ac893cee4fe4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=1"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d9fe9ca9-efd8-4027-b453-8eb3a5439961")
 			(effects
 				(font
 					(size 1 1)
@@ -1447,12 +1430,7 @@
 		(path "/de5ab45e-884d-499f-8e1d-4360a3c168ea")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -1561,7 +1539,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at -7.5 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1572,12 +1550,11 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at -7.5 0 90)
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e6fbf51e-af3e-4ecc-82ec-b9c5f784474b")
+			(uuid "3002818e-a7db-4a15-9af0-4bdb9889222c")
 			(effects
 				(font
 					(size 1 1)
@@ -1589,12 +1566,6 @@
 		(path "/624ff4eb-9c9f-45a4-b26f-d3b662ca01b7")
 		(sheetname "/SYSTEM/")
 		(sheetfile "system.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1848,27 +1819,29 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R9"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.SilkS")
 			(uuid "01e86840-b640-4d78-9061-317467339bd5")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Value" "47k"
-			(at 0 0 0)
+			(at 0 2.032 180)
 			(layer "F.Fab")
 			(uuid "f4bdb84d-9257-42a6-94ba-a2851e7eac12")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at -6.35 0 0)
+			(at -6.35 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "478ae511-c4b8-4f4e-ad99-da946804fa2d")
@@ -1878,8 +1851,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at -6.35 0 0)
+		(property "Description" ""
+			(at -6.35 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "73cf0b33-5737-4b03-a87e-5f35a13d6c21")
@@ -1889,23 +1862,29 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at -6.35 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "26fe77d9-fc68-49c7-bfab-ba8c4daef898")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/acc955ae-3773-466c-9390-7dec95bc7ac8")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 3.81 0)
 			(end 5.08 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -1915,7 +1894,7 @@
 			(start -5.08 0)
 			(end -3.81 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -1925,7 +1904,7 @@
 			(start -3.81 -1.27)
 			(end 3.81 1.27)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(fill no)
@@ -1936,7 +1915,7 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.0508)
 				(type solid)
 			)
 			(fill no)
@@ -1947,17 +1926,28 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.1016)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
 			(uuid "5a6b2346-400e-41b8-b85d-3dd78dffa7b8")
 		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "e42d5b8f-6fed-4610-88db-a1ba0d7dd424")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
 		(pad "1" thru_hole circle
 			(at -6.35 0 180)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC2--)")
@@ -1967,7 +1957,7 @@
 		(pad "2" thru_hole circle
 			(at 6.35 0 180)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(C6-Pad1)")
@@ -1999,17 +1989,19 @@
 			(uuid "9aa82af9-e1b7-4cb9-bc59-ade04ba577d9")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Value" "1k"
-			(at 0 0 90)
+			(at 0 2.032 90)
 			(layer "F.Fab")
 			(uuid "681ddad4-0ccb-4695-9bc4-0b34322bd493")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -2024,7 +2016,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at -6.35 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2035,23 +2027,29 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at -6.35 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0f861108-7ff4-4cff-a199-d57ee8ebc979")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a8eae328-7755-42e3-b016-3dbc1f9731fc")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 3.81 0)
 			(end 5.08 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -2061,7 +2059,7 @@
 			(start -5.08 0)
 			(end -3.81 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -2071,7 +2069,7 @@
 			(start -3.81 -1.27)
 			(end 3.81 1.27)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(fill no)
@@ -2082,7 +2080,7 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.0508)
 				(type solid)
 			)
 			(fill no)
@@ -2093,17 +2091,28 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.1016)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
 			(uuid "2b8db45e-481d-46d2-a17a-dd1862e96507")
 		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "2e99921e-dcfd-464f-b46a-d60c9e4a32a5")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
 		(pad "1" thru_hole circle
 			(at -6.35 0 90)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(J8-Pad1)")
@@ -2113,7 +2122,7 @@
 		(pad "2" thru_hole circle
 			(at 6.35 0 90)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(C6-Pad2)")
@@ -2140,27 +2149,29 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R8"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.SilkS")
 			(uuid "1b84207c-077f-4eb3-9770-57e330310cb2")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Value" "470k"
-			(at 0 0 0)
+			(at 0 2.032 180)
 			(layer "F.Fab")
 			(uuid "57e370d0-3de8-4231-bb58-87b27b61d95a")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at -6.35 0 0)
+			(at -6.35 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fe7f8466-6d25-47a5-9ba6-2aad82d69e65")
@@ -2170,8 +2181,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at -6.35 0 0)
+		(property "Description" ""
+			(at -6.35 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c247ac44-7757-4838-bf17-2e51f91f3bbe")
@@ -2181,23 +2192,29 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at -6.35 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "08a45030-b2b1-4680-a152-06c218824a65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e469915c-e05c-4508-9748-61b5adc3b4e4")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 3.81 0)
 			(end 5.08 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -2207,7 +2224,7 @@
 			(start -5.08 0)
 			(end -3.81 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -2217,7 +2234,7 @@
 			(start -3.81 -1.27)
 			(end 3.81 1.27)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(fill no)
@@ -2228,7 +2245,7 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.0508)
 				(type solid)
 			)
 			(fill no)
@@ -2239,17 +2256,28 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.1016)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
 			(uuid "1b679894-8cb8-418e-95f1-ab4e7bfd4248")
 		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "c5cdab61-429c-4471-a4ad-16ecec2f7b88")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
 		(pad "1" thru_hole circle
 			(at -6.35 0 180)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
@@ -2259,7 +2287,7 @@
 		(pad "2" thru_hole circle
 			(at 6.35 0 180)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC2-+)")
@@ -2291,17 +2319,19 @@
 			(uuid "42b74026-320d-4720-80a1-8c1c3dab547a")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Value" "22k"
-			(at 0 0 0)
+			(at 0 2.032 0)
 			(layer "F.Fab")
 			(uuid "97d4c6c3-d13c-4b22-8618-e54d960522b8")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -2316,7 +2346,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at -6.35 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2327,23 +2357,29 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at -6.35 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "92725709-c5db-4a4b-8cf2-40203c108e64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c798fbee-0d97-4de4-8ade-6bd74a0b23b3")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -5.08 0)
 			(end -3.81 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -2353,7 +2389,7 @@
 			(start 3.81 0)
 			(end 5.08 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -2363,7 +2399,7 @@
 			(start -3.81 -1.27)
 			(end 3.81 1.27)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(fill no)
@@ -2374,7 +2410,7 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.0508)
 				(type solid)
 			)
 			(fill no)
@@ -2385,17 +2421,28 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.1016)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
 			(uuid "2822ca9f-3cc2-405c-acee-0879fb9a5cf1")
 		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "88a0022c-c50d-48cc-a18d-7154aeb5ec44")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
 		(pad "1" thru_hole circle
 			(at -6.35 0)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-15V")
@@ -2405,7 +2452,7 @@
 		(pad "2" thru_hole circle
 			(at 6.35 0)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(P2-Pad3)")
@@ -2432,27 +2479,29 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R12"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.SilkS")
 			(uuid "2c8ef854-f6f9-4c6b-ab33-c17febcb928b")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Value" "4k7"
-			(at 0 0 0)
+			(at 0 2.032 180)
 			(layer "F.Fab")
 			(uuid "134f7e6e-5d79-4d1c-a2b4-89522d82f23b")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at -6.35 0 0)
+			(at -6.35 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cc1ed7ba-70de-4baf-b1fc-d0adfa3f54cb")
@@ -2462,8 +2511,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at -6.35 0 0)
+		(property "Description" ""
+			(at -6.35 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cca4e88c-182d-4f0e-8246-3ad8f7bca831")
@@ -2473,23 +2522,29 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at -6.35 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "45a02596-7d50-4f2a-9d89-1c414e52bfbd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bc4a039f-15c8-4e36-a902-9d20039a0980")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 3.81 0)
 			(end 5.08 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -2499,7 +2554,7 @@
 			(start -5.08 0)
 			(end -3.81 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -2509,7 +2564,7 @@
 			(start -3.81 -1.27)
 			(end 3.81 1.27)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(fill no)
@@ -2520,7 +2575,7 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.0508)
 				(type solid)
 			)
 			(fill no)
@@ -2531,17 +2586,28 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.1016)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
 			(uuid "be8112c4-69ea-4a1c-9f79-a02a4cf0029a")
 		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "d646f191-14e3-4734-a2c0-93f11edad8bd")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
 		(pad "1" thru_hole circle
 			(at -6.35 0 180)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(C7-Pad1)")
@@ -2551,7 +2617,7 @@
 		(pad "2" thru_hole circle
 			(at 6.35 0 180)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(R10-Pad2)")
@@ -2610,7 +2676,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at -10.04 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2621,12 +2687,11 @@
 				)
 			)
 		)
-		(property "Voltage" "35V"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at -10.04 0 0)
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "56263854-85eb-4015-8e4a-22cd74f4c1a5")
+			(uuid "d5e4600a-601e-48dc-a8c0-f582839ede57")
 			(effects
 				(font
 					(size 1 1)
@@ -2638,12 +2703,6 @@
 		(path "/039aedc4-2785-4703-8543-8ec6c1d2089c")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2929,27 +2988,29 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R13"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.SilkS")
 			(uuid "d79399ce-e678-476f-8549-fe35144a135e")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Value" "47k"
-			(at 0 0 0)
+			(at 0 2.032 180)
 			(layer "F.Fab")
 			(uuid "55d08a3d-9957-4d0a-a32d-b223f2fa9901")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at -6.35 0 0)
+			(at -6.35 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d965af9b-8f9e-4778-8fd2-b8fb375a368d")
@@ -2959,8 +3020,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at -6.35 0 0)
+		(property "Description" ""
+			(at -6.35 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d12a7526-55d5-418b-a5d9-32ea5733301f")
@@ -2970,23 +3031,29 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at -6.35 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e078a56b-03cb-44d5-9c33-437e67210d12")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/cf23ba1a-8c9b-4909-ab91-e8515df7dcf6")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 3.81 0)
 			(end 5.08 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -2996,7 +3063,7 @@
 			(start -5.08 0)
 			(end -3.81 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -3006,7 +3073,7 @@
 			(start -3.81 -1.27)
 			(end 3.81 1.27)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(fill no)
@@ -3017,7 +3084,7 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.0508)
 				(type solid)
 			)
 			(fill no)
@@ -3028,17 +3095,28 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.1016)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
 			(uuid "7cc23b8e-fd20-4106-b1e5-7c1fc048cd9f")
 		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "fc6ce2c5-bac4-432f-ab62-2a30d6119417")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
 		(pad "1" thru_hole circle
 			(at -6.35 0 180)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(R10-Pad2)")
@@ -3048,7 +3126,7 @@
 		(pad "2" thru_hole circle
 			(at 6.35 0 180)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(C6-Pad2)")
@@ -3105,7 +3183,7 @@
 				)
 			)
 		)
-		(property "Description" "terminal"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3116,38 +3194,11 @@
 				)
 			)
 		)
-		(property "Sim.Device" "SPICE"
+		(property "KiLib_Generator" "connector/wire"
 			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "74db25e6-7313-451b-936c-bcf05d3e9086")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9330d67a-9691-462d-94ec-a36201a7dac8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=1"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dc16c18c-d838-4073-ada8-56e836d40a55")
 			(effects
 				(font
 					(size 1 1)
@@ -3158,12 +3209,7 @@
 		(path "/b1aac5a5-f8ba-4dab-af4f-ed34f735772d")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -3240,27 +3286,29 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R15"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.SilkS")
 			(uuid "71aa55b1-6258-4282-9f69-e9cc2886e877")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Value" "1k"
-			(at 0 0 0)
+			(at 0 2.032 180)
 			(layer "F.Fab")
 			(uuid "ba3b9d86-ceec-4324-b90a-4dbd2adf0058")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at -6.35 0 0)
+			(at -6.35 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ae4d4e44-11d4-4c38-9072-a61fdf3940ac")
@@ -3270,8 +3318,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at -6.35 0 0)
+		(property "Description" ""
+			(at -6.35 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9ecaa2c0-7782-49ac-be61-535a2261f2e4")
@@ -3281,23 +3329,29 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at -6.35 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4326c9c2-c7cb-41d7-a3ee-8dd90f477781")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a6aba656-493d-42c6-bc99-26dc2b95ac91")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 3.81 0)
 			(end 5.08 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -3307,7 +3361,7 @@
 			(start -5.08 0)
 			(end -3.81 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -3317,7 +3371,7 @@
 			(start -3.81 -1.27)
 			(end 3.81 1.27)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(fill no)
@@ -3328,7 +3382,7 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.0508)
 				(type solid)
 			)
 			(fill no)
@@ -3339,17 +3393,28 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.1016)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
 			(uuid "4f9e0738-f6f8-4ddc-b7d5-f53d32b3b219")
 		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "9c6de23f-e665-4682-b1c6-6e47402aba6b")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
 		(pad "1" thru_hole circle
 			(at -6.35 0 180)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
@@ -3359,7 +3424,7 @@
 		(pad "2" thru_hole circle
 			(at 6.35 0 180)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "CN")
@@ -3391,17 +3456,19 @@
 			(uuid "001c6502-2d67-48d9-8af4-38d2fea7adfc")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Value" "470Ω"
-			(at 0 0 0)
+			(at 0 2.032 0)
 			(layer "F.Fab")
 			(uuid "a86c089b-5a8b-4452-84dd-1305a18a4a29")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -3416,7 +3483,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at -6.35 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3427,23 +3494,29 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at -6.35 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8de45018-0a9e-4166-b55b-07e6aa65cf3c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5a76c845-d1f5-4db2-90dd-a7f33dff8200")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -5.08 0)
 			(end -3.81 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -3453,7 +3526,7 @@
 			(start 3.81 0)
 			(end 5.08 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -3463,7 +3536,7 @@
 			(start -3.81 -1.27)
 			(end 3.81 1.27)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(fill no)
@@ -3474,7 +3547,7 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.0508)
 				(type solid)
 			)
 			(fill no)
@@ -3485,17 +3558,28 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.1016)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
 			(uuid "b7bbbd82-3014-43f2-b9c5-b67a1b3a8706")
 		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "c61c16e2-b11e-49c9-9c29-98aed24177c7")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
 		(pad "1" thru_hole circle
 			(at -6.35 0)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "WN")
@@ -3505,7 +3589,7 @@
 		(pad "2" thru_hole circle
 			(at 6.35 0)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(C4-Pad2)")
@@ -3537,17 +3621,19 @@
 			(uuid "d77b42f2-5437-4693-8f31-1c03be6b9667")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Value" "2M2"
-			(at 0 0 0)
+			(at 0 2.032 0)
 			(layer "F.Fab")
 			(uuid "6a8dbf2d-b323-4477-9193-cbdc5ef50adf")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -3562,7 +3648,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at -6.35 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3573,23 +3659,29 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at -6.35 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c6697d65-086d-4ebd-8c19-cf1094c699d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0ce120cb-8b72-42ac-bd6d-fe99bd513c0d")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -5.08 0)
 			(end -3.81 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -3599,7 +3691,7 @@
 			(start 3.81 0)
 			(end 5.08 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -3609,7 +3701,7 @@
 			(start -3.81 -1.27)
 			(end 3.81 1.27)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(fill no)
@@ -3620,7 +3712,7 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.0508)
 				(type solid)
 			)
 			(fill no)
@@ -3631,17 +3723,28 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.1016)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
 			(uuid "1c9082f9-4609-46b0-b430-98259a25d192")
 		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "86fe6999-e4bd-41c5-93b3-f6089d27e00f")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
 		(pad "1" thru_hole circle
 			(at -6.35 0)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(C4-Pad1)")
@@ -3651,7 +3754,7 @@
 		(pad "2" thru_hole circle
 			(at 6.35 0)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC1--)")
@@ -3710,7 +3813,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at -7.5 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3721,12 +3824,11 @@
 				)
 			)
 		)
-		(property "Voltage" "V"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at -7.5 0 90)
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a2e751c6-c77c-4386-91e4-0aac9bee4508")
+			(uuid "486b1a2a-8f28-410e-9c02-67f7a2f94668")
 			(effects
 				(font
 					(size 1 1)
@@ -3738,12 +3840,6 @@
 		(path "/666d7f6e-9ee6-49a4-819e-80327bb24cda")
 		(sheetname "/SYSTEM/")
 		(sheetfile "system.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4016,7 +4112,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm741.pdf"
+		(property "Datasheet" ""
 			(at -3.81 -3.81 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -4027,7 +4123,7 @@
 				)
 			)
 		)
-		(property "Description" "Single Operational Amplifier"
+		(property "Description" ""
 			(at -3.81 -3.81 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -4038,16 +4134,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/DIP/legacy"
+			(at -3.81 -3.81 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7d9d942c-8a48-4c0d-a8f7-a98fb708d1d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TSSOP*3x3mm*P0.65mm*")
 		(path "/5e8a32f7-9864-4066-a5e6-ffafd2dcce93")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "2" "7" "4" "8" "1" "5" "6")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4318,7 +4420,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at -7.5 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -4329,12 +4431,11 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at -7.5 0 270)
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "33b76ca8-07d6-4249-9093-618470888102")
+			(uuid "1a8272d9-e001-4b21-a8f4-fc88642da0ce")
 			(effects
 				(font
 					(size 1 1)
@@ -4346,12 +4447,6 @@
 		(path "/4b98f9bf-c4d7-449b-80fc-b7dfb96b4731")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4605,7 +4700,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, diameter*width=7.5*2.5mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm diameter 7.5mm width 2.5mm Capacitor")
 		(property "Reference" "C5"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.SilkS")
 			(uuid "c7e2c6e5-a8f2-424c-a4fc-a9b157ccb1f4")
 			(effects
@@ -4616,7 +4711,7 @@
 			)
 		)
 		(property "Value" "1µ"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "23c13358-bcf1-4ad5-9ffb-3120c3b9f8bf")
 			(effects
@@ -4637,7 +4732,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4648,16 +4743,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "272860df-059e-4b18-9845-1f4eb423cf9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1066dc5d-e5b5-4ad0-bf64-e97cbfa3290f")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4783,7 +4884,7 @@
 				)
 			)
 		)
-		(property "Description" "Trimmable resistor (preset resistor)"
+		(property "Description" ""
 			(at 0.015 2.54 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -4794,7 +4895,19 @@
 				)
 			)
 		)
-		(property "Legend" "LED ADJ"
+		(property "KiLib_Generator" "potentiometer/THT"
+			(at 0.015 2.54 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b794ca83-008d-41f1-8d8e-1b6a1ed5d820")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Legend" "LEGEND"
 			(at 0 5.842 270)
 			(layer "F.SilkS" knockout)
 			(uuid "de0bb9ed-02bf-4d3e-8d74-13aef578697e")
@@ -4808,12 +4921,6 @@
 		(path "/0e6a0646-66d0-4f3d-b8e0-8f9be3b953de")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "3" "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4990,27 +5097,29 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R11"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.SilkS")
 			(uuid "551bc718-b9f5-4853-b142-9385de101d28")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Value" "470Ω"
-			(at 0 0 0)
+			(at 0 2.032 180)
 			(layer "F.Fab")
 			(uuid "9d437084-8a25-4ec4-a01c-8a05de8e6647")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at -6.35 0 0)
+			(at -6.35 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5b4c5bda-fc2d-49ff-95ed-b3632df8dd41")
@@ -5020,8 +5129,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at -6.35 0 0)
+		(property "Description" ""
+			(at -6.35 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "22ff08fa-92be-4ffb-a1bb-60eab10a88d1")
@@ -5031,23 +5140,29 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at -6.35 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e1ef28e1-aeb4-4267-8673-4ded5e15f7c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/337b03fe-d793-4db7-8038-391f8b78c875")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 3.81 0)
 			(end 5.08 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -5057,7 +5172,7 @@
 			(start -5.08 0)
 			(end -3.81 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -5067,7 +5182,7 @@
 			(start -3.81 -1.27)
 			(end 3.81 1.27)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(fill no)
@@ -5078,7 +5193,7 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.0508)
 				(type solid)
 			)
 			(fill no)
@@ -5089,17 +5204,28 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.1016)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
 			(uuid "e2c7a39f-3d3f-4ccb-8469-623ca5c48b95")
 		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "fc8e8235-4d66-4dcd-bed7-471c4136942b")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
 		(pad "1" thru_hole circle
 			(at -6.35 0 180)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
@@ -5109,7 +5235,7 @@
 		(pad "2" thru_hole circle
 			(at 6.35 0 180)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(C6-Pad1)")
@@ -5166,7 +5292,7 @@
 				)
 			)
 		)
-		(property "Description" "terminal"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5177,38 +5303,11 @@
 				)
 			)
 		)
-		(property "Sim.Device" "SPICE"
+		(property "KiLib_Generator" "connector/wire"
 			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "53b9d557-c8b6-49cd-931b-233d9ea7f2ec")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "140a1092-ad7d-46b7-b68a-943d894f128d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=1"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ceab38ab-e4a5-47b4-af38-e6018fc5f40f")
 			(effects
 				(font
 					(size 1 1)
@@ -5219,12 +5318,7 @@
 		(path "/08cf3182-7e9e-4fe3-a1ac-aaa2545178fe")
 		(sheetname "/SYSTEM/")
 		(sheetfile "system.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -5301,27 +5395,29 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.SilkS")
 			(uuid "d19669b7-f6aa-413b-8aec-1fa3b2af4ee3")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Value" "100k"
-			(at 0 0 90)
+			(at 0 2.032 270)
 			(layer "F.Fab")
 			(uuid "63ae114f-ebf1-4428-8c51-94c05c440353")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at -6.35 0 90)
+			(at -6.35 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0a107442-6185-4afd-b0c3-afd9583333c3")
@@ -5331,8 +5427,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at -6.35 0 90)
+		(property "Description" ""
+			(at -6.35 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "57b9cad4-81f2-4c7c-a8e5-2d83fdfe5c68")
@@ -5342,23 +5438,29 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at -6.35 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7a7a736b-e365-4d01-9497-7a8848cdcb6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f8dee78f-ba96-402b-9938-75e878b44209")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -5.08 0)
 			(end -3.81 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -5368,7 +5470,7 @@
 			(start 3.81 0)
 			(end 5.08 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -5378,7 +5480,7 @@
 			(start -3.81 -1.27)
 			(end 3.81 1.27)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(fill no)
@@ -5389,7 +5491,7 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.0508)
 				(type solid)
 			)
 			(fill no)
@@ -5400,17 +5502,28 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.1016)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
 			(uuid "cb7c9915-6623-44df-8bc0-818b44da2511")
 		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 270)
+			(layer "F.Fab")
+			(uuid "b2558b37-0025-4c1d-9617-0f2e68009308")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
 		(pad "1" thru_hole circle
 			(at -6.35 0 270)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(T1-E)")
@@ -5420,7 +5533,7 @@
 		(pad "2" thru_hole circle
 			(at 6.35 0 270)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(C1-Pad1)")
@@ -5466,7 +5579,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm741.pdf"
+		(property "Datasheet" ""
 			(at -3.81 -3.81 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5477,7 +5590,7 @@
 				)
 			)
 		)
-		(property "Description" "Single Operational Amplifier"
+		(property "Description" ""
 			(at -3.81 -3.81 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5488,16 +5601,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/DIP/legacy"
+			(at -3.81 -3.81 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "00b8138c-fdbd-454d-8fca-0a89086eba1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TSSOP*3x3mm*P0.65mm*")
 		(path "/667efffa-0957-4ca7-94d3-bb6ac07431cd")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "3" "7" "4" "8" "1" "5" "6")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5766,7 +5885,7 @@
 				)
 			)
 		)
-		(property "Description" "terminal"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5777,38 +5896,11 @@
 				)
 			)
 		)
-		(property "Sim.Device" "SPICE"
+		(property "KiLib_Generator" "connector/wire"
 			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "57cd7bcc-959e-471f-9a72-3bfc3e10c19d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8f8f83ac-46ae-47dd-9f72-3250fc82d8eb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=1"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ee8d8d44-6c1a-4024-9e91-f9d0c9983348")
 			(effects
 				(font
 					(size 1 1)
@@ -5819,12 +5911,7 @@
 		(path "/475e1f08-8fad-4cae-88fd-9b94c90e3907")
 		(sheetname "/SYSTEM/")
 		(sheetfile "system.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -5906,17 +5993,19 @@
 			(uuid "1cb932e1-336a-414c-bb60-1a4376455f20")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Value" "10k"
-			(at 0 0 90)
+			(at 0 2.032 90)
 			(layer "F.Fab")
 			(uuid "19416cd3-9b0f-4047-9695-9fbaed7fb3f6")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -5931,7 +6020,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at -6.35 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5942,23 +6031,29 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at -6.35 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0ad375f0-0210-4f66-89f3-3c026f42f175")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/88bccc10-543e-4e79-bbde-e6635204dbcf")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 3.81 0)
 			(end 5.08 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -5968,7 +6063,7 @@
 			(start -5.08 0)
 			(end -3.81 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -5978,7 +6073,7 @@
 			(start -3.81 -1.27)
 			(end 3.81 1.27)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(fill no)
@@ -5989,7 +6084,7 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.0508)
 				(type solid)
 			)
 			(fill no)
@@ -6000,17 +6095,28 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.1016)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
 			(uuid "f0401ab7-cf54-4393-b6ac-7ff8326f9a22")
 		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "bbbb54ba-60ad-4429-9df7-e7cd46efb020")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
 		(pad "1" thru_hole circle
 			(at -6.35 0 90)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(C3-Pad1)")
@@ -6020,7 +6126,7 @@
 		(pad "2" thru_hole circle
 			(at 6.35 0 90)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC1--)")
@@ -6066,7 +6172,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm741.pdf"
+		(property "Datasheet" ""
 			(at -3.81 -3.81 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -6077,7 +6183,7 @@
 				)
 			)
 		)
-		(property "Description" "Single Operational Amplifier"
+		(property "Description" ""
 			(at -3.81 -3.81 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -6088,16 +6194,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/DIP/legacy"
+			(at -3.81 -3.81 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e3561279-f097-4cab-b5a0-a758c56c912d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TSSOP*3x3mm*P0.65mm*")
 		(path "/2cb57864-08d5-4d94-8c75-45b6ee6e7fb9")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "2" "7" "4" "8" "1" "5" "6")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6366,7 +6478,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at -1.25 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -6377,7 +6489,19 @@
 				)
 			)
 		)
-		(property "Legend" "LED"
+		(property "KiLib_Generator" "connector/JST"
+			(at -1.25 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8974eb7f-67a3-44c4-ab93-de3ec69af082")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Legend" "LEGEND"
 			(at 0 4.572 270)
 			(layer "F.SilkS" knockout)
 			(uuid "d1bb6ea1-0fdf-441c-8b8a-fd81216d71b3")
@@ -6387,29 +6511,10 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fbebafe4-b3f3-4464-b17e-2548360cb01b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/b359ceb7-7fe8-4a5f-8ec5-4952e27bce39")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6653,7 +6758,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at -7.5 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -6664,12 +6769,11 @@
 				)
 			)
 		)
-		(property "Voltage" "35V"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at -7.5 0 270)
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "15cfd14b-89b4-421a-9dce-f04420854983")
+			(uuid "a897948c-b878-426f-bd02-eaf1f0c7cf45")
 			(effects
 				(font
 					(size 1 1)
@@ -6681,12 +6785,6 @@
 		(path "/acea0d4e-db11-409f-b7fe-695b3f60a746")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6964,27 +7062,29 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R17"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.SilkS")
 			(uuid "a40724ec-b2ed-41ee-83f1-0dd7f823f4fa")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Value" "1k"
-			(at 0 0 90)
+			(at 0 2.032 270)
 			(layer "F.Fab")
 			(uuid "b311c4bd-8652-4c53-8ab9-91fc3d55fd39")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at -6.35 0 90)
+			(at -6.35 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "201965f5-dec5-498a-808c-ef8e57e4ab50")
@@ -6994,8 +7094,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at -6.35 0 90)
+		(property "Description" ""
+			(at -6.35 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0b65948a-b731-41f5-8d31-73dbdf6394e3")
@@ -7005,23 +7105,29 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at -6.35 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1c6f8561-3f73-43d5-ba1b-130edd72daa5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/dc894901-2e4b-4786-be80-aa83c11a32a0")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -5.08 0)
 			(end -3.81 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -7031,7 +7137,7 @@
 			(start 3.81 0)
 			(end 5.08 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -7041,7 +7147,7 @@
 			(start -3.81 -1.27)
 			(end 3.81 1.27)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(fill no)
@@ -7052,7 +7158,7 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.0508)
 				(type solid)
 			)
 			(fill no)
@@ -7063,17 +7169,28 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.1016)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
 			(uuid "8a2f2f1e-0f1b-4e11-b753-e8984ab9317c")
 		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 270)
+			(layer "F.Fab")
+			(uuid "11e17dce-612d-4484-bc61-8a199ba8e895")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
 		(pad "1" thru_hole circle
 			(at -6.35 0 270)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(C8-Pad1)")
@@ -7083,7 +7200,7 @@
 		(pad "2" thru_hole circle
 			(at 6.35 0 270)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(J12-Pad1)")
@@ -7110,27 +7227,29 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R1"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.SilkS")
 			(uuid "01c14c79-54ed-4183-a36f-2aff6e53d395")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Value" "47k"
-			(at 0 0 90)
+			(at 0 2.032 270)
 			(layer "F.Fab")
 			(uuid "e6f3a612-4b10-40f8-813f-3b2642f4b07e")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at -6.35 0 90)
+			(at -6.35 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "acc8395e-2412-4264-a07f-07d6fa99e53b")
@@ -7140,8 +7259,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at -6.35 0 90)
+		(property "Description" ""
+			(at -6.35 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "16863dc7-6a0c-4154-8c99-3f3d5feaf972")
@@ -7151,23 +7270,29 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at -6.35 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8fdb7387-84e2-4fd8-bac1-274406c8f9b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/91e909de-32ff-433e-9e9b-89f7068dbe99")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -5.08 0)
 			(end -3.81 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -7177,7 +7302,7 @@
 			(start 3.81 0)
 			(end 5.08 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -7187,7 +7312,7 @@
 			(start -3.81 -1.27)
 			(end 3.81 1.27)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(fill no)
@@ -7198,7 +7323,7 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.0508)
 				(type solid)
 			)
 			(fill no)
@@ -7209,17 +7334,28 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.1016)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
 			(uuid "888daa99-c2cb-4091-b56f-6f1a98b49e33")
 		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 270)
+			(layer "F.Fab")
+			(uuid "de0621d3-037d-4f28-8118-10faad7e9a11")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
 		(pad "1" thru_hole circle
 			(at -6.35 0 270)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(C1-Pad1)")
@@ -7229,7 +7365,7 @@
 		(pad "2" thru_hole circle
 			(at 6.35 0 270)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+15V")
@@ -7288,7 +7424,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at -6.4135 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -7299,16 +7435,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at -6.4135 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "012c86ba-f6b4-45f3-9e9d-5d6babca6c9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/2f9712ba-eda6-4e8a-a2aa-4a37c6ff7af4")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -7435,7 +7577,7 @@
 				)
 			)
 		)
-		(property "Description" "terminal"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7446,38 +7588,11 @@
 				)
 			)
 		)
-		(property "Sim.Device" "SPICE"
+		(property "KiLib_Generator" "connector/wire"
 			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9aa594e1-d603-4534-a156-ee0cc562aafc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "289b3244-0ad1-4c4e-83cd-f308c18d61ec")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=1"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "25e8cfe4-d33d-49e8-9a56-817fe9a43d5e")
 			(effects
 				(font
 					(size 1 1)
@@ -7488,12 +7603,7 @@
 		(path "/4d1a0135-26b4-4270-bf4b-978c3005c6df")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -7622,12 +7732,7 @@
 		(path "/3ad7ad9a-9d47-4085-a79e-b6f8df321aa6")
 		(sheetname "/SYSTEM/")
 		(sheetfile "system.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -7825,7 +7930,7 @@
 				)
 			)
 		)
-		(property "Description" "terminal"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7836,38 +7941,11 @@
 				)
 			)
 		)
-		(property "Sim.Device" "SPICE"
+		(property "KiLib_Generator" "connector/wire"
 			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "aa3ca936-0b44-41e6-9bb0-71f3fc1dc629")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "6bae5203-c3d0-476f-8d19-764e7b3e90e5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=1"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4aed4d48-9ebc-40b0-8d3b-7902e902c08d")
 			(effects
 				(font
 					(size 1 1)
@@ -7878,12 +7956,7 @@
 		(path "/b08da7ea-46e0-42db-a271-48628b8904cf")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -7965,17 +8038,19 @@
 			(uuid "fe2e3ee0-618a-4585-8720-3524ad690aa3")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Value" "470Ω"
-			(at 0 0 180)
+			(at 0 2.032 180)
 			(layer "F.Fab")
 			(uuid "84103a83-2f87-4c25-b7f4-71d363ec7abc")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
@@ -7990,7 +8065,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at -6.35 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -8001,23 +8076,29 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at -6.35 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7100da9b-3f62-4d26-9f1e-09e5ed763c78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0c6810d7-42f9-4c46-bea3-702a5894e415")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 3.81 0)
 			(end 5.08 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -8027,7 +8108,7 @@
 			(start -5.08 0)
 			(end -3.81 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -8037,7 +8118,7 @@
 			(start -3.81 -1.27)
 			(end 3.81 1.27)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(fill no)
@@ -8048,7 +8129,7 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.0508)
 				(type solid)
 			)
 			(fill no)
@@ -8059,17 +8140,28 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.1016)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
 			(uuid "1a4e1a50-6ed2-4be3-96dc-7837f294141a")
 		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "89739fd2-de8e-4805-99d1-7847844f8a1d")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
 		(pad "1" thru_hole circle
 			(at -6.35 0 180)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC3--)")
@@ -8079,7 +8171,7 @@
 		(pad "2" thru_hole circle
 			(at 6.35 0 180)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D1-K)")
@@ -8136,7 +8228,7 @@
 				)
 			)
 		)
-		(property "Description" "terminal"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8147,38 +8239,11 @@
 				)
 			)
 		)
-		(property "Sim.Device" "SPICE"
+		(property "KiLib_Generator" "connector/wire"
 			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "463b9ad6-9105-41c8-a284-937cf942d76e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "651d602a-acb6-4ab9-8b4c-fd905dd443a8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=1"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "82e919cd-03da-4c5e-935e-3fa53ea8777b")
 			(effects
 				(font
 					(size 1 1)
@@ -8189,12 +8254,7 @@
 		(path "/9da44e52-ed42-4562-8b24-4089163e6d38")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -8301,7 +8361,7 @@
 				)
 			)
 		)
-		(property "Description" "terminal"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8312,38 +8372,11 @@
 				)
 			)
 		)
-		(property "Sim.Device" "SPICE"
+		(property "KiLib_Generator" "connector/wire"
 			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e38fa788-b156-41ec-b489-2c8b5bec0652")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "274b7dba-c930-4bff-858f-7a1f5846690e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=1"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3f466ca8-4d78-4a20-bc1d-0f708ac16ee6")
 			(effects
 				(font
 					(size 1 1)
@@ -8354,12 +8387,7 @@
 		(path "/e0c09f5a-f5df-46e2-9ad5-f1902576063e")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -8466,7 +8494,7 @@
 				)
 			)
 		)
-		(property "Description" "Dual variable resistor"
+		(property "Description" ""
 			(at -6.25 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -8477,20 +8505,9 @@
 				)
 			)
 		)
-		(property "Legend" "RATE POT"
-			(at 0 4.572 270)
-			(layer "F.SilkS" knockout)
-			(uuid "3bbe529b-3c0b-4a59-9627-bac17fa59237")
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Taper" "lin"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
+		(property "KiLib_Generator" "connector/JST"
+			(at -6.25 0 270)
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "3ca17d7c-29a7-4e95-aa89-a47e24617b5b")
 			(effects
@@ -8500,20 +8517,20 @@
 				)
 			)
 		)
+		(property "Legend" "LEGEND"
+			(at 0 4.572 270)
+			(layer "F.SilkS" knockout)
+			(uuid "3bbe529b-3c0b-4a59-9627-bac17fa59237")
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
 		(property ki_fp_filters "R_* FormantKO:Potentiometer*")
 		(path "/f8f6e323-d473-4285-b402-6612be3438ad")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "2")
-			)
-			(unit
-				(name "B")
-				(pins "6" "4" "5")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8795,7 +8812,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at -6.4135 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -8806,16 +8823,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at -6.4135 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cb050fc5-019d-41df-9692-e205aca1399b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/dce7d104-29b5-4e39-9841-d193858de55f")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -8944,7 +8967,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at -6.4135 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8955,16 +8978,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at -6.4135 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "eb380884-197a-481e-b5be-310cd902bdab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6e611bdd-fbad-4a67-83db-c5f5825cc983")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -9081,7 +9110,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" ""
 			(at -5.08 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -9092,7 +9121,7 @@
 				)
 			)
 		)
-		(property "Description" "Universal Silicon Diode"
+		(property "Description" ""
 			(at -5.08 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -9103,25 +9132,11 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
+		(property "KiLib_Generator" "diode/THT"
+			(at -5.08 0 180)
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a647e496-8951-4074-a965-2a178c1f787c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "94253ca8-4d0e-483c-a8bf-dfa5dbfd6468")
+			(uuid "595a7d29-1ded-464e-b2bd-4f647719818d")
 			(effects
 				(font
 					(size 1 1)
@@ -9133,12 +9148,6 @@
 		(path "/13b81921-9482-4079-bf3d-8e25e9dfd028")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9249,27 +9258,29 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R7"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.SilkS")
 			(uuid "2a1b4e6d-fc55-4879-9cdf-b35c76b5b5d1")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Value" "470k"
-			(at 0 0 0)
+			(at 0 2.032 180)
 			(layer "F.Fab")
 			(uuid "a2e77b34-c5bd-41b6-8cbd-2a12cbce09e8")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at -6.35 0 0)
+			(at -6.35 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e2d0db28-2460-41fd-bf93-ddc850988dd9")
@@ -9279,8 +9290,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at -6.35 0 0)
+		(property "Description" ""
+			(at -6.35 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0ebdc0b1-4ab9-4e6d-9b38-93fe1a623808")
@@ -9290,23 +9301,29 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at -6.35 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "14f0c3e8-11c2-4c9f-9f3e-aeed0222b872")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/87c15e6d-1225-496f-9c59-1cee74080596")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 3.81 0)
 			(end 5.08 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -9316,7 +9333,7 @@
 			(start -5.08 0)
 			(end -3.81 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -9326,7 +9343,7 @@
 			(start -3.81 -1.27)
 			(end 3.81 1.27)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(fill no)
@@ -9337,7 +9354,7 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.0508)
 				(type solid)
 			)
 			(fill no)
@@ -9348,17 +9365,28 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.1016)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
 			(uuid "69f5e379-72c9-49e1-bad2-87de0723126f")
 		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "4f3a4585-ee05-4ced-9618-19454ba5529a")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
 		(pad "1" thru_hole circle
 			(at -6.35 0 180)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(C5-Pad1)")
@@ -9368,7 +9396,7 @@
 		(pad "2" thru_hole circle
 			(at 6.35 0 180)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC2-+)")
@@ -9395,27 +9423,29 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R18"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.SilkS")
 			(uuid "fd84f1b3-e78e-4fb6-bbde-66f4d161acde")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Value" "470Ω"
-			(at 0 0 90)
+			(at 0 2.032 270)
 			(layer "F.Fab")
 			(uuid "2ad24d22-b8ac-4484-a242-ce8b854af2e9")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at -6.35 0 90)
+			(at -6.35 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "888b8d8f-90e2-43a4-9ef0-9813d129b494")
@@ -9425,8 +9455,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at -6.35 0 90)
+		(property "Description" ""
+			(at -6.35 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ce139b27-21fb-46c7-aede-a74f3130835c")
@@ -9436,23 +9466,29 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at -6.35 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4265846d-f9df-4d7e-90e3-a7336e8ae375")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7988217e-7037-4ec9-9512-e776cdcc061a")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -5.08 0)
 			(end -3.81 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -9462,7 +9498,7 @@
 			(start 3.81 0)
 			(end 5.08 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -9472,7 +9508,7 @@
 			(start -3.81 -1.27)
 			(end 3.81 1.27)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(fill no)
@@ -9483,7 +9519,7 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.0508)
 				(type solid)
 			)
 			(fill no)
@@ -9494,17 +9530,28 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.1016)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
 			(uuid "888997c8-8fc0-4049-93b9-8a7e9a59f36a")
 		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 270)
+			(layer "F.Fab")
+			(uuid "e28c699a-43a6-41ec-b99d-6eb2a16087d6")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
 		(pad "1" thru_hole circle
 			(at -6.35 0 270)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC3--)")
@@ -9514,7 +9561,7 @@
 		(pad "2" thru_hole circle
 			(at 6.35 0 270)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "RV")
@@ -9571,7 +9618,7 @@
 				)
 			)
 		)
-		(property "Description" "terminal"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9582,38 +9629,11 @@
 				)
 			)
 		)
-		(property "Sim.Device" "SPICE"
+		(property "KiLib_Generator" "connector/wire"
 			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a737ed19-7960-4857-8d18-53ecfe4762fc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b7c33e8e-fe8b-4377-a3bf-0a7a031a6caa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=1"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e76fae45-2d6d-42dd-bb63-47869155a057")
 			(effects
 				(font
 					(size 1 1)
@@ -9624,12 +9644,7 @@
 		(path "/49953a5a-858d-4c88-9228-d8b1bbbf4a3a")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -9736,7 +9751,7 @@
 				)
 			)
 		)
-		(property "Description" "terminal"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9747,38 +9762,11 @@
 				)
 			)
 		)
-		(property "Sim.Device" "SPICE"
+		(property "KiLib_Generator" "connector/wire"
 			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "aefc0daa-f898-4e99-81b5-be2734f3c575")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "bc1590fa-08a1-492f-8a55-7121c6568a66")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=1"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "150f2056-0262-44d0-93de-4a8f268df8e9")
 			(effects
 				(font
 					(size 1 1)
@@ -9789,12 +9777,7 @@
 		(path "/49ce5020-8230-4987-9bf9-7a8ff8bea5b1")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -9901,7 +9884,7 @@
 				)
 			)
 		)
-		(property "Description" "terminal"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9912,38 +9895,11 @@
 				)
 			)
 		)
-		(property "Sim.Device" "SPICE"
+		(property "KiLib_Generator" "connector/wire"
 			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3418de34-94f8-4246-882d-aaa1f722dddd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9e4eb325-7afe-4f53-843e-d29265e71876")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=1"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4678c5bc-1c0d-486c-b1d2-918a28f511bd")
 			(effects
 				(font
 					(size 1 1)
@@ -9954,12 +9910,7 @@
 		(path "/14022783-ad3a-4285-bfc3-c4d22d9f2ade")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -10066,7 +10017,7 @@
 				)
 			)
 		)
-		(property "Description" "terminal"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10077,38 +10028,11 @@
 				)
 			)
 		)
-		(property "Sim.Device" "SPICE"
+		(property "KiLib_Generator" "connector/wire"
 			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cd6ac58b-0037-4c7e-88d9-85dab0639f9d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "221cc7b3-054c-41c4-aad3-e3313fcf1905")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=1"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e2481ba2-25a9-4725-919e-693e00ac3dfa")
 			(effects
 				(font
 					(size 1 1)
@@ -10119,12 +10043,7 @@
 		(path "/60f3601f-c828-4606-9d10-ee718910911a")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -10229,7 +10148,7 @@
 				)
 			)
 		)
-		(property "Description" "NPN transistor, emitter/base/collector"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -10240,41 +10159,21 @@
 				)
 			)
 		)
-		(property "Sim.Device" "NPN"
+		(property "Height" "7mm"
 			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
+			(layer "Cmts.User")
 			(hide yes)
-			(uuid "8acdbfc3-0561-48a0-b35d-959f2047af18")
+			(uuid "cdf5f927-29c8-42a5-bfae-66d097db3b6a")
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8823e7c6-2324-4e2b-a059-61fde416d998")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.1)
 				)
 			)
 		)
 		(path "/825759c8-024c-4424-b4e3-5dd79055c6f4")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "3" "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -10376,27 +10275,29 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R3"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.SilkS")
 			(uuid "59460442-98f4-4337-b7aa-ecebaa77af7b")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Value" "470k"
-			(at 0 0 90)
+			(at 0 2.032 270)
 			(layer "F.Fab")
 			(uuid "368e0fcb-770e-41a0-b186-259eeb83d8dd")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.016 1.016)
+					(thickness 0.1524)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at -6.35 0 90)
+			(at -6.35 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e173e657-9da5-451a-94da-c4e3172901b9")
@@ -10406,8 +10307,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at -6.35 0 90)
+		(property "Description" ""
+			(at -6.35 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0cff2393-fec5-4031-8fa1-c139dd7935d6")
@@ -10417,23 +10318,29 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at -6.35 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d30815d1-02ff-4481-a56a-7e0fe46c5521")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/13e7bc5e-6504-43a1-b8c6-4040bc51c7cd")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -5.08 0)
 			(end -3.81 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -10443,7 +10350,7 @@
 			(start 3.81 0)
 			(end 5.08 0)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -10453,7 +10360,7 @@
 			(start -3.81 -1.27)
 			(end 3.81 1.27)
 			(stroke
-				(width 0.3)
+				(width 0.2032)
 				(type default)
 			)
 			(fill no)
@@ -10464,7 +10371,7 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.0508)
 				(type solid)
 			)
 			(fill no)
@@ -10475,17 +10382,28 @@
 			(start -7.62 -1.27)
 			(end 7.62 1.27)
 			(stroke
-				(width 0.127)
+				(width 0.1016)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
 			(uuid "2ad3ea7d-304e-4cbe-ae53-e575e6f31a23")
 		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 270)
+			(layer "F.Fab")
+			(uuid "4d66253d-6000-4f23-88d0-d3e2e29a3509")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
 		(pad "1" thru_hole circle
 			(at -6.35 0 270)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
@@ -10495,7 +10413,7 @@
 		(pad "2" thru_hole circle
 			(at 6.35 0 270)
 			(size 2.032 2.032)
-			(drill 0.889)
+			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC1-+)")
@@ -10552,7 +10470,7 @@
 				)
 			)
 		)
-		(property "Description" "terminal"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10563,38 +10481,11 @@
 				)
 			)
 		)
-		(property "Sim.Device" "SPICE"
+		(property "KiLib_Generator" "connector/wire"
 			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "90a91d52-056e-431b-bd6d-072fdfd1fa8f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "498d6841-1f48-4f58-bcae-6e50b05e9d85")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=1"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "615d10d4-a7f9-4963-a8e2-797b9ebc22d1")
 			(effects
 				(font
 					(size 1 1)
@@ -10605,12 +10496,7 @@
 		(path "/900fec12-cd53-4446-969a-2b2beec365e4")
 		(sheetname "/NOISE/")
 		(sheetfile "NOISE.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -10719,7 +10605,7 @@
 				)
 			)
 		)
-		(property "Description" "DIN41612 connector, double row (AB) even pins only, 02x16, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at -39.37 5.3 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10730,19 +10616,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/IEC_DIN"
+			(at -39.37 5.3 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "68df7fbc-d621-4cc6-82de-fef67af8b30d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIN41612*2x*")
 		(path "/0f515fd3-b78a-4ac6-a13e-89533737f22b")
 		(sheetname "/SYSTEM/")
 		(sheetfile "system.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "a2" "a4" "a6" "a8" "a10" "a12" "a14" "a16" "a18" "a20" "a22" "a24"
-					"a26" "a28" "a30" "a32" "b2" "b4" "b6" "b8" "b10" "b12" "b14" "b16"
-					"b18" "b20" "b22" "b24" "b26" "b28" "b30" "b32"
-				)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
