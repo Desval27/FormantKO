@@ -1,29 +1,23 @@
-# WAVEFORM-PROCESSOR
+# WAVEFORM PROCESSOR
+
+Format: 3U
 
 ## Status
 
-60% Complete
-
-- [x] Schematic
-- [x] Schematic Additions
-- [x] Schematic Review
-- [x] PCB Placement
-- [x] PCB Routing
-- [x] PCB Review
-- [ ] Sample
-- [ ] Build
-- [ ] Calibrated
-- [ ] Tested
+⚠️ Untested⚠️
 
 ## Documents
 
-- [Translated Document](WAVEFORM_PROCESSOR.pdf)
-- [Assembly](plots/WAVEFORM_PROCESSOR__Assembly.pdf)
-- [Interactive Bill of Materials](bom/ibom.html)
+- [English Translation](doc/WAVEFORM_PROCESSOR__en.pdf)
+- [Schematic](doc/schematic.pdf)
+- [Assembly](doc/assembly.pdf)
+- [Bill of Materials](doc/bom.csv)
+- [Interactive Bill of Materials](doc/ibom.html)
+
 
 ## Gerber to Order
 
-!Untested!
+⚠️ Untested ⚠️
 
 - [Default](gerber_to_order/WAVEFORM_PROCESSOR_160.0x100.0mm_for_Default.zip)
 - [Elecrow](gerber_to_order/WAVEFORM_PROCESSOR_160.0x100.0mm_for_Elecrow.zip)
