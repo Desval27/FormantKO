@@ -43,7 +43,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FormantKO:C_Disc"
+			(property "Footprint" "FormantKO:C_Rect_P200mil"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -196,7 +196,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FormantKO:DUS"
+			(property "Footprint" "FormantKO:DO-35_P400mil"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -218,7 +218,7 @@
 					)
 				)
 			)
-			(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(property "Description" "Universal Silicon Diode"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -351,7 +351,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FormantKO:Generic_OpAmp_Single"
+		(symbol "FormantKO:GenericOpAmp_Single"
 			(pin_names
 				(offset 0.127)
 			)
@@ -371,7 +371,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Generic_OpAmp_Single"
+			(property "Value" "OpAmp"
 				(at 0 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -383,7 +383,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "FormantKO:DIP-8"
+			(property "Footprint" "FormantKO:DIP-8N"
 				(at 1.27 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -405,7 +405,7 @@
 					)
 				)
 			)
-			(property "Description" "Operational Amplifier, DIP-8/TO-99-8"
+			(property "Description" "Single Operational Amplifier"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -438,7 +438,7 @@
 					)
 				)
 			)
-			(symbol "Generic_OpAmp_Single_0_1"
+			(symbol "GenericOpAmp_Single_0_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -452,7 +452,7 @@
 					)
 				)
 			)
-			(symbol "Generic_OpAmp_Single_1_1"
+			(symbol "GenericOpAmp_Single_1_1"
 				(pin input line
 					(at 0 -7.62 90)
 					(length 5.08)
@@ -601,197 +601,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FormantKO:Panel_Potentiometer_3"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "P"
-				(at 2.54 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Panel_Potentiometer_3"
-				(at 2.54 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "FormantKO:Panel_Connector_1x03"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Dual variable resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Taper" "T"
-				(at 2.54 -0.635 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Legend" "Legend"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res dual resistor variable potentiometer rheostat"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_* FormantKO:Potentiometer*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Panel_Potentiometer_3_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.524) (xy 2.54 -2.54) (xy 1.524 -2.54) (xy 2.54 -2.54) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Panel_Potentiometer_3_1_1"
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "FormantKO:R"
 			(pin_numbers
 				(hide yes)
@@ -824,7 +633,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FormantKO:R_Axial_Horizontal"
+			(property "Footprint" "FormantKO:R_Axial_Horizontal_P500mil"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -915,6 +724,477 @@
 					(at 3.81 0 180)
 					(length 1.27)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FormantKO:R_Potentiometer"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "P"
+				(at 1.905 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "R"
+				(at 1.905 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "FormantKO:PanelConnector_1x03"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Variable Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Taper" "Tap"
+				(at 1.905 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Legend" "Legend"
+				(at -1.27 0.635 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "ki_keywords" "R res dual resistor variable potentiometer rheostat"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_* FormantKO:Potentiometer*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.524) (xy -2.54 -2.54) (xy -1.524 -2.54) (xy -2.54 -2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_1_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FormantKO:WireConnector"
+			(body_styles demorgan)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "WireConnector"
+				(at 0 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "FormantKO:Wire_1x01_D40mil_OD80mil"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "terminal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Spice_Primitive" "R"
+				(at 0.635 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Spice_Model" "0"
+				(at -1.905 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right top)
+				)
+			)
+			(property "ki_keywords" "J R terminal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "WireConnector_1_0"
+				(polyline
+					(pts
+						(xy -0.381 -0.381) (xy -0.889 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 0.381) (xy 0.889 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "WireConnector_1_1"
+				(pin passive line
+					(at 0 0 180)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "WireConnector_1_2"
+				(pin passive line
+					(at -0.8128 0 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0.8128 0 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "WireConnector_1_3"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.7272)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.7272)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "WireConnector_1_4"
+				(pin passive line
+					(at 0 0.8128 270)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -0.8128 90)
+					(length 0)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1303,10 +1583,46 @@
 		)
 	)
 	(junction
+		(at 63.5 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00a8c0da-af6f-4fc3-ba77-ba9eb7d5d454")
+	)
+	(junction
+		(at 127 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12c89c97-c0eb-4987-9461-34dcee3f1b65")
+	)
+	(junction
+		(at 107.95 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1918e034-8feb-45e1-9d6e-3721e71324a4")
+	)
+	(junction
+		(at 127 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24b1cd37-d3af-41bc-bc2b-7d8a9c5dc249")
+	)
+	(junction
+		(at 67.31 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "288d468a-3908-44b9-9848-a7eb27a524d3")
+	)
+	(junction
 		(at 107.95 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3cc8cf5b-a09d-42f2-98db-8771f1892ac5")
+	)
+	(junction
+		(at 127 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53264a86-2364-48ec-b6d7-18cb858e08ec")
 	)
 	(junction
 		(at 146.05 85.09)
@@ -1321,16 +1637,52 @@
 		(uuid "67c4ae12-9da4-4baf-be5f-f377b0f7c972")
 	)
 	(junction
+		(at 127 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "716a4950-daf6-4af7-9b7b-91c849ea8f73")
+	)
+	(junction
 		(at 82.55 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71e4d1d0-ac6f-4ef4-80b8-79b575b2decb")
 	)
 	(junction
+		(at 129.54 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "756c591a-2d20-4212-8cb0-1d2a0658c29f")
+	)
+	(junction
 		(at 101.6 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7efb1fea-e2a4-41b9-8742-c93b9891b18b")
+	)
+	(junction
+		(at 121.92 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84644252-dc18-4008-ac08-e70cd29cbe89")
+	)
+	(junction
+		(at 60.96 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a05e066-5e4a-4748-a8f4-397fed400e3c")
+	)
+	(junction
+		(at 107.95 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acb175db-6af5-400f-9c2e-7bb61f2c0a5e")
+	)
+	(junction
+		(at 176.53 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b345a91b-1b2a-46d5-9486-19af7003e9f9")
 	)
 	(junction
 		(at 165.1 50.8)
@@ -1361,6 +1713,48 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ccfe922a-a374-433f-8248-a9c5451aba1b")
+	)
+	(junction
+		(at 129.54 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d763b064-b575-436e-8ce0-06e5f4f35e77")
+	)
+	(junction
+		(at 63.5 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e09f2b46-b609-460e-8d3a-2b17df932898")
+	)
+	(junction
+		(at 63.5 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2720641-cc3d-4fec-8ad4-200dd9c6b643")
+	)
+	(junction
+		(at 63.5 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e80eca35-20f0-4656-8cba-e59a7a5607ae")
+	)
+	(junction
+		(at 67.31 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4b8a054-48b9-49b7-8eab-f157a8787595")
+	)
+	(junction
+		(at 110.49 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f700484c-6da4-4347-a85d-9db349ef3fe0")
+	)
+	(junction
+		(at 60.96 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fda37a5e-7e6b-4cc0-9285-953e767eef09")
 	)
 	(no_connect
 		(at 154.94 58.42)
@@ -1398,7 +1792,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 50.8) (xy 63.5 50.8)
+			(xy 69.85 50.8) (xy 67.31 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1488,7 +1882,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 87.63) (xy 177.8 87.63)
+			(xy 175.26 87.63) (xy 176.53 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1508,6 +1902,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 50.8) (xy 63.5 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25736bbc-4040-40f9-b2cf-4ee154308568")
+	)
+	(wire
+		(pts
 			(xy 101.6 85.09) (xy 99.06 85.09)
 		)
 		(stroke
@@ -1515,6 +1919,16 @@
 			(type default)
 		)
 		(uuid "36cf4c30-2580-41bc-98e0-68402d6be53d")
+	)
+	(wire
+		(pts
+			(xy 176.53 87.63) (xy 179.07 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be5045c-cbe1-4f48-955b-0379227d163f")
 	)
 	(wire
 		(pts
@@ -1538,7 +1952,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 88.9) (xy 63.5 88.9)
+			(xy 69.85 88.9) (xy 67.31 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1605,6 +2019,16 @@
 			(type default)
 		)
 		(uuid "58479e83-2a43-4f4e-a66a-566ed5180afc")
+	)
+	(wire
+		(pts
+			(xy 67.31 88.9) (xy 63.5 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c1e00c6-d553-42e7-b53b-5ff94f7fb0f8")
 	)
 	(wire
 		(pts
@@ -1725,6 +2149,16 @@
 			(type default)
 		)
 		(uuid "79e9e359-4db5-4847-ae76-76a8396d28ae")
+	)
+	(wire
+		(pts
+			(xy 121.92 50.8) (xy 127 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b3c5109-1ff9-4ae1-86f5-596be0838082")
 	)
 	(wire
 		(pts
@@ -1958,7 +2392,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 50.8) (xy 127 50.8)
+			(xy 119.38 50.8) (xy 121.92 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2007,7 +2441,7 @@
 		(uuid "faf560fb-6fdb-4a37-a62e-897e2b2d79bc")
 	)
 	(global_label "CM"
-		(shape input)
+		(shape passive)
 		(at 119.38 50.8 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2031,7 +2465,7 @@
 		)
 	)
 	(global_label "ES1"
-		(shape input)
+		(shape passive)
 		(at 69.85 50.8 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2055,8 +2489,8 @@
 		)
 	)
 	(global_label "OUT"
-		(shape output)
-		(at 177.8 87.63 0)
+		(shape passive)
+		(at 179.07 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2066,7 +2500,7 @@
 		)
 		(uuid "bea3c7a0-9933-4824-ae22-750e1b5e86f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.5089 87.63 0)
+			(at 185.7789 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2079,7 +2513,7 @@
 		)
 	)
 	(global_label "ES2"
-		(shape input)
+		(shape passive)
 		(at 69.85 88.9 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2133,7 +2567,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:R_Axial_Horizontal"
+		(property "Footprint" "FormantKO:R_Axial_Horizontal_P500mil"
 			(at 69.85 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2176,6 +2610,109 @@
 			(project "WAVEFORM_PROCESSOR"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 176.53 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04f0f2f3-0d5b-4f1e-9acc-9b89883e261f")
+		(property "Reference" "J6"
+			(at 176.53 85.725 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OUT"
+			(at 176.53 89.535 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_D40mil_OD80mil"
+			(at 176.53 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 176.53 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spice_Primitive" "R"
+			(at 177.165 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Spice_Model" "0"
+			(at 174.625 89.535 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "1"
+			(uuid "6ccf25d5-23f0-4b89-8488-6164c5afb2f9")
+		)
+		(instances
+			(project "WAVEFORM_PROCESSOR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2259,6 +2796,109 @@
 		)
 	)
 	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 63.5 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b7122f2-a056-4917-b6f7-be2a71a76f7b")
+		(property "Reference" "J13"
+			(at 63.5 52.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P3-1"
+			(at 63.5 56.515 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_D40mil_OD80mil"
+			(at 63.5 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 63.5 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spice_Primitive" "R"
+			(at 64.135 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Spice_Model" "0"
+			(at 61.595 56.515 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "1"
+			(uuid "2127dcde-fea5-406a-90a0-8b5ebba13921")
+		)
+		(instances
+			(project "WAVEFORM_PROCESSOR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+15V")
 		(at 152.4 43.18 0)
 		(unit 1)
@@ -2336,9 +2976,317 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Panel_Potentiometer_3")
+		(lib_id "FormantKO:WireConnector")
+		(at 127 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17ab8f64-58c4-4d72-8ea6-c4bc58c1003a")
+		(property "Reference" "J23"
+			(at 127 51.435 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P2-1"
+			(at 127 55.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_D40mil_OD80mil"
+			(at 127 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 127 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spice_Primitive" "R"
+			(at 127.635 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Spice_Model" "0"
+			(at 125.095 55.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "1"
+			(uuid "ca00ee01-5b9a-4a09-a4e5-e6c26599494b")
+		)
+		(instances
+			(project "WAVEFORM_PROCESSOR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 127 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1af49b4e-ffa4-4cb6-a513-3b2af2682e93")
+		(property "Reference" "J22"
+			(at 127 40.005 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P1-3"
+			(at 127 43.815 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_D40mil_OD80mil"
+			(at 127 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 127 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spice_Primitive" "R"
+			(at 127.635 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Spice_Model" "0"
+			(at 125.095 43.815 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "1"
+			(uuid "ca00ee01-5b9a-4a09-a4e5-e6c26599494b")
+		)
+		(instances
+			(project "WAVEFORM_PROCESSOR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 60.96 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c485798-60d6-4494-bee2-72e2ca854210")
+		(property "Reference" "J18"
+			(at 60.96 90.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P4-2"
+			(at 60.96 94.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_D40mil_OD80mil"
+			(at 60.96 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 60.96 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spice_Primitive" "R"
+			(at 61.595 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Spice_Model" "0"
+			(at 59.055 94.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "1"
+			(uuid "cacf4704-1120-4e18-8a81-c1895a5209d8")
+		)
+		(instances
+			(project "WAVEFORM_PROCESSOR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:R_Potentiometer")
 		(at 127 38.1 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2348,28 +3296,28 @@
 		(dnp no)
 		(uuid "1ea95ac2-5b15-4a1a-9d71-d13c86bbda6c")
 		(property "Reference" "P1"
-			(at 123.19 35.5599 0)
+			(at 124.46 34.544 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "100k"
-			(at 123.19 38.0999 0)
+			(at 124.46 36.322 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x03"
+		(property "Footprint" "FormantKO:PanelConnector_1x03"
 			(at 127 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -2391,7 +3339,7 @@
 				)
 			)
 		)
-		(property "Description" "Dual variable resistor"
+		(property "Description" "Variable Resistor"
 			(at 127 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -2403,18 +3351,18 @@
 			)
 		)
 		(property "Taper" "lin"
-			(at 123.19 40.6399 0)
+			(at 124.46 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Legend" "CLIPPING LEVEL"
-			(at 123.19 43.18 0)
+			(at 128.27 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2437,6 +3385,109 @@
 			(project "WAVEFORM_PROCESSOR"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 63.5 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25bbadee-574e-4804-a96a-679c97e8b871")
+		(property "Reference" "J19"
+			(at 63.5 98.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P4-3"
+			(at 63.5 102.235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_D40mil_OD80mil"
+			(at 63.5 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 63.5 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spice_Primitive" "R"
+			(at 64.135 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Spice_Model" "0"
+			(at 61.595 102.235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "1"
+			(uuid "f8af0376-f61d-4fef-b443-930840c9d87b")
+		)
+		(instances
+			(project "WAVEFORM_PROCESSOR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -2550,7 +3601,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:R_Axial_Horizontal"
+		(property "Footprint" "FormantKO:R_Axial_Horizontal_P500mil"
 			(at 156.21 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -2599,6 +3650,212 @@
 		)
 	)
 	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 107.95 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29b7d6d6-8bb7-4bf8-90ca-864d2bde89ee")
+		(property "Reference" "J9"
+			(at 107.95 97.155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P5-1"
+			(at 107.95 100.965 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_D40mil_OD80mil"
+			(at 107.95 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 107.95 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spice_Primitive" "R"
+			(at 108.585 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Spice_Model" "0"
+			(at 106.045 100.965 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "1"
+			(uuid "7e8238c1-72bd-46eb-9bbe-e5b80f8ad51f")
+		)
+		(instances
+			(project "WAVEFORM_PROCESSOR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 67.31 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c6f5053-03dd-42cb-9a77-49c443525f8d")
+		(property "Reference" "J16"
+			(at 67.31 86.995 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ES2"
+			(at 67.31 90.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_D40mil_OD80mil"
+			(at 67.31 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 67.31 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spice_Primitive" "R"
+			(at 67.945 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Spice_Model" "0"
+			(at 65.405 90.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "1"
+			(uuid "d204ada9-7df9-42bc-8f89-c70cab3c1955")
+		)
+		(instances
+			(project "WAVEFORM_PROCESSOR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FormantKO:R")
 		(at 139.7 85.09 0)
 		(unit 1)
@@ -2629,7 +3886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:R_Axial_Horizontal"
+		(property "Footprint" "FormantKO:R_Axial_Horizontal_P500mil"
 			(at 139.7 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -2832,6 +4089,222 @@
 		)
 	)
 	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 107.95 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40e69e09-d982-4e91-880d-45ad15ac7e8e")
+		(property "Reference" "J10"
+			(at 107.95 89.535 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P5-3"
+			(at 107.95 93.345 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_D40mil_OD80mil"
+			(at 107.95 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 107.95 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spice_Primitive" "R"
+			(at 108.585 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Spice_Model" "0"
+			(at 106.045 93.345 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "1"
+			(uuid "e24ec63f-27d7-4dfe-8b23-3ba40f2583f3")
+		)
+		(instances
+			(project "WAVEFORM_PROCESSOR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 121.92 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50896377-0666-494d-b370-d10343c821a4")
+		(property "Reference" "J26"
+			(at 121.92 48.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CM"
+			(at 121.92 52.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_D40mil_OD80mil"
+			(at 121.92 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 121.92 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 122.555 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at -5.08 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at -5.08 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a07db84-07fd-4584-bdb2-642e80e7297e")
+		)
+		(instances
+			(project "WAVEFORM_PROCESSOR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FormantKO:C")
 		(at 57.15 82.55 90)
 		(unit 1)
@@ -2862,7 +4335,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Disc_300_400"
+		(property "Footprint" "FormantKO:C_Rect_P300-400mil"
 			(at 57.15 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2941,7 +4414,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:R_Axial_Horizontal"
+		(property "Footprint" "FormantKO:R_Axial_Horizontal_P500mil"
 			(at 171.45 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2984,6 +4457,109 @@
 			(project "WAVEFORM_PROCESSOR"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 127 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57b96d88-abe5-4892-be9a-a19df0fd9cbf")
+		(property "Reference" "J20"
+			(at 127 32.385 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P1-1"
+			(at 127 36.195 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_D40mil_OD80mil"
+			(at 127 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 127 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spice_Primitive" "R"
+			(at 127.635 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Spice_Model" "0"
+			(at 125.095 36.195 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "1"
+			(uuid "ca00ee01-5b9a-4a09-a4e5-e6c26599494b")
+		)
+		(instances
+			(project "WAVEFORM_PROCESSOR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -3067,6 +4643,109 @@
 		)
 	)
 	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 110.49 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bfb6977-6e9f-4ba3-904d-c0d095279f18")
+		(property "Reference" "J11"
+			(at 110.49 89.535 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P5-2"
+			(at 110.49 93.345 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_D40mil_OD80mil"
+			(at 110.49 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 110.49 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spice_Primitive" "R"
+			(at 111.125 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Spice_Model" "0"
+			(at 108.585 93.345 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "1"
+			(uuid "396d32e5-ed05-4be2-ac5e-700ceee1a941")
+		)
+		(instances
+			(project "WAVEFORM_PROCESSOR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FormantKO:C")
 		(at 127 85.09 270)
 		(unit 1)
@@ -3097,7 +4776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Disc_300_400"
+		(property "Footprint" "FormantKO:C_Rect_P300-400mil"
 			(at 127 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3176,7 +4855,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:R_Axial_Horizontal"
+		(property "Footprint" "FormantKO:R_Axial_Horizontal_P500mil"
 			(at 139.7 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3332,7 +5011,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:C_Disc_300_400"
+		(property "Footprint" "FormantKO:C_Rect_P300-400mil"
 			(at 57.15 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3411,7 +5090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:R_Axial_Horizontal"
+		(property "Footprint" "FormantKO:R_Axial_Horizontal_P500mil"
 			(at 156.21 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3460,6 +5139,109 @@
 		)
 	)
 	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 60.96 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8efdd6cc-bddb-4099-b1e1-1e18f4e3ebcb")
+		(property "Reference" "J14"
+			(at 60.96 52.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P3-2"
+			(at 60.96 56.515 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_D40mil_OD80mil"
+			(at 60.96 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 60.96 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spice_Primitive" "R"
+			(at 61.595 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Spice_Model" "0"
+			(at 59.055 56.515 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "1"
+			(uuid "1fb9fcc7-0b2d-4d2b-a289-407be1066abf")
+		)
+		(instances
+			(project "WAVEFORM_PROCESSOR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FormantKO:R")
 		(at 139.7 34.29 0)
 		(unit 1)
@@ -3490,7 +5272,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:R_Axial_Horizontal"
+		(property "Footprint" "FormantKO:R_Axial_Horizontal_P500mil"
 			(at 139.7 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -3539,8 +5321,9 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Panel_Potentiometer_3")
+		(lib_id "FormantKO:R_Potentiometer")
 		(at 63.5 58.42 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3550,28 +5333,28 @@
 		(dnp no)
 		(uuid "94ee3c70-199d-4d71-8f5c-b2950da93048")
 		(property "Reference" "P3"
-			(at 67.31 55.8799 0)
+			(at 66.04 54.864 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "50k"
-			(at 67.31 58.4199 0)
+			(at 66.04 56.642 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x03"
+		(property "Footprint" "FormantKO:PanelConnector_1x03"
 			(at 63.5 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -3593,7 +5376,7 @@
 				)
 			)
 		)
-		(property "Description" "Dual variable resistor"
+		(property "Description" "Variable Resistor"
 			(at 63.5 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -3605,18 +5388,18 @@
 			)
 		)
 		(property "Taper" "log"
-			(at 67.31 60.9599 0)
+			(at 66.04 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Legend" "ES1"
-			(at 67.31 63.5 0)
+			(at 62.23 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3645,9 +5428,8 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Panel_Potentiometer_3")
+		(lib_id "FormantKO:R_Potentiometer")
 		(at 127 57.15 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3657,28 +5439,28 @@
 		(dnp no)
 		(uuid "973a3018-a5a3-44d7-8fe1-3ec5ed090e1c")
 		(property "Reference" "P2"
-			(at 123.19 54.6099 0)
+			(at 124.46 53.594 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "100k"
-			(at 123.19 57.1499 0)
+			(at 124.46 55.372 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x03"
+		(property "Footprint" "FormantKO:PanelConnector_1x03"
 			(at 127 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -3700,7 +5482,7 @@
 				)
 			)
 		)
-		(property "Description" "Dual variable resistor"
+		(property "Description" "Variable Resistor"
 			(at 127 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -3712,18 +5494,18 @@
 			)
 		)
 		(property "Taper" "log"
-			(at 123.19 59.6899 0)
+			(at 124.46 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Legend" "CM"
-			(at 123.19 62.23 0)
+			(at 128.27 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3746,6 +5528,109 @@
 			(project "WAVEFORM_PROCESSOR"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "P2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 129.54 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ae07cdb-cf74-4202-9131-4d632c732eb7")
+		(property "Reference" "J21"
+			(at 129.54 32.385 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P1-2"
+			(at 129.54 36.195 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_D40mil_OD80mil"
+			(at 129.54 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 129.54 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spice_Primitive" "R"
+			(at 130.175 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Spice_Model" "0"
+			(at 127.635 36.195 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "1"
+			(uuid "ca00ee01-5b9a-4a09-a4e5-e6c26599494b")
+		)
+		(instances
+			(project "WAVEFORM_PROCESSOR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -3829,9 +5714,8 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Panel_Potentiometer_3")
+		(lib_id "FormantKO:R_Potentiometer")
 		(at 107.95 95.25 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3841,28 +5725,28 @@
 		(dnp no)
 		(uuid "9e826090-41f6-462d-ae0e-b714d0c55f19")
 		(property "Reference" "P5"
-			(at 104.14 92.7099 0)
+			(at 105.41 91.694 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10k"
-			(at 104.14 95.2499 0)
+			(at 105.41 93.472 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x03"
+		(property "Footprint" "FormantKO:PanelConnector_1x03"
 			(at 107.95 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -3884,7 +5768,7 @@
 				)
 			)
 		)
-		(property "Description" "Dual variable resistor"
+		(property "Description" "Variable Resistor"
 			(at 107.95 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -3896,18 +5780,18 @@
 			)
 		)
 		(property "Taper" "lin"
-			(at 104.14 97.7899 0)
+			(at 105.41 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Legend" "SYMMETRY"
-			(at 104.14 100.33 0)
+			(at 109.22 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3966,7 +5850,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:R_Axial_Horizontal"
+		(property "Footprint" "FormantKO:R_Axial_Horizontal_P500mil"
 			(at 114.3 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4015,7 +5899,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Generic_OpAmp_Single")
+		(lib_id "FormantKO:GenericOpAmp_Single")
 		(at 91.44 85.09 0)
 		(unit 1)
 		(body_style 1)
@@ -4047,7 +5931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:DIP-8"
+		(property "Footprint" "FormantKO:DIP-8N"
 			(at 92.71 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4069,7 +5953,7 @@
 				)
 			)
 		)
-		(property "Description" "Operational Amplifier, DIP-8/TO-99-8"
+		(property "Description" "Single Operational Amplifier"
 			(at 91.44 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4375,7 +6259,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:R_Axial_Horizontal"
+		(property "Footprint" "FormantKO:R_Axial_Horizontal_P500mil"
 			(at 92.71 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4418,6 +6302,212 @@
 			(project "WAVEFORM_PROCESSOR"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 67.31 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb00abb6-7bf6-4d48-9554-dd68bb90ffaa")
+		(property "Reference" "J12"
+			(at 67.31 48.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ES1"
+			(at 67.31 52.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_D40mil_OD80mil"
+			(at 67.31 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 67.31 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spice_Primitive" "R"
+			(at 67.945 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Spice_Model" "0"
+			(at 65.405 52.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "1"
+			(uuid "00e72482-ada7-4e5e-8342-73abd9925bd2")
+		)
+		(instances
+			(project "WAVEFORM_PROCESSOR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 63.5 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf2ef41e-d148-450f-b81b-c7ba1e57ef05")
+		(property "Reference" "J17"
+			(at 63.5 90.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P4-1"
+			(at 63.5 94.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_D40mil_OD80mil"
+			(at 63.5 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 63.5 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spice_Primitive" "R"
+			(at 64.135 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Spice_Model" "0"
+			(at 61.595 94.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "1"
+			(uuid "a36cde4e-896d-4100-907a-c686d239ba9a")
+		)
+		(instances
+			(project "WAVEFORM_PROCESSOR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -4501,8 +6591,9 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Panel_Potentiometer_3")
+		(lib_id "FormantKO:R_Potentiometer")
 		(at 63.5 96.52 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4512,28 +6603,28 @@
 		(dnp no)
 		(uuid "ce81ad2f-11b6-4599-8f95-f58cde876dc4")
 		(property "Reference" "P4"
-			(at 67.31 93.9799 0)
+			(at 66.04 92.964 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "50k"
-			(at 67.31 96.5199 0)
+			(at 66.04 94.742 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "FormantKO:Panel_Connector_1x03"
+		(property "Footprint" "FormantKO:PanelConnector_1x03"
 			(at 63.5 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4555,7 +6646,7 @@
 				)
 			)
 		)
-		(property "Description" "Dual variable resistor"
+		(property "Description" "Variable Resistor"
 			(at 63.5 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4567,18 +6658,18 @@
 			)
 		)
 		(property "Taper" "log"
-			(at 67.31 99.0599 0)
+			(at 66.04 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Legend" "ES2"
-			(at 67.31 101.6 0)
+			(at 62.23 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4607,7 +6698,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Generic_OpAmp_Single")
+		(lib_id "FormantKO:GenericOpAmp_Single")
 		(at 154.94 87.63 0)
 		(unit 1)
 		(body_style 1)
@@ -4639,7 +6730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:DIP-8"
+		(property "Footprint" "FormantKO:DIP-8N"
 			(at 156.21 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4661,7 +6752,7 @@
 				)
 			)
 		)
-		(property "Description" "Operational Amplifier, DIP-8/TO-99-8"
+		(property "Description" "Single Operational Amplifier"
 			(at 154.94 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4700,6 +6791,212 @@
 			(project "WAVEFORM_PROCESSOR"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "IC3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 63.5 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf9b89bb-8d19-4d45-a33f-33b8b2aaeb6d")
+		(property "Reference" "J15"
+			(at 63.5 60.325 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P3-3"
+			(at 63.5 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_D40mil_OD80mil"
+			(at 63.5 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 63.5 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spice_Primitive" "R"
+			(at 64.135 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Spice_Model" "0"
+			(at 61.595 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "1"
+			(uuid "09af1591-3fef-4f0b-bece-b8e14fb4f566")
+		)
+		(instances
+			(project "WAVEFORM_PROCESSOR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 129.54 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4119f60-aedf-4ba9-98d6-14757be2e720")
+		(property "Reference" "J24"
+			(at 129.54 51.435 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P2-2"
+			(at 129.54 55.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_D40mil_OD80mil"
+			(at 129.54 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 129.54 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spice_Primitive" "R"
+			(at 130.175 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Spice_Model" "0"
+			(at 127.635 55.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "1"
+			(uuid "ca00ee01-5b9a-4a09-a4e5-e6c26599494b")
+		)
+		(instances
+			(project "WAVEFORM_PROCESSOR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -4890,7 +7187,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:R_Axial_Horizontal"
+		(property "Footprint" "FormantKO:R_Axial_Horizontal_P500mil"
 			(at 69.85 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4969,7 +7266,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:R_Axial_Horizontal"
+		(property "Footprint" "FormantKO:R_Axial_Horizontal_P500mil"
 			(at 139.7 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -5018,7 +7315,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Generic_OpAmp_Single")
+		(lib_id "FormantKO:GenericOpAmp_Single")
 		(at 154.94 50.8 0)
 		(unit 1)
 		(body_style 1)
@@ -5050,7 +7347,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:DIP-8"
+		(property "Footprint" "FormantKO:DIP-8N"
 			(at 156.21 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -5072,7 +7369,7 @@
 				)
 			)
 		)
-		(property "Description" "Operational Amplifier, DIP-8/TO-99-8"
+		(property "Description" "Single Operational Amplifier"
 			(at 154.94 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5150,7 +7447,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:DUS"
+		(property "Footprint" "FormantKO:DO-35_P400mil"
 			(at 165.1 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5172,7 +7469,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "Universal Silicon Diode"
 			(at 165.1 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5215,6 +7512,109 @@
 			(project "WAVEFORM_PROCESSOR"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 127 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb6a5175-b849-4a04-b894-3088f872ae6a")
+		(property "Reference" "J25"
+			(at 127 59.055 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P2-3"
+			(at 127 62.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_D40mil_OD80mil"
+			(at 127 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 127 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spice_Primitive" "R"
+			(at 127.635 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Spice_Model" "0"
+			(at 125.095 62.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(pin "1"
+			(uuid "ca00ee01-5b9a-4a09-a4e5-e6c26599494b")
+		)
+		(instances
+			(project "WAVEFORM_PROCESSOR"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J25")
 					(unit 1)
 				)
 			)
