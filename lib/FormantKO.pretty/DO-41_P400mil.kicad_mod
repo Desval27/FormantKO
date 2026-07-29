@@ -1,0 +1,210 @@
+(footprint "DO-41_P400mil"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
+	(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
+	(property "Reference" "REF**"
+		(at 0.635 0 0)
+		(layer "F.SilkS")
+		(uuid "da4ce8db-f750-4816-8dc9-fb7a6ec2aa26")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(property "Value" "1N4002"
+		(at 0 2.032 0)
+		(layer "F.Fab")
+		(uuid "ca6a02bf-6d19-41f8-acdd-36d4b34d165c")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+		(at -6.35 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1cc738fb-0613-45c8-ac1d-8baf7ff4cd47")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "100V 1A General Purpose Rectifier Diode, DO-41"
+		(at -6.35 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2dd37af-e23a-47d5-9d0a-ae30d4e78e7d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Sim.Device" "D"
+		(at -6.35 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4074aead-67fa-45b8-ae71-bca44c02c95f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" "1=K 2=A"
+		(at -6.35 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbf38b5f-367d-42ae-a09f-c29b30bae6fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "D*DO?41*")
+	(sheetname "/+15V/")
+	(sheetfile "PSU.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.81 0)
+		(end -2.6035 0)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "02e5f02a-ac77-4a17-963f-4bb3fb895b2d")
+	)
+	(fp_line
+		(start 3.81 0)
+		(end 2.6035 0)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e217c892-af5d-475e-9203-2b39d681d81e")
+	)
+	(fp_rect
+		(start -2.6035 -1.27)
+		(end 2.6035 1.27)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ae76cb9d-ca37-4020-862c-181664b8837b")
+	)
+	(fp_rect
+		(start -1.524 -1.27)
+		(end -1.143 1.27)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "1b9b2bcf-94b7-44d3-b316-eae8167d8bd6")
+	)
+	(fp_rect
+		(start -6.35 -1.27)
+		(end 6.35 1.27)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "179ec57d-5d15-4476-87aa-5f5113e46308")
+	)
+	(fp_rect
+		(start -6.35 -1.27)
+		(end 6.35 1.27)
+		(stroke
+			(width 0.1016)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c5325f1e-232d-459f-9d68-0799181f0f54")
+	)
+	(fp_text user "k"
+		(at -6.985 0 0)
+		(layer "F.Fab")
+		(uuid "690de393-24f4-42e6-bc6a-834a727f4ce0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "901484eb-8730-434d-9c6b-d32af22f991b")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(fp_text user "a"
+		(at 6.985 0 0)
+		(layer "F.Fab")
+		(uuid "948547c9-bea2-47e7-9228-646cf91bbc88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -5.08 0)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "e865ec83-a4c7-4632-ade1-778d70b68bb3")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "54e25b2a-a00f-4ad7-a4cb-8b5e80d06389")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-41_SOD81_P10.16mm_Horizontal.step"
+		(offset
+			(xyz -5.08 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

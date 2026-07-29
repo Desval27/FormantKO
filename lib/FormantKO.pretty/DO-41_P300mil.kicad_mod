@@ -1,0 +1,220 @@
+(footprint "DO-41_P300mil"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
+	(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm")
+	(property "Reference" "REF**"
+		(at 0.762 0 0)
+		(layer "F.SilkS")
+		(uuid "8f3d5b05-9445-4ca3-8be2-fa22e5702202")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(property "Value" "1N4002"
+		(at 0 2.032 0)
+		(layer "F.Fab")
+		(uuid "e901ae5f-1f57-4d6d-a1cd-a352752dc61c")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+		(at -6.35 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe01655f-e7cd-48ba-9af6-0d925b0586e3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "100V 1A General Purpose Rectifier Diode, DO-41"
+		(at -6.35 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40a59d22-f36f-4427-9f4e-817f781f5b63")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Sim.Device" "D"
+		(at -6.35 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6878d86f-2bd4-4081-8d53-adcb63d12fe8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" "1=K 2=A"
+		(at -6.35 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb489eed-81a7-4dca-b86c-08f77a93a927")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "D*DO?41*")
+	(sheetname "/+15V/")
+	(sheetfile "PSU.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5.08 0)
+		(end -2.54 0)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ce83dd7-3eae-4a03-9123-74797ac8997b")
+	)
+	(fp_line
+		(start 5.08 0)
+		(end 2.54 0)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "57258388-a414-4ceb-b39f-489db6981b5f")
+	)
+	(fp_rect
+		(start -2.54 -1.27)
+		(end 2.54 1.27)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "576fb481-cf17-479d-b27d-ad5ffc351ca1")
+	)
+	(fp_rect
+		(start -1.524 -1.2192)
+		(end -1.143 1.2192)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "9a450ab2-6858-47d8-9dea-f36d216e206e")
+	)
+	(fp_rect
+		(start -7.62 -1.27)
+		(end 7.62 1.27)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "fd12b646-091c-4bc5-bf5f-906b72dd86e2")
+	)
+	(fp_rect
+		(start -7.62 -1.27)
+		(end 7.62 1.27)
+		(stroke
+			(width 0.1016)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a7441099-44a5-4d5e-959c-13a4b5da81e8")
+	)
+	(fp_text user "k"
+		(at -8.128 0 0)
+		(layer "F.Fab")
+		(uuid "a321124e-d4fb-43ca-a02b-c7222d0eb571")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "267ad2c0-6321-45db-ba04-75704d38b43f")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(fp_text user "a"
+		(at 4.445 0 0)
+		(layer "F.Fab")
+		(uuid "da31ada7-5eed-48b8-8f37-a6d6fcad00eb")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(fp_text user "a"
+		(at 8.255 0 0)
+		(layer "F.Fab")
+		(uuid "8fd32818-1788-43df-acb6-9edc94d5ce35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -6.35 0)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "531590f7-f202-4592-886b-487a859450d0")
+	)
+	(pad "2" thru_hole circle
+		(at 6.35 0)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d134d2a5-7ff1-4770-a2f9-0ab036653915")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-41_SOD81_P12.70mm_Horizontal.step"
+		(offset
+			(xyz -6.35 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
