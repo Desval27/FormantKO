@@ -1,4 +1,4 @@
-(footprint "TO-92"
+(footprint "TO-92_MFOS"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -6,9 +6,9 @@
 	(descr "TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)")
 	(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 	(property "Reference" "REF**"
-		(at 0 -3.302 0)
+		(at 0 -2.794 0)
 		(layer "F.SilkS")
-		(uuid "38df3c2f-dd9c-40a4-9056-a5e78c9c7d8f")
+		(uuid "914bbc60-f710-4626-9956-d2b1b59e8a6c")
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -16,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "TO-92"
-		(at 0 2.54 0)
+	(property "Value" "TO-92_MFOS"
+		(at 0 3.298 0)
 		(layer "F.Fab")
-		(uuid "1bb5bc70-38bc-41b5-ac61-6a30121a33c8")
+		(uuid "0ec44701-60f9-4522-b5e6-5934a457e687")
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -28,11 +28,11 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at -1.27 0 0)
+		(at -1.27 0.508 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "53efbb08-6256-46f6-8671-9547384f18bd")
+		(uuid "cbdbe1d7-2428-46a2-b6e9-c1dfc0412e50")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,11 +41,11 @@
 		)
 	)
 	(property "Description" ""
-		(at -1.27 0 0)
+		(at -1.27 0.508 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d85db734-0815-4302-b7b0-2205c1f9c986")
+		(uuid "93e5c7fd-71cd-4272-aef3-9647150424bf")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,62 +56,62 @@
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -1.778 1.778)
-		(end 1.778 1.778)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "2219560f-470c-4df2-b961-79d7ac43b1f4")
-	)
-	(fp_arc
-		(start -1.778 1.778)
-		(mid 0 -2.514472)
-		(end 1.778 1.778)
+		(start -1.778 2.286)
+		(end 1.778 2.286)
 		(stroke
 			(width 0.2032)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "9750aa67-1cfc-4a75-8014-5fdf68b9c60e")
+		(uuid "77e4c009-8aaa-423f-aaee-4bb04c5a9435")
+	)
+	(fp_arc
+		(start -1.778 2.286)
+		(mid 0 -2.006472)
+		(end 1.778 2.286)
+		(stroke
+			(width 0.2032)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "350035d6-c39d-445b-9afc-d34fc3134c94")
 	)
 	(fp_rect
-		(start -2.794 -2.794)
-		(end 2.794 2.032)
+		(start -2.794 -2.286)
+		(end 2.794 2.54)
 		(stroke
 			(width 0.0508)
 			(type default)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "4367f088-1a50-4cf9-a837-ebac521e91aa")
+		(uuid "04bf290a-6a95-432f-ba90-7e79bf845e65")
 	)
 	(fp_line
-		(start -1.778 1.778)
-		(end 1.778 1.778)
+		(start -1.778 2.286)
+		(end 1.778 2.286)
 		(stroke
 			(width 0.1016)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "be330c7a-6c27-4760-a121-4dad9143d919")
+		(uuid "4a725a35-d5d0-44cd-bdbe-237b686d6e75")
 	)
 	(fp_arc
-		(start -1.778 1.778)
-		(mid 0 -2.514472)
-		(end 1.778 1.778)
+		(start -1.778 2.286)
+		(mid 0 -2.006472)
+		(end 1.778 2.286)
 		(stroke
 			(width 0.1016)
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "950cc233-94ed-4361-8f5b-f314f7b7ee34")
+		(uuid "529b6b88-3e8e-4d95-9be6-42d38e074178")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 0.508 0)
 		(layer "F.Fab")
-		(uuid "74813f5c-d4bd-4ca8-b535-97c167e9bb74")
+		(uuid "19019c53-14a6-4347-8206-204dee7cbc72")
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -120,40 +120,40 @@
 		)
 	)
 	(pad "1" thru_hole roundrect
-		(at -1.27 0)
+		(at -1.524 1.016)
 		(size 1.27 1.27)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.2)
-		(uuid "dad0a8f1-7c1d-4ece-a59c-8c582d0daec0")
+		(uuid "5a2e851c-9f1b-4d8c-8169-f05c9ac7bb3d")
 	)
 	(pad "2" thru_hole circle
-		(at 0 -1.27)
+		(at 0 -1.016)
 		(size 1.27 1.27)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "1dc885b2-8dd9-4918-a142-01357a1d833b")
+		(uuid "85118d99-cc2b-47f1-9d52-2f786d67f79e")
 	)
 	(pad "3" thru_hole circle
-		(at 1.27 0)
+		(at 1.524 1.016)
 		(size 1.27 1.27)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "823b9ab8-7e99-4616-9d9f-a7e22d759872")
+		(uuid "f68a5e3c-492d-422c-a729-2a58a99e62af")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92.step"
 		(offset
-			(xyz -1.27 0 0)
+			(xyz -1.27 -0.889 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
