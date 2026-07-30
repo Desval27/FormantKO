@@ -1503,7 +1503,7 @@
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
@@ -3107,6 +3107,17 @@
 				(justify left)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 165.1 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "67779a7f-b3cb-4d20-9e69-83be50aa4da1")
 		)
@@ -3200,6 +3211,17 @@
 				(justify left)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 165.1 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3782aeb4-8bc1-45c0-a37c-4d1bafbb288d")
 		)
@@ -3291,6 +3313,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 165.1 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3452,6 +3485,17 @@
 				)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 107.95 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "WAVEFORM_PROCESSOR"
 				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
@@ -3537,6 +3581,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 165.1 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3714,7 +3769,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -3775,7 +3830,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "SPICE"
+		(property "Spice_Primitive" "R"
 			(at 55.245 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -3787,8 +3842,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
-			(at 0 0 0)
+		(property "Spice_Model" "0"
+			(at 52.705 128.905 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3796,10 +3851,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right top)
 			)
 		)
-		(property "Sim.Pins" "1=1"
-			(at 0 0 0)
+		(property "Sim.Params" ""
+			(at 54.61 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3876,6 +3932,17 @@
 			)
 		)
 		(property "Description" "DIN41612 connector, double row (AB) even pins only, 02x16, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 57.15 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 57.15 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -3997,7 +4064,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4058,7 +4125,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "SPICE"
+		(property "Spice_Primitive" "R"
 			(at 52.705 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4070,8 +4137,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
-			(at 0 0 0)
+		(property "Spice_Model" "0"
+			(at 50.165 128.905 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4079,10 +4146,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right top)
 			)
 		)
-		(property "Sim.Pins" "1=1"
-			(at 0 0 0)
+		(property "Sim.Params" ""
+			(at 52.07 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4138,7 +4206,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:CP_Axial_P800mil"
+		(property "Footprint" "FormantKO:CP_Axial_P600mil"
 			(at 58.1152 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -4180,6 +4248,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 57.15 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4231,7 +4310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:CP_Axial_P800mil"
+		(property "Footprint" "FormantKO:CP_Axial_P600mil"
 			(at 58.1152 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -4273,6 +4352,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 57.15 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"

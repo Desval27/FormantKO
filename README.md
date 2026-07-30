@@ -131,13 +131,13 @@ Based on MFOS 16-step Analog Sequencer
 
 ### Modules
 
-- [CLOCK](sequencer/modules/CLOCK/README.md)
-- [ANALOG CV-16](sequencer/modules/ANALOG/README.md)
+- [CLOCK](MFOS/modules/CLOCK/README.md)
+- [ANALOG CV-16](MFOS/modules/ANALOG/README.md)
 
 ### Panels
 
-- [CLOCK](sequencer/panels/CLOCK/README.md)
-- [ANALOG CV-16](sequencer/panels/ANALOG/README.md)
+- [CLOCK](MFOS/panels/CLOCK/README.md)
+- [ANALOG CV-16](MFOS/panels/ANALOG/README.md)
 
 ## ⚠️ Disclaimer⚠️
 

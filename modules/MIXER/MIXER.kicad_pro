@@ -105,7 +105,7 @@
         "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
-        "isolated_copper": "ignore",
+        "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
@@ -510,7 +510,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "WAVEFORM_PROCESSOR.kicad_pro",
+    "filename": "MIXER.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -553,16 +553,20 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
-        "pattern": "*"
+        "netclass": "Power",
+        "pattern": "+15V"
       },
       {
         "netclass": "Power",
-        "pattern": "*15V"
+        "pattern": "-15V"
       },
       {
         "netclass": "Power",
-        "pattern": "*GND"
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
       }
     ]
   },
@@ -571,7 +575,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "doc",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -586,7 +590,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "doc/bom.csv",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -636,72 +640,12 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Legend",
-          "name": "Legend",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Params",
-          "name": "Sim.Params",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Taper",
-          "name": "Taper",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Voltage",
-          "name": "Voltage",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Spice_Primitive",
-          "name": "Spice_Primitive",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Spice_Model",
-          "name": "Spice_Model",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "",
+      "name": "Grouped By Value",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -762,8 +706,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "WAVEFORM_PROCESSOR.kicad_sch",
-        "name": "WAVEFORM_PROCESSOR",
+        "filename": "MIXER.kicad_sch",
+        "name": "MIXER",
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       },
       {
@@ -772,13 +716,13 @@
         "uuid": "c4180125-30a4-4709-af20-86798ec7ea53"
       }
     ],
-    "used_designators": "J6-26",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
-      "WAVEFORM_PROCESSOR"
+      "MIXER"
     ],
     [
       "c4180125-30a4-4709-af20-86798ec7ea53",
@@ -788,8 +732,8 @@
   "text_variables": {
     "EMAIL": "mailto:paul.f.burdette@gmail.com",
     "GITHUB": "https://github.com/Desval27/FormantKO",
-    "MODULE": "WAVEFORM-PROCESSOR",
-    "PARTNO": "300381",
+    "MODULE": "TEMPLATE",
+    "PARTNO": "9999-9",
     "TAG": "Do Not Fold, Spindle or Mutilate"
   },
   "tuning_profiles": {

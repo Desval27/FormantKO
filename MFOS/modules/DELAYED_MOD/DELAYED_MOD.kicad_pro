@@ -510,14 +510,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MIXER3.kicad_pro",
+    "filename": "DELAYED_MOD.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.254,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -528,11 +528,22 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.762,
         "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "via_diameter": 1.016,
+        "via_drill": 0.508,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.254,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.27,
+        "tuning_profile": "",
+        "via_diameter": 1.524,
+        "via_drill": 0.508
       }
     ],
     "meta": {
@@ -540,7 +551,24 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "+15V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "-15V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -678,8 +706,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "MIXER3.kicad_sch",
-        "name": "MIXER3",
+        "filename": "DELAYED_MOD.kicad_sch",
+        "name": "DELAYED_MOD",
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       },
       {
@@ -688,13 +716,13 @@
         "uuid": "c4180125-30a4-4709-af20-86798ec7ea53"
       }
     ],
-    "used_designators": "D1,#PWR1-9,J1-4,MH1",
+    "used_designators": "S1,J2,C1,C4,D1,X2-3,X10,T1,R1,R5,#PWR1-7",
     "variants": []
   },
   "sheets": [
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
-      "TEMPLATE"
+      "DELAYED_MOD"
     ],
     [
       "c4180125-30a4-4709-af20-86798ec7ea53",
