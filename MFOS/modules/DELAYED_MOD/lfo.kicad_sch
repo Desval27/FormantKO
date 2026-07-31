@@ -109,6 +109,17 @@
 					)
 				)
 			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "2N3904_0_1"
 				(polyline
 					(pts
@@ -1401,7 +1412,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "R_*"
+			(property "ki_fp_filters" "R_* FormantKO:R_Axial_Horizontal*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1839,12 +1850,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FormantKO:SW_SPDT"
+		(symbol "FormantKO:SW_SP3T"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(hide yes)
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1852,7 +1863,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "S"
-				(at 0 1.016 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1861,19 +1872,18 @@
 					)
 				)
 			)
-			(property "Value" "SW"
-				(at 0 0 0)
+			(property "Value" "SW_SP3T"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "FormantKO:PanelConnector_1x03"
-				(at 0 0 0)
+			(property "Footprint" "FormantKO:PanelConnector_1x04"
+				(at -15.875 4.445 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1884,6 +1894,17 @@
 				)
 			)
 			(property "Datasheet" ""
+				(at -15.875 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Switch, three position, single pole triple throw, 3 position switch, SP3T"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1894,7 +1915,7 @@
 					)
 				)
 			)
-			(property "Description" "Single Pole Double Throw Switch"
+			(property "ki_keywords" "switch sp3t ON-ON-ON"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1905,31 +1926,32 @@
 					)
 				)
 			)
-			(property "Legend" "LEGEND"
-				(at 0 1.016 0)
+			(property "ki_fp_filters" "SW* DP3T*"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(symbol "SW_SPDT_0_1"
-				(circle
-					(center -2.54 1.905)
-					(radius 0.635)
+			(symbol "SW_SP3T_0_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(circle
-					(center 0 -3.175)
-					(radius 0.635)
+					(center -2.032 0)
+					(radius 0.4572)
 					(stroke
 						(width 0)
 						(type default)
@@ -1940,10 +1962,10 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 1.905) (xy 0 -3.175)
+						(xy -1.651 0.254) (xy 1.651 2.286)
 					)
 					(stroke
-						(width 0.635)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1951,8 +1973,30 @@
 					)
 				)
 				(circle
-					(center 2.54 1.905)
-					(radius 0.635)
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
 					(stroke
 						(width 0)
 						(type default)
@@ -1962,27 +2006,11 @@
 					)
 				)
 			)
-			(symbol "SW_SPDT_1_1"
-				(text "b"
-					(at -4.318 5.08 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "a"
-					(at 4.318 5.08 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
+			(symbol "SW_SP3T_1_1"
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 5.08 2.54 180)
 					(length 2.54)
-					(name "a"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1998,9 +2026,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -6.35 90)
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "c"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2016,9 +2044,9 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 5.08 270)
+					(at 5.08 -2.54 180)
 					(length 2.54)
-					(name "b"
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2026,6 +2054,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3528,6 +3574,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 128.27) (xy 154.94 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06f33695-e4cf-450b-b9f1-9becd970e031")
+	)
+	(wire
+		(pts
 			(xy 97.79 119.38) (xy 102.87 119.38)
 		)
 		(stroke
@@ -3568,16 +3624,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 137.16) (xy 157.48 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0eba4d44-47da-40b2-bfd1-46f5ae7540aa")
-	)
-	(wire
-		(pts
 			(xy 95.25 119.38) (xy 97.79 119.38)
 		)
 		(stroke
@@ -3615,16 +3661,6 @@
 			(type default)
 		)
 		(uuid "29485b72-a190-40e7-b746-e710d7fb0bec")
-	)
-	(wire
-		(pts
-			(xy 142.24 121.92) (xy 158.75 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dfba651-b752-460e-8705-2d1939b29364")
 	)
 	(wire
 		(pts
@@ -3678,6 +3714,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 128.27) (xy 154.94 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49d6f0e0-0bda-4f83-8117-7bdf8c1b90b7")
+	)
+	(wire
+		(pts
 			(xy 107.95 50.8) (xy 107.95 59.69)
 		)
 		(stroke
@@ -3685,6 +3731,16 @@
 			(type default)
 		)
 		(uuid "50834590-31b4-4770-a50e-fcefc87e0522")
+	)
+	(wire
+		(pts
+			(xy 146.05 124.46) (xy 154.94 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53f7af10-2c76-4583-87da-09882af5a35a")
 	)
 	(wire
 		(pts
@@ -3738,13 +3794,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 139.7) (xy 146.05 139.7)
+			(xy 146.05 120.65) (xy 154.94 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7e1adb04-c325-4955-9488-254c013ef390")
+		(uuid "7eea42d8-df21-466c-a310-ef37ffd87969")
 	)
 	(wire
 		(pts
@@ -3755,16 +3811,6 @@
 			(type default)
 		)
 		(uuid "80432d30-1eb5-412d-90a6-f47976b9f9c2")
-	)
-	(wire
-		(pts
-			(xy 170.18 124.46) (xy 171.45 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82d0cbdd-2057-45fd-90f9-444985543b6f")
 	)
 	(wire
 		(pts
@@ -3825,16 +3871,6 @@
 			(type default)
 		)
 		(uuid "8f0f3c12-d040-4caa-a0b4-e2b506f45c2d")
-	)
-	(wire
-		(pts
-			(xy 158.75 127) (xy 158.75 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9102345a-5c39-4a7a-97d7-f049e9e70cd7")
 	)
 	(wire
 		(pts
@@ -4048,16 +4084,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 134.62) (xy 146.05 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbd17728-d2c2-419e-b88c-d245eb205e20")
-	)
-	(wire
-		(pts
 			(xy 86.36 72.39) (xy 90.17 72.39)
 		)
 		(stroke
@@ -4158,6 +4184,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 124.46) (xy 171.45 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6de1f38-ce6f-45a1-a290-c51f3c258ca6")
+	)
+	(wire
+		(pts
 			(xy 80.01 72.39) (xy 74.93 72.39)
 		)
 		(stroke
@@ -4226,6 +4262,16 @@
 		)
 		(uuid "f533a14a-0739-4ffb-84d7-cabd4826046f")
 	)
+	(wire
+		(pts
+			(xy 154.94 120.65) (xy 154.94 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5bdab39-9cbb-4342-8248-1ea9b3e2f644")
+	)
 	(global_label "ILFO"
 		(shape passive)
 		(at 213.36 114.3 0)
@@ -4252,7 +4298,7 @@
 	)
 	(global_label "TRIANGLE"
 		(shape passive)
-		(at 142.24 134.62 180)
+		(at 146.05 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4262,7 +4308,7 @@
 		)
 		(uuid "294771a9-a8ae-406b-8fc3-54ff40d8bf09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.4671 134.62 0)
+			(at 135.2771 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4300,7 +4346,7 @@
 	)
 	(global_label "SQUARE"
 		(shape passive)
-		(at 142.24 121.92 180)
+		(at 146.05 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4310,7 +4356,7 @@
 		)
 		(uuid "5c305a21-fead-47c4-9bf5-7e8505015898")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.7976 121.92 0)
+			(at 136.6076 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4348,7 +4394,7 @@
 	)
 	(global_label "SINE"
 		(shape passive)
-		(at 142.24 139.7 180)
+		(at 146.05 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4358,7 +4404,7 @@
 		)
 		(uuid "8f268645-f164-4f5f-a65d-53df99d2520b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.8819 139.7 0)
+			(at 139.6919 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4474,7 +4520,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:R_Axial_Horizontal_P400mil"
+		(property "Footprint" "FormantKO:R_Axial_Horizontal_P500mil"
 			(at 80.01 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -4517,6 +4563,93 @@
 			(project "DELAYED_MOD"
 				(path "/5e136029-d1ec-4323-8484-04f48d531cec"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:SW_SP3T")
+		(at 160.02 124.46 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02b8949b-c890-4563-9210-f971c91fe8b8")
+		(property "Reference" "S2"
+			(at 160.02 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WAVE SELECT"
+			(at 160.02 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:PanelConnector_1x04"
+			(at 175.895 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.895 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, three position, single pole triple throw, 3 position switch, SP3T"
+			(at 160.02 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "e1d0858c-fd1c-4ba1-8cf8-da2f21d0daee")
+		)
+		(pin "1"
+			(uuid "fa6cf41b-62d0-40fb-a4eb-82dd956dc755")
+		)
+		(pin "3"
+			(uuid "11f520ac-b3a1-47fc-bd7a-5807f2c00780")
+		)
+		(pin "2"
+			(uuid "1045dc78-eafe-4b47-917e-e174f26f9042")
+		)
+		(instances
+			(project "DELAYED_MOD"
+				(path "/5e136029-d1ec-4323-8484-04f48d531cec"
+					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -4600,7 +4733,7 @@
 			)
 		)
 		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
-			(at 77.47 58.42 0)
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4611,7 +4744,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1"
-			(at 77.47 58.42 0)
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4920,7 +5053,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:R_Axial_Horizontal_P400mil"
+		(property "Footprint" "FormantKO:R_Axial_Horizontal_P500mil"
 			(at 100.33 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5000,7 +5133,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:R_Axial_Horizontal_P400mil"
+		(property "Footprint" "FormantKO:R_Axial_Horizontal_P500mil"
 			(at 68.58 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5333,7 +5466,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:R_Axial_Horizontal_P400mil"
+		(property "Footprint" "FormantKO:R_Axial_Horizontal_P500mil"
 			(at 38.1 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5617,7 +5750,7 @@
 			)
 		)
 		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
-			(at 13.97 -7.62 0)
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5628,7 +5761,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1"
-			(at 13.97 -7.62 0)
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5728,7 +5861,7 @@
 			)
 		)
 		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
-			(at 95.25 11.43 0)
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5739,7 +5872,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1"
-			(at 95.25 11.43 0)
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5793,7 +5926,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:R_Axial_Horizontal_P400mil"
+		(property "Footprint" "FormantKO:R_Axial_Horizontal_P500mil"
 			(at 26.67 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -6027,7 +6160,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:R_Axial_Horizontal_P400mil"
+		(property "Footprint" "FormantKO:R_Axial_Horizontal_P500mil"
 			(at 86.36 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6107,7 +6240,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:R_Axial_Horizontal_P400mil"
+		(property "Footprint" "FormantKO:R_Axial_Horizontal_P500mil"
 			(at 52.07 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6388,7 +6521,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a9ce0eb-58e3-456a-88f0-a953be09a75d")
 		(property "Reference" "X18"
-			(at 171.45 122.555 0)
+			(at 171.45 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6454,7 +6587,7 @@
 			)
 		)
 		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
-			(at 106.68 73.66 0)
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6465,7 +6598,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1"
-			(at 106.68 73.66 0)
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6482,100 +6615,6 @@
 			(project "DELAYED_MOD"
 				(path "/5e136029-d1ec-4323-8484-04f48d531cec"
 					(reference "X18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FormantKO:SW_SPDT")
-		(at 163.83 124.46 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ad1151b-1e5f-4fab-b7fa-fbbaa78411a0")
-		(property "Reference" "S3"
-			(at 162.6842 114.3 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW"
-			(at 163.83 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FormantKO:PanelConnector_1x03"
-			(at 163.83 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single Pole Double Throw Switch"
-			(at 163.83 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Legend" "WAVE SEL B"
-			(at 162.6842 116.84 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d4d670ab-aebb-4e9c-99f7-852250574dae")
-		)
-		(pin "2"
-			(uuid "94aa4262-b284-464d-a75d-2b947e2b9a47")
-		)
-		(pin "3"
-			(uuid "73d58a44-e1c7-4518-8125-a7a23739ec88")
-		)
-		(instances
-			(project "DELAYED_MOD"
-				(path "/5e136029-d1ec-4323-8484-04f48d531cec"
-					(reference "S3")
 					(unit 1)
 				)
 			)
@@ -6660,7 +6699,7 @@
 			)
 		)
 		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
-			(at 13.97 5.08 0)
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6671,7 +6710,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1"
-			(at 13.97 5.08 0)
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6802,7 +6841,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:R_Axial_Horizontal_P400mil"
+		(property "Footprint" "FormantKO:R_Axial_Horizontal_P500mil"
 			(at 127 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6929,7 +6968,7 @@
 			)
 		)
 		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
-			(at 1.27 -17.78 0)
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6940,7 +6979,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1"
-			(at 1.27 -17.78 0)
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7081,7 +7120,7 @@
 		(fields_autoplaced yes)
 		(uuid "87ca5f4a-b53f-43e2-ae6b-1320cfaa080d")
 		(property "Reference" "X19"
-			(at 223.52 125.095 0)
+			(at 223.52 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7147,7 +7186,7 @@
 			)
 		)
 		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
-			(at 158.75 76.2 0)
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7158,7 +7197,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1"
-			(at 158.75 76.2 0)
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7252,100 +7291,6 @@
 			(project "DELAYED_MOD"
 				(path "/5e136029-d1ec-4323-8484-04f48d531cec"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FormantKO:SW_SPDT")
-		(at 151.13 137.16 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e4a9a66-7371-46c4-8226-0718e305226d")
-		(property "Reference" "S2"
-			(at 149.9842 127 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW"
-			(at 151.13 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FormantKO:PanelConnector_1x03"
-			(at 151.13 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single Pole Double Throw Switch"
-			(at 151.13 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Legend" "WAVE SEL A"
-			(at 149.9842 129.54 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8b087204-27a8-40f6-a305-4d36d4a72b1c")
-		)
-		(pin "2"
-			(uuid "ea5aabe0-3b00-4360-b72b-a5d1a503f1a6")
-		)
-		(pin "3"
-			(uuid "777eb84e-892c-42d5-b304-25cd5a28630c")
-		)
-		(instances
-			(project "DELAYED_MOD"
-				(path "/5e136029-d1ec-4323-8484-04f48d531cec"
-					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -7659,7 +7604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:R_Axial_Horizontal_P400mil"
+		(property "Footprint" "FormantKO:R_Axial_Horizontal_P500mil"
 			(at 52.07 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7861,7 +7806,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:R_Axial_Horizontal_P400mil"
+		(property "Footprint" "FormantKO:R_Axial_Horizontal_P500mil"
 			(at 97.79 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8067,7 +8012,7 @@
 			)
 		)
 		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
-			(at 20.32 -5.08 0)
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8078,7 +8023,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1"
-			(at 20.32 -5.08 0)
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8289,7 +8234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:TO-92_MFOS"
+		(property "Footprint" "FormantKO:TO-92_Wide"
 			(at 24.13 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -8440,7 +8385,7 @@
 			)
 		)
 		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
-			(at 60.96 11.43 0)
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8451,7 +8396,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1"
-			(at 60.96 11.43 0)
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8505,7 +8450,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:R_Axial_Horizontal_P400mil"
+		(property "Footprint" "FormantKO:R_Axial_Horizontal_P500mil"
 			(at 114.3 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8585,7 +8530,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:R_Axial_Horizontal_P400mil"
+		(property "Footprint" "FormantKO:R_Axial_Horizontal_P500mil"
 			(at 215.9 127 0)
 			(hide yes)
 			(show_name no)
@@ -8859,7 +8804,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:R_Axial_Horizontal_P400mil"
+		(property "Footprint" "FormantKO:R_Axial_Horizontal_P500mil"
 			(at 48.26 119.38 0)
 			(hide yes)
 			(show_name no)
