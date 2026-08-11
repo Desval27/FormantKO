@@ -12,7 +12,7 @@
 		(comment 1 "FORMANT^{KO}")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_02x02_Counter_Clockwise"
+		(symbol "Connector_Generic:Conn_02x02_Odd_Even"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -32,7 +32,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x02_Counter_Clockwise"
+			(property "Value" "Conn_02x02_Odd_Even"
 				(at 1.27 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -64,7 +64,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -97,7 +97,7 @@
 					)
 				)
 			)
-			(symbol "Conn_02x02_Counter_Clockwise_1_1"
+			(symbol "Conn_02x02_Odd_Even_1_1"
 				(rectangle
 					(start -1.27 1.27)
 					(end 3.81 -3.81)
@@ -172,7 +172,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -190,7 +190,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -208,7 +208,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -4547,17 +4547,17 @@
 	)
 	(global_label "GATE2"
 		(shape passive)
-		(at 49.53 88.9 180)
+		(at 62.23 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "1104bc3b-09f5-4056-a11d-e6006c19064b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.781 88.9 0)
+			(at 69.979 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4565,7 +4565,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -4835,17 +4835,17 @@
 	)
 	(global_label "IGATE"
 		(shape passive)
-		(at 62.23 88.9 0)
+		(at 49.53 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "6bb7f337-1af3-4117-b628-2d692205cc5c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.3743 88.9 0)
+			(at 42.3857 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4853,7 +4853,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -4955,17 +4955,17 @@
 	)
 	(global_label "IGATE"
 		(shape passive)
-		(at 62.23 86.36 0)
+		(at 49.53 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "9db89ce7-01bb-43a4-a72c-67af184c3d4a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.3743 86.36 0)
+			(at 42.3857 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4973,7 +4973,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -5075,17 +5075,17 @@
 	)
 	(global_label "GATE1"
 		(shape passive)
-		(at 49.53 86.36 180)
+		(at 62.23 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "eaf5d2f3-38b4-417d-ab8b-d951338ba65f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.781 86.36 0)
+			(at 69.979 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5093,7 +5093,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -6481,7 +6481,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise")
+		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
 		(at 54.61 86.36 0)
 		(unit 1)
 		(body_style 1)
@@ -6512,7 +6512,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 54.61 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6534,7 +6534,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 54.61 86.36 0)
 			(hide yes)
 			(show_name no)

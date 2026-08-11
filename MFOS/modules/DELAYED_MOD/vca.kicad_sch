@@ -2442,6 +2442,12 @@
 		(uuid "9bbbdc18-df3e-4583-9dfd-4ad338f3555a")
 	)
 	(junction
+		(at 90.17 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5cffffe-1788-4ccd-8ea8-62f3db666af5")
+	)
+	(junction
 		(at 97.79 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2458,12 +2464,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3db9e0c-3ff6-44f2-8949-3855d2b064d4")
-	)
-	(junction
-		(at 90.17 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dbe6545f-fbad-40d7-a50d-1c73e9b463d1")
 	)
 	(no_connect
 		(at 139.7 83.82)
@@ -2485,7 +2485,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 48.26) (xy 102.87 48.26)
+			(xy 100.33 53.34) (xy 102.87 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2585,6 +2585,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 53.34) (xy 90.17 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bad0e2b-4a9f-4689-8343-42daab3f077d")
+	)
+	(wire
+		(pts
 			(xy 172.72 71.12) (xy 177.8 71.12)
 		)
 		(stroke
@@ -2622,6 +2632,16 @@
 			(type default)
 		)
 		(uuid "490c9cc1-7eeb-4be2-90f2-70014d057c49")
+	)
+	(wire
+		(pts
+			(xy 77.47 53.34) (xy 80.01 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e4cdabf-84a3-40b7-a134-7809d98c1f19")
 	)
 	(wire
 		(pts
@@ -2685,6 +2705,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 53.34) (xy 90.17 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c2c1c2e-97fc-4411-86be-ff4aa36d6972")
+	)
+	(wire
+		(pts
 			(xy 133.35 68.58) (xy 129.54 68.58)
 		)
 		(stroke
@@ -2722,16 +2752,6 @@
 			(type default)
 		)
 		(uuid "85a2e708-dd8a-4b9e-9b8a-7562f7cf57ef")
-	)
-	(wire
-		(pts
-			(xy 90.17 58.42) (xy 90.17 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c3996e6-f12c-4b58-8530-fa31a6e46c7e")
 	)
 	(wire
 		(pts
@@ -2795,16 +2815,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 50.8) (xy 90.17 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb3f4569-a916-4df0-a002-af2b64090557")
-	)
-	(wire
-		(pts
 			(xy 95.25 81.28) (xy 97.79 81.28)
 		)
 		(stroke
@@ -2855,7 +2865,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 48.26) (xy 92.71 48.26)
+			(xy 90.17 53.34) (xy 92.71 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2925,16 +2935,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 48.26) (xy 90.17 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4fdcc4d-c496-4b9f-84e3-7d911176085d")
-	)
-	(wire
-		(pts
 			(xy 120.65 68.58) (xy 127 68.58)
 		)
 		(stroke
@@ -2979,7 +2979,7 @@
 	)
 	(global_label "IEV"
 		(shape passive)
-		(at 86.36 48.26 180)
+		(at 77.47 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2989,7 +2989,7 @@
 		)
 		(uuid "6f68b551-b2e4-4bf8-9d4e-2383618af7a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.4533 48.26 0)
+			(at 72.5633 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3001,7 +3001,7 @@
 			)
 		)
 	)
-	(global_label "LFO"
+	(global_label "ILFO"
 		(shape passive)
 		(at 50.8 63.5 180)
 		(fields_autoplaced yes)
@@ -3013,7 +3013,7 @@
 		)
 		(uuid "95508dbc-05a9-48c4-a4c9-36640c9020d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.2885 63.5 0)
+			(at 44.6837 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3163,7 +3163,7 @@
 	)
 	(symbol
 		(lib_id "power:-15V")
-		(at 102.87 48.26 180)
+		(at 102.87 53.34 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3173,7 +3173,7 @@
 		(dnp no)
 		(uuid "01e35455-ae22-4eb0-8bbc-7a590d491e37")
 		(property "Reference" "#PWR024"
-			(at 102.87 44.45 0)
+			(at 102.87 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3184,7 +3184,7 @@
 			)
 		)
 		(property "Value" "-15V"
-			(at 102.87 52.07 0)
+			(at 102.87 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3194,7 +3194,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 48.26 0)
+			(at 102.87 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3205,7 +3205,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 48.26 0)
+			(at 102.87 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3216,7 +3216,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 102.87 48.26 0)
+			(at 102.87 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3270,7 +3270,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:R_Axial_Horizontal_P400mil"
+		(property "Footprint" "FormantKO:R_Axial_Horizontal_P500mil"
 			(at 91.44 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3701,7 +3701,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:R")
-		(at 90.17 54.61 90)
+		(at 83.82 53.34 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3711,18 +3711,18 @@
 		(dnp no)
 		(uuid "4f538133-4b34-4e0b-bed7-272b328dfc60")
 		(property "Reference" "R28"
-			(at 88.9 54.61 90)
+			(at 83.82 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify top)
 			)
 		)
 		(property "Value" "47k"
-			(at 90.17 54.61 0)
+			(at 83.82 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3732,7 +3732,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:R_Axial_Horizontal_P500mil"
-			(at 90.17 54.61 0)
+			(at 83.82 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3743,7 +3743,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 54.61 90)
+			(at 83.82 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3754,7 +3754,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 90.17 54.61 0)
+			(at 83.82 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4177,7 +4177,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:R_Axial_Horizontal_P400mil"
+		(property "Footprint" "FormantKO:R_Axial_Horizontal_P500mil"
 			(at 104.14 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4951,7 +4951,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:R")
-		(at 96.52 48.26 0)
+		(at 96.52 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4961,7 +4961,7 @@
 		(dnp no)
 		(uuid "9c40c8fb-d7ff-4651-b26e-ef4975d4b211")
 		(property "Reference" "R29"
-			(at 96.52 46.99 0)
+			(at 96.52 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4972,7 +4972,7 @@
 			)
 		)
 		(property "Value" "7k5"
-			(at 96.52 48.26 0)
+			(at 96.52 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4982,7 +4982,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:R_Axial_Horizontal_P500mil"
-			(at 96.52 48.26 0)
+			(at 96.52 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4993,7 +4993,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 48.26 90)
+			(at 96.52 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5004,7 +5004,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 96.52 48.26 0)
+			(at 96.52 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
