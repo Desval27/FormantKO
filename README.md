@@ -124,13 +124,13 @@ Latest updates are for the [ADSR CONTROLLER](modules/ADSR_CONTROLLER/README.md) 
 - ✓ [CARD EXTENDER](system/CARD_EXTENDER/README.md)
 - ✓ [µA726C TESTER](system/VALIDATOR_JIG/README.md)
 
-## Modular Sequencer Side Quest 
+## MFOS Based Modules
 
-Based on MFOS 16-step Analog Sequencer
-[MFOS Project](https://musicfromouterspace.com/index.php?MAINTAB=SYNTHDIY&PROJARG=SEQ16_2006/SEQ16_2006.php)
+[MFOS Site (External Link)](https://musicfromouterspace.com/)
 
 ### Modules
 
+- [CALIBRATOR](MFOS/modules/CALIBRATOR/README.md)
 - [CLOCK](MFOS/modules/CLOCK/README.md)
 - [ANALOG CV-16](MFOS/modules/ANALOG/README.md)
 

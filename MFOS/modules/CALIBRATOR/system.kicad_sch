@@ -5,7 +5,7 @@
 	(uuid "af29ada6-3633-44c1-b7a7-714d3d3ad141")
 	(paper "USLetter")
 	(title_block
-		(title "TEMPLATE")
+		(title "MFOS CALIBRATOR")
 		(date "2026-05-30")
 		(rev "A")
 		(company "THE HOUSE OF GALAHAD")
@@ -1327,6 +1327,159 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "FormantKO:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at -2.032 2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "C"
+				(at 2.032 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "FormantKO:C_Rect_P200mil"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "FormantKO:C_Polarized"
 			(pin_numbers
 				(hide yes)
@@ -1514,7 +1667,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FormantKO:Card_Bracket"
+		(symbol "FormantKO:CardBracket"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1540,7 +1693,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FormantKO:Card_Bracket"
+			(property "Footprint" "FormantKO:CardBracket"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1573,7 +1726,7 @@
 					)
 				)
 			)
-			(symbol "Card_Bracket_0_1"
+			(symbol "CardBracket_0_1"
 				(rectangle
 					(start -1.905 12.7)
 					(end 1.905 -12.7)
@@ -1586,7 +1739,7 @@
 					)
 				)
 			)
-			(symbol "Card_Bracket_1_1"
+			(symbol "CardBracket_1_1"
 				(text "CARD MOUNTING BRACKET"
 					(at 0 0 900)
 					(effects
@@ -1598,7 +1751,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FormantKO:Card_Connector"
+		(symbol "FormantKO:CardConnector"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1617,7 +1770,7 @@
 					)
 				)
 			)
-			(property "Value" "Card_Connector"
+			(property "Value" "CardConnector"
 				(at 0 -22.225 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1627,7 +1780,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FormantKO:Card_Connector"
+			(property "Footprint" "FormantKO:CardConnector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1682,7 +1835,7 @@
 					)
 				)
 			)
-			(symbol "Card_Connector_1_1"
+			(symbol "CardConnector_1_1"
 				(rectangle
 					(start -12.7 20.32)
 					(end 12.7 -20.32)
@@ -2765,6 +2918,282 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "FormantKO:WireConnector"
+			(body_styles demorgan)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "WireConnector"
+				(at 0 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "FormantKO:Wire_1x01_D40mil_OD80mil"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "terminal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Spice_Primitive" "R"
+				(at 0.635 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Spice_Model" "0"
+				(at -1.905 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right top)
+				)
+			)
+			(property "ki_keywords" "J R terminal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "WireConnector_1_0"
+				(polyline
+					(pts
+						(xy -0.381 -0.381) (xy -0.889 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 0.381) (xy 0.889 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "WireConnector_1_1"
+				(pin passive line
+					(at 0 0 180)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "WireConnector_1_2"
+				(pin passive line
+					(at -0.8128 0 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0.8128 0 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "WireConnector_1_3"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.7272)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.7272)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "WireConnector_1_4"
+				(pin passive line
+					(at 0 0.8128 270)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -0.8128 90)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+15V"
 			(power global)
 			(pin_numbers
@@ -3043,6 +3472,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:-15V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "-15V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-15V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "-15V_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "-15V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -3158,6 +3702,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 25.4 25.4)
@@ -3194,6 +3853,18 @@
 			(type none)
 		)
 		(uuid "7c01d20c-2cf6-4c29-a5fe-203a183fa73f")
+	)
+	(rectangle
+		(start 177.8 101.6)
+		(end 241.3 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "910b3cd0-e677-426f-ac7c-163d78a25554")
 	)
 	(rectangle
 		(start 25.4 101.6)
@@ -3269,6 +3940,28 @@
 		)
 		(uuid "b8d7c8a0-369e-42b7-94a5-4622a984bb00")
 	)
+	(text "9V POWER"
+		(exclude_from_sim no)
+		(at 209.042 105.156 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "deffc951-8c58-4349-a4e1-0153e301ca1c")
+	)
+	(junction
+		(at 38.1 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11e61bfe-26a7-40df-a4e8-3e2ffb78756e")
+	)
+	(junction
+		(at 50.8 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "282226e5-b490-49dd-bd64-92b3f426b6cc")
+	)
 	(junction
 		(at 116.84 121.92)
 		(diameter 0)
@@ -3276,7 +3969,19 @@
 		(uuid "2d8a3557-8f92-478f-9998-f8b32542d738")
 	)
 	(junction
-		(at 205.74 116.84)
+		(at 63.5 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48946254-21af-4f8a-a709-2ce70cff5b75")
+	)
+	(junction
+		(at 50.8 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ca17d91-e6de-4330-a450-5f0cadbf7258")
+	)
+	(junction
+		(at 207.01 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e864387-e5a3-4bb0-a5bc-0843ea996002")
@@ -3288,16 +3993,34 @@
 		(uuid "7e6a1f1a-b6a9-4a8c-b09d-a66a5a7e6d77")
 	)
 	(junction
-		(at 189.23 116.84)
+		(at 190.5 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fcb503f-6d81-467b-a31a-61bf076a0789")
 	)
 	(junction
-		(at 189.23 132.08)
+		(at 38.1 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81110e0d-adc5-4ba8-b06f-fff36f25ab51")
+	)
+	(junction
+		(at 50.8 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8edc504d-2cfc-4f76-ac9f-7501707f303c")
+	)
+	(junction
+		(at 190.5 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9975c699-6ae0-4c14-8511-f257c5f59a1f")
+	)
+	(junction
+		(at 38.1 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7531cef-5c0a-4591-bf2e-a639853507eb")
 	)
 	(no_connect
 		(at 73.66 76.2)
@@ -3381,13 +4104,63 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 116.84) (xy 189.23 119.38)
+			(xy 63.5 124.46) (xy 63.5 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01cd6eb8-69b3-41cc-9e0b-f02dd9bb424c")
+	)
+	(wire
+		(pts
+			(xy 190.5 128.27) (xy 190.5 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "07d3fa6c-b6ff-4a4f-b8c4-ffe13605c29f")
+	)
+	(wire
+		(pts
+			(xy 50.8 124.46) (xy 50.8 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1686ec38-bffe-483d-aca7-6983998b8506")
+	)
+	(wire
+		(pts
+			(xy 50.8 127) (xy 63.5 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19018c90-a9da-46af-9c86-04055f5565fb")
+	)
+	(wire
+		(pts
+			(xy 50.8 114.3) (xy 63.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24867d39-e4e2-411c-a18b-1593a173132e")
+	)
+	(wire
+		(pts
+			(xy 63.5 139.7) (xy 63.5 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26831c13-b094-4d76-bf65-f28063aec9e8")
 	)
 	(wire
 		(pts
@@ -3401,7 +4174,17 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 132.08) (xy 189.23 129.54)
+			(xy 50.8 114.3) (xy 50.8 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30ce1400-719e-4e39-901f-6e9ffa043ebf")
+	)
+	(wire
+		(pts
+			(xy 190.5 143.51) (xy 190.5 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3411,7 +4194,37 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 114.3) (xy 189.23 116.84)
+			(xy 194.31 50.8) (xy 203.2 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39b0cfe7-6180-4070-82e2-0aa7fe61050f")
+	)
+	(wire
+		(pts
+			(xy 38.1 124.46) (xy 38.1 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af4b240-4df7-4c43-9f9f-2b002294f629")
+	)
+	(wire
+		(pts
+			(xy 63.5 114.3) (xy 63.5 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f00c929-df5d-4eba-9cff-59a93026add2")
+	)
+	(wire
+		(pts
+			(xy 190.5 125.73) (xy 190.5 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3421,13 +4234,33 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 116.84) (xy 205.74 120.65)
+			(xy 38.1 114.3) (xy 38.1 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5df56808-119e-4871-807b-4161f3bafeef")
+	)
+	(wire
+		(pts
+			(xy 207.01 128.27) (xy 207.01 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "624f36b2-798b-45eb-a178-2422547d04c6")
+	)
+	(wire
+		(pts
+			(xy 38.1 127) (xy 50.8 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63db794b-909a-45ac-86cc-46d203fd7776")
 	)
 	(wire
 		(pts
@@ -3441,7 +4274,17 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 110.49) (xy 205.74 116.84)
+			(xy 50.8 127) (xy 50.8 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c0eb48f-bc5e-40cc-8403-d07506ab2a78")
+	)
+	(wire
+		(pts
+			(xy 207.01 121.92) (xy 207.01 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3451,7 +4294,17 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 132.08) (xy 205.74 132.08)
+			(xy 31.75 127) (xy 38.1 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73f02e49-2d0d-4d33-98e4-d749a777ebdb")
+	)
+	(wire
+		(pts
+			(xy 190.5 143.51) (xy 207.01 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3461,7 +4314,27 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 128.27) (xy 205.74 132.08)
+			(xy 194.31 76.2) (xy 203.2 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7594f81d-95cb-4f85-a042-0d5a77fb7fde")
+	)
+	(wire
+		(pts
+			(xy 38.1 127) (xy 38.1 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76595730-3b71-4347-9a29-fe21d64bfabb")
+	)
+	(wire
+		(pts
+			(xy 207.01 139.7) (xy 207.01 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3471,7 +4344,37 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 134.62) (xy 189.23 132.08)
+			(xy 63.5 127) (xy 63.5 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7deb994f-4ed8-4c52-be31-9d3d1ed5bda8")
+	)
+	(wire
+		(pts
+			(xy 38.1 139.7) (xy 50.8 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cc41ffe-194c-4e3f-9953-bc006fd75150")
+	)
+	(wire
+		(pts
+			(xy 38.1 114.3) (xy 50.8 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96ec00f7-51f3-4cde-8e2b-fd249597e6ab")
+	)
+	(wire
+		(pts
+			(xy 190.5 146.05) (xy 190.5 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3481,13 +4384,53 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 116.84) (xy 205.74 116.84)
+			(xy 194.31 63.5) (xy 203.2 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af2e2aff-2a21-4c34-8f34-196f9ef4128a")
+	)
+	(wire
+		(pts
+			(xy 50.8 139.7) (xy 50.8 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c07cdcc7-ec6c-475f-99a4-b2c4eed6ed5b")
+	)
+	(wire
+		(pts
+			(xy 190.5 128.27) (xy 207.01 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d4208546-6691-46f9-9512-2197787f3a20")
+	)
+	(wire
+		(pts
+			(xy 38.1 137.16) (xy 38.1 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df8c2b83-4dd8-421a-8374-67336d87b68a")
+	)
+	(wire
+		(pts
+			(xy 50.8 139.7) (xy 63.5 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e60c0a9a-8ac3-4356-81df-349e4a128424")
 	)
 	(global_label "GND"
 		(shape passive)
@@ -3659,6 +4602,30 @@
 	)
 	(global_label "+15V"
 		(shape passive)
+		(at 194.31 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "925839d0-7f23-402d-b564-d3f7b059e12c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.1657 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "+15V"
+		(shape passive)
 		(at 40.64 60.96 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3731,6 +4698,54 @@
 	)
 	(global_label "-15V"
 		(shape passive)
+		(at 194.31 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dac11436-334d-4c01-8069-1f8a5985255f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.1657 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 194.31 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e07591e7-99dd-4818-a972-692bce9789fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.3752 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "-15V"
+		(shape passive)
 		(at 73.66 50.8 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3788,7 +4803,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13070c74-2c19-4b94-8c9a-e57528b782fd")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR019"
 			(at 116.84 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -3848,7 +4863,7 @@
 		(instances
 			(project "CALIBRATOR"
 				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
-					(reference "#PWR02")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -3856,7 +4871,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 189.23 134.62 0)
+		(at 190.5 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3865,8 +4880,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "133b0a3b-3b29-4cb3-967c-b9c5580d0869")
-		(property "Reference" "#PWR01"
-			(at 189.23 140.97 0)
+		(property "Reference" "#PWR021"
+			(at 190.5 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3877,7 +4892,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 138.43 0)
+			(at 190.5 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3887,7 +4902,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 134.62 0)
+			(at 190.5 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3898,7 +4913,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 134.62 0)
+			(at 190.5 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3909,7 +4924,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 134.62 0)
+			(at 190.5 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3925,7 +4940,384 @@
 		(instances
 			(project "CALIBRATOR"
 				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
-					(reference "#PWR01")
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:C_Polarized")
+		(at 63.5 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1caf7d9b-7438-4edf-b0ea-6aeec4fddd14")
+		(property "Reference" "C8"
+			(at 66.04 131.572 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10μ"
+			(at 66.04 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FormantKO:CP_Radial_P100mil"
+			(at 64.4652 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 63.5 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 66.04 135.382 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "6f890ae2-b7b4-4693-8bed-e467083875d0")
+		)
+		(pin "2"
+			(uuid "7be0b8d9-c495-4c66-9dee-4786b424e39b")
+		)
+		(instances
+			(project "CALIBRATOR"
+				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:C")
+		(at 38.1 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "28583169-cb2c-4a1f-ba48-0f90c6ebca9b")
+		(property "Reference" "C6"
+			(at 40.64 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 40.64 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FormantKO:C_Rect_P200mil"
+			(at 38.1 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 38.1 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "84a52bdc-1751-4d3c-b258-5536e692e220")
+		)
+		(pin "1"
+			(uuid "a17ab837-caf4-4116-8772-e7f48535932d")
+		)
+		(instances
+			(project "CALIBRATOR"
+				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:C_Polarized")
+		(at 63.5 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "41bc229b-632c-43cc-86f4-148d778efc91")
+		(property "Reference" "C2"
+			(at 66.04 118.872 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10μ"
+			(at 66.04 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FormantKO:CP_Radial_P100mil"
+			(at 64.4652 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 63.5 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 66.04 122.682 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "0823b039-7a24-4a98-994d-516b3cd37574")
+		)
+		(pin "2"
+			(uuid "a16194e4-db21-4d3f-9fe3-04f13724cc67")
+		)
+		(instances
+			(project "CALIBRATOR"
+				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 203.2 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42ba8ecb-9388-42af-9f45-78a5dc8666fc")
+		(property "Reference" "X9"
+			(at 203.2 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WireConnector"
+			(at 203.2 65.405 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_D40mil_OD80mil"
+			(at 203.2 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 203.2 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 203.835 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87f78592-5793-4e2b-afde-83bfb1762592")
+		)
+		(instances
+			(project "CALIBRATOR"
+				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
+					(reference "X9")
 					(unit 1)
 				)
 			)
@@ -4057,7 +5449,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:1N5239B")
-		(at 189.23 124.46 180)
+		(at 190.5 135.89 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4068,7 +5460,7 @@
 		(fields_autoplaced yes)
 		(uuid "4af6c8c3-e6ea-4b27-8f9d-438c4f568e51")
 		(property "Reference" "Z1"
-			(at 193.04 121.9199 0)
+			(at 194.31 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4079,7 +5471,7 @@
 			)
 		)
 		(property "Value" "1N5239B"
-			(at 193.04 124.4599 0)
+			(at 194.31 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4090,7 +5482,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:DO-35_P400mil"
-			(at 189.23 124.46 0)
+			(at 190.5 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4101,7 +5493,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/1n5221b-d.pdf"
-			(at 189.23 124.46 0)
+			(at 190.5 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4112,7 +5504,7 @@
 			)
 		)
 		(property "Description" "Zener/avalanche diode; unidirectional breakdown diode; voltage regulator diode"
-			(at 189.23 124.46 0)
+			(at 190.5 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4120,34 +5512,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Spice_Node_Sequence" "2 1"
-			(at 187.325 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Spice_Lib_File" "semiconductor.lib"
-			(at 191.135 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(property "Rating" "W"
-			(at 189.865 120.65 0)
+			(at 191.135 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4159,7 +5527,7 @@
 			)
 		)
 		(property "Zener Voltage" "9V1"
-			(at 193.04 126.9999 0)
+			(at 194.31 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4167,6 +5535,40 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 1.27 11.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "type=\"\" model=\"1N5239B\" lib=\"semiconductor.lib\""
+			(at 1.27 11.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "2=1 1=2"
+			(at 188.595 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -4186,7 +5588,7 @@
 	)
 	(symbol
 		(lib_id "FormantKO:R")
-		(at 189.23 110.49 90)
+		(at 190.5 121.92 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4196,7 +5598,7 @@
 		(dnp no)
 		(uuid "5f7da133-9961-4bc0-bed4-25b76345e42d")
 		(property "Reference" "R2"
-			(at 190.5 110.49 90)
+			(at 191.77 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4207,7 +5609,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 189.23 110.49 0)
+			(at 190.5 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4217,7 +5619,7 @@
 			)
 		)
 		(property "Footprint" "FormantKO:R_Axial_Horizontal_P500mil"
-			(at 189.23 110.49 0)
+			(at 190.5 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4228,7 +5630,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 110.49 90)
+			(at 190.5 121.92 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4239,7 +5641,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 189.23 110.49 0)
+			(at 190.5 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4266,7 +5668,7 @@
 	)
 	(symbol
 		(lib_id "power:+15V")
-		(at 189.23 106.68 0)
+		(at 190.5 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4275,8 +5677,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63df55fa-6007-4c48-a63c-a306b2d82b56")
-		(property "Reference" "#PWR03"
-			(at 189.23 110.49 0)
+		(property "Reference" "#PWR020"
+			(at 190.5 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4287,7 +5689,7 @@
 			)
 		)
 		(property "Value" "+15V"
-			(at 189.23 102.87 0)
+			(at 190.5 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4297,7 +5699,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 106.68 0)
+			(at 190.5 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4308,7 +5710,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 106.68 0)
+			(at 190.5 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4319,7 +5721,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 189.23 106.68 0)
+			(at 190.5 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4335,7 +5737,242 @@
 		(instances
 			(project "CALIBRATOR"
 				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
-					(reference "#PWR03")
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-15V")
+		(at 38.1 139.7 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6bc6d04e-e86e-4623-b687-a6889d0c6304")
+		(property "Reference" "#PWR017"
+			(at 38.1 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-15V"
+			(at 38.1 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-15V\""
+			(at 38.1 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee78d57a-7770-48bc-8425-6981bdc5e9ae")
+		)
+		(instances
+			(project "CALIBRATOR"
+				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 38.1 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "708eb053-3313-40d9-afab-10b07a81c8e5")
+		(property "Reference" "#PWR016"
+			(at 38.1 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+15V"
+			(at 38.1 110.236 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 38.1 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8aeab27-79b6-48a6-a784-45907ae491cb")
+		)
+		(instances
+			(project "CALIBRATOR"
+				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:C")
+		(at 50.8 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "76f4f528-f410-4d52-a32c-434d1f1e81b9")
+		(property "Reference" "C4"
+			(at 53.34 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 53.34 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FormantKO:C_Rect_P200mil"
+			(at 50.8 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 50.8 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "35e19bfb-4a94-48b6-87bb-ec2d3b2820ef")
+		)
+		(pin "1"
+			(uuid "833a7e94-4f51-4c22-b503-6e2cc084f0da")
+		)
+		(instances
+			(project "CALIBRATOR"
+				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4460,7 +6097,200 @@
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Card_Bracket")
+		(lib_id "FormantKO:C")
+		(at 50.8 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7d15281e-0707-4aaf-b010-bcfdd7450663")
+		(property "Reference" "C7"
+			(at 53.34 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 53.34 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FormantKO:C_Rect_P200mil"
+			(at 50.8 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 50.8 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "af4b2a5a-99a0-4edd-8e77-b3b73ba5b65d")
+		)
+		(pin "1"
+			(uuid "159c2fab-14ae-4e7e-a3f3-6d3419def567")
+		)
+		(instances
+			(project "CALIBRATOR"
+				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:WireConnector")
+		(at 203.2 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d88c9d2-8664-44e1-9c6e-e2cb102d1d0e")
+		(property "Reference" "X10"
+			(at 203.2 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WireConnector"
+			(at 203.2 78.105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FormantKO:Wire_1x01_D40mil_OD80mil"
+			(at 203.2 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 203.2 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 203.835 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87f78592-5793-4e2b-afde-83bfb1762593")
+		)
+		(instances
+			(project "CALIBRATOR"
+				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
+					(reference "X10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:CardBracket")
 		(at 114.3 52.07 0)
 		(unit 1)
 		(body_style 1)
@@ -4493,7 +6323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:Card_Bracket"
+		(property "Footprint" "FormantKO:CardBracket"
 			(at 114.3 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4537,7 +6367,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 205.74 110.49 0)
+		(at 207.01 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4546,8 +6376,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bab7afdc-39c2-48dd-9409-9d0f12ad8909")
-		(property "Reference" "#PWR04"
-			(at 205.74 114.3 0)
+		(property "Reference" "#PWR022"
+			(at 207.01 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4558,7 +6388,7 @@
 			)
 		)
 		(property "Value" "+9V"
-			(at 205.74 106.68 0)
+			(at 207.01 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4568,7 +6398,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 110.49 0)
+			(at 207.01 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4579,7 +6409,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 110.49 0)
+			(at 207.01 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4590,7 +6420,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 205.74 110.49 0)
+			(at 207.01 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4606,7 +6436,7 @@
 		(instances
 			(project "CALIBRATOR"
 				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
-					(reference "#PWR04")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -4623,7 +6453,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bde257a2-ec02-48a7-bd55-bb02bf0e271b")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR018"
 			(at 116.84 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4683,14 +6513,14 @@
 		(instances
 			(project "CALIBRATOR"
 				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
-					(reference "#PWR05")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:Card_Connector")
+		(lib_id "FormantKO:CardConnector")
 		(at 57.15 57.15 0)
 		(unit 1)
 		(body_style 1)
@@ -4701,7 +6531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d99355bf-ebf9-4a75-9769-19df6f7ead64")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 57.15 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4721,7 +6551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FormantKO:Card_Connector"
+		(property "Footprint" "FormantKO:CardConnector"
 			(at 57.15 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -4853,48 +6683,47 @@
 		(instances
 			(project "CALIBRATOR"
 				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FormantKO:C_Polarized")
-		(at 205.74 124.46 0)
+		(lib_id "FormantKO:WireConnector")
+		(at 203.2 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f30bbbfb-8547-4379-a6e5-fcb25c84b036")
-		(property "Reference" "C1"
-			(at 209.55 121.0309 0)
+		(uuid "dcde36da-eeb8-4379-85dd-aa1617b0d380")
+		(property "Reference" "X8"
+			(at 203.2 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "220µ"
-			(at 209.55 123.5709 0)
+		(property "Value" "WireConnector"
+			(at 203.2 52.705 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "FormantKO:CP_Axial_P600mil"
-			(at 206.7052 128.27 0)
+		(property "Footprint" "FormantKO:Wire_1x01_D40mil_OD80mil"
+			(at 203.2 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4905,7 +6734,201 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 124.46 0)
+			(at 203.2 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "terminal"
+			(at 203.2 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 203.835 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"0\" lib=\"\""
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87f78592-5793-4e2b-afde-83bfb1762594")
+		)
+		(instances
+			(project "CALIBRATOR"
+				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
+					(reference "X8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:C")
+		(at 38.1 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e18c51ee-db4a-4668-b82d-d7718603da58")
+		(property "Reference" "C3"
+			(at 40.64 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 40.64 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FormantKO:C_Rect_P200mil"
+			(at 38.1 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 38.1 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "08ae7abc-567a-4f9e-86cc-feaecf282058")
+		)
+		(pin "1"
+			(uuid "73563652-35f4-4902-ac4b-af02a53e72ed")
+		)
+		(instances
+			(project "CALIBRATOR"
+				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FormantKO:C_Polarized")
+		(at 207.01 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f30bbbfb-8547-4379-a6e5-fcb25c84b036")
+		(property "Reference" "C1"
+			(at 210.82 132.4609 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220µ"
+			(at 210.82 135.0009 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FormantKO:CP_Radial_P100mil"
+			(at 207.9752 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4916,7 +6939,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 205.74 124.46 0)
+			(at 207.01 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4926,8 +6949,8 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
-			(at 209.55 126.1109 0)
+		(property "Voltage" "25V"
+			(at 210.82 137.5409 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4947,6 +6970,162 @@
 			(project "CALIBRATOR"
 				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 207.01 128.27 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f396be21-e74c-4221-b200-d27920975f6c")
+		(property "Reference" "#FLG01"
+			(at 208.915 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 212.09 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 207.01 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e57456b-9a31-495c-b523-4e307aefc533")
+		)
+		(instances
+			(project "CALIBRATOR"
+				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 31.75 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f4111292-cdf5-42de-99d9-8404add1b9ab")
+		(property "Reference" "#PWR015"
+			(at 31.75 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3240520e-dbdd-4d92-93ba-ac9ab75bc988")
+		)
+		(instances
+			(project "CALIBRATOR"
+				(path "/c4180125-30a4-4709-af20-86798ec7ea53"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
