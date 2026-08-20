@@ -9,10 +9,14 @@
 	(paper "USLetter")
 	(title_block
 		(title "TEMPLATE 3U HALF")
-		(date "2026-06-05")
+		(date "9999-99-99")
 		(rev "A")
 		(company "THE HOUSE OF GALAHAD")
-		(comment 1 "FORMANT-KO")
+		(comment 1 "FORMANT^{KO}")
+		(comment 2 "mailto:paul.f.burdette@gmail.com")
+		(comment 3 "https://github.com/Desval27/FormantKO/")
+		(comment 4 "No Organic Grounding")
+		(comment 5 "0000-Z")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -426,16 +430,6 @@
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "97ced59f-bd78-4ded-a034-7f444ea38cc9")
-	)
-	(gr_line
-		(start 67.855894 85.715428)
-		(end 99.855894 85.715428)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "ac17ab4a-0849-49b4-b111-373d57685d77")
 	)
 	(gr_line
 		(start 66.245894 103.715428)
@@ -1078,7 +1072,7 @@
 			)
 		)
 	)
-	(gr_text "${COMPANY}\n${TAG}"
+	(gr_text "${COMPANY}\n${COMMENT4}"
 		(at 83.855894 47.915428 0)
 		(layer "B.SilkS")
 		(uuid "4ad8f9e2-2bf4-4150-963d-67f3793929ed")
@@ -1091,7 +1085,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "${MODULE} ${PARTNO}\nREVISION ${REVISION} ${ISSUE_DATE}"
+	(gr_text "${TITLE} ${COMMENT5}\nREVISION ${REVISION} ${CURRENT_DATE}"
 		(at 83.855894 160.915428 0)
 		(layer "B.SilkS")
 		(uuid "0f92db28-4901-40e5-b45e-5818e7c33191")
