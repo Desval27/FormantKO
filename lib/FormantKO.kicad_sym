@@ -23113,7 +23113,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
-			(at 0 8.89 0)
+			(at 0 8.128 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23123,9 +23123,10 @@
 			)
 		)
 		(property "Value" "MonoJack"
-			(at 0 6.35 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23165,6 +23166,16 @@
 				)
 			)
 		)
+		(property "Legend" "LEGEND"
+			(at 0 6.096 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "audio jack receptacle mono headphones phone TS connector"
 			(at 0 0 0)
 			(show_name no)
@@ -23190,7 +23201,7 @@
 		(symbol "MonoJack_Switched_0_1"
 			(rectangle
 				(start -2.54 0)
-				(end -3.81 -2.54)
+				(end -3.81 2.54)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -23201,7 +23212,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
+					(xy 0 0) (xy 0.635 0.635) (xy 1.27 0) (xy 2.54 0)
 				)
 				(stroke
 					(width 0.254)
@@ -23213,10 +23224,34 @@
 			)
 			(polyline
 				(pts
-					(xy 1.778 -0.254) (xy 2.032 -0.762)
+					(xy 1.778 0.254) (xy 2.032 0.762)
 				)
 				(stroke
 					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 2.54) (xy 1.778 2.54) (xy 1.778 0.254) (xy 1.524 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy -0.635 -2.54) (xy -0.635 0) (xy -1.27 0.635) (xy -1.905 0)
+				)
+				(stroke
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -23224,38 +23259,14 @@
 				)
 			)
 			(rectangle
-				(start 2.54 3.81)
-				(end -2.54 -5.08)
+				(start 2.54 -3.81)
+				(end -2.54 5.08)
 				(stroke
 					(width 0.254)
 					(type default)
 				)
 				(fill
 					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -2.54) (xy 1.778 -2.54) (xy 1.778 -0.254) (xy 1.524 -0.762)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
 				)
 			)
 		)
@@ -23279,7 +23290,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 2.54 180)
+				(at 5.08 -2.54 180)
 				(length 2.54)
 				(name "S"
 					(effects
@@ -23297,7 +23308,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -2.54 180)
+				(at 5.08 2.54 180)
 				(length 2.54)
 				(name "N"
 					(effects
